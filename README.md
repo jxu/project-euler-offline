@@ -1,6 +1,6 @@
 Project Euler Offline
 =====================
-All Project Euler problems, with MathJax and images, as a single PDF. Additional text files are provided. Get the releases here [TODO]
+All Project Euler problems, with MathJax and images, as a single PDF. Additional text files are provided. Get the releases [here](https://github.com/wxv/project-euler-offline/releases).
 
 Please report any accuracy issues or give feedback. Thanks.
 
