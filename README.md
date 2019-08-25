@@ -11,7 +11,7 @@ Installation and Usage
 Requirements:
 - PhantomJS (`apt install phantomjs`)
 - Node modules system, webpage (`npm install system webpage`)
-- Python 3 and  PyPDF2, BeautifulSoup, Pillow (`pip install beautifulsoup4 pypdf2 pillow`)
+- Python 3 and  PyPDF2, BeautifulSoup, lxml, Pillow (`pip install beautifulsoup4 lxml pypdf2 pillow`)
   - BeautifulSoup and Pillow are only required for downloading extra text and images (animated GIF only).
 
 My usage process (replace 1 and 628 with whatever range you like):
