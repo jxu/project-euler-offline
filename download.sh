@@ -14,4 +14,9 @@ for i in *.gif; do
 done
 
 # combine all PDFs in order
-pdftk *.pdf cat output problems.pdf
+pdftk *.pdf cat output cat.pdf
+# compress PDF using gs
+gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile=problems.pdf cat.pdf
+# create final zip
+zip problems.zip problems.pdf *.txt *.gif
+
