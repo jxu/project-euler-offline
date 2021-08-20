@@ -1,8 +1,8 @@
 #!/bin/sh
 for i in $(seq -f "%03g" $1 $2); do 
     URL="https://projecteuler.net/problem=$i"
-    # chromium print to PDF
-    chromium-browser --headless --disable-gpu --print-to-pdf-no-header --print-to-pdf=$i.pdf $URL  
+    # chromium print to PDF, wait for rendering https://stackoverflow.com/a/49789027
+    chromium-browser --headless --disable-gpu --run-all-compositor-stages-before-draw --virtual-time-budget=10000 --print-to-pdf-no-header --print-to-pdf=$i.pdf $URL
 
     # Distill PDFs to workaround Ghostscript skipped character problem https://stackoverflow.com/questions/12806911
     gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o ${i}_gs.pdf $i.pdf
