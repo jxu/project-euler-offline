@@ -7,9 +7,9 @@ for i in $(seq -f "%03g" $1 $2); do
     # Distill PDFs to workaround Ghostscript skipped character problem https://stackoverflow.com/questions/12806911
     gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o ${i}_gs.pdf $i.pdf
 
-    # download extra txt and GIF files if available
-    curl -s $URL | pup 'a attr{href}'  | grep '\.txt$' | sed 's/^/https:\/\/projecteuler.net\//' | xargs -r -n1 curl -O 
-    curl -s $URL | pup 'img attr{src}' | grep '\.gif$' | sed 's/^/https:\/\/projecteuler.net\//' | xargs -r -n1 curl -O 
+    # download extra txt and GIF files if available, printing links to shell
+    curl -s $URL | pup 'a attr{href}'  | grep '\.txt$' | tee /dev/tty | sed 's/^/https:\/\/projecteuler.net\//' | xargs -r -n1 curl -O 
+    curl -s $URL | pup 'img attr{src}' | grep '\.gif$' | tee /dev/tty | sed 's/^/https:\/\/projecteuler.net\//' | xargs -r -n1 curl -O 
 done
 
 # remove non-animated GIFs
