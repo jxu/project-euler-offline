@@ -1,18 +1,18 @@
 #!/bin/sh
 
-tmp_html=tmp.html
-problem_url="https://projecteuler.net/problem=$i"
-
 # takes html as stdin, download extra txt and gif files if available 
-# prints links to stderr. credit: tripleee on codereview
+# prints files found. refactor credit: tripleee on codereview
 pupcurl () {
     pup "$1" | grep "$2" |
-    tee /dev/stderr |
     sed 's%^%https://projecteuler.net/%' |
-    xargs -r -n1 curl -O
+    xargs -r -n1 \
+        curl -sS -w "Downloading extra %{filename_effective}\n" -O
 }
 
 for i in $(seq -f "%03g" "$1" "$2"); do 
+    problem_url="https://projecteuler.net/problem=$i"
+    tmp_html=tmp.html
+
     # chromium print to PDF, wait for rendering 
     # https://stackoverflow.com/a/49789027
     chromium-browser --headless --disable-gpu \
@@ -23,9 +23,9 @@ for i in $(seq -f "%03g" "$1" "$2"); do
 
     # Distill PDFs to workaround Ghostscript skipped character problem 
     # https://stackoverflow.com/questions/12806911
-    gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o "${i}_gs.pdf" "$i.pdf"
+    gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o "${i}_gs.pdf" "$i.pdf"
 
-    curl -s "$problem_url" > "$tmp_html"
+    curl -sS "$problem_url" > "$tmp_html"
     pupcurl 'a attr{href}' '\.txt$' < "$tmp_html"
     pupcurl 'img attr{src}' '\.gif$' < "$tmp_html"
 done
