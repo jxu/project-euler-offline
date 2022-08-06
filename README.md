@@ -14,7 +14,7 @@ Requirements
 - chromium-browser
 - [pup](https://github.com/ericchiang/pup)
 - ImageMagick
-- Ghostscript
+- Ghostscript 9.21+ (older versions produce [skipped characters](https://stackoverflow.com/questions/12806911/ghostscript-skips-characters-when-merging-pdfs); still check carefully for any issues)
 
 
 Example Usage
