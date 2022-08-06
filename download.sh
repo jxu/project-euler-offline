@@ -30,6 +30,10 @@ for i in $(seq -f "%03g" "$1" "$2"); do
         [ "$(stat -c "%s" "$i.pdf")" -gt 10000 ] && break
     done
 
+    # Distill PDFs to workaround Ghostscript skipped character problem 
+    # https://stackoverflow.com/questions/12806911
+    gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o "${i}_gs.pdf" "$i.pdf"
+
     # download html, download extra txt and gif files if available 
     curl -sS "$problem_url" > "$tmp_html"
     pupcurl 'a attr{href}' '\.txt$' < "$tmp_html"
@@ -44,7 +48,7 @@ done
 # combine all PDFs using gs
 gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
     -dPDFSETTINGS=/ebook \
-    -sOutputFile=problems.pdf ./*.pdf
+    -sOutputFile=problems.pdf ./*_gs.pdf
 # create final zip
 zip problems.zip problems.pdf ./*.txt ./*.gif
 
