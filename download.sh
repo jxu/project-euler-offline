@@ -1,7 +1,8 @@
 #!/bin/sh
 
-# filters by pup tags and file extension, then curl found files
-# prints files found. refactor credit: tripleee on codereview
+# take html as stdin, filters by pup tags and file extension
+# then curl found files (print link for info)
+# refactor credit: tripleee on codereview
 pupcurl () {
     pup "$1" | grep "$2" |
     sed 's%^%https://projecteuler.net/%' |
@@ -29,7 +30,7 @@ for i in $(seq -f "%03g" "$1" "$2"); do
         [ "$(stat -c "%s" "$i.pdf")" -gt 10000 ] && break
     done
 
-    # takes html as stdin, download extra txt and gif files if available 
+    # download html, download extra txt and gif files if available 
     curl -sS "$problem_url" > "$tmp_html"
     pupcurl 'a attr{href}' '\.txt$' < "$tmp_html"
     pupcurl 'img attr{src}' '\.gif$' < "$tmp_html"
