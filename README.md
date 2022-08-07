@@ -25,6 +25,12 @@ Example Usage
     ../download.sh 1 761
     
 
+Known Bugs/Inconveniences
+-------------------------
+
+- Very rarely, MathJax renders out-of-bounds even with enough JS time budget (ex. Problem 450)
+- Occasional trailing blank page on problems that fill up a page
+
 History
 -------
 
