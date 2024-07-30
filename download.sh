@@ -6,6 +6,7 @@
 pupcurl () {
     pup "$1" | grep "$2" |
     sed 's%^%https://projecteuler.net/%' |
+    sed 's/?.*//' |
     xargs -r -n1 \
         curl -sS -w "Downloading extra %{filename_effective}\n" -O
 }
@@ -15,20 +16,13 @@ for i in $(seq -f "%03g" "$1" "$2"); do
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
-    # workaround for chromium sometimes failing (issue #3)
-    # do-while loop until PDF is non-blank
-    while true; do 
-        # chromium print to PDF, wait for rendering 
-        # https://stackoverflow.com/a/49789027
-        chromium-browser --headless --disable-gpu \
-            --run-all-compositor-stages-before-draw \
-            --virtual-time-budget=10000 \
-            --print-to-pdf-no-header \
-            --print-to-pdf="$i.pdf" "$problem_url"
-        
-        # use 10 KB blank PDF threshold
-        [ "$(stat -c "%s" "$i.pdf")" -gt 10000 ] && break
-    done
+    # chromium seems to have fixed randomly failing (issue #3)
+    chromium-browser --headless  \
+        --run-all-compositor-stages-before-draw \
+        --virtual-time-budget=10000 \
+        --no-pdf-header-footer \
+        --print-to-pdf="$i.pdf" "$problem_url"
+
 
     # Distill PDFs to workaround Ghostscript skipped character problem 
     # https://stackoverflow.com/questions/12806911
@@ -36,8 +30,8 @@ for i in $(seq -f "%03g" "$1" "$2"); do
 
     # download html, download extra txt and gif files if available 
     curl -sS "$problem_url" > "$tmp_html"
-    pupcurl 'a attr{href}' '\.txt$' < "$tmp_html"
-    pupcurl 'img attr{src}' '\.gif$' < "$tmp_html"
+    pupcurl 'a attr{href}' '\.txt' < "$tmp_html"
+    pupcurl 'img attr{src}' '\.gif' < "$tmp_html"
 done
 
 # remove non-animated GIFs
