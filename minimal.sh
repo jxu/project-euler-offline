@@ -9,6 +9,6 @@ for i in {1..903}; do
 done
 
 # convert HTML fragment to Markdown
-# replace pandoc's escaping of \ $ , ^ EOL with non-escaped character
-pandoc --to markdown minimal.html | \
-sed -E 's,\\([\\\$,\^]),\1,g; s,\\$,,g' > minimal.md
+# replace pandoc's escaping of \ $ , ^ ! with non-escaped character
+pandoc --to gfm --wrap preserve minimal.html | \
+sed -E 's,\\([\\\$,\^!]),\1,g' > minimal.md
