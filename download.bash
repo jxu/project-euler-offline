@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # take html as stdin, filters by pup tags and file extension
 # then curl found files (print link for info)
@@ -11,8 +11,8 @@ pupcurl () {
         curl -sS -w "Downloading extra %{filename_effective}\n" -O
 }
 
-# loop through problem number given as script args
-for i in $(seq -f "%03g" "$1" "$2"); do 
+# loop through page numbers
+for i in {1..903}; do 
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
