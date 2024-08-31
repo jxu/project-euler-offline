@@ -12,7 +12,8 @@ pupcurl () {
 }
 
 # loop through page numbers
-for i in {1..903}; do 
+# could be done in parallel, but wouldn't be nice for their servers
+for i in {001..903}; do 
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
