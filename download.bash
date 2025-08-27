@@ -1,4 +1,5 @@
 #!/bin/bash
+# Usage: ./download.bash 1 903 (start and end numbers)
 
 # take html as stdin, filters by pup tags and file extension
 # then curl found files (print link for info)
@@ -13,12 +14,12 @@ pupcurl () {
 
 # loop through page numbers
 # could be done in parallel, but wouldn't be nice for their servers
-for i in {001..903}; do 
+for i in $(seq -w "$1" "$2"); do
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
     # chromium seems to have fixed randomly failing (issue #3)
-    chromium-browser --headless  \
+    chromium --headless  \
         --run-all-compositor-stages-before-draw \
         --virtual-time-budget=10000 \
         --no-pdf-header-footer \

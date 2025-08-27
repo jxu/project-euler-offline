@@ -11,7 +11,7 @@ Requirements
 ------------
 
 - Shell tools like curl, zip
-- chromium-browser
+- chromium
 - [pup](https://github.com/ericchiang/pup)
 - ImageMagick
 - Ghostscript
@@ -22,7 +22,7 @@ Example Usage
 
     mkdir render
     cd render
-    ./download.bash
+    ../download.bash 1 957
     
 
 Known Bugs/Inconveniences
