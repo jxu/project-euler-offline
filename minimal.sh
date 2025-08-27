@@ -1,11 +1,13 @@
 rm -f minimal.html
 
 # concat minimal HTML fragments
-for i in {1..903}; do
-    echo $i
-    echo "<h1>Problem $i</h1>" >> minimal.html
-    curl -sS https://projecteuler.net/minimal=$i >> minimal.html
-    echo >> minimal.html  # spacing for human-readability
+for i in $(seq "$1" "$2"); do
+    echo "$i"
+    {
+        echo "<h1>Problem $i</h1>"
+        curl -sS "https://projecteuler.net/minimal=$i"
+        echo  # spacing for human-readability
+    } >> minimal.html
 done
 
 # convert HTML fragment to Markdown

@@ -47,7 +47,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 By listing the first six prime numbers: $2, 3, 5, 7, 11$, and $13$, we can see that the $6$th prime is $13$.
 
-What is the $10\,001$st prime number?
+What is the $10\001$st prime number?
 
 # Problem 8
 
@@ -128,15 +128,15 @@ $$1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \dots$$
 
 Let us list the factors of the first seven triangle numbers:
 
-\begin{align}
-\mathbf 1 &\colon 1\\
-\mathbf 3 &\colon 1,3\\
-\mathbf 6 &\colon 1,2,3,6\\
-\mathbf{10} &\colon 1,2,5,10\\
-\mathbf{15} &\colon 1,3,5,15\\
-\mathbf{21} &\colon 1,3,7,21\\
+$$\begin{align}
+\mathbf 1 &\colon 1\
+\mathbf 3 &\colon 1,3\
+\mathbf 6 &\colon 1,2,3,6\
+\mathbf{10} &\colon 1,2,5,10\
+\mathbf{15} &\colon 1,3,5,15\
+\mathbf{21} &\colon 1,3,7,21\
 \mathbf{28} &\colon 1,2,4,7,14,28
-\end{align}
+\end{align}$$
 
 We can see that $28$ is the first triangle number to have over five divisors.
 
@@ -255,8 +255,8 @@ Work out the first ten digits of the sum of the following one-hundred $50$-digit
 
 The following iterative sequence is defined for the set of positive integers:
 
-  - $n \to n/2$ ($n$ is even)
-  - $n \to 3n + 1$ ($n$ is odd)
+- $n \to n/2$ ($n$ is even)
+- $n \to 3n + 1$ ($n$ is odd)
 
 Using the rule above and starting with $13$, we generate the following sequence:
 $$13 \to 40 \to 20 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1.$$
@@ -273,7 +273,7 @@ Starting in the top left corner of a $2 \times 2$ grid, and only being able to m
 
 <div class="center">
 
-![](resources/images/0015.png?1678992052)
+<img src="resources/images/0015.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -330,14 +330,14 @@ Find the maximum total from top to bottom of the triangle below:
 
 You are given the following information, but you may prefer to do some research for yourself.
 
-  - 1 Jan 1900 was a Monday.
-  - Thirty days has September,  
-    April, June and November.  
-    All the rest have thirty-one,  
-    Saving February alone,  
-    Which has twenty-eight, rain or shine.  
-    And on leap years, twenty-nine.
-  - A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
+- 1 Jan 1900 was a Monday.
+- Thirty days has September,  
+  April, June and November.  
+  All the rest have thirty-one,  
+  Saving February alone,  
+  Which has twenty-eight, rain or shine.  
+  And on leap years, twenty-nine.
+- A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
 
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 
@@ -389,24 +389,24 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 
 
 The Fibonacci sequence is defined by the recurrence relation:
 
-> $F\_n = F\_{n - 1} + F\_{n - 2}$, where $F\_1 = 1$ and $F\_2 = 1$.
+> $F_n = F\_{n - 1} + F\_{n - 2}$, where $F_1 = 1$ and $F_2 = 1$.
 
 Hence the first $12$ terms will be:
 
-\begin{align}
-F\_1 &= 1\\
-F\_2 &= 1\\
-F\_3 &= 2\\
-F\_4 &= 3\\
-F\_5 &= 5\\
-F\_6 &= 8\\
-F\_7 &= 13\\
-F\_8 &= 21\\
-F\_9 &= 34\\
-F\_{10} &= 55\\
-F\_{11} &= 89\\
+$$\begin{align}
+F_1 &= 1\
+F_2 &= 1\
+F_3 &= 2\
+F_4 &= 3\
+F_5 &= 5\
+F_6 &= 8\
+F_7 &= 13\
+F_8 &= 21\
+F_9 &= 34\
+F\_{10} &= 55\
+F\_{11} &= 89\
 F\_{12} &= 144
-\end{align}
+\end{align}$$
 
 The $12$th term, $F\_{12}$, is the first term to contain three digits.
 
@@ -416,17 +416,17 @@ What is the index of the first term in the Fibonacci sequence to contain $1000$ 
 
 A unit fraction contains $1$ in the numerator. The decimal representation of the unit fractions with denominators $2$ to $10$ are given:
 
-\begin{align}
-1/2 &= 0.5\\
-1/3 &=0.(3)\\
-1/4 &=0.25\\
-1/5 &= 0.2\\
-1/6 &= 0.1(6)\\
-1/7 &= 0.(142857)\\
-1/8 &= 0.125\\
-1/9 &= 0.(1)\\
+$$\begin{align}
+1/2 &= 0.5\
+1/3 &=0.(3)\
+1/4 &=0.25\
+1/5 &= 0.2\
+1/6 &= 0.1(6)\
+1/7 &= 0.(142857)\
+1/8 &= 0.125\
+1/9 &= 0.(1)\
 1/10 &= 0.1
-\end{align}
+\end{align}$$
 
 Where $0.1(6)$ means $0.166666\cdots$, and has a $1$-digit recurring cycle. It can be seen that $1/7$ has a $6$-digit recurring cycle.
 
@@ -444,14 +444,14 @@ The incredible formula $n^2 - 79n + 1601$ was discovered, which produces $80$ pr
 
 Considering quadratics of the form:
 
-> $n^2 + an + b$, where $|a| \< 1000$ and $|b| \le 1000$  
+> $n^2 + an + b$, where $\|a\| \< 1000$ and $\|b\| \le 1000$  
 >   
-> 
+>
 > <div>
-> 
-> where $|n|$ is the modulus/absolute value of $n$  
-> e.g. $|11| = 11$ and $|-4| = 4$
-> 
+>
+> where $\|n\|$ is the modulus/absolute value of $n$  
+> e.g. $\|11\| = 11$ and $\|-4\| = 4$
+>
 > </div>
 
 Find the product of the coefficients, $a$ and $b$, for the quadratic expression that produces the maximum number of primes for consecutive values of $n$, starting with $n = 0$.
@@ -473,13 +473,12 @@ What is the sum of the numbers on the diagonals in a $1001$ by $1001$ spiral for
 # Problem 29
 
 Consider all integer combinations of $a^b$ for $2 \le a \le 5$ and $2 \le b \le 5$:
-
-\begin{matrix}
-2^2=4, &2^3=8, &2^4=16, &2^5=32\\
-3^2=9, &3^3=27, &3^4=81, &3^5=243\\
-4^2=16, &4^3=64, &4^4=256, &4^5=1024\\
+$$\begin{array}{rrrr}
+2^2=4, &2^3=8, &2^4=16, &2^5=32\
+3^2=9, &3^3=27, &3^4=81, &3^5=243\
+4^2=16, &4^3=64, &4^4=256, &4^5=1024\
 5^2=25, &5^3=125, &5^4=625, &5^5=3125
-\end{matrix}
+\end{array}$$
 
 If they are then placed in numerical order, with any repeats removed, we get the following sequence of $15$ distinct terms:
 $$4, 8, 9, 16, 25, 27, 32, 64, 81, 125, 243, 256, 625, 1024, 3125.$$
@@ -489,11 +488,11 @@ How many distinct terms are in the sequence generated by $a^b$ for $2 \le a \le 
 # Problem 30
 
 Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
-\begin{align}
-1634 &= 1^4 + 6^4 + 3^4 + 4^4\\
-8208 &= 8^4 + 2^4 + 0^4 + 8^4\\
+$$\begin{align}
+1634 &= 1^4 + 6^4 + 3^4 + 4^4\
+8208 &= 8^4 + 2^4 + 0^4 + 8^4\
 9474 &= 9^4 + 4^4 + 7^4 + 4^4
-\end{align}
+\end{align}$$
 
 As $1 = 1^4$ is not a sum it is not included.
 
@@ -555,7 +554,7 @@ How many circular primes are there below one million?
 
 # Problem 36
 
-The decimal number, $585 = 1001001001\_2$ (binary), is palindromic in both bases.
+The decimal number, $585 = 1001001001_2$ (binary), is palindromic in both bases.
 
 Find the sum of all numbers, less than one million, which are palindromic in base $10$ and base $2$.
 
@@ -573,11 +572,11 @@ NOTE: $2$, $3$, $5$, and $7$ are not considered to be truncatable primes.
 
 Take the number $192$ and multiply it by each of $1$, $2$, and $3$:
 
-\begin{align}
-192 \times 1 &= 192\\
-192 \times 2 &= 384\\
+$$\begin{align}
+192 \times 1 &= 192\
+192 \times 2 &= 384\
 192 \times 3 &= 576
-\end{align}
+\end{align}$$
 
 By concatenating each product we get the $1$ to $9$ pandigital, $192384576$. We will call $192384576$ the concatenated product of $192$ and $(1,2,3)$.
 
@@ -587,9 +586,9 @@ What is the largest $1$ to $9$ pandigital $9$-digit number that can be formed as
 
 # Problem 39
 
-If $p$ is the perimeter of a right angle triangle with integral length sides, $\{a, b, c\}$, there are exactly three solutions for $p = 120$.
+If $p$ is the perimeter of a right angle triangle with integral length sides, $\a, b, c\$, there are exactly three solutions for $p = 120$.
 
-$\{20,48,52\}$, $\{24,45,51\}$, $\{30,40,50\}$
+$\20,48,52\$, $\24,45,51\$, $\30,40,50\$
 
 For which value of $p \le 1000$, is the number of solutions maximised?
 
@@ -600,8 +599,8 @@ $$0.12345678910{\color{red}\mathbf 1}112131415161718192021\cdots$$
 
 It can be seen that the $12$<sup>th</sup> digit of the fractional part is $1$.
 
-If $d\_n$ represents the $n$<sup>th</sup> digit of the fractional part, find the value of the following expression.
-$$d\_1 \times d\_{10} \times d\_{100} \times d\_{1000} \times d\_{10000} \times d\_{100000} \times d\_{1000000}$$
+If $d_n$ represents the $n$<sup>th</sup> digit of the fractional part, find the value of the following expression.
+$$d_1 \times d\_{10} \times d\_{100} \times d\_{1000} \times d\_{10000} \times d\_{100000} \times d\_{1000000}$$
 
 # Problem 41
 
@@ -611,7 +610,7 @@ What is the largest $n$-digit pandigital prime that exists?
 
 # Problem 42
 
-The $n$<sup>th</sup> term of the sequence of triangle numbers is given by, $t\_n = \frac12n(n+1)$; so the first ten triangle numbers are:
+The $n$<sup>th</sup> term of the sequence of triangle numbers is given by, $t_n = \frac12n(n+1)$; so the first ten triangle numbers are:
 $$1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \dots$$
 
 By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. For example, the word value for SKY is $19 + 11 + 25 = 55 = t\_{10}$. If the word value is a triangle number then we shall call the word a triangle word.
@@ -622,36 +621,36 @@ Using [words.txt](resources/documents/0042_words.txt) (right click and 'Save Lin
 
 The number, $1406357289$, is a $0$ to $9$ pandigital number because it is made up of each of the digits $0$ to $9$ in some order, but it also has a rather interesting sub-string divisibility property.
 
-Let $d\_1$ be the $1$<sup>st</sup> digit, $d\_2$ be the $2$<sup>nd</sup> digit, and so on. In this way, we note the following:
+Let $d_1$ be the $1$<sup>st</sup> digit, $d_2$ be the $2$<sup>nd</sup> digit, and so on. In this way, we note the following:
 
-  - $d\_2d\_3d\_4=406$ is divisible by $2$
-  - $d\_3d\_4d\_5=063$ is divisible by $3$
-  - $d\_4d\_5d\_6=635$ is divisible by $5$
-  - $d\_5d\_6d\_7=357$ is divisible by $7$
-  - $d\_6d\_7d\_8=572$ is divisible by $11$
-  - $d\_7d\_8d\_9=728$ is divisible by $13$
-  - $d\_8d\_9d\_{10}=289$ is divisible by $17$
+- $d_2d_3d_4=406$ is divisible by $2$
+- $d_3d_4d_5=063$ is divisible by $3$
+- $d_4d_5d_6=635$ is divisible by $5$
+- $d_5d_6d_7=357$ is divisible by $7$
+- $d_6d_7d_8=572$ is divisible by $11$
+- $d_7d_8d_9=728$ is divisible by $13$
+- $d_8d_9d\_{10}=289$ is divisible by $17$
 
 Find the sum of all $0$ to $9$ pandigital numbers with this property.
 
 # Problem 44
 
-Pentagonal numbers are generated by the formula, $P\_n=n(3n-1)/2$. The first ten pentagonal numbers are:
+Pentagonal numbers are generated by the formula, $P_n=n(3n-1)/2$. The first ten pentagonal numbers are:
 $$1, 5, 12, 22, 35, 51, 70, 92, 117, 145, \dots$$
 
-It can be seen that $P\_4 + P\_7 = 22 + 70 = 92 = P\_8$. However, their difference, $70 - 22 = 48$, is not pentagonal.
+It can be seen that $P_4 + P_7 = 22 + 70 = 92 = P_8$. However, their difference, $70 - 22 = 48$, is not pentagonal.
 
-Find the pair of pentagonal numbers, $P\_j$ and $P\_k$, for which their sum and difference are pentagonal and $D = |P\_k - P\_j|$ is minimised; what is the value of $D$?
+Find the pair of pentagonal numbers, $P_j$ and $P_k$, for which their sum and difference are pentagonal and $D = \|P_k - P_j\|$ is minimised; what is the value of $D$?
 
 # Problem 45
 
 Triangle, pentagonal, and hexagonal numbers are generated by the following formulae:
 
-|            |  |                    |  |                            |
-| ---------- |  | ------------------ |  | -------------------------- |
-| Triangle   |  | $T\_n=n(n+1)/2$    |  | $1, 3, 6, 10, 15, \dots$  |
-| Pentagonal |  | $P\_n=n(3n - 1)/2$ |  | $1, 5, 12, 22, 35, \dots$ |
-| Hexagonal  |  | $H\_n=n(2n - 1)$   |  | $1, 6, 15, 28, 45, \dots$ |
+|            |     |                     |     |                             |
+|------------|-----|---------------------|-----|-----------------------------|
+| Triangle   |     | $T_n=n(n+1)/2$    |     | $1, 3, 6, 10, 15, \dots$  |
+| Pentagonal |     | $P_n=n(3n - 1)/2$ |     | $1, 5, 12, 22, 35, \dots$ |
+| Hexagonal  |     | $H_n=n(2n - 1)$   |     | $1, 6, 15, 28, 45, \dots$ |
 
 It can be verified that $T\_{285} = P\_{165} = H\_{143} = 40755$.
 
@@ -661,14 +660,14 @@ Find the next triangle number that is also pentagonal and hexagonal.
 
 It was proposed by Christian Goldbach that every odd composite number can be written as the sum of a prime and twice a square.
 
-\begin{align}
-9 = 7 + 2 \times 1^2\\
-15 = 7 + 2 \times 2^2\\
-21 = 3 + 2 \times 3^2\\
-25 = 7 + 2 \times 3^2\\
-27 = 19 + 2 \times 2^2\\
+$$\begin{align}
+9 = 7 + 2 \times 1^2\
+15 = 7 + 2 \times 2^2\
+21 = 3 + 2 \times 3^2\
+25 = 7 + 2 \times 3^2\
+27 = 19 + 2 \times 2^2\
 33 = 31 + 2 \times 1^2
-\end{align}
+\end{align}$$
 
 It turns out that the conjecture was false.
 
@@ -678,18 +677,18 @@ What is the smallest odd composite that cannot be written as the sum of a prime 
 
 The first two consecutive numbers to have two distinct prime factors are:
 
-\begin{align}
-14 &= 2 \times 7\\
+$$\begin{align}
+14 &= 2 \times 7\
 15 &= 3 \times 5.
-\end{align}
+\end{align}$$
 
 The first three consecutive numbers to have three distinct prime factors are:
 
-\begin{align}
-644 &= 2^2 \times 7 \times 23\\
-645 &= 3 \times 5 \times 43\\
+$$\begin{align}
+644 &= 2^2 \times 7 \times 23\
+645 &= 3 \times 5 \times 43\
 646 &= 2 \times 17 \times 19.
-\end{align}
+\end{align}$$
 
 Find the first four consecutive integers to have four distinct prime factors each. What is the first of these numbers?
 
@@ -751,16 +750,16 @@ How many, not necessarily distinct, values of $\displaystyle \binom n r$ for $1 
 
 In the card game poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
 
-  - **High Card**: Highest value card.
-  - **One Pair**: Two cards of the same value.
-  - **Two Pairs**: Two different pairs.
-  - **Three of a Kind**: Three cards of the same value.
-  - **Straight**: All cards are consecutive values.
-  - **Flush**: All cards of the same suit.
-  - **Full House**: Three of a kind and a pair.
-  - **Four of a Kind**: Four cards of the same value.
-  - **Straight Flush**: All cards are consecutive values of same suit.
-  - **Royal Flush**: Ten, Jack, Queen, King, Ace, in same suit.
+- **High Card**: Highest value card.
+- **One Pair**: Two cards of the same value.
+- **Two Pairs**: Two different pairs.
+- **Three of a Kind**: Three cards of the same value.
+- **Straight**: All cards are consecutive values.
+- **Flush**: All cards of the same suit.
+- **Full House**: Three of a kind and a pair.
+- **Four of a Kind**: Four cards of the same value.
+- **Straight Flush**: All cards are consecutive values of same suit.
+- **Royal Flush**: Ten, Jack, Queen, King, Ace, in same suit.
 
 The cards are valued in the order:  
 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace.
@@ -795,14 +794,12 @@ Consider the following five hands dealt to two players:
 <td><strong>1</strong></td>
 <td> </td>
 <td>5H 5C 6S 7S KD<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Pair of Fives
 </div></td>
 <td> </td>
 <td>2C 3S 8S 8D TD<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Pair of Eights
 </div></td>
 <td> </td>
@@ -812,14 +809,12 @@ Pair of Eights
 <td><strong>2</strong></td>
 <td> </td>
 <td>5D 8C 9S JS AC<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Highest card Ace
 </div></td>
 <td> </td>
 <td>2C 5C 7D 8S QH<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Highest card Queen
 </div></td>
 <td> </td>
@@ -829,14 +824,12 @@ Highest card Queen
 <td><strong>3</strong></td>
 <td> </td>
 <td>2D 9C AS AH AC<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Three Aces
 </div></td>
 <td> </td>
 <td>3D 6D 7D TD QD<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Flush with Diamonds
 </div></td>
 <td> </td>
@@ -846,15 +839,13 @@ Flush with Diamonds
 <td><strong>4</strong></td>
 <td> </td>
 <td>4D 6S 9H QH QC<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Pair of Queens<br />
 Highest card Nine
 </div></td>
 <td> </td>
 <td>3D 6D 7H QD QS<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Pair of Queens<br />
 Highest card Seven
 </div></td>
@@ -865,15 +856,13 @@ Highest card Seven
 <td><strong>5</strong></td>
 <td> </td>
 <td>2H 2D 4C 4D 4S<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Full House<br />
 With Three Fours
 </div></td>
 <td> </td>
 <td>3C 3D 3S 9S 9D<br />
-
-<div class="smaller">
+&#10;<div class="smaller">
 Full House<br />
 with Three Threes
 </div></td>
@@ -895,11 +884,11 @@ If we take $47$, reverse and add, $47 + 74 = 121$, which is palindromic.
 
 Not all numbers produce palindromes so quickly. For example,
 
-\begin{align}
-349 + 943 &= 1292\\
-1292 + 2921 &= 4213\\
+$$\begin{align}
+349 + 943 &= 1292\
+1292 + 2921 &= 4213\
 4213 + 3124 &= 7337
-\end{align}
+\end{align}$$
 
 That is, $349$ took three iterations to arrive at a palindrome.
 
@@ -946,9 +935,9 @@ Starting with $1$ and spiralling anticlockwise in the following way, a square sp
 42 21 22 23 24 25 26  
 <span class="red">**43**</span> 44 45 46 47 48 49
 
-It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more interesting is that $8$ out of the $13$ numbers lying along both diagonals are prime; that is, a ratio of $8/13 \approx 62\%$.
+It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more interesting is that $8$ out of the $13$ numbers lying along both diagonals are prime; that is, a ratio of $8/13 \approx 62\$.
 
-If one complete new layer is wrapped around the spiral above, a square spiral with side length $9$ will be formed. If this process is continued, what is the side length of the square spiral for which the ratio of primes along both diagonals first falls below $10\%$?
+If one complete new layer is wrapped around the spiral above, a square spiral with side length $9$ will be formed. If this process is continued, what is the side length of the square spiral for which the ratio of primes along both diagonals first falls below $10\$?
 
 # Problem 59
 
@@ -960,7 +949,7 @@ For unbreakable encryption, the key is the same length as the plain text message
 
 Unfortunately, this method is impractical for most users, so the modified method is to use a password as a key. If the password is shorter than the message, which is likely, the key is repeated cyclically throughout the message. The balance for this method is using a sufficiently long password key for security, but short enough to be memorable.
 
-Your task has been made easy, as the encryption key consists of three lower case characters. Using [0059\_cipher.txt](resources/documents/0059_cipher.txt) (right click and 'Save Link/Target As...'), a file containing the encrypted ASCII codes, and the knowledge that the plain text must contain common English words, decrypt the message and find the sum of the ASCII values in the original text.
+Your task has been made easy, as the encryption key consists of three lower case characters. Using [0059_cipher.txt](resources/documents/0059_cipher.txt) (right click and 'Save Link/Target As...'), a file containing the encrypted ASCII codes, and the knowledge that the plain text must contain common English words, decrypt the message and find the sum of the ASCII values in the original text.
 
 # Problem 60
 
@@ -972,14 +961,14 @@ Find the lowest sum for a set of five primes for which any two primes concatenat
 
 Triangle, square, pentagonal, hexagonal, heptagonal, and octagonal numbers are all figurate (polygonal) numbers and are generated by the following formulae:
 
-|            |  |                      |  |                            |
-| ---------- |  | -------------------- |  | -------------------------- |
-| Triangle   |  | $P\_{3,n}=n(n+1)/2$  |  | $1, 3, 6, 10, 15, \dots$  |
-| Square     |  | $P\_{4,n}=n^2$       |  | $1, 4, 9, 16, 25, \dots$  |
-| Pentagonal |  | $P\_{5,n}=n(3n-1)/2$ |  | $1, 5, 12, 22, 35, \dots$ |
-| Hexagonal  |  | $P\_{6,n}=n(2n-1)$   |  | $1, 6, 15, 28, 45, \dots$ |
-| Heptagonal |  | $P\_{7,n}=n(5n-3)/2$ |  | $1, 7, 18, 34, 55, \dots$ |
-| Octagonal  |  | $P\_{8,n}=n(3n-2)$   |  | $1, 8, 21, 40, 65, \dots$ |
+|            |     |                        |     |                             |
+|------------|-----|------------------------|-----|-----------------------------|
+| Triangle   |     | $P\_{3,n}=n(n+1)/2$  |     | $1, 3, 6, 10, 15, \dots$  |
+| Square     |     | $P\_{4,n}=n^2$       |     | $1, 4, 9, 16, 25, \dots$  |
+| Pentagonal |     | $P\_{5,n}=n(3n-1)/2$ |     | $1, 5, 12, 22, 35, \dots$ |
+| Hexagonal  |     | $P\_{6,n}=n(2n-1)$   |     | $1, 6, 15, 28, 45, \dots$ |
+| Heptagonal |     | $P\_{7,n}=n(5n-3)/2$ |     | $1, 7, 18, 34, 55, \dots$ |
+| Octagonal  |     | $P\_{8,n}=n(3n-2)$   |     | $1, 8, 21, 40, 65, \dots$ |
 
 The ordered set of three $4$-digit numbers: $8128$, $2882$, $8281$, has three interesting properties.
 
@@ -1005,26 +994,26 @@ How many $n$-digit positive integers exist which are also an $n$th power?
 
 All square roots are periodic when written as continued fractions and can be written in the form:
 
-$\displaystyle \quad \quad \sqrt{N}=a\_0+\frac 1 {a\_1+\frac 1 {a\_2+ \frac 1 {a3+ \dots}}}$
+$$\sqrt{N}=a_0 + \dfrac 1 {a_1 + \dfrac 1 {a_2 + \dfrac 1 {a_3 + \dots}}}$$
 
 For example, let us consider $\sqrt{23}:$
 
-$\quad \quad \sqrt{23}=4+\sqrt{23}-4=4+\frac 1 {\frac 1 {\sqrt{23}-4}}=4+\frac 1 {1+\frac{\sqrt{23}-3}7}$
+$$\sqrt{23} = 4 + \sqrt{23}-4=4 + \dfrac 1 {\dfrac 1 {\sqrt{23}-4}} = 4+\dfrac 1 {1 + \dfrac{\sqrt{23}-3}7}$$
 
 If we continue we would get the following expansion:
 
-$\displaystyle \quad \quad \sqrt{23}=4+\frac 1 {1+\frac 1 {3+ \frac 1 {1+\frac 1 {8+ \dots}}}}$
+$$\sqrt{23}=4 + \dfrac 1 {1 + \dfrac 1 {3+ \dfrac 1 {1 + \dfrac 1 {8+ \dots}}}}$$
 
 The process can be summarised as follows:
 
-$\quad \quad a\_0=4, \frac 1 {\sqrt{23}-4}=\frac {\sqrt{23}+4} 7=1+\frac {\sqrt{23}-3} 7$  
-$\quad \quad a\_1=1, \frac 7 {\sqrt{23}-3}=\frac {7(\sqrt{23}+3)} {14}=3+\frac {\sqrt{23}-3} 2$  
-$\quad \quad a\_2=3, \frac 2 {\sqrt{23}-3}=\frac {2(\sqrt{23}+3)} {14}=1+\frac {\sqrt{23}-4} 7$  
-$\quad \quad a\_3=1, \frac 7 {\sqrt{23}-4}=\frac {7(\sqrt{23}+4)} 7=8+\sqrt{23}-4$  
-$\quad \quad a\_4=8, \frac 1 {\sqrt{23}-4}=\frac {\sqrt{23}+4} 7=1+\frac {\sqrt{23}-3} 7$  
-$\quad \quad a\_5=1, \frac 7 {\sqrt{23}-3}=\frac {7 (\sqrt{23}+3)} {14}=3+\frac {\sqrt{23}-3} 2$  
-$\quad \quad a\_6=3, \frac 2 {\sqrt{23}-3}=\frac {2(\sqrt{23}+3)} {14}=1+\frac {\sqrt{23}-4} 7$  
-$\quad \quad a\_7=1, \frac 7 {\sqrt{23}-4}=\frac {7(\sqrt{23}+4)} {7}=8+\sqrt{23}-4$  
+$$\begin{align} \quad \quad a_0 &= 4, \frac 1 {\sqrt{23}-4}=\frac {\sqrt{23}+4} 7=1+\frac {\sqrt{23}-3} 7 \
+\quad \quad a_1 &= 1, \frac 7 {\sqrt{23}-3}=\frac {7(\sqrt{23}+3)} {14}=3+\frac {\sqrt{23}-3} 2 \
+\quad \quad a_2 &= 3, \frac 2 {\sqrt{23}-3}=\frac {2(\sqrt{23}+3)} {14}=1+\frac {\sqrt{23}-4} 7 \
+\quad \quad a_3 &= 1, \frac 7 {\sqrt{23}-4}=\frac {7(\sqrt{23}+4)} 7=8+\sqrt{23}-4 \
+\quad \quad a_4 &= 8, \frac 1 {\sqrt{23}-4}=\frac {\sqrt{23}+4} 7=1+\frac {\sqrt{23}-3} 7 \
+\quad \quad a_5 &= 1, \frac 7 {\sqrt{23}-3}=\frac {7 (\sqrt{23}+3)} {14}=3+\frac {\sqrt{23}-3} 2 \
+\quad \quad a_6 &= 3, \frac 2 {\sqrt{23}-3}=\frac {2(\sqrt{23}+3)} {14}=1+\frac {\sqrt{23}-4} 7 \
+\quad \quad a_7 &= 1, \frac 7 {\sqrt{23}-4}=\frac {7(\sqrt{23}+4)} {7}=8+\sqrt{23}-4 \end{align}$$
 
 It can be seen that the sequence is repeating. For conciseness, we use the notation $\sqrt{23}=\[4;(1,3,1,8)\]$, to indicate that the block (1,3,1,8) repeats indefinitely.
 
@@ -1043,35 +1032,36 @@ $\quad \quad \sqrt{13}=\[3;(1,1,1,1,6)\]$, period=$5$
 
 Exactly four continued fractions, for $N \le 13$, have an odd period.
 
-How many continued fractions for $N \le 10\,000$ have an odd period?
+How many continued fractions for $N \le 10\000$ have an odd period?
 
 # Problem 65
 
 The square root of $2$ can be written as an infinite continued fraction.
 
-$\sqrt{2} = 1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + ...}}}}$
+$$\sqrt{2} = 1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + ...}}}}$$
 
 The infinite continued fraction can be written, $\sqrt{2} = \[1; (2)\]$, $(2)$ indicates that $2$ repeats *ad infinitum*. In a similar way, $\sqrt{23} = \[4; (1, 3, 1, 8)\]$.
 
 It turns out that the sequence of partial values of continued fractions for square roots provide the best rational approximations. Let us consider the convergents for $\sqrt{2}$.
 
-$\begin{align}
-&1 + \dfrac{1}{2} = \dfrac{3}{2} \\
-&1 + \dfrac{1}{2 + \dfrac{1}{2}} = \dfrac{7}{5}\\
-&1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}} = \dfrac{17}{12}\\
-&1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}}} = \dfrac{41}{29}
-\end{align}$
+$$\begin{align}
+&1 + \dfrac{1}{2} &= \dfrac{3}{2} \
+&1 + \dfrac{1}{2 + \dfrac{1}{2}} &= \dfrac{7}{5}\
+&1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}} &= \dfrac{17}{12}\
+&1 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2 + \dfrac{1}{2}}}} &= \dfrac{41}{29}
+\end{align}$$
 
 Hence the sequence of the first ten convergents for $\sqrt{2}$ are:
 
-$1, \dfrac{3}{2}, \dfrac{7}{5}, \dfrac{17}{12}, \dfrac{41}{29}, \dfrac{99}{70}, \dfrac{239}{169}, \dfrac{577}{408}, \dfrac{1393}{985}, \dfrac{3363}{2378}, ...$
+$$1, \dfrac{3}{2}, \dfrac{7}{5}, \dfrac{17}{12}, \dfrac{41}{29}, \dfrac{99}{70}, \dfrac{239}{169}, \dfrac{577}{408}, \dfrac{1393}{985}, \dfrac{3363}{2378}, ...$$
 
-What is most surprising is that the important mathematical constant,  
-$e = \[2; 1, 2, 1, 1, 4, 1, 1, 6, 1, ... , 1, 2k, 1, ...\]$.
+What is most surprising is that the important mathematical constant,
+
+$$e = \[2; 1, 2, 1, 1, 4, 1, 1, 6, 1, ... , 1, 2k, 1, ...\]$$
 
 The first ten terms in the sequence of convergents for $e$ are:
 
-$2, 3, \dfrac{8}{3}, \dfrac{11}{4}, \dfrac{19}{7}, \dfrac{87}{32}, \dfrac{106}{39}, \dfrac{193}{71}, \dfrac{1264}{465}, \dfrac{1457}{536}, ...$
+$$2, 3, \dfrac{8}{3}, \dfrac{11}{4}, \dfrac{19}{7}, \dfrac{87}{32}, \dfrac{106}{39}, \dfrac{193}{71}, \dfrac{1264}{465}, \dfrac{1457}{536}, ...$$
 
 The sum of digits in the numerator of the $10$<sup>th</sup> convergent is $1 + 4 + 5 + 7 = 17$.
 
@@ -1086,15 +1076,15 @@ For example, when $D=13$, the minimal solution in $x$ is $649^2 - 13 \times 180^
 
 It can be assumed that there are no solutions in positive integers when $D$ is square.
 
-By finding minimal solutions in $x$ for $D = \{2, 3, 5, 6, 7\}$, we obtain the following:
+By finding minimal solutions in $x$ for $D = \2, 3, 5, 6, 7\$, we obtain the following:
 
-\begin{align}
-3^2 - 2 \times 2^2 &= 1\\
-2^2 - 3 \times 1^2 &= 1\\
-{\color{red}{\mathbf 9}}^2 - 5 \times 4^2 &= 1\\
-5^2 - 6 \times 2^2 &= 1\\
+$$\begin{align}
+3^2 - 2 \times 2^2 &= 1\
+2^2 - 3 \times 1^2 &= 1\
+{\color{red}{\mathbf 9}}^2 - 5 \times 4^2 &= 1\
+5^2 - 6 \times 2^2 &= 1\
 8^2 - 7 \times 3^2 &= 1
-\end{align}
+\end{align}$$
 
 Hence, by considering minimal solutions in $x$ for $D \le 7$, the largest $x$ is obtained when $D=5$.
 
@@ -1113,7 +1103,7 @@ That is, 3 + 7 + 4 + 9 = 23.
 
 Find the maximum total from top to bottom in [triangle.txt](resources/documents/0067_triangle.txt) (right click and 'Save Link/Target As...'), a 15K text file containing a triangle with one-hundred rows.
 
-**NOTE:** This is a much more difficult version of [Problem 18](problem=18). It is not possible to try every route to solve this problem, as there are 2<sup>99</sup> altogether! If you could check one trillion (10<sup>12</sup>) routes every second it would take over twenty billion years to check them all. There is an efficient algorithm to solve it. ;o)
+**NOTE:** This is a much more difficult version of [Problem 18](problem=18). It is not possible to try every route to solve this problem, as there are $2^{99}$ altogether! If you could check one trillion ($10^{12}$) routes every second it would take over twenty billion years to check them all. There is an efficient algorithm to solve it. ;o)
 
 # Problem 68
 
@@ -1121,7 +1111,7 @@ Consider the following "magic" 3-gon ring, filled with the numbers 1 to 6, and e
 
 <div class="center">
 
-![](resources/images/0068_1.png?1678992052)  
+<img src="resources/images/0068_1.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -1132,7 +1122,7 @@ It is possible to complete the ring with four different totals: 9, 10, 11, and 1
 <div class="center">
 
 |           |                     |
-| --------- | ------------------- |
+|-----------|---------------------|
 | **Total** | **Solution Set**    |
 | 9         | 4,2,3; 5,3,1; 6,1,2 |
 | 9         | 4,3,2; 6,2,1; 5,1,3 |
@@ -1151,7 +1141,7 @@ Using the numbers 1 to 10, and depending on arrangements, it is possible to form
 
 <div class="center">
 
-![](resources/images/0068_2.png?1678992052)  
+<img src="resources/images/0068_2.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -1161,24 +1151,24 @@ Euler's totient function, $\phi(n)$ \[sometimes called the phi function\], is de
 
 <div class="center">
 
-|         |                      |                |                  |
-| ------- | -------------------- | -------------- | ---------------- |
+|           |                      |                 |                   |
+|-----------|----------------------|-----------------|-------------------|
 | **$n$** | **Relatively Prime** | **$\phi(n)$** | **$n/\phi(n)$** |
-| 2       | 1                    | 1              | 2                |
-| 3       | 1,2                  | 2              | 1.5              |
-| 4       | 1,3                  | 2              | 2                |
-| 5       | 1,2,3,4              | 4              | 1.25             |
-| 6       | 1,5                  | 2              | 3                |
-| 7       | 1,2,3,4,5,6          | 6              | 1.1666...        |
-| 8       | 1,3,5,7              | 4              | 2                |
-| 9       | 1,2,4,5,7,8          | 6              | 1.5              |
-| 10      | 1,3,7,9              | 4              | 2.5              |
+| 2         | 1                    | 1               | 2                 |
+| 3         | 1,2                  | 2               | 1.5               |
+| 4         | 1,3                  | 2               | 2                 |
+| 5         | 1,2,3,4              | 4               | 1.25              |
+| 6         | 1,5                  | 2               | 3                 |
+| 7         | 1,2,3,4,5,6          | 6               | 1.1666...         |
+| 8         | 1,3,5,7              | 4               | 2                 |
+| 9         | 1,2,4,5,7,8          | 6               | 1.5               |
+| 10        | 1,3,7,9              | 4               | 2.5               |
 
 </div>
 
 It can be seen that $n = 6$ produces a maximum $n/\phi(n)$ for $n\leq 10$.
 
-Find the value of $n\leq 1\,000\,000$ for which $n/\phi(n)$ is a maximum.
+Find the value of $n\leq 1\000\000$ for which $n/\phi(n)$ is a maximum.
 
 # Problem 70
 
@@ -1198,7 +1188,7 @@ $$\frac 1 8, \frac 1 7, \frac 1 6, \frac 1 5, \frac 1 4, \frac 2 7, \frac 1 3, \
 
 It can be seen that $\dfrac 2 5$ is the fraction immediately to the left of $\dfrac 3 7$.
 
-By listing the set of reduced proper fractions for $d \le 1\,000\,000$ in ascending order of size, find the numerator of the fraction immediately to the left of $\dfrac 3 7$.
+By listing the set of reduced proper fractions for $d \le 1\000\000$ in ascending order of size, find the numerator of the fraction immediately to the left of $\dfrac 3 7$.
 
 # Problem 72
 
@@ -1209,7 +1199,7 @@ $$\frac 1 8, \frac 1 7, \frac 1 6, \frac 1 5, \frac 1 4, \frac 2 7, \frac 1 3, \
 
 It can be seen that there are $21$ elements in this set.
 
-How many elements would be contained in the set of reduced proper fractions for $d \le 1\,000\,000$?
+How many elements would be contained in the set of reduced proper fractions for $d \le 1\000\000$?
 
 # Problem 73
 
@@ -1220,7 +1210,7 @@ $$\frac 1 8, \frac 1 7, \frac 1 6, \frac 1 5, \frac 1 4, \frac 2 7, \frac 1 3, \
 
 It can be seen that there are $3$ fractions between $\dfrac 1 3$ and $\dfrac 1 2$.
 
-How many fractions lie between $\dfrac 1 3$ and $\dfrac 1 2$ in the sorted set of reduced proper fractions for $d \le 12\,000$?
+How many fractions lie between $\dfrac 1 3$ and $\dfrac 1 2$ in the sorted set of reduced proper fractions for $d \le 12\000$?
 
 # Problem 74
 
@@ -1229,19 +1219,19 @@ $$1! + 4! + 5! = 1 + 24 + 120 = 145.$$
 
 Perhaps less well known is $169$, in that it produces the longest chain of numbers that link back to $169$; it turns out that there are only three such loops that exist:
 
-\begin{align}
-&169 \to 363601 \to 1454 \to 169\\
-&871 \to 45361 \to 871\\
+$$\begin{align}
+&169 \to 363601 \to 1454 \to 169\
+&871 \to 45361 \to 871\
 &872 \to 45362 \to 872
-\end{align}
+\end{align}$$
 
 It is not difficult to prove that EVERY starting number will eventually get stuck in a loop. For example,
 
-\begin{align}
-&69 \to 363600 \to 1454 \to 169 \to 363601 (\to 1454)\\
-&78 \to 45360 \to 871 \to 45361 (\to 871)\\
+$$\begin{align}
+&69 \to 363600 \to 1454 \to 169 \to 363601 (\to 1454)\
+&78 \to 45360 \to 871 \to 45361 (\to 871)\
 &540 \to 145 (\to 145)
-\end{align}
+\end{align}$$
 
 Starting with $69$ produces a chain of five non-repeating terms, but the longest non-repeating chain with a starting number below one million is sixty terms.
 
@@ -1251,31 +1241,31 @@ How many chains, with a starting number below one million, contain exactly sixty
 
 It turns out that $\pu{12 cm}$ is the smallest length of wire that can be bent to form an integer sided right angle triangle in exactly one way, but there are many more examples.
 
-  - $\pu{\mathbf{12} \mathbf{cm}}$: $(3,4,5)$
-  - $\pu{\mathbf{24} \mathbf{cm}}$: $(6,8,10)$
-  - $\pu{\mathbf{30} \mathbf{cm}}$: $(5,12,13)$
-  - $\pu{\mathbf{36} \mathbf{cm}}$: $(9,12,15)$
-  - $\pu{\mathbf{40} \mathbf{cm}}$: $(8,15,17)$
-  - $\pu{\mathbf{48} \mathbf{cm}}$: $(12,16,20)$
+- $\pu{\mathbf{12} \mathbf{cm}}$: $(3,4,5)$
+- $\pu{\mathbf{24} \mathbf{cm}}$: $(6,8,10)$
+- $\pu{\mathbf{30} \mathbf{cm}}$: $(5,12,13)$
+- $\pu{\mathbf{36} \mathbf{cm}}$: $(9,12,15)$
+- $\pu{\mathbf{40} \mathbf{cm}}$: $(8,15,17)$
+- $\pu{\mathbf{48} \mathbf{cm}}$: $(12,16,20)$
 
 In contrast, some lengths of wire, like $\pu{20 cm}$, cannot be bent to form an integer sided right angle triangle, and other lengths allow more than one solution to be found; for example, using $\pu{120 cm}$ it is possible to form exactly three different integer sided right angle triangles.
 
-  - $\pu{\mathbf{120} \mathbf{cm}}$: $(30,40,50)$, $(20,48,52)$, $(24,45,51)$
+- $\pu{\mathbf{120} \mathbf{cm}}$: $(30,40,50)$, $(20,48,52)$, $(24,45,51)$
 
-Given that $L$ is the length of the wire, for how many values of $L \le 1\,500\,000$ can exactly one integer sided right angle triangle be formed?
+Given that $L$ is the length of the wire, for how many values of $L \le 1\500\000$ can exactly one integer sided right angle triangle be formed?
 
 # Problem 76
 
 It is possible to write five as a sum in exactly six different ways:
 
-\begin{align}
-&4 + 1\\
-&3 + 2\\
-&3 + 1 + 1\\
-&2 + 2 + 1\\
-&2 + 1 + 1 + 1\\
+$$\begin{align}
+&4 + 1\
+&3 + 2\
+&3 + 1 + 1\
+&2 + 2 + 1\
+&2 + 1 + 1 + 1\
 &1 + 1 + 1 + 1 + 1
-\end{align}
+\end{align}$$
 
 How many different ways can one hundred be written as a sum of at least two positive integers?
 
@@ -1283,13 +1273,13 @@ How many different ways can one hundred be written as a sum of at least two posi
 
 It is possible to write ten as the sum of primes in exactly five different ways:
 
-\begin{align}
-&7 + 3\\
-&5 + 5\\
-&5 + 3 + 2\\
-&3 + 3 + 2 + 2\\
+$$\begin{align}
+&7 + 3\
+&5 + 5\
+&5 + 3 + 2\
+&3 + 3 + 2 + 2\
 &2 + 2 + 2 + 2 + 2
-\end{align}
+\end{align}$$
 
 What is the first value which can be written as the sum of primes in over five thousand different ways?
 
@@ -1335,10 +1325,10 @@ In the $5$ by $5$ matrix below, the minimal path sum from the top left to the bo
 
 $$
 \begin{pmatrix}
-\color{red}{131} & 673 & 234 & 103 & 18\\
-\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & 150\\
-630 & 803 & \color{red}{746} & \color{red}{422} & 111\\
-537 & 699 & 497 & \color{red}{121} & 956\\
+\color{red}{131} & 673 & 234 & 103 & 18\
+\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & 150\
+630 & 803 & \color{red}{746} & \color{red}{422} & 111\
+537 & 699 & 497 & \color{red}{121} & 956\
 805 & 732 & 524 & \color{red}{37} & \color{red}{331}
 \end{pmatrix}
 $$
@@ -1357,10 +1347,10 @@ The minimal path sum in the $5$ by $5$ matrix below, by starting in any cell in 
 
 $$
 \begin{pmatrix}
-131 & 673 & \color{red}{234} & \color{red}{103} & \color{red}{18}\\
-\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & 150\\
-630 & 803 & 746 & 422 & 111\\
-537 & 699 & 497 & 121 & 956\\
+131 & 673 & \color{red}{234} & \color{red}{103} & \color{red}{18}\
+\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & 150\
+630 & 803 & 746 & 422 & 111\
+537 & 699 & 497 & 121 & 956\
 805 & 732 & 524 & 37 & 331
 \end{pmatrix}
 $$
@@ -1379,10 +1369,10 @@ In the $5$ by $5$ matrix below, the minimal path sum from the top left to the bo
 
 $$
 \begin{pmatrix}
-\color{red}{131} & 673 & \color{red}{234} & \color{red}{103} & \color{red}{18}\\
-\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & \color{red}{150}\\
-630 & 803 & 746 & \color{red}{422} & \color{red}{111}\\
-537 & 699 & 497 & \color{red}{121} & 956\\
+\color{red}{131} & 673 & \color{red}{234} & \color{red}{103} & \color{red}{18}\
+\color{red}{201} & \color{red}{96} & \color{red}{342} & 965 & \color{red}{150}\
+630 & 803 & 746 & \color{red}{422} & \color{red}{111}\
+537 & 699 & 497 & \color{red}{121} & 956\
 805 & 732 & 524 & \color{red}{37} & \color{red}{331}
 \end{pmatrix}
 $$
@@ -1397,7 +1387,7 @@ In the game, **Monopoly**, the standard board is set up in the following way:
 
 <div class="center">
 
-![0084\_monopoly\_board.png](resources/images/0084_monopoly_board.png?1678992052)
+![0084_monopoly_board.png](resources/images/0084_monopoly_board.png?1678992052)
 
 </div>
 
@@ -1407,20 +1397,20 @@ In addition to G2J, and one card from each of CC and CH, that orders the player 
 
 At the beginning of the game, the CC and CH cards are shuffled. When a player lands on CC or CH they take a card from the top of the respective pile and, after following the instructions, it is returned to the bottom of the pile. There are sixteen cards in each pile, but for the purpose of this problem we are only concerned with cards that order a movement; any instruction not concerned with movement will be ignored and the player will remain on the CC/CH square.
 
-  - Community Chest (2/16 cards):
-    1.  Advance to GO
-    2.  Go to JAIL
-  - Chance (10/16 cards):
-    1.  Advance to GO
-    2.  Go to JAIL
-    3.  Go to C1
-    4.  Go to E3
-    5.  Go to H2
-    6.  Go to R1
-    7.  Go to next R (railway company)
-    8.  Go to next R
-    9.  Go to next U (utility company)
-    10. Go back 3 squares.
+- Community Chest (2/16 cards):
+  1.  Advance to GO
+  2.  Go to JAIL
+- Chance (10/16 cards):
+  1.  Advance to GO
+  2.  Go to JAIL
+  3.  Go to C1
+  4.  Go to E3
+  5.  Go to H2
+  6.  Go to R1
+  7.  Go to next R (railway company)
+  8.  Go to next R
+  9.  Go to next U (utility company)
+  10. Go back 3 squares.
 
 The heart of this problem concerns the likelihood of visiting a particular square. That is, the probability of finishing at that square after a roll. For this reason it should be clear that, with the exception of G2J for which the probability of finishing on it is zero, the CH squares will have the lowest probabilities, as 5/8 request a movement to another square, and it is the final square that the player finishes at on each roll that we are interested in. We shall make no distinction between "Just Visiting" and being sent to JAIL, and we shall also ignore the rule about requiring a double to "get out of jail", assuming that they pay to get out on their next turn.
 
@@ -1436,7 +1426,7 @@ By counting carefully it can be seen that a rectangular grid measuring $3$ by $2
 
 <div class="center">
 
-![](resources/images/0085.png?1678992052)
+<img src="resources/images/0085.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -1448,7 +1438,7 @@ A spider, S, sits in one corner of a cuboid room, measuring $6$ by $5$ by $3$, a
 
 <div class="center">
 
-![](resources/images/0086.png?1678992052)  
+<img src="resources/images/0086.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -1462,32 +1452,32 @@ Find the least value of $M$ such that the number of solutions first exceeds one 
 
 The smallest number expressible as the sum of a prime square, prime cube, and prime fourth power is $28$. In fact, there are exactly four numbers below fifty that can be expressed in such a way:
 
-\begin{align}
-28 &= 2^2 + 2^3 + 2^4\\
-33 &= 3^2 + 2^3 + 2^4\\
-49 &= 5^2 + 2^3 + 2^4\\
+$$\begin{align}
+28 &= 2^2 + 2^3 + 2^4\
+33 &= 3^2 + 2^3 + 2^4\
+49 &= 5^2 + 2^3 + 2^4\
 47 &= 2^2 + 3^3 + 2^4
-\end{align}
+\end{align}$$
 
 How many numbers below fifty million can be expressed as the sum of a prime square, prime cube, and prime fourth power?
 
 # Problem 88
 
-A natural number, $N$, that can be written as the sum and product of a given set of at least two natural numbers, $\{a\_1, a\_2, \dots, a\_k\}$ is called a product-sum number: $N = a\_1 + a\_2 + \cdots + a\_k = a\_1 \times a\_2 \times \cdots \times a\_k$.
+A natural number, $N$, that can be written as the sum and product of a given set of at least two natural numbers, $\a_1, a_2, \dots, a_k\$ is called a product-sum number: $N = a_1 + a_2 + \cdots + a_k = a_1 \times a_2 \times \cdots \times a_k$.
 
 For example, $6 = 1 + 2 + 3 = 1 \times 2 \times 3$.
 
 For a given set of size, $k$, we shall call the smallest $N$ with this property a minimal product-sum number. The minimal product-sum numbers for sets of size, $k = 2, 3, 4, 5$, and $6$ are as follows.
 
-  - $k=2$: $4 = 2 \times 2 = 2 + 2$
-  - $k=3$: $6 = 1 \times 2 \times 3 = 1 + 2 + 3$
-  - $k=4$: $8 = 1 \times 1 \times 2 \times 4 = 1 + 1 + 2 + 4$
-  - $k=5$: $8 = 1 \times 1 \times 2 \times 2 \times 2 = 1 + 1 + 2 + 2 + 2$
-  - $k=6$: $12 = 1 \times 1 \times 1 \times 1 \times 2 \times 6 = 1 + 1 + 1 + 1 + 2 + 6$
+- $k=2$: $4 = 2 \times 2 = 2 + 2$
+- $k=3$: $6 = 1 \times 2 \times 3 = 1 + 2 + 3$
+- $k=4$: $8 = 1 \times 1 \times 2 \times 4 = 1 + 1 + 2 + 4$
+- $k=5$: $8 = 1 \times 1 \times 2 \times 2 \times 2 = 1 + 1 + 2 + 2 + 2$
+- $k=6$: $12 = 1 \times 1 \times 1 \times 1 \times 2 \times 6 = 1 + 1 + 1 + 1 + 2 + 6$
 
 Hence for $2 \le k \le 6$, the sum of all the minimal product-sum numbers is $4+6+8+12 = 30$; note that $8$ is only counted once in the sum.
 
-In fact, as the complete set of minimal product-sum numbers for $2 \le k \le 12$ is $\{4, 6, 8, 12, 15, 16\}$, the sum is $61$.
+In fact, as the complete set of minimal product-sum numbers for $2 \le k \le 12$ is $\4, 6, 8, 12, 15, 16\$, the sum is $61$.
 
 What is the sum of all the minimal product-sum numbers for $2 \le k \le 12000$?
 
@@ -1520,36 +1510,36 @@ For example, the square number $64$ could be formed:
 
 <div class="center">
 
-![](resources/images/0090.png?1678992052)  
+<img src="resources/images/0090.png?1678992052" class="dark_img" />  
 
 </div>
 
 In fact, by carefully choosing the digits on both cubes it is possible to display all of the square numbers below one-hundred: $01$, $04$, $09$, $16$, $25$, $36$, $49$, $64$, and $81$.
 
-For example, one way this can be achieved is by placing $\{0, 5, 6, 7, 8, 9\}$ on one cube and $\{1, 2, 3, 4, 8, 9\}$ on the other cube.
+For example, one way this can be achieved is by placing $\0, 5, 6, 7, 8, 9\$ on one cube and $\1, 2, 3, 4, 8, 9\$ on the other cube.
 
-However, for this problem we shall allow the $6$ or $9$ to be turned upside-down so that an arrangement like $\{0, 5, 6, 7, 8, 9\}$ and $\{1, 2, 3, 4, 6, 7\}$ allows for all nine square numbers to be displayed; otherwise it would be impossible to obtain $09$.
+However, for this problem we shall allow the $6$ or $9$ to be turned upside-down so that an arrangement like $\0, 5, 6, 7, 8, 9\$ and $\1, 2, 3, 4, 6, 7\$ allows for all nine square numbers to be displayed; otherwise it would be impossible to obtain $09$.
 
 In determining a distinct arrangement we are interested in the digits on each cube, not the order.
 
-  - $\{1, 2, 3, 4, 5, 6\}$ is equivalent to $\{3, 6, 4, 1, 2, 5\}$
-  - $\{1, 2, 3, 4, 5, 6\}$ is distinct from $\{1, 2, 3, 4, 5, 9\}$
+- $\1, 2, 3, 4, 5, 6\$ is equivalent to $\3, 6, 4, 1, 2, 5\$
+- $\1, 2, 3, 4, 5, 6\$ is distinct from $\1, 2, 3, 4, 5, 9\$
 
-But because we are allowing $6$ and $9$ to be reversed, the two distinct sets in the last example both represent the extended set $\{1, 2, 3, 4, 5, 6, 9\}$ for the purpose of forming $2$-digit numbers.
+But because we are allowing $6$ and $9$ to be reversed, the two distinct sets in the last example both represent the extended set $\1, 2, 3, 4, 5, 6, 9\$ for the purpose of forming $2$-digit numbers.
 
 How many distinct arrangements of the two cubes allow for all of the square numbers to be displayed?
 
 # Problem 91
 
-The points $P(x\_1, y\_1)$ and $Q(x\_2, y\_2)$ are plotted at integer co-ordinates and are joined to the origin, $O(0,0)$, to form $\triangle OPQ$.
+The points $P(x_1, y_1)$ and $Q(x_2, y_2)$ are plotted at integer co-ordinates and are joined to the origin, $O(0,0)$, to form $\triangle OPQ$.
 
 <div class="center">
 
-![](resources/images/0091_1.png?1678992052)  
+<img src="resources/images/0091_1.png?1678992052" class="dark_img" />  
 
 </div>
 
-There are exactly fourteen triangles containing a right angle that can be formed when each co-ordinate lies between $0$ and $2$ inclusive; that is, $0 \le x\_1, y\_1, x\_2, y\_2 \le 2$.
+There are exactly fourteen triangles containing a right angle that can be formed when each co-ordinate lies between $0$ and $2$ inclusive; that is, $0 \le x_1, y_1, x_2, y_2 \le 2$.
 
 <div class="center">
 
@@ -1557,17 +1547,17 @@ There are exactly fourteen triangles containing a right angle that can be formed
 
 </div>
 
-Given that $0 \le x\_1, y\_1, x\_2, y\_2 \le 50$, how many right triangles can be formed?
+Given that $0 \le x_1, y_1, x_2, y_2 \le 50$, how many right triangles can be formed?
 
 # Problem 92
 
 A number chain is created by continuously adding the square of the digits in a number to form a new number until it has been seen before.
 
 For example,
-\begin{align}
-&44 \to 32 \to 13 \to 10 \to \mathbf 1 \to \mathbf 1\\
+$$\begin{align}
+&44 \to 32 \to 13 \to 10 \to \mathbf 1 \to \mathbf 1\
 &85 \to \mathbf{89} \to 145 \to 42 \to 20 \to 4 \to 16 \to 37 \to 58 \to \mathbf{89}
-\end{align}
+\end{align}$$
 
 Therefore any chain that arrives at $1$ or $89$ will become stuck in an endless loop. What is most amazing is that EVERY starting number will eventually arrive at $1$ or $89$.
 
@@ -1575,20 +1565,20 @@ How many starting numbers below ten million will arrive at $89$?
 
 # Problem 93
 
-By using each of the digits from the set, $\{1, 2, 3, 4\}$, exactly once, and making use of the four arithmetic operations ($+, -, \times, /$) and brackets/parentheses, it is possible to form different positive integer targets.
+By using each of the digits from the set, $\1, 2, 3, 4\$, exactly once, and making use of the four arithmetic operations ($+, -, \times, /$) and brackets/parentheses, it is possible to form different positive integer targets.
 
 For example,
 
-\begin{align}
-8 &= (4 \times (1 + 3)) / 2\\
-14 &= 4 \times (3 + 1 / 2)\\
-19 &= 4 \times (2 + 3) - 1\\
+$$\begin{align}
+8 &= (4 \times (1 + 3)) / 2\
+14 &= 4 \times (3 + 1 / 2)\
+19 &= 4 \times (2 + 3) - 1\
 36 &= 3 \times 4 \times (2 + 1)
-\end{align}
+\end{align}$$
 
 Note that concatenations of the digits, like $12 + 34$, are not allowed.
 
-Using the set, $\{1, 2, 3, 4\}$, it is possible to obtain thirty-one different target numbers of which $36$ is the maximum, and each of the numbers $1$ to $28$ can be obtained before encountering the first non-expressible number.
+Using the set, $\1, 2, 3, 4\$, it is possible to obtain thirty-one different target numbers of which $36$ is the maximum, and each of the numbers $1$ to $28$ can be obtained before encountering the first non-expressible number.
 
 Find the set of four distinct digits, $a \lt b \lt c \lt d$, for which the longest set of consecutive positive integers, $1$ to $n$, can be obtained, giving your answer as a string: *abcd*.
 
@@ -1598,7 +1588,7 @@ It is easily proved that no equilateral triangle exists with integral length sid
 
 We shall define an <span class="dfn">almost equilateral triangle</span> to be a triangle for which two sides are equal and the third differs by no more than one unit.
 
-Find the sum of the perimeters of all <span class="dfn">almost equilateral triangles</span> with integral side lengths and area and whose perimeters do not exceed one billion ($1\,000\,000\,000$).
+Find the sum of the perimeters of all <span class="dfn">almost equilateral triangles</span> with integral side lengths and area and whose perimeters do not exceed one billion ($1\000\000\000$).
 
 # Problem 95
 
@@ -1619,21 +1609,21 @@ Su Doku (Japanese meaning *number place*) is the name given to a popular puzzle 
 
 <div class="center">
 
-![p096\_1.png](project/images/p096_1.png)     ![p096\_2.png](project/images/p096_2.png)
+![0096_1.png](resources/images/0096_1.png?1678992052)     ![0096_2.png](resources/images/0096_2.png?1678992052)
 
 </div>
 
 A well constructed Su Doku puzzle has a unique solution and can be solved by logic, although it may be necessary to employ "guess and test" methods in order to eliminate options (there is much contested opinion over this). The complexity of the search determines the difficulty of the puzzle; the example above is considered *easy* because it can be solved by straight forward direct deduction.
 
-The 6K text file, [sudoku.txt](project/resources/p096_sudoku.txt) (right click and 'Save Link/Target As...'), contains fifty different Su Doku puzzles ranging in difficulty, but all with unique solutions (the first puzzle in the file is the example above).
+The 6K text file, [sudoku.txt](resources/documents/0096_sudoku.txt) (right click and 'Save Link/Target As...'), contains fifty different Su Doku puzzles ranging in difficulty, but all with unique solutions (the first puzzle in the file is the example above).
 
 By solving all fifty puzzles find the sum of the 3-digit numbers found in the top left corner of each solution grid; for example, 483 is the 3-digit number found in the top left corner of the solution grid above.
 
 # Problem 97
 
-The first known prime found to exceed one million digits was discovered in 1999, and is a Mersenne prime of the form $2^{6972593} - 1$; it contains exactly $2\,098\,960$ digits. Subsequently other Mersenne primes, of the form $2^p - 1$, have been found which contain more digits.
+The first known prime found to exceed one million digits was discovered in 1999, and is a Mersenne prime of the form $2^{6972593} - 1$; it contains exactly $2\098\960$ digits. Subsequently other Mersenne primes, of the form $2^p - 1$, have been found which contain more digits.
 
-However, in 2004 there was found a massive non-Mersenne prime which contains $2\,357\,207$ digits: $28433 \times 2^{7830457} + 1$.
+However, in 2004 there was found a massive non-Mersenne prime which contains $2\357\207$ digits: $28433 \times 2^{7830457} + 1$.
 
 Find the last ten digits of this prime number.
 
@@ -1653,7 +1643,7 @@ Comparing two numbers written in index form like $2^{11}$ and $3^7$ is not diffi
 
 However, confirming that $632382^{518061} \gt 519432^{525806}$ would be much more difficult, as both numbers contain over three million digits.
 
-Using [base\_exp.txt](resources/documents/0099_base_exp.txt) (right click and 'Save Link/Target As...'), a 22K text file containing one thousand lines with a base/exponent pair on each line, determine which line number has the greatest numerical value.
+Using [base_exp.txt](resources/documents/0099_base_exp.txt) (right click and 'Save Link/Target As...'), a 22K text file containing one thousand lines with a base/exponent pair on each line, determine which line number has the greatest numerical value.
 
 NOTE: The first two lines in the file represent the numbers in the example given above.
 
@@ -1661,33 +1651,33 @@ NOTE: The first two lines in the file represent the numbers in the example given
 
 If a box contains twenty-one coloured discs, composed of fifteen blue discs and six red discs, and two discs were taken at random, it can be seen that the probability of taking two blue discs, $P(\text{BB}) = (15/21) \times (14/20) = 1/2$.
 
-The next such arrangement, for which there is exactly $50\%$ chance of taking two blue discs at random, is a box containing eighty-five blue discs and thirty-five red discs.
+The next such arrangement, for which there is exactly $50\$ chance of taking two blue discs at random, is a box containing eighty-five blue discs and thirty-five red discs.
 
-By finding the first arrangement to contain over $10^{12} = 1\,000\,000\,000\,000$ discs in total, determine the number of blue discs that the box would contain.
+By finding the first arrangement to contain over $10^{12} = 1\000\000\000\000$ discs in total, determine the number of blue discs that the box would contain.
 
 # Problem 101
 
 If we are presented with the first $k$ terms of a sequence it is impossible to say with certainty the value of the next term, as there are infinitely many polynomial functions that can model the sequence.
 
 As an example, let us consider the sequence of cube numbers. This is defined by the generating function,  
-$u\_n = n^3$: $1, 8, 27, 64, 125, 216, \dots$
+$u_n = n^3$: $1, 8, 27, 64, 125, 216, \dots$
 
 Suppose we were only given the first two terms of this sequence. Working on the principle that "simple is best" we should assume a linear relationship and predict the next term to be $15$ (common difference $7$). Even if we were presented with the first three terms, by the same principle of simplicity, a quadratic relationship should be assumed.
 
 We shall define $\operatorname{OP}(k, n)$ to be the $n$<sup>th</sup> term of the optimum polynomial generating function for the first $k$ terms of a sequence. It should be clear that $\operatorname{OP}(k, n)$ will accurately generate the terms of the sequence for $n \le k$, and potentially the <span class="dfn">first incorrect term</span> (FIT) will be $\operatorname{OP}(k, k+1)$; in which case we shall call it a <span class="dfn">bad OP</span> (BOP).
 
-As a basis, if we were only given the first term of sequence, it would be most sensible to assume constancy; that is, for $n \ge 2$, $\operatorname{OP}(1, n) = u\_1$.
+As a basis, if we were only given the first term of sequence, it would be most sensible to assume constancy; that is, for $n \ge 2$, $\operatorname{OP}(1, n) = u_1$.
 
 Hence we obtain the following $\operatorname{OP}$s for the cubic sequence:
 
 <div class="margin_left">
 
-|                                             |                                                |
-| ------------------------------------------- | ---------------------------------------------- |
-| $\operatorname{OP}(1, n) = 1$              | $1, {\color{red}\mathbf 1}, 1, 1, \dots$    |
-| $\operatorname{OP}(2, n) = 7n - 6$         | $1, 8, {\color{red}\mathbf{15}}, \dots$     |
-| $\operatorname{OP}(3, n) = 6n^2 - 11n + 6$ | $1, 8, 27, {\color{red}\mathbf{58}}, \dots$ |
-| $\operatorname{OP}(4, n) = n^3$            | $1, 8, 27, 64, 125, \dots$                    |
+|                                                   |                                               |
+|---------------------------------------------------|-----------------------------------------------|
+| $\operatorname{OP}(1, n) = 1$                   | $1, {\color{red}\mathbf 1}, 1, 1, \dots$    |
+| $\operatorname{OP}(2, n) = 7n - 6$              | $1, 8, {\color{red}\mathbf{15}}, \dots$     |
+| $\operatorname{OP}(3, n) = 6n^2 - 11n + 6$      | $1, 8, 27, {\color{red}\mathbf{58}}, \dots$ |
+| $\operatorname{OP}(4, n) = n^3$                 | $1, 8, 27, 64, 125, \dots$                  |
 
 </div>
 
@@ -1696,7 +1686,7 @@ Clearly no BOPs exist for $k \ge 4$.
 By considering the sum of FITs generated by the BOPs (indicated in <span class="red">**red**</span> above), we obtain $1 + 15 + 58 = 74$.
 
 Consider the following tenth degree polynomial generating function:
-$$u\_n = 1 - n + n^2 - n^3 + n^4 - n^5 + n^6 - n^7 + n^8 - n^9 + n^{10}.$$
+$$u_n = 1 - n + n^2 - n^3 + n^4 - n^5 + n^6 - n^7 + n^8 - n^9 + n^{10}.$$
 
 Find the sum of FITs for the BOPs.
 
@@ -1706,10 +1696,10 @@ Three distinct points are plotted at random on a Cartesian plane, for which $-10
 
 Consider the following two triangles:
 
-\begin{gather}
-A(-340,495), B(-153,-910), C(835,-947)\\
+$$\begin{gather}
+A(-340,495), B(-153,-910), C(835,-947)\
 X(-175,41), Y(-421,-714), Z(574,-645)
-\end{gather}
+\end{gather}$$
 
 It can be verified that triangle $ABC$ contains the origin, whereas triangle $XYZ$ does not.
 
@@ -1726,15 +1716,15 @@ Let $S(A)$ represent the sum of elements in set $A$ of size $n$. We shall call i
 
 If $S(A)$ is minimised for a given $n$, we shall call it an optimum special sum set. The first five optimum special sum sets are given below.
 
-  - $n = 1$: $\{1\}$
-  - $n = 2$: $\{1, 2\}$
-  - $n = 3$: $\{2, 3, 4\}$
-  - $n = 4$: $\{3, 5, 6, 7\}$
-  - $n = 5$: $\{6, 9, 11, 12, 13\}$
+- $n = 1$: $\1\$
+- $n = 2$: $\1, 2\$
+- $n = 3$: $\2, 3, 4\$
+- $n = 4$: $\3, 5, 6, 7\$
+- $n = 5$: $\6, 9, 11, 12, 13\$
 
-It *seems* that for a given optimum set, $A = \{a\_1, a\_2, \dots, a\_n\}$, the next optimum set is of the form $B = \{b, a\_1 + b, a\_2 + b, \dots, a\_n + b\}$, where $b$ is the "middle" element on the previous row.
+It *seems* that for a given optimum set, $A = \a_1, a_2, \dots, a_n\$, the next optimum set is of the form $B = \b, a_1 + b, a_2 + b, \dots, a_n + b\$, where $b$ is the "middle" element on the previous row.
 
-By applying this "rule" we would expect the optimum set for $n = 6$ to be $A = \{11, 17, 20, 22, 23, 24\}$, with $S(A) = 117$. However, this is not the optimum set, as we have merely applied an algorithm to provide a near optimum set. The optimum set for $n = 6$ is $A = \{11, 18, 19, 20, 22, 25\}$, with $S(A) = 115$ and corresponding set string: 111819202225.
+By applying this "rule" we would expect the optimum set for $n = 6$ to be $A = \11, 17, 20, 22, 23, 24\$, with $S(A) = 117$. However, this is not the optimum set, as we have merely applied an algorithm to provide a near optimum set. The optimum set for $n = 6$ is $A = \11, 18, 19, 20, 22, 25\$, with $S(A) = 115$ and corresponding set string: 111819202225.
 
 Given that $A$ is an optimum special sum set for $n = 7$, find its set string.
 
@@ -1744,11 +1734,11 @@ NOTE: This problem is related to [Problem 105](problem=105) and [Problem 106](pr
 
 The Fibonacci sequence is defined by the recurrence relation:
 
-> $F\_n = F\_{n - 1} + F\_{n - 2}$, where $F\_1 = 1$ and $F\_2 = 1$.
+> $F_n = F\_{n - 1} + F\_{n - 2}$, where $F_1 = 1$ and $F_2 = 1$.
 
 It turns out that $F\_{541}$, which contains $113$ digits, is the first Fibonacci number for which the last nine digits are $1$-$9$ pandigital (contain all the digits $1$ to $9$, but not necessarily in order). And $F\_{2749}$, which contains $575$ digits, is the first Fibonacci number for which the first nine digits are $1$-$9$ pandigital.
 
-Given that $F\_k$ is the first Fibonacci number for which the first nine digits AND the last nine digits are $1$-$9$ pandigital, find $k$.
+Given that $F_k$ is the first Fibonacci number for which the first nine digits AND the last nine digits are $1$-$9$ pandigital, find $k$.
 
 # Problem 105
 
@@ -1757,9 +1747,9 @@ Let $S(A)$ represent the sum of elements in set $A$ of size $n$. We shall call i
 1.  $S(B) \ne S(C)$; that is, sums of subsets cannot be equal.
 2.  If $B$ contains more elements than $C$ then $S(B) \gt S(C)$.
 
-For example, $\{81, 88, 75, 42, 87, 84, 86, 65\}$ is not a special sum set because $65 + 87 + 88 = 75 + 81 + 84$, whereas $\{157, 150, 164, 119, 79, 159, 161, 139, 158\}$ satisfies both rules for all possible subset pair combinations and $S(A) = 1286$.
+For example, $\81, 88, 75, 42, 87, 84, 86, 65\$ is not a special sum set because $65 + 87 + 88 = 75 + 81 + 84$, whereas $\157, 150, 164, 119, 79, 159, 161, 139, 158\$ satisfies both rules for all possible subset pair combinations and $S(A) = 1286$.
 
-Using [sets.txt](resources/documents/0105_sets.txt) (right click and "Save Link/Target As..."), a 4K text file with one-hundred sets containing seven to twelve elements (the two examples given above are the first two sets in the file), identify all the special sum sets, $A\_1, A\_2, \dots, A\_k$, and find the value of $S(A\_1) + S(A\_2) + \cdots + S(A\_k)$.
+Using [sets.txt](resources/documents/0105_sets.txt) (right click and "Save Link/Target As..."), a 4K text file with one-hundred sets containing seven to twelve elements (the two examples given above are the first two sets in the file), identify all the special sum sets, $A_1, A_2, \dots, A_k$, and find the value of $S(A_1) + S(A_2) + \cdots + S(A_k)$.
 
 NOTE: This problem is related to [Problem 103](problem=103) and [Problem 106](problem=106).
 
@@ -1784,15 +1774,15 @@ The following undirected network consists of seven vertices and twelve edges wit
 
 <div class="center">
 
-![](resources/images/0107_1.png?1678992052)  
+<img src="resources/images/0107_1.png?1678992052" class="dark_img" />  
 
 </div>
 
 The same network can be represented by the matrix below.
 
 |       |       |       |       |       |       |       |       |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-|       | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
+|-------|-------|-------|-------|-------|-------|-------|-------|
+|       | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | **A** | \-    | 16    | 12    | 21    | \-    | \-    | \-    |
 | **B** | 16    | \-    | \-    | 17    | 20    | \-    | \-    |
 | **C** | 12    | \-    | \-    | 28    | \-    | 31    | \-    |
@@ -1805,7 +1795,7 @@ However, it is possible to optimise the network by removing some edges and still
 
 <div class="center">
 
-![](resources/images/0107_2.png?1678992052)  
+<img src="resources/images/0107_2.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -1820,8 +1810,8 @@ $$\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{n}$$
 For $n = 4$ there are exactly three distinct solutions:
 
 $$\begin{align}
-\dfrac{1}{5} + \dfrac{1}{20} &= \dfrac{1}{4}\\
-\dfrac{1}{6} + \dfrac{1}{12} &= \dfrac{1}{4}\\
+\dfrac{1}{5} + \dfrac{1}{20} &= \dfrac{1}{4}\
+\dfrac{1}{6} + \dfrac{1}{12} &= \dfrac{1}{4}\
 \dfrac{1}{8} + \dfrac{1}{8} &= \dfrac{1}{4}
 \end{align}
 $$
@@ -1836,7 +1826,7 @@ In the game of darts a player throws three darts at a target board which is spli
 
 <div class="center">
 
-![](project/images/p109.png)  
+<img src="resources/images/0109.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -1852,20 +1842,20 @@ There are exactly eleven distinct ways to checkout on a score of 6:
 
 <div class="center monospace">
 
-|    |    |    |
-| -- | -- | -- |
-|    |    |    |
-| D3 |    |    |
-| D1 | D2 |    |
-| S2 | D2 |    |
-| D2 | D1 |    |
-| S4 | D1 |    |
-| S1 | S1 | D2 |
-| S1 | T1 | D1 |
-| S1 | S3 | D1 |
-| D1 | D1 | D1 |
-| D1 | S2 | D1 |
-| S2 | S2 | D1 |
+|       |       |       |
+|-------|-------|-------|
+|       |       |       |
+| D3    |       |       |
+| D1    | D2    |       |
+| S2    | D2    |       |
+| D2    | D1    |       |
+| S4    | D1    |       |
+| S1    | S1    | D2    |
+| S1    | T1    | D1    |
+| S1    | S3    | D1    |
+| D1    | D1    | D1    |
+| D1    | S2    | D1    |
+| S2    | S2    | D1    |
 
 </div>
 
@@ -1903,7 +1893,7 @@ In the same way we obtain the following results for $4$-digit primes.
 <div class="center">
 
 |                |               |               |               |
-| -------------- | ------------- | ------------- | ------------- |
+|----------------|---------------|---------------|---------------|
 | **Digit, *d*** | **M(4, *d*)** | **N(4, *d*)** | **S(4, *d*)** |
 | 0              | 2             | 13            | 67061         |
 | 1              | 3             | 9             | 22275         |
@@ -1930,11 +1920,11 @@ Similarly if no digit is exceeded by the digit to its right it is called a decre
 
 We shall call a positive integer that is neither increasing nor decreasing a "bouncy" number; for example, $155349$.
 
-Clearly there cannot be any bouncy numbers below one-hundred, but just over half of the numbers below one-thousand ($525$) are bouncy. In fact, the least number for which the proportion of bouncy numbers first reaches $50\%$ is $538$.
+Clearly there cannot be any bouncy numbers below one-hundred, but just over half of the numbers below one-thousand ($525$) are bouncy. In fact, the least number for which the proportion of bouncy numbers first reaches $50\$ is $538$.
 
-Surprisingly, bouncy numbers become more and more common and by the time we reach $21780$ the proportion of bouncy numbers is equal to $90\%$.
+Surprisingly, bouncy numbers become more and more common and by the time we reach $21780$ the proportion of bouncy numbers is equal to $90\$.
 
-Find the least number for which the proportion of bouncy numbers is exactly $99\%$.
+Find the least number for which the proportion of bouncy numbers is exactly $99\$.
 
 # Problem 113
 
@@ -1986,7 +1976,7 @@ If red tiles are chosen there are exactly seven ways this can be done.
 
 <div class="center">
 
-![png116\_1.png](resources/images/0116_1.png?1678992052)
+![png116_1.png](resources/images/0116_1.png?1678992052)
 
 </div>
 
@@ -1994,7 +1984,7 @@ If green tiles are chosen there are three ways.
 
 <div class="center">
 
-![png116\_2.png](resources/images/0116_2.png?1678992052)
+![png116_2.png](resources/images/0116_2.png?1678992052)
 
 </div>
 
@@ -2002,7 +1992,7 @@ And if blue tiles are chosen there are two ways.
 
 <div class="center">
 
-![png116\_3.png](resources/images/0116_3.png?1678992052)
+![png116_3.png](resources/images/0116_3.png?1678992052)
 
 </div>
 
@@ -2028,7 +2018,7 @@ NOTE: This is related to [Problem 116](problem=116).
 
 # Problem 118
 
-Using all of the digits $1$ through $9$ and concatenating them freely to form decimal integers, different sets can be formed. Interestingly with the set $\{2,5,47,89,631\}$, all of the elements belonging to it are prime.
+Using all of the digits $1$ through $9$ and concatenating them freely to form decimal integers, different sets can be formed. Interestingly with the set $\2,5,47,89,631\$, all of the elements belonging to it are prime.
 
 How many distinct sets containing each of the digits one through nine exactly once contain only prime elements?
 
@@ -2036,9 +2026,9 @@ How many distinct sets containing each of the digits one through nine exactly on
 
 The number $512$ is interesting because it is equal to the sum of its digits raised to some power: $5 + 1 + 2 = 8$, and $8^3 = 512$. Another example of a number with this property is $614656 = 28^4$.
 
-We shall define $a\_n$ to be the $n$th term of this sequence and insist that a number must contain at least two digits to have a sum.
+We shall define $a_n$ to be the $n$th term of this sequence and insist that a number must contain at least two digits to have a sum.
 
-You are given that $a\_2 = 512$ and $a\_{10} = 614656$.
+You are given that $a_2 = 512$ and $a\_{10} = 614656$.
 
 Find $a\_{30}$.
 
@@ -2067,24 +2057,24 @@ $$n \times n \times \cdots \times n = n^{15}.$$
 
 But using a "binary" method you can compute it in six multiplications:
 
-\begin{align}
-n \times n &= n^2\\
-n^2 \times n^2 &= n^4\\
-n^4 \times n^4 &= n^8\\
-n^8 \times n^4 &= n^{12}\\
-n^{12} \times n^2 &= n^{14}\\
+$$\begin{align}
+n \times n &= n^2\
+n^2 \times n^2 &= n^4\
+n^4 \times n^4 &= n^8\
+n^8 \times n^4 &= n^{12}\
+n^{12} \times n^2 &= n^{14}\
 n^{14} \times n &= n^{15}
-\end{align}
+\end{align}$$
 
 However it is yet possible to compute it in only five multiplications:
 
-\begin{align}
-n \times n &= n^2\\
-n^2 \times n &= n^3\\
-n^3 \times n^3 &= n^6\\
-n^6 \times n^6 &= n^{12}\\
+$$\begin{align}
+n \times n &= n^2\
+n^2 \times n &= n^3\
+n^3 \times n^3 &= n^6\
+n^6 \times n^6 &= n^{12}\
 n^{12} \times n^3 &= n^{15}
-\end{align}
+\end{align}$$
 
 We shall define $m(k)$ to be the minimum number of multiplications to compute $n^k$; for example $m(15) = 5$.
 
@@ -2092,9 +2082,9 @@ Find $\sum\limits\_{k = 1}^{200} m(k)$.
 
 # Problem 123
 
-Let $p\_n$ be the $n$th prime: $2, 3, 5, 7, 11, \dots$, and let $r$ be the remainder when $(p\_n - 1)^n + (p\_n + 1)^n$ is divided by $p\_n^2$.
+Let $p_n$ be the $n$th prime: $2, 3, 5, 7, 11, \dots$, and let $r$ be the remainder when $(p_n - 1)^n + (p_n + 1)^n$ is divided by $p_n^2$.
 
-For example, when $n = 3$, $p\_3 = 5$, and $4^3 + 6^3 = 280 \equiv 5 \mod 25$.
+For example, when $n = 3$, $p_3 = 5$, and $4^3 + 6^3 = 280 \equiv 5 \mod 25$.
 
 The least value of $n$ for which the remainder first exceeds $10^9$ is $7037$.
 
@@ -2106,143 +2096,20 @@ The radical of $n$, $\operatorname{rad}(n)$, is the product of the distinct prim
 
 If we calculate $\operatorname{rad}(n)$ for $1 \le n \le 10$, then sort them on $\operatorname{rad}(n)$, and sorting on $n$ if the radical values are equal, we get:
 
-Unsorted
-
- 
-
-Sorted
-
-*n*
-
-rad(*n*)
-
- 
-
-*n*
-
-rad(*n*)
-
-k
-
-1
-
-1
-
- 
-
-1
-
-1
-
-1
-
-2
-
-2
-
- 
-
-2
-
-2
-
-2
-
-3
-
-3
-
- 
-
-4
-
-2
-
-3
-
-4
-
-2
-
- 
-
-8
-
-2
-
-4
-
-5
-
-5
-
- 
-
-3
-
-3
-
-5
-
-6
-
-6
-
- 
-
-9
-
-3
-
-6
-
-7
-
-7
-
- 
-
-5
-
-5
-
-7
-
-8
-
-2
-
- 
-
-6
-
-6
-
-8
-
-9
-
-3
-
- 
-
-7
-
-7
-
-9
-
-10
-
-10
-
- 
-
-10
-
-10
-
-10
+|          |          |     |        |          |     |
+|----------|----------|-----|--------|----------|-----|
+| Unsorted |          |     | Sorted |          |     |
+| *n*      | rad(*n*) |     | *n*    | rad(*n*) | k   |
+| 1        | 1        |     | 1      | 1        | 1   |
+| 2        | 2        |     | 2      | 2        | 2   |
+| 3        | 3        |     | 4      | 2        | 3   |
+| 4        | 2        |     | 8      | 2        | 4   |
+| 5        | 5        |     | 3      | 3        | 5   |
+| 6        | 6        |     | 9      | 3        | 6   |
+| 7        | 7        |     | 5      | 5        | 7   |
+| 8        | 2        |     | 6      | 6        | 8   |
+| 9        | 3        |     | 7      | 7        | 9   |
+| 10       | 10       |     | 10     | 10       | 10  |
 
 Let $E(k)$ be the $k$-th element in the sorted $n$ column; for example, $E(4) = 8$ and $E(6) = 9$.
 
@@ -2262,7 +2129,7 @@ The minimum number of cubes to cover every visible face on a cuboid measuring $3
 
 <div class="center">
 
-![](resources/images/0126.png?1678992052)  
+<img src="resources/images/0126.png?1678992052" class="dark_img" />  
 
 </div>
 
@@ -2306,7 +2173,7 @@ New rings are added in the same fashion, with the next rings being numbered $8$ 
 
 <div class="center">
 
-![](resources/images/0128.png?1678992052)
+<img src="resources/images/0128.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -2374,11 +2241,11 @@ Find the sum of all the primes below one-hundred thousand that will never be a f
 
 # Problem 134
 
-Consider the consecutive primes $p\_1 = 19$ and $p\_2 = 23$. It can be verified that $1219$ is the smallest number such that the last digits are formed by $p\_1$ whilst also being divisible by $p\_2$.
+Consider the consecutive primes $p_1 = 19$ and $p_2 = 23$. It can be verified that $1219$ is the smallest number such that the last digits are formed by $p_1$ whilst also being divisible by $p_2$.
 
-In fact, with the exception of $p\_1 = 3$ and $p\_2 = 5$, for every pair of consecutive primes, $p\_2 \gt p\_1$, there exist values of $n$ for which the last digits are formed by $p\_1$ and $n$ is divisible by $p\_2$. Let $S$ be the smallest of these values of $n$.
+In fact, with the exception of $p_1 = 3$ and $p_2 = 5$, for every pair of consecutive primes, $p_2 \gt p_1$, there exist values of $n$ for which the last digits are formed by $p_1$ and $n$ is divisible by $p_2$. Let $S$ be the smallest of these values of $n$.
 
-Find $\sum S$ for every pair of consecutive primes with $5 \le p\_1 \le 1000000$.
+Find $\sum S$ for every pair of consecutive primes with $5 \le p_1 \le 1000000$.
 
 # Problem 135
 
@@ -2400,29 +2267,34 @@ How many values of $n$ less than fifty million have exactly one solution?
 
 # Problem 137
 
-Consider the infinite polynomial series $A\_F(x) = x F\_1 + x^2 F\_2 + x^3 F\_3 + \dots$, where $F\_k$ is the $k$th term in the Fibonacci sequence: $1, 1, 2, 3, 5, 8, \dots$; that is, $F\_k = F\_{k-1} + F\_{k-2}$, $F\_1 = 1$ and $F\_2 = 1$.
+Consider the infinite polynomial series $A_F(x) = x F_1 + x^2 F_2 + x^3 F_3 + \dots$, where $F_k$ is the $k$th term in the Fibonacci sequence: $1, 1, 2, 3, 5, 8, \dots$; that is, $F_k = F\_{k-1} + F\_{k-2}$, $F_1 = 1$ and $F_2 = 1$.
 
-For this problem we shall be interested in values of $x$ for which $A\_F(x)$ is a positive integer.
+For this problem we shall be interested in values of $x$ for which $A_F(x)$ is a positive integer.
 
-|              |                                                                                                                                                                                                                                                                                                                             |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surprisingly | $\begin{align\*} A\_F(\tfrac{1}{2}) &= (\tfrac{1}{2})\times 1 + (\tfrac{1}{2})^2\times 1 + (\tfrac{1}{2})^3\times 2 + (\tfrac{1}{2})^4\times 3 + (\tfrac{1}{2})^5\times 5 + \cdots \\ &= \tfrac{1}{2} + \tfrac{1}{4} + \tfrac{2}{8} + \tfrac{3}{16} + \tfrac{5}{32} + \cdots \\ &= 2 \end{align\*}$ |
+|              |                                                                                                                                                   |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Surprisingly | $\begin{align\*}                                                                                                                                 
+                A_F(\tfrac{1}{2})                                                                                                                                  
+                &= (\tfrac{1}{2})\times 1 + (\tfrac{1}{2})^2\times 1 + (\tfrac{1}{2})^3\times 2 + (\tfrac{1}{2})^4\times 3 + (\tfrac{1}{2})^5\times 5 + \cdots \  
+                &= \tfrac{1}{2} + \tfrac{1}{4} + \tfrac{2}{8} + \tfrac{3}{16} + \tfrac{5}{32} + \cdots \                                                          
+                &= 2                                                                                                                                               
+                \end{align\*}$                                                                                                                                    |
 
 The corresponding values of $x$ for the first five natural numbers are shown below.
 
 <div class="center">
 
-| $x$                       | $A\_F(x)$ |
-| ------------------------- | --------- |
-| $\sqrt{2}-1$             | $1$       |
-| $\tfrac{1}{2}$           | $2$       |
-| $\frac{\sqrt{13}-2}{3}$ | $3$       |
-| $\frac{\sqrt{89}-5}{8}$ | $4$       |
-| $\frac{\sqrt{34}-3}{5}$ | $5$       |
+| $x$                     | $A_F(x)$ |
+|---------------------------|------------|
+| $\sqrt{2}-1$            | $1$      |
+| $\tfrac{1}{2}$          | $2$      |
+| $\frac{\sqrt{13}-2}{3}$ | $3$      |
+| $\frac{\sqrt{89}-5}{8}$ | $4$      |
+| $\frac{\sqrt{34}-3}{5}$ | $5$      |
 
 </div>
 
-We shall call $A\_F(x)$ a golden nugget if $x$ is rational, because they become increasingly rarer; for example, the $10$th golden nugget is $74049690$.
+We shall call $A_F(x)$ a golden nugget if $x$ is rational, because they become increasingly rarer; for example, the $10$th golden nugget is $74049690$.
 
 Find the $15$th golden nugget.
 
@@ -2432,7 +2304,7 @@ Consider the isosceles triangle with base length, $b = 16$, and legs, $L = 17$.
 
 <div class="center">
 
-![](resources/images/0138.png?1678992052)
+<img src="resources/images/0138.png?1678992052" class="dark_img" width="230" height="228" />
 
 </div>
 
@@ -2450,7 +2322,7 @@ For example, $(3, 4, 5)$ triangles can be placed together to form a $5$ by $5$ s
 
 <div class="center">
 
-![](resources/images/0139.png?1678992052)
+<img src="resources/images/0139.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -2460,25 +2332,25 @@ Given that the perimeter of the right triangle is less than one-hundred million,
 
 # Problem 140
 
-Consider the infinite polynomial series $A\_G(x) = x G\_1 + x^2 G\_2 + x^3 G\_3 + \cdots$, where $G\_k$ is the $k$th term of the second order recurrence relation $G\_k = G\_{k-1} + G\_{k-2}$, $G\_1 = 1$ and $G\_2 = 4$; that is, $1, 4, 5, 9, 14, 23, \dots$.
+Consider the infinite polynomial series $A_G(x) = x G_1 + x^2 G_2 + x^3 G_3 + \cdots$, where $G_k$ is the $k$th term of the second order recurrence relation $G_k = G\_{k-1} + G\_{k-2}$, $G_1 = 1$ and $G_2 = 4$; that is, $1, 4, 5, 9, 14, 23, \dots$.
 
-For this problem we shall be concerned with values of $x$ for which $A\_G(x)$ is a positive integer.
+For this problem we shall be concerned with values of $x$ for which $A_G(x)$ is a positive integer.
 
 The corresponding values of $x$ for the first five natural numbers are shown below.
 
 <div class="center">
 
-| $x$                         | $A\_G(x)$ |
-| --------------------------- | --------- |
-| $\frac{\sqrt{5}-1}{4}$    | $1$       |
-| $\tfrac{2}{5}$             | $2$       |
-| $\frac{\sqrt{22}-2}{6}$   | $3$       |
-| $\frac{\sqrt{137}-5}{14}$ | $4$       |
-| $\tfrac{1}{2}$             | $5$       |
+| $x$                       | $A_G(x)$ |
+|-----------------------------|------------|
+| $\frac{\sqrt{5}-1}{4}$    | $1$      |
+| $\tfrac{2}{5}$            | $2$      |
+| $\frac{\sqrt{22}-2}{6}$   | $3$      |
+| $\frac{\sqrt{137}-5}{14}$ | $4$      |
+| $\tfrac{1}{2}$            | $5$      |
 
 </div>
 
-We shall call $A\_G(x)$ a golden nugget if $x$ is rational, because they become increasingly rarer; for example, the $20$th golden nugget is $211345365$.
+We shall call $A_G(x)$ a golden nugget if $x$ is rational, because they become increasingly rarer; for example, the $20$th golden nugget is $211345365$.
 
 Find the sum of the first thirty golden nuggets.
 
@@ -2508,7 +2380,7 @@ Torricelli was able to prove that if equilateral triangles $AOB$, $BNC$ and $AMC
 
 <div class="center">
 
-![](resources/images/0143_torricelli.png?1678992052)
+<img src="resources/images/0143_torricelli.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -2526,7 +2398,7 @@ The section corresponding to $-0.01 \le x \le +0.01$ at the top is missing, allo
 
 <div class="center">
 
-![](resources/images/0144_1.png?1678992052)![](resources/images/0144_2.gif?1678992055)
+<img src="resources/images/0144_1.png?1678992052" class="dark_img" style="margin:10px 20px;" /><img src="resources/images/0144_2.gif?1678992055" class="dark_img" style="margin:10px 20px;" />
 
 </div>
 
@@ -2564,14 +2436,14 @@ In a $3 \times 2$ cross-hatched grid, a total of $37$ different rectangles could
 
 <div class="center">
 
-![](resources/images/0147.png?1678992052)
+<img src="resources/images/0147.png?1678992052" class="dark_img" />
 
 </div>
 
 There are $5$ grids smaller than $3 \times 2$, vertical and horizontal dimensions being important, i.e. $1 \times 1$, $2 \times 1$, $3 \times 1$, $1 \times 2$ and $2 \times 2$. If each of them is cross-hatched, the following number of different rectangles could be situated within those smaller grids:
 
-|               |      |
-| :-----------: | ---: |
+|                |        |
+|:--------------:|-------:|
 | $1 \times 1$ |  $1$ |
 | $2 \times 1$ |  $4$ |
 | $3 \times 1$ |  $8$ |
@@ -2586,15 +2458,15 @@ How many different rectangles could be situated within $47 \times 43$ and smalle
 
 We can easily verify that none of the entries in the first seven rows of Pascal's triangle are divisible by $7$:
 
-|     |     |     |     |      |      |      |      |      |     |     |     |     |
-| :-: | :-: | :-: | :-: | :--: | :--: | :--: | :--: | :--: | :-: | :-: | :-: | :-: |
-|     |     |     |     |      |      | $1$  |      |      |     |     |     |     |
-|     |     |     |     |      | $1$  |      | $1$  |      |     |     |     |     |
-|     |     |     |     | $1$  |      | $2$  |      | $1$  |     |     |     |     |
-|     |     |     | $1$ |      | $3$  |      | $3$  |      | $1$ |     |     |     |
-|     |     | $1$ |     | $4$  |      | $6$  |      | $4$  |     | $1$ |     |     |
-|     | $1$ |     | $5$ |      | $10$ |      | $10$ |      | $5$ |     | $1$ |     |
-| $1$ |     | $6$ |     | $15$ |      | $20$ |      | $15$ |     | $6$ |     | $1$ |
+|       |       |       |       |        |        |        |        |        |       |       |       |       |
+|:-----:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
+|       |       |       |       |        |        | $1$  |        |        |       |       |       |       |
+|       |       |       |       |        | $1$  |        | $1$  |        |       |       |       |       |
+|       |       |       |       | $1$  |        | $2$  |        | $1$  |       |       |       |       |
+|       |       |       | $1$ |        | $3$  |        | $3$  |        | $1$ |       |       |       |
+|       |       | $1$ |       | $4$  |        | $6$  |        | $4$  |       | $1$ |       |       |
+|       | $1$ |       | $5$ |        | $10$ |        | $10$ |        | $5$ |       | $1$ |       |
+| $1$ |       | $6$ |       | $15$ |        | $20$ |        | $15$ |       | $6$ |       | $1$ |
 
 However, if we check the first one hundred rows, we will find that only $2361$ of the $5050$ entries are *not* divisible by $7$.
 
@@ -2606,8 +2478,8 @@ Looking at the table below, it is easy to verify that the maximum possible sum o
 
 <div class="center">
 
-|      |      |      |     |
-| ---- | ---- | ---- | --- |
+|        |        |        |       |
+|--------|--------|--------|-------|
 | $-2$ | $5$  | $3$  | $2$ |
 | $9$  | $-6$ | $5$  | $1$ |
 | $3$  | $2$  | $7$  | $3$ |
@@ -2619,8 +2491,8 @@ Now, let us repeat the search, but on a much larger scale:
 
 First, generate four million pseudo-random numbers using a specific form of what is known as a "Lagged Fibonacci Generator":
 
-For $1 \le k \le 55$, $s\_k = \[100003 - 200003 k + 300007 k^3\] \pmod{1000000} - 500000$.  
-For $56 \le k \le 4000000$, $s\_k = \[s\_{k-24} + s\_{k - 55} + 1000000\] \pmod{1000000} - 500000$.
+For $1 \le k \le 55$, $s_k = \[100003 - 200003 k + 300007 k^3\] \pmod{1000000} - 500000$.  
+For $56 \le k \le 4000000$, $s_k = \[s\_{k-24} + s\_{k - 55} + 1000000\] \pmod{1000000} - 500000$.
 
 Thus, $s\_{10} = -393027$ and $s\_{100} = 86613$.
 
@@ -2636,7 +2508,7 @@ In the example below, it can be easily verified that the marked triangle satisfi
 
 <div class="center">
 
-![](resources/images/0150.gif?1678992055)
+<img src="resources/images/0150.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -2677,7 +2549,7 @@ All the unused sheets are placed back in the envelope.
 
 <div class="center">
 
-![](resources/images/0151.png?1678992052)
+<img src="resources/images/0151.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -2691,13 +2563,13 @@ Give your answer rounded to six decimal places using the format x.xxxxxx .
 
 There are several ways to write the number $\dfrac{1}{2}$ as a sum of square reciprocals using *distinct* integers.
 
-For instance, the numbers $\{2,3,4,5,7,12,15,20,28,35\}$ can be used:
+For instance, the numbers $\2,3,4,5,7,12,15,20,28,35\$ can be used:
 
-$$\begin{align}\dfrac{1}{2} &= \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \dfrac{1}{5^2} +\\
-&\quad \dfrac{1}{7^2} + \dfrac{1}{12^2} + \dfrac{1}{15^2} + \dfrac{1}{20^2} +\\
+$$\begin{align}\dfrac{1}{2} &= \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \dfrac{1}{5^2} +\
+&\quad \dfrac{1}{7^2} + \dfrac{1}{12^2} + \dfrac{1}{15^2} + \dfrac{1}{20^2} +\
 &\quad \dfrac{1}{28^2} + \dfrac{1}{35^2}\end{align}$$
 
-In fact, only using integers between $2$ and $45$ inclusive, there are exactly three ways to do it, the remaining two being: $\{2,3,4,6,7,9,10,20,28,35,36,45\}$ and $\{2,3,4,6,7,9,12,15,28,30,35,36,45\}$.
+In fact, only using integers between $2$ and $45$ inclusive, there are exactly three ways to do it, the remaining two being: $\2,3,4,6,7,9,10,20,28,35,36,45\$ and $\2,3,4,6,7,9,12,15,28,30,35,36,45\$.
 
 How many ways are there to write $\dfrac{1}{2}$ as a sum of reciprocals of squares using distinct integers between $2$ and $80$ inclusive?
 
@@ -2721,10 +2593,10 @@ So $1+2i$ is a divisor of $5$.
 Note that $1+i$ is not a divisor of $5$ because $\dfrac{5}{1 + i} = \dfrac{5}{2} - \dfrac{5}{2}i$.  
 Note also that if the Gaussian Integer $(a+bi)$ is a divisor of a rational integer $n$, then its complex conjugate $(a-bi)$ is also a divisor of $n$.
 
-In fact, $5$ has six divisors such that the real part is positive: $\{1, 1 + 2i, 1 - 2i, 2 + i, 2 - i, 5\}$.  
+In fact, $5$ has six divisors such that the real part is positive: $\1, 1 + 2i, 1 - 2i, 2 + i, 2 - i, 5\$.  
 The following is a table of all of the divisors for the first five positive rational integers:
 
-<table>
+<table data-align="center" data-border="1">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />
@@ -2732,11 +2604,12 @@ The following is a table of all of the divisors for the first five positive rati
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>$n$</td>
+<td width="20">$n$</td>
 <td>Gaussian integer divisors<br />
 with positive real part</td>
 <td>Sum $s(n)$ of<br />
-these divisors</td>
+these
+divisors</td>
 </tr>
 <tr class="even">
 <td>$1$</td>
@@ -2778,7 +2651,7 @@ A triangular pyramid is constructed using spherical balls so that each ball rest
 
 <div class="center">
 
-![](resources/images/0154_pyramid.png?1678992052)
+<img src="resources/images/0154_pyramid.png?1678992052" class="dark_img" />
 
 </div>
 
@@ -2802,7 +2675,7 @@ Using this simple procedure and up to $n$ identical capacitors, we can make circ
 
 <div class="center">
 
-![](resources/images/0155_capacitors1.gif?1678992055)
+<img src="resources/images/0155_capacitors1.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -2810,33 +2683,33 @@ If we denote by $D(n)$ the number of distinct total capacitance values we can ob
 
 Find $D(18)$.
 
-*Reminder:* When connecting capacitors $C\_1, C\_2$ etc in parallel, the total capacitance is $C\_T = C\_1 + C\_2 + \cdots$,  
-whereas when connecting them in series, the overall capacitance is given by: $\dfrac{1}{C\_T} = \dfrac{1}{C\_1} + \dfrac{1}{C\_2} + \cdots$
+*Reminder:* When connecting capacitors $C_1, C_2$ etc in parallel, the total capacitance is $C_T = C_1 + C_2 + \cdots$,  
+whereas when connecting them in series, the overall capacitance is given by: $\dfrac{1}{C_T} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + \cdots$
 
 # Problem 156
 
 Starting from zero the natural numbers are written down in base $10$ like this:  
-$0\,1\,2\,3\,4\,5\,6\,7\,8\,9\,10\,11\,12\cdots$
+$$0\1\2\3\4\5\6\7\8\9\10\11\12\cdots$$
 
 Consider the digit $d=1$. After we write down each number $n$, we will update the number of ones that have occurred and call this number $f(n,1)$. The first values for $f(n,1)$, then, are as follows:
 
-\begin{array}{cc}
-n & f(n, 1)\\
+$$\begin{array}{cc}
+n & f(n, 1)\
 \hline
-0 & 0\\
-1 & 1\\
-2 & 1\\
-3 & 1\\
-4 & 1\\
-5 & 1\\
-6 & 1\\
-7 & 1\\
-8 & 1\\
-9 & 1\\
-10 & 2\\
-11 & 4\\
+0 & 0\
+1 & 1\
+2 & 1\
+3 & 1\
+4 & 1\
+5 & 1\
+6 & 1\
+7 & 1\
+8 & 1\
+9 & 1\
+10 & 2\
+11 & 4\
 12 & 5
-\end{array}
+\end{array}$$
 
 Note that $f(n,1)$ never equals $3$.  
 So the first two solutions of the equation $f(n,1)=n$ are $n=0$ and $n=1$. The next solution is $n=199981$.
@@ -2855,12 +2728,12 @@ Note: if, for some $n$, $f(n,d)=n$ for more than one value of $d$ this value of 
 
 Consider the diophantine equation $\frac 1 a + \frac 1 b = \frac p {10^n}$ with $a, b, p, n$ positive integers and $a \le b$.  
 For $n=1$ this equation has $20$ solutions that are listed below:
-\begin{matrix}
-\frac 1 1 + \frac 1 1 = \frac{20}{10} & \frac 1 1 + \frac 1 2 = \frac{15}{10} & \frac 1 1 + \frac 1 5 = \frac{12}{10} & \frac 1 1 + \frac 1 {10} = \frac{11}{10} & \frac 1 2 + \frac 1 2 = \frac{10}{10}\\
-\frac 1 2 + \frac 1 5 = \frac 7 {10} & \frac 1 2 + \frac 1 {10} = \frac 6 {10} & \frac 1 3 + \frac 1 6 = \frac 5 {10} & \frac 1 3 + \frac 1 {15} = \frac 4 {10} & \frac 1 4 + \frac 1 4 = \frac 5 {10}\\
-\frac 1 4 + \frac 1 {20} = \frac 3 {10} & \frac 1 5 + \frac 1 5 = \frac 4 {10} & \frac 1 5 + \frac 1 {10} = \frac 3 {10} & \frac 1 6 + \frac 1 {30} = \frac 2 {10} & \frac 1 {10} + \frac 1 {10} = \frac 2 {10}\\
+$$\begin{matrix}
+\frac 1 1 + \frac 1 1 = \frac{20}{10} & \frac 1 1 + \frac 1 2 = \frac{15}{10} & \frac 1 1 + \frac 1 5 = \frac{12}{10} & \frac 1 1 + \frac 1 {10} = \frac{11}{10} & \frac 1 2 + \frac 1 2 = \frac{10}{10}\
+\frac 1 2 + \frac 1 5 = \frac 7 {10} & \frac 1 2 + \frac 1 {10} = \frac 6 {10} & \frac 1 3 + \frac 1 6 = \frac 5 {10} & \frac 1 3 + \frac 1 {15} = \frac 4 {10} & \frac 1 4 + \frac 1 4 = \frac 5 {10}\
+\frac 1 4 + \frac 1 {20} = \frac 3 {10} & \frac 1 5 + \frac 1 5 = \frac 4 {10} & \frac 1 5 + \frac 1 {10} = \frac 3 {10} & \frac 1 6 + \frac 1 {30} = \frac 2 {10} & \frac 1 {10} + \frac 1 {10} = \frac 2 {10}\
 \frac 1 {11} + \frac 1 {110} = \frac 1 {10} & \frac 1 {12} + \frac 1 {60} = \frac 1 {10} & \frac 1 {14} + \frac 1 {35} = \frac 1 {10} & \frac 1 {15} + \frac 1 {30} = \frac 1 {10} & \frac 1 {20} + \frac 1 {20} = \frac 1 {10}
-\end{matrix}
+\end{matrix}$$
 
 How many solutions has this equation for $1 \le n \le 9$?
 
@@ -2882,15 +2755,15 @@ What is the maximum value of $p(n)$?
 A composite number can be factored many different ways.
 For instance, not including multiplication by one, $24$ can be factored in $7$ distinct ways:
 
-\begin{align}
-24 &= 2 \times 2 \times 2 \times 3\\
-24 &= 2 \times 3 \times 4\\
-24 &= 2 \times 2 \times 6\\
-24 &= 4 \times 6\\
-24 &= 3 \times 8\\
-24 &= 2 \times 12\\
+$$\begin{align}
+24 &= 2 \times 2 \times 2 \times 3\
+24 &= 2 \times 3 \times 4\
+24 &= 2 \times 2 \times 6\
+24 &= 4 \times 6\
+24 &= 3 \times 8\
+24 &= 2 \times 12\
 24 &= 24
-\end{align}
+\end{align}$$
 
 Recall that the digital root of a number, in base $10$, is found by adding together the digits of that number,
 and repeating that process until a number is arrived at that is less than $10$.
@@ -2899,46 +2772,46 @@ Thus the digital root of $467$ is $8$.
 We shall call a Digital Root Sum (DRS) the sum of the digital roots of the individual factors of our number.  
 The chart below demonstrates all of the DRS values for $24$.
 
-| Factorisation                     | Digital Root Sum |
-| --------------------------------- | ---------------- |
-| $2 \times 2 \times 2 \times 3$ | $9$              |
-| $2 \times 3 \times 4$           | $9$              |
-| $2 \times 2 \times 6$           | $10$             |
-| $4 \times 6$                     | $10$             |
-| $3 \times 8$                     | $11$             |
-| $2 \times 12$                    | $5$              |
-| $24$                              | $6$              |
+| Factorisation                    | Digital Root Sum |
+|----------------------------------|------------------|
+| $2 \times 2 \times 2 \times 3$ | $9$            |
+| $2 \times 3 \times 4$          | $9$            |
+| $2 \times 2 \times 6$          | $10$           |
+| $4 \times 6$                   | $10$           |
+| $3 \times 8$                   | $11$           |
+| $2 \times 12$                  | $5$            |
+| $24$                           | $6$            |
 
 The maximum Digital Root Sum of $24$ is $11$.  
 The function $\operatorname{mdrs}(n)$ gives the maximum Digital Root Sum of $n$. So $\operatorname{mdrs}(24)=11$.  
-Find $\sum \operatorname{mdrs}(n)$ for $1 \lt n \lt 1\,000\,000$.
+Find $\sum \operatorname{mdrs}(n)$ for $1 \lt n \lt 1\000\000$.
 
 # Problem 160
 
 For any $N$, let $f(N)$ be the last five digits before the trailing zeroes in $N!$.  
 For example,
 
-  - $9! = 362880$ so $f(9)=36288$
-  - $10! = 3628800$ so $f(10)=36288$
-  - $20! = 2432902008176640000$ so $f(20)=17664$
+- $9! = 362880$ so $f(9)=36288$
+- $10! = 3628800$ so $f(10)=36288$
+- $20! = 2432902008176640000$ so $f(20)=17664$
 
-Find $f(1\,000\,000\,000\,000)$.
+Find $f(1\000\000\000\000)$.
 
 # Problem 161
 
 A triomino is a shape consisting of three squares joined via the edges.
 There are two basic forms:
 
-![](resources/images/0161_trio1.gif?1678992055)
+<img src="resources/images/0161_trio1.gif?1678992055" class="dark_img" />
 
 If all possible orientations are taken into account there are six:
 
-![](resources/images/0161_trio3.gif?1678992055)
+<img src="resources/images/0161_trio3.gif?1678992055" class="dark_img" />
 
 Any $n$ by $m$ grid for which $n \times m$ is divisible by $3$ can be tiled with triominoes.  
 If we consider tilings that can be obtained by reflection or rotation from another tiling as different there are $41$ ways a $2$ by $9$ grid can be tiled with triominoes:
 
-![](resources/images/0161_k9.gif?1678992055)
+<img src="resources/images/0161_k9.gif?1678992055" class="dark_img" />
 
 In how many ways can a $9$ by $12$ grid be tiled in this way by triominoes?
 
@@ -2963,7 +2836,7 @@ Consider an equilateral triangle in which straight lines are drawn from each ver
 
 <div class="center">
 
-![](resources/images/0163.gif?1678992055)
+<img src="resources/images/0163.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -2973,10 +2846,10 @@ It can be observed that the *size $2$* triangle contains $4$ *size $1$* triangle
 
 If we denote $T(n)$ as the number of triangles present in a triangle of *size $n$*, then
 
-\begin{align}
-T(1) &= 16\\
+$$\begin{align}
+T(1) &= 16\
 T(2) &= 104
-\end{align}
+\end{align}$$
 
 Find $T(36)$.
 
@@ -2991,27 +2864,27 @@ By considering two line segments in plane geometry there are three possibilities
 the segments have zero points, one point, or infinitely many points in common.
 
 Moreover when two segments have exactly one point in common it might be the case that that common point is an endpoint of either one of the segments or of both. If a common point of two segments is not an endpoint of either of the segments it is an interior point of both segments.  
-We will call a common point $T$ of two segments $L\_1$ and $L\_2$ a true intersection point of $L\_1$ and $L\_2$ if $T$ is the only common point of $L\_1$ and $L\_2$ and $T$ is an interior point of both segments.
+We will call a common point $T$ of two segments $L_1$ and $L_2$ a true intersection point of $L_1$ and $L_2$ if $T$ is the only common point of $L_1$ and $L_2$ and $T$ is an interior point of both segments.
 
-Consider the three segments $L\_1$, $L\_2$, and $L\_3$:
+Consider the three segments $L_1$, $L_2$, and $L_3$:
 
-  - $L\_1$: $(27, 44)$ to $(12, 32)$
-  - $L\_2$: $(46, 53)$ to $(17, 62)$
-  - $L\_3$: $(46, 70)$ to $(22, 40)$
+- $L_1$: $(27, 44)$ to $(12, 32)$
+- $L_2$: $(46, 53)$ to $(17, 62)$
+- $L_3$: $(46, 70)$ to $(22, 40)$
 
-It can be verified that line segments $L\_2$ and $L\_3$ have a true intersection point. We note that as the one of the end points of $L\_3$: $(22,40)$ lies on $L\_1$ this is not considered to be a true point of intersection. $L\_1$ and $L\_2$ have no common point. So among the three line segments, we find one true intersection point.
+It can be verified that line segments $L_2$ and $L_3$ have a true intersection point. We note that as the one of the end points of $L_3$: $(22,40)$ lies on $L_1$ this is not considered to be a true point of intersection. $L_1$ and $L_2$ have no common point. So among the three line segments, we find one true intersection point.
 
 Now let us do the same for $5000$ line segments. To this end, we generate $20000$ numbers using the so-called "Blum Blum Shub" pseudo-random number generator.
 
-\begin{align}
-s\_0 &= 290797\\
-s\_{n + 1} &= s\_n \times s\_n \pmod{50515093}\\
-t\_n &= s\_n \pmod{500}
-\end{align}
+$$\begin{align}
+s_0 &= 290797\
+s\_{n + 1} &= s_n \times s_n \pmod{50515093}\
+t_n &= s_n \pmod{500}
+\end{align}$$
 
-To create each line segment, we use four consecutive numbers $t\_n$. That is, the first line segment is given by:
+To create each line segment, we use four consecutive numbers $t_n$. That is, the first line segment is given by:
 
-$(t\_1, t\_2)$ to $(t\_3, t\_4)$.
+$(t_1, t_2)$ to $(t_3, t_4)$.
 
 The first four numbers computed according to the above generator should be: $27$, $144$, $12$ and $232$. The first segment would thus be $(27,144)$ to $(12,232)$.
 
@@ -3022,12 +2895,12 @@ How many distinct true intersection points are found among the $5000$ line segme
 A $4 \times 4$ grid is filled with digits $d$, $0 \le d \le 9$.
 
 It can be seen that in the grid
-\begin{matrix}
-6 & 3 & 3 & 0\\
-5 & 0 & 4 & 3\\
-0 & 7 & 1 & 4\\
+$$\begin{matrix}
+6 & 3 & 3 & 0\
+5 & 0 & 4 & 3\
+0 & 7 & 1 & 4\
 1 & 2 & 4 & 5
-\end{matrix}
+\end{matrix}$$
 the sum of each row and each column has the value $12$. Moreover the sum of each diagonal is also $12$.
 
 In how many ways can you fill a $4 \times 4$ grid with the digits $d$, $0 \le d \le 9$ so that each row, each column, and both diagonals have the same sum?
@@ -3057,13 +2930,13 @@ Define $f(0)=1$ and $f(n)$ to be the number of different ways $n$ can be express
 
 For example, $f(10)=5$ since there are five different ways to express $10$:
 
-\begin{align}
-& 1 + 1 + 8\\
-& 1 + 1 + 4 + 4\\
-& 1 + 1 + 2 + 2 + 4\\
-& 2 + 4 + 4\\
+$$\begin{align}
+& 1 + 1 + 8\
+& 1 + 1 + 4 + 4\
+& 1 + 1 + 2 + 2 + 4\
+& 2 + 4 + 4\
 & 2 + 8
-\end{align}
+\end{align}$$
 
 What is $f(10^{25})$?
 
@@ -3071,10 +2944,10 @@ What is $f(10^{25})$?
 
 Take the number $6$ and multiply it by each of $1273$ and $9854$:
 
-\begin{align}
-6 \times 1273 &= 7638\\
+$$\begin{align}
+6 \times 1273 &= 7638\
 6 \times 9854 &= 59124
-\end{align}
+\end{align}$$
 
 By concatenating these products we get the $1$ to $9$ pandigital $763859124$. We will call $763859124$ the "concatenated product of $6$ and $(1273,9854)$". Notice too, that the concatenation of the input numbers, $612739854$, is also $1$ to $9$ pandigital.
 
@@ -3086,11 +2959,11 @@ What is the largest $0$ to $9$ pandigital $10$-digit concatenated product of an 
 
 For a positive integer $n$, let $f(n)$ be the sum of the squares of the digits (in base $10$) of $n$, e.g.
 
-\begin{align}
-f(3) &= 3^2 = 9,\\
-f(25) &= 2^2 + 5^2 = 4 + 25 = 29,\\
-f(442) &= 4^2 + 4^2 + 2^2 = 16 + 16 + 4 = 36\\
-\end{align}
+$$\begin{align}
+f(3) &= 3^2 = 9,\
+f(25) &= 2^2 + 5^2 = 4 + 25 = 29,\
+f(442) &= 4^2 + 4^2 + 2^2 = 16 + 16 + 4 = 36\
+\end{align}$$
 
 Find the last nine digits of the sum of all $n$, $0 \lt n \lt 10^{20}$, such that $f(n)$ is a perfect square.
 
@@ -3157,7 +3030,7 @@ Find the smallest integer that can be the length of a cathetus of exactly $47547
 
 Let $ABCD$ be a convex quadrilateral, with diagonals $AC$ and $BD$. At each vertex the diagonal makes an angle with each of the two sides, creating eight corner angles.
 
-![](resources/images/0177_quad.gif?1678992055)
+<img src="resources/images/0177_quad.gif?1678992055" class="dark_img" />
 
 For example, at vertex $A$, the two angles are $CAD$, $CAB$.
 
@@ -3183,16 +3056,16 @@ Find the number of integers $1 \lt n \lt 10^7$, for which $n$ and $n + 1$ have t
 
 For any integer $n$, consider the three functions
 
-\begin{align}
-f\_{1, n}(x, y, z) &= x^{n + 1} + y^{n + 1} - z^{n + 1}\\
-f\_{2, n}(x, y, z) &= (xy + yz + zx) \cdot (x^{n - 1} + y^{n - 1} - z^{n - 1})\\
+$$\begin{align}
+f\_{1, n}(x, y, z) &= x^{n + 1} + y^{n + 1} - z^{n + 1}\
+f\_{2, n}(x, y, z) &= (xy + yz + zx) \cdot (x^{n - 1} + y^{n - 1} - z^{n - 1})\
 f\_{3, n}(x, y, z) &= xyz \cdot (x^{n - 2} + y^{n - 2} - z^{n - 2})
-\end{align}
+\end{align}$$
 
 and their combination
-$$f\_n(x, y, z) = f\_{1, n}(x, y, z) + f\_{2, n}(x, y, z) - f\_{3, n}(x, y, z).$$
+$$f_n(x, y, z) = f\_{1, n}(x, y, z) + f\_{2, n}(x, y, z) - f\_{3, n}(x, y, z).$$
 
-We call $(x, y, z)$ a golden triple of order $k$ if $x$, $y$, and $z$ are all rational numbers of the form $a / b$ with $0 \lt a \lt b \le k$ and there is (at least) one integer $n$, so that $f\_n(x, y, z) = 0$.
+We call $(x, y, z)$ a golden triple of order $k$ if $x$, $y$, and $z$ are all rational numbers of the form $a / b$ with $0 \lt a \lt b \le k$ and there is (at least) one integer $n$, so that $f_n(x, y, z) = 0$.
 
 Let $s(x, y, z) = x + y + z$.  
 Let $t = u / v$ be the sum of all distinct $s(x, y, z)$ for all golden triples $(x, y, z)$ of order $35$.  
@@ -3205,7 +3078,7 @@ Find $u + v$.
 Having three black objects B and one white object W they can be grouped in 7 ways like this:
 
 |        |         |          |           |          |         |         |
-| ------ | ------- | -------- | --------- | -------- | ------- | ------- |
+|--------|---------|----------|-----------|----------|---------|---------|
 | (BBBW) | (B,BBW) | (B,B,BW) | (B,B,B,W) | (B,BB,W) | (BBB,W) | (BB,BW) |
 
 In how many ways can sixty black objects B and forty white objects W be thus grouped?
@@ -3258,13 +3131,13 @@ Find $\sum\limits\_{N = 5}^{10000} D(N)$.
 
 # Problem 184
 
-Consider the set $I\_r$ of points $(x,y)$ with integer co-ordinates in the interior of the circle with radius $r$, centered at the origin, i.e. $x^2 + y^2 \lt r^2$.
+Consider the set $I_r$ of points $(x,y)$ with integer co-ordinates in the interior of the circle with radius $r$, centered at the origin, i.e. $x^2 + y^2 \lt r^2$.
 
-For a radius of $2$, $I\_2$ contains the nine points $(0,0)$, $(1,0)$, $(1,1)$, $(0,1)$, $(-1,1)$, $(-1,0)$, $(-1,-1)$, $(0,-1)$ and $(1,-1)$. There are eight triangles having all three vertices in $I\_2$ which contain the origin in the interior. Two of them are shown below, the others are obtained from these by rotation.
+For a radius of $2$, $I_2$ contains the nine points $(0,0)$, $(1,0)$, $(1,1)$, $(0,1)$, $(-1,1)$, $(-1,0)$, $(-1,-1)$, $(0,-1)$ and $(1,-1)$. There are eight triangles having all three vertices in $I_2$ which contain the origin in the interior. Two of them are shown below, the others are obtained from these by rotation.
 
-![](resources/images/0184.gif?1678992055)
+<img src="resources/images/0184.gif?1678992055" class="dark_img" />
 
-For a radius of $3$, there are $360$ triangles containing the origin in the interior and having all vertices in $I\_3$ and for $I\_5$ the number is $10600$.
+For a radius of $3$, there are $360$ triangles containing the origin in the interior and having all vertices in $I_3$ and for $I_5$ the number is $10600$.
 
 How many triangles are there containing the origin in the interior and having all three vertices in $I\_{105}$?
 
@@ -3318,25 +3191,25 @@ Here are the records from a busy telephone system with one million users:
 
 <div class="center">
 
-|   RecNr   |  Caller   |  Called   |
-| :-------: | :-------: | :-------: |
-|    $1$    | $200007$  | $100053$  |
-|    $2$    | $600183$  | $500439$  |
-|    $3$    | $600863$  | $701497$  |
+|   RecNr    |   Caller   |   Called   |
+|:----------:|:----------:|:----------:|
+|   $1$    | $200007$ | $100053$ |
+|   $2$    | $600183$ | $500439$ |
+|   $3$    | $600863$ | $701497$ |
 | $\cdots$ | $\cdots$ | $\cdots$ |
 
 </div>
 
 The telephone number of the caller and the called number in record $n$ are $\operatorname{Caller}(n) = S\_{2n-1}$ and $\operatorname{Called}(n) = S\_{2n}$ where $S\_{1,2,3,\dots}$ come from the "Lagged Fibonacci Generator":
 
-For $1 \le k \le 55$, $S\_k = \[100003 - 200003k + 300007k^3\] \pmod{1000000}$.  
-For $56 \le k$, $S\_k = \[S\_{k-24} + S\_{k-55}\] \pmod{1000000}$.
+For $1 \le k \le 55$, $S_k = \[100003 - 200003k + 300007k^3\] \pmod{1000000}$.  
+For $56 \le k$, $S_k = \[S\_{k-24} + S\_{k-55}\] \pmod{1000000}$.
 
 If $\operatorname{Caller}(n) = \operatorname{Called}(n)$ then the user is assumed to have misdialled and the call fails; otherwise the call is successful.
 
 From the start of the records, we say that any pair of users $X$ and $Y$ are friends if $X$ calls $Y$ or vice-versa. Similarly, $X$ is a friend of a friend of $Z$ if $X$ is a friend of $Y$ and $Y$ is a friend of $Z$; and so on for longer chains.
 
-The Prime Minister's phone number is $524287$. After how many successful calls, not counting misdials, will $99\%$ of the users (including the PM) be a friend, or a friend of a friend etc., of the Prime Minister?
+The Prime Minister's phone number is $524287$. After how many successful calls, not counting misdials, will $99\$ of the users (including the PM) be a friend, or a friend of a friend etc., of the Prime Minister?
 
 # Problem 187
 
@@ -3364,7 +3237,7 @@ Consider the following configuration of $64$ triangles:
 
 <div class="center">
 
-![](resources/images/0189_grid.gif?1678992055)
+<img src="resources/images/0189_grid.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3375,7 +3248,7 @@ For example, here is a valid colouring of the above grid:
 
 <div class="center">
 
-![](resources/images/0189_colours.gif?1678992055)
+<img src="resources/images/0189_colours.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3385,11 +3258,11 @@ How many distinct valid colourings are there for the above configuration?
 
 # Problem 190
 
-Let $S\_m = (x\_1, x\_2, \dots , x\_m)$ be the $m$-tuple of positive real numbers with $x\_1 + x\_2 + \cdots + x\_m = m$ for which $P\_m = x\_1 \cdot x\_2^2 \cdot \cdots \cdot x\_m^m$ is maximised.
+Let $S_m = (x_1, x_2, \dots , x_m)$ be the $m$-tuple of positive real numbers with $x_1 + x_2 + \cdots + x_m = m$ for which $P_m = x_1 \cdot x_2^2 \cdot \cdots \cdot x_m^m$ is maximised.
 
-For example, it can be verified that $\lfloor P\_{10}\rfloor = 4112$ ($\lfloor \, \rfloor$ is the integer part function).
+For example, it can be verified that $\lfloor P\_{10}\rfloor = 4112$ ($\lfloor \ \rfloor$ is the integer part function).
 
-Find $\sum\limits\_{m = 2}^{15} \lfloor P\_m \rfloor$.
+Find $\sum\limits\_{m = 2}^{15} \lfloor P_m \rfloor$.
 
 # Problem 191
 
@@ -3414,7 +3287,7 @@ A **best approximation** to $x$ for the **denominator bound** $d$ is a rational 
 
 <div class="center">
 
-$|\frac p q -x | \< |\frac r s -x| \Rightarrow q \> d$
+$\|\frac p q -x \| \< \|\frac r s -x\| \Rightarrow q \> d$
 
 </div>
 
@@ -3430,9 +3303,9 @@ How many squarefree numbers are there below $2^{50}$?
 
 # Problem 194
 
-Consider graphs built with the units $A$: ![](resources/images/0194_GraphA.png?1678992052)
-and $B$: ![](resources/images/0194_GraphB.png?1678992052), where the units are glued along
-the vertical edges as in the graph ![](resources/images/0194_Fig.png?1678992052).
+Consider graphs built with the units $A$: <img src="resources/images/0194_GraphA.png?1678992052" class="dark_img" style="vertical-align:middle;" />
+and $B$: <img src="resources/images/0194_GraphB.png?1678992052" class="dark_img" style="vertical-align:middle;" />, where the units are glued along
+the vertical edges as in the graph <img src="resources/images/0194_Fig.png?1678992052" class="dark_img" style="vertical-align:middle;" />.
 
 A configuration of type $(a, b, c)$ is a graph thus built of $a$ units $A$ and $b$ units $B$, where the graph's vertices are coloured using up to $c$ colours, so that no two adjacent vertices have the same colour.  
 The compound graph above is an example of a configuration of type $(2,2,6)$, in fact of type $(2,2,c)$ for all $c \ge 4$.
@@ -3488,10 +3361,10 @@ Find $S(5678027) + S(7208785)$.
 
 # Problem 197
 
-Given is the function $f(x) = \lfloor 2^{30.403243784 - x^2}\rfloor \times 10^{-9}$ ($\lfloor \, \rfloor$ is the floor-function),  
-the sequence $u\_n$ is defined by $u\_0 = -1$ and $u\_{n + 1} = f(u\_n)$.
+Given is the function $f(x) = \lfloor 2^{30.403243784 - x^2}\rfloor \times 10^{-9}$ ($\lfloor \ \rfloor$ is the floor-function),  
+the sequence $u_n$ is defined by $u_0 = -1$ and $u\_{n + 1} = f(u_n)$.
 
-Find $u\_n + u\_{n + 1}$ for $n = 10^{12}$.  
+Find $u_n + u\_{n + 1}$ for $n = 10^{12}$.  
 Give your answer with $9$ digits after the decimal point.
 
 # Problem 198
@@ -3509,7 +3382,7 @@ Three circles of equal radius are placed inside a larger circle such that each p
 
 <div class="center">
 
-![](resources/images/0199_circles_in_circles.gif?1678992055)
+<img src="resources/images/0199_circles_in_circles.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3532,36 +3405,36 @@ Find the $200$th prime-proof sqube containing the contiguous sub-string "$200$".
 # Problem 201
 
 For any set $A$ of numbers, let $\operatorname{sum}(A)$ be the sum of the elements of $A$.  
-Consider the set $B = \{1,3,6,8,10,11\}$.  
+Consider the set $B = \1,3,6,8,10,11\$.  
 There are $20$ subsets of $B$ containing three elements, and their sums are:
 
-\begin{align}
-\operatorname{sum}(\{1,3,6\}) &= 10,\\
-\operatorname{sum}(\{1,3,8\}) &= 12,\\
-\operatorname{sum}(\{1,3,10\}) &= 14,\\
-\operatorname{sum}(\{1,3,11\}) &= 15,\\
-\operatorname{sum}(\{1,6,8\}) &= 15,\\
-\operatorname{sum}(\{1,6,10\}) &= 17,\\
-\operatorname{sum}(\{1,6,11\}) &= 18,\\
-\operatorname{sum}(\{1,8,10\}) &= 19,\\
-\operatorname{sum}(\{1,8,11\}) &= 20,\\
-\operatorname{sum}(\{1,10,11\}) &= 22,\\
-\operatorname{sum}(\{3,6,8\}) &= 17,\\
-\operatorname{sum}(\{3,6,10\}) &= 19,\\
-\operatorname{sum}(\{3,6,11\}) &= 20,\\
-\operatorname{sum}(\{3,8,10\}) &= 21,\\
-\operatorname{sum}(\{3,8,11\}) &= 22,\\
-\operatorname{sum}(\{3,10,11\}) &= 24,\\
-\operatorname{sum}(\{6,8,10\}) &= 24,\\
-\operatorname{sum}(\{6,8,11\}) &= 25,\\
-\operatorname{sum}(\{6,10,11\}) &= 27,\\
-\operatorname{sum}(\{8,10,11\}) &= 29.
-\end{align}
+$$\begin{align}
+\operatorname{sum}(\1,3,6\) &= 10,\
+\operatorname{sum}(\1,3,8\) &= 12,\
+\operatorname{sum}(\1,3,10\) &= 14,\
+\operatorname{sum}(\1,3,11\) &= 15,\
+\operatorname{sum}(\1,6,8\) &= 15,\
+\operatorname{sum}(\1,6,10\) &= 17,\
+\operatorname{sum}(\1,6,11\) &= 18,\
+\operatorname{sum}(\1,8,10\) &= 19,\
+\operatorname{sum}(\1,8,11\) &= 20,\
+\operatorname{sum}(\1,10,11\) &= 22,\
+\operatorname{sum}(\3,6,8\) &= 17,\
+\operatorname{sum}(\3,6,10\) &= 19,\
+\operatorname{sum}(\3,6,11\) &= 20,\
+\operatorname{sum}(\3,8,10\) &= 21,\
+\operatorname{sum}(\3,8,11\) &= 22,\
+\operatorname{sum}(\3,10,11\) &= 24,\
+\operatorname{sum}(\6,8,10\) &= 24,\
+\operatorname{sum}(\6,8,11\) &= 25,\
+\operatorname{sum}(\6,10,11\) &= 27,\
+\operatorname{sum}(\8,10,11\) &= 29.
+\end{align}$$
 
 Some of these sums occur more than once, others are unique.  
-For a set $A$, let $U(A,k)$ be the set of unique sums of $k$-element subsets of $A$, in our example we find $U(B,3) = \{10,12,14,18,21,25,27,29\}$ and $\operatorname{sum}(U(B,3)) = 156$.
+For a set $A$, let $U(A,k)$ be the set of unique sums of $k$-element subsets of $A$, in our example we find $U(B,3) = \10,12,14,18,21,25,27,29\$ and $\operatorname{sum}(U(B,3)) = 156$.
 
-Now consider the $100$-element set $S = \{1^2, 2^2, \dots, 100^2\}$.  
+Now consider the $100$-element set $S = \1^2, 2^2, \dots, 100^2\$.  
 S has $100891344545564193334812497256$ $50$-element subsets.
 
 Determine the sum of all integers which are the sum of exactly one of the $50$-element subsets of $S$, i.e. find $\operatorname{sum}(U(S,50))$.
@@ -3574,7 +3447,7 @@ Label the vertices $A$, $B$ and $C$. There are $2$ ways in which a laser beam ma
 
 <div class="center">
 
-![](resources/images/0202_laserbeam.gif?1678992055)
+<img src="resources/images/0202_laserbeam.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3588,81 +3461,20 @@ The binomial coefficients $\displaystyle \binom n k$ can be arranged in triangul
 
 <div class="center">
 
-</div>
-
-1
-
-1
-
-1
-
-1
-
-2
-
-1
-
-1
-
-3
-
-3
-
-1
-
-1
-
-4
-
-6
-
-4
-
-1
-
-1
-
-5
-
-10
-
-10
-
-5
-
-1
-
-1
-
-6
-
-15
-
-20
-
-15
-
-6
-
-1
-
-1
-
-7
-
-21
-
-35
-
-35
-
-21
-
-7
-
-1
+|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|     |     |     |     |     |     |     | 1   |     |     |     |     |     |     |     |
+|     |     |     |     |     |     | 1   |     | 1   |     |     |     |     |     |     |
+|     |     |     |     |     | 1   |     | 2   |     | 1   |     |     |     |     |     |
+|     |     |     |     | 1   |     | 3   |     | 3   |     | 1   |     |     |     |     |
+|     |     |     | 1   |     | 4   |     | 6   |     | 4   |     | 1   |     |     |     |
+|     |     | 1   |     | 5   |     | 10  |     | 10  |     | 5   |     | 1   |     |     |
+|     | 1   |     | 6   |     | 15  |     | 20  |     | 15  |     | 6   |     | 1   |     |
+| 1   |     | 7   |     | 21  |     | 35  |     | 35  |     | 21  |     | 7   |     | 1   |
 
 .........
+
+</div>
 
 It can be seen that the first eight rows of Pascal's triangle contain twelve distinct numbers: 1, 2, 3, 4, 5, 6, 7, 10, 15, 20, 21 and 35.
 
@@ -3694,7 +3506,7 @@ What is the probability that Pyramidal Peter beats Cubic Colin? Give your answer
 
 # Problem 206
 
-Find the unique positive integer whose square has the form 1\_2\_3\_4\_5\_6\_7\_8\_9\_0,  
+Find the unique positive integer whose square has the form 1_2_3_4_5_6_7_8_9_0,  
 where each “\_” is a single digit.
 
 # Problem 207
@@ -3710,17 +3522,17 @@ Thus $P(6) = 1/2$.
 
 In the following table are listed some values of $P(m)$.
 
-\begin{align}
-P(5) &= 1/1\\
-P(10) &= 1/2\\
-P(15) &= 2/3\\
-P(20) &= 1/2\\
-P(25) &= 1/2\\
-P(30) &= 2/5\\
-\cdots &\\
-P(180) &= 1/4\\
+$$\begin{align}
+P(5) &= 1/1\
+P(10) &= 1/2\
+P(15) &= 2/3\
+P(20) &= 1/2\
+P(25) &= 1/2\
+P(30) &= 2/5\
+\cdots &\
+P(180) &= 1/4\
 P(185) &= 3/13
-\end{align}
+\end{align}$$
 
 Find the smallest $m$ for which $P(m) \lt 1/12345$.
 
@@ -3732,7 +3544,7 @@ One of $70932$ possible closed paths of $25$ arcs starting northward is
 
 <div class="center">
 
-![](resources/images/0208_robotwalk.gif?1678992055)
+<img src="resources/images/0208_robotwalk.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3746,22 +3558,22 @@ A $k$-input **binary truth table** is a map from $k$ input bits (binary digits, 
 <div style="float:left;margin:10px 50px;text-align:center;">
 
 | $x$ | $y$ | $x \mathbin{\text{AND}} y$ |
-| :-: | :-: | :--------------------------: |
-| $0$ | $0$ |             $0$              |
-| $0$ | $1$ |             $0$              |
-| $1$ | $0$ |             $0$              |
-| $1$ | $1$ |             $1$              |
+|:-----:|:-----:|:----------------------------:|
+| $0$ | $0$ |            $0$             |
+| $0$ | $1$ |            $0$             |
+| $1$ | $0$ |            $0$             |
+| $1$ | $1$ |            $1$             |
 
 </div>
 
 <div style="float:left;margin:10px 50px;text-align:center;">
 
 | $x$ | $y$ | $x\mathbin{\text{XOR}}y$ |
-| :-: | :-: | :------------------------: |
-| $0$ | $0$ |            $0$             |
-| $0$ | $1$ |            $1$             |
-| $1$ | $0$ |            $1$             |
-| $1$ | $1$ |            $0$             |
+|:-----:|:-----:|:--------------------------:|
+| $0$ | $0$ |           $0$            |
+| $0$ | $1$ |           $1$            |
+| $1$ | $0$ |           $1$            |
+| $1$ | $1$ |           $0$            |
 
 </div>
 
@@ -3773,45 +3585,45 @@ for all $6$-bit inputs $(a, b, c, d, e, f)$?
 
 # Problem 210
 
-Consider the set $S(r)$ of points $(x,y)$ with integer coordinates satisfying $|x| + |y| \le r$.  
+Consider the set $S(r)$ of points $(x,y)$ with integer coordinates satisfying $\|x\| + \|y\| \le r$.  
 Let $O$ be the point $(0,0)$ and $C$ the point $(r/4,r/4)$.  
 Let $N(r)$ be the number of points $B$ in $S(r)$, so that the triangle $OBC$ has an obtuse angle, i.e. the largest angle $\alpha$ satisfies $90^\circ \lt \alpha \lt 180^\circ$.  
 So, for example, $N(4)=24$ and $N(8)=100$.
 
-What is $N(1\,000\,000\,000)$?
+What is $N(1\000\000\000)$?
 
 # Problem 211
 
-For a positive integer $n$, let $\sigma\_2(n)$ be the sum of the squares of its divisors. For example,
-$$\sigma\_2(10) = 1 + 4 + 25 + 100 = 130.$$
+For a positive integer $n$, let $\sigma_2(n)$ be the sum of the squares of its divisors. For example,
+$$\sigma_2(10) = 1 + 4 + 25 + 100 = 130.$$
 
-Find the sum of all $n$, $0 \lt n \lt 64\,000\,000$ such that $\sigma\_2(n)$ is a perfect square.
+Find the sum of all $n$, $0 \lt n \lt 64\000\000$ such that $\sigma_2(n)$ is a perfect square.
 
 # Problem 212
 
-An <span class="dfn">axis-aligned cuboid</span>, specified by parameters $\{(x\_0, y\_0, z\_0), (dx, dy, dz)\}$, consists of all points $(X,Y,Z)$ such that $x\_0 \le X \le x\_0 + dx$, $y\_0 \le Y \le y\_0 + dy$ and $z\_0 \le Z \le z\_0 + dz$. The volume of the cuboid is the product, $dx \times dy \times dz$. The <span class="dfn">combined volume</span> of a collection of cuboids is the volume of their union and will be less than the sum of the individual volumes if any cuboids overlap.
+An <span class="dfn">axis-aligned cuboid</span>, specified by parameters $\(x_0, y_0, z_0), (dx, dy, dz)\$, consists of all points $(X,Y,Z)$ such that $x_0 \le X \le x_0 + dx$, $y_0 \le Y \le y_0 + dy$ and $z_0 \le Z \le z_0 + dz$. The volume of the cuboid is the product, $dx \times dy \times dz$. The <span class="dfn">combined volume</span> of a collection of cuboids is the volume of their union and will be less than the sum of the individual volumes if any cuboids overlap.
 
-Let $C\_1, \dots, C\_{50000}$ be a collection of $50000$ axis-aligned cuboids such that $C\_n$ has parameters
+Let $C_1, \dots, C\_{50000}$ be a collection of $50000$ axis-aligned cuboids such that $C_n$ has parameters
 
-\begin{align}
-x\_0 &= S\_{6n - 5} \bmod 10000\\
-y\_0 &= S\_{6n - 4} \bmod 10000\\
-z\_0 &= S\_{6n - 3} \bmod 10000\\
-dx &= 1 + (S\_{6n - 2} \bmod 399)\\
-dy &= 1 + (S\_{6n - 1} \bmod 399)\\
+$$\begin{align}
+x_0 &= S\_{6n - 5} \bmod 10000\
+y_0 &= S\_{6n - 4} \bmod 10000\
+z_0 &= S\_{6n - 3} \bmod 10000\
+dx &= 1 + (S\_{6n - 2} \bmod 399)\
+dy &= 1 + (S\_{6n - 1} \bmod 399)\
 dz &= 1 + (S\_{6n} \bmod 399)
-\end{align}
+\end{align}$$
 
-where $S\_1,\dots,S\_{300000}$ come from the "Lagged Fibonacci Generator":
+where $S_1,\dots,S\_{300000}$ come from the "Lagged Fibonacci Generator":
 
-  - For $1 \le k \le 55$, $S\_k = \[100003 - 200003k + 300007k^3\] \pmod{1000000}$.
-  - For $56 \le k$, $S\_k = \[S\_{k -24} + S\_{k - 55}\] \pmod{1000000}$.
+- For $1 \le k \le 55$, $S_k = \[100003 - 200003k + 300007k^3\] \pmod{1000000}$.
+- For $56 \le k$, $S_k = \[S\_{k -24} + S\_{k - 55}\] \pmod{1000000}$.
 
-Thus, $C\_1$ has parameters $\{(7,53,183),(94,369,56)\}$, $C\_2$ has parameters $\{(2383,3563,5079),(42,212,344)\}$, and so on.
+Thus, $C_1$ has parameters $\(7,53,183),(94,369,56)\$, $C_2$ has parameters $\(2383,3563,5079),(42,212,344)\$, and so on.
 
-The combined volume of the first $100$ cuboids, $C\_1, \dots, C\_{100}$, is $723581599$.
+The combined volume of the first $100$ cuboids, $C_1, \dots, C\_{100}$, is $723581599$.
 
-What is the combined volume of all $50000$ cuboids, $C\_1, \dots, C\_{50000}$?
+What is the combined volume of all $50000$ cuboids, $C_1, \dots, C\_{50000}$?
 
 # Problem 213
 
@@ -3829,16 +3641,16 @@ By iterating $\phi$, each positive integer generates a decreasing chain of numbe
 E.g. if we start with $5$ the sequence $5,4,2,1$ is generated.  
 Here is a listing of all chains with length $4$:
 
-\begin{align}
-5,4,2,1&\\
-7,6,2,1&\\
-8,4,2,1&\\
-9,6,2,1&\\
-10,4,2,1&\\
-12,4,2,1&\\
-14,6,2,1&\\
+$$\begin{align}
+5,4,2,1&\
+7,6,2,1&\
+8,4,2,1&\
+9,6,2,1&\
+10,4,2,1&\
+12,4,2,1&\
+14,6,2,1&\
 18,6,2,1
-\end{align}
+\end{align}$$
 
 Only two of these chains start with a prime, their sum is $12$.
 
@@ -3852,7 +3664,7 @@ For example, the following $9 \times 3$ wall is not acceptable due to the runnin
 
 <div class="center">
 
-![](resources/images/0215_crackfree.gif?1678992055)
+<img src="resources/images/0215_crackfree.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -3867,7 +3679,7 @@ The first such numbers are $7, 17, 31, 49, 71, 97, 127$ and $161$.
 It turns out that only $49 = 7 \cdot 7$ and $161 = 7 \cdot 23$ are not prime.  
 For $n \le 10000$ there are $2202$ numbers $t(n)$ that are prime.
 
-How many numbers $t(n)$ are prime for $n \le 50\,000\,000$?
+How many numbers $t(n)$ are prime for $n \le 50\000\000$?
 
 # Problem 217
 
@@ -3888,12 +3700,12 @@ Moreover it is a primitive right angled triangle as $\gcd(a,b)=1$ and $\gcd(b,c)
 Also $c$ is a perfect square.
 
 We will call a right angled triangle perfect if  
-\-it is a primitive right angled triangle  
-\-its hypotenuse is a perfect square.
+-it is a primitive right angled triangle  
+-its hypotenuse is a perfect square.
 
 We will call a right angled triangle super-perfect if  
-\-it is a perfect right angled triangle and  
-\-its area is a multiple of the perfect numbers $6$ and $28$.
+-it is a perfect right angled triangle and  
+-its area is a multiple of the perfect numbers $6$ and $28$.
 
 How many perfect right-angled triangles with $c \le 10^{16}$ exist that are not super-perfect?
 
@@ -3915,24 +3727,24 @@ What is Cost(10<sup>9</sup>) ?
 
 # Problem 220
 
-Let ***D***<sub>0</sub> be the two-letter string "Fa". For n≥1, derive ***D***<sub>n</sub> from ***D***<sub>n-1</sub> by the string-rewriting rules:
+Let $D_0$ be the two-letter string "Fa". For $n\ge 1$, derive $D_n$ from $D\_{n-1}$ by the string-rewriting rules:
 
 "a" → "aRbFR"  
 "b" → "LFaLb"
 
-Thus, ***D***<sub>0</sub> = "Fa", ***D***<sub>1</sub> = "FaRbFR", ***D***<sub>2</sub> = "FaRbFRRLFaLbFR", and so on.
+Thus, $D_0 = $ "Fa", $D_1 = $ "FaRbFR", $D_2 = $ "FaRbFRRLFaLbFR", and so on.
 
-These strings can be interpreted as instructions to a computer graphics program, with "F" meaning "draw forward one unit", "L" meaning "turn left 90 degrees", "R" meaning "turn right 90 degrees", and "a" and "b" being ignored. The initial position of the computer cursor is (0,0), pointing up towards (0,1).
+These strings can be interpreted as instructions to a computer graphics program, with "F" meaning "draw forward one unit", "L" meaning "turn left $90$ degrees", "R" meaning "turn right $90$ degrees", and "a" and "b" being ignored. The initial position of the computer cursor is $(0,0)$, pointing up towards $(0,1)$.
 
-Then ***D***<sub>n</sub> is an exotic drawing known as the *Heighway Dragon* of order *n*. For example, ***D***<sub>10</sub> is shown below; counting each "F" as one step, the highlighted spot at (18,16) is the position reached after 500 steps.
+Then $D_n$ is an exotic drawing known as the **Heighway Dragon** of order $n$. For example, $D\_{10}$ is shown below; counting each "F" as one step, the highlighted spot at $(18,16)$ is the position reached after $500$ steps.
 
 <div class="center">
 
-![](project/images/p220.gif)
+<img src="resources/images/0220.gif?1678992055" class="dark_img" />
 
 </div>
 
-What is the position of the cursor after 10<sup>12</sup> steps in ***D***<sub>50</sub> ?  
+What is the position of the cursor after $10^{12}$ steps in $D\_{50}$?  
 Give your answer in the form *x*,*y* with no spaces.
 
 # Problem 221
@@ -3958,19 +3770,19 @@ Give your answer in micrometres ($\pu{10^{-6} m}$) rounded to the nearest intege
 
 Let us call an integer sided triangle with sides $a \le b \le c$ <span class="dfn">barely acute</span> if the sides satisfy $a^2 + b^2 = c^2 + 1$.
 
-How many barely acute triangles are there with perimeter $\le 25\,000\,000$?
+How many barely acute triangles are there with perimeter $\le 25\000\000$?
 
 # Problem 224
 
 Let us call an integer sided triangle with sides $a \le b \le c$ <span class="dfn">barely obtuse</span> if the sides satisfy  
 $a^2 + b^2 = c^2 - 1$.
 
-How many barely obtuse triangles are there with perimeter $\le 75\,000\,000$?
+How many barely obtuse triangles are there with perimeter $\le 75\000\000$?
 
 # Problem 225
 
 The sequence $1, 1, 1, 3, 5, 9, 17, 31, 57, 105, 193, 355, 653, 1201, \dots$  
-is defined by $T\_1 = T\_2 = T\_3 = 1$ and $T\_n = T\_{n - 1} + T\_{n - 2} + T\_{n - 3}$.
+is defined by $T_1 = T_2 = T_3 = 1$ and $T_n = T\_{n - 1} + T\_{n - 2} + T\_{n - 3}$.
 
 It can be shown that $27$ does not divide any terms of this sequence.  
 In fact, $27$ is the first odd number with this property.
@@ -3985,7 +3797,7 @@ The area under the blancmange curve is equal to ½, shown in pink in the diagram
 
 <div class="center">
 
-![blancmange curve](resources/images/0226_scoop2.gif?1678992055)
+<img src="resources/images/0226_scoop2.gif?1678992055" class="dark_img" alt="blancmange curve" />
 
 </div>
 
@@ -4012,23 +3824,23 @@ Give your answer rounded to ten significant digits.
 
 # Problem 228
 
-Let $S\_n$ be the regular $n$-sided polygon – or <span class="dfn">shape</span> – whose vertices
-$v\_k$ ($k = 1, 2, \dots, n$) have coordinates:
+Let $S_n$ be the regular $n$-sided polygon – or <span class="dfn">shape</span> – whose vertices
+$v_k$ ($k = 1, 2, \dots, n$) have coordinates:
 
-\begin{align}
-x\_k &= \cos((2k - 1)/n \times 180^\circ)\\
-y\_k &= \sin((2k - 1)/n \times 180^\circ)
-\end{align}
+$$\begin{align}
+x_k &= \cos((2k - 1)/n \times 180^\circ)\
+y_k &= \sin((2k - 1)/n \times 180^\circ)
+\end{align}$$
 
-Each $S\_n$ is to be interpreted as a filled shape consisting of all points on the perimeter and in the interior.
+Each $S_n$ is to be interpreted as a filled shape consisting of all points on the perimeter and in the interior.
 
 The **Minkowski sum**, $S + T$, of two shapes $S$ and $T$ is the result of adding every point in $S$ to every point in $T$, where point addition is performed coordinate-wise: $(u, v) + (x, y) = (u + x, v + y)$.
 
-For example, the sum of $S\_3$ and $S\_4$ is the six-sided shape shown in pink below:
+For example, the sum of $S_3$ and $S_4$ is the six-sided shape shown in pink below:
 
 <div class="center">
 
-![picture showing S\_3 + S\_4](resources/images/0228.png?1678992052)
+<img src="resources/images/0228.png?1678992052" class="dark_img" alt="picture showing S_3 + S_4" />
 
 </div>
 
@@ -4038,26 +3850,26 @@ How many sides does $S\_{1864} + S\_{1865} + \cdots + S\_{1909}$ have?
 
 Consider the number $3600$. It is very special, because
 
-\begin{alignat}{2}
-3600 &= 48^2 + &&36^2\\
-3600 &= 20^2 + 2 \times &&40^2\\
-3600 &= 30^2 + 3 \times &&30^2\\
+$$\begin{alignat}{2}
+3600 &= 48^2 + &&36^2\
+3600 &= 20^2 + 2 \times &&40^2\
+3600 &= 30^2 + 3 \times &&30^2\
 3600 &= 45^2 + 7 \times &&15^2
-\end{alignat}
+\end{alignat}$$
 
 Similarly, we find that $88201 = 99^2 + 280^2 = 287^2 + 2 \times 54^2 = 283^2 + 3 \times 52^2 = 197^2 + 7 \times 84^2$.
 
 In 1747, Euler proved which numbers are representable as a sum of two squares.
 We are interested in the numbers $n$ which admit representations of all of the following four types:
 
-\begin{alignat}{2}
-n &= a\_1^2 + && b\_1^2\\
-n &= a\_2^2 + 2 && b\_2^2\\
-n &= a\_3^2 + 3 && b\_3^2\\
-n &= a\_7^2 + 7 && b\_7^2,
-\end{alignat}
+$$\begin{alignat}{2}
+n &= a_1^2 + && b_1^2\
+n &= a_2^2 + 2 && b_2^2\
+n &= a_3^2 + 3 && b_3^2\
+n &= a_7^2 + 7 && b_7^2,
+\end{alignat}$$
 
-where the $a\_k$ and $b\_k$ are positive integers.
+where the $a_k$ and $b_k$ are positive integers.
 
 There are $75373$ such numbers that do not exceed $10^7$.  
 How many such numbers are there that do not exceed $2 \times 10^9$?
@@ -4099,7 +3911,7 @@ The binomial coefficient $\displaystyle \binom {10} 3 = 120$.
 $120 = 2^3 \times 3 \times 5 = 2 \times 2 \times 2 \times 3 \times 5$, and $2 + 2 + 2 + 3 + 5 = 14$.  
 So the sum of the terms in the prime factorisation of $\displaystyle \binom {10} 3$ is $14$.  
   
-Find the sum of the terms in the prime factorisation of $\displaystyle \binom {20\,000\,000} {15\,000\,000}$.
+Find the sum of the terms in the prime factorisation of $\displaystyle \binom {20\000\000} {15\000\000}$.
 
 # Problem 232
 
@@ -4143,7 +3955,7 @@ What is the sum of all semidivisible numbers not exceeding $999966663333$?
 Given is the arithmetic-geometric sequence $u(k) = (900-3k)r^{k - 1}$.  
 Let $s(n) = \sum\_{k = 1}^n u(k)$.
 
-Find the value of $r$ for which $s(5000) = -600\,000\,000\,000$.
+Find the value of $r$ for which $s(5000) = -600\000\000\000$.
 
 Give your answer rounded to $12$ places behind the decimal point.
 
@@ -4152,7 +3964,7 @@ Give your answer rounded to $12$ places behind the decimal point.
 Suppliers 'A' and 'B' provided the following numbers of products for the luxury hamper market:
 
 | Product            | 'A'  | 'B'  |
-| ------------------ | ---- | ---- |
+|--------------------|------|------|
 | Beluga Caviar      | 5248 | 640  |
 | Christmas Cake     | 1312 | 1888 |
 | Gammon Joint       | 2624 | 3776 |
@@ -4163,8 +3975,8 @@ Although the suppliers try very hard to ship their goods in perfect condition, t
 
 The suppliers compare their performance using two types of statistic:
 
-  - The five *per-product spoilage rates* for each supplier are equal to the number of products gone bad divided by the number of products supplied, for each of the five products in turn.
-  - The *overall spoilage rate* for each supplier is equal to the total number of products gone bad divided by the total number of products provided by that supplier.
+- The five *per-product spoilage rates* for each supplier are equal to the number of products gone bad divided by the number of products supplied, for each of the five products in turn.
+- The *overall spoilage rate* for each supplier is equal to the total number of products gone bad divided by the total number of products provided by that supplier.
 
 To their surprise, the suppliers found that each of the five per-product spoilage rates was worse (higher) for 'B' than for 'A' by the same factor (ratio of spoilage rates), `m`\>1; and yet, paradoxically, the overall spoilage rate was worse for 'A' than for 'B', also by a factor of `m`.
 
@@ -4177,16 +3989,16 @@ Give your answer as a fraction reduced to its lowest terms, in the form `u`/`v`.
 
 Let $T(n)$ be the number of tours over a $4 \times n$ playing board such that:
 
-  - The tour starts in the top left corner.
-  - The tour consists of moves that are up, down, left, or right one square.
-  - The tour visits each square exactly once.
-  - The tour ends in the bottom left corner.
+- The tour starts in the top left corner.
+- The tour consists of moves that are up, down, left, or right one square.
+- The tour visits each square exactly once.
+- The tour ends in the bottom left corner.
 
 The diagram shows one tour over a $4 \times 10$ board:
 
 <div class="center">
 
-![](resources/images/0237.gif?1678992055)
+<img src="resources/images/0237.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -4196,12 +4008,12 @@ $T(10)$ is $2329$. What is $T(10^{12})$ modulo $10^8$?
 
 Create a sequence of numbers using the "Blum Blum Shub" pseudo-random number generator:
 
-\begin{align}
-s\_0 &= 14025256\\
-s\_{n + 1} &= s\_n^2 \bmod 20300713
-\end{align}
+$$\begin{align}
+s_0 &= 14025256\
+s\_{n + 1} &= s_n^2 \bmod 20300713
+\end{align}$$
 
-Concatenate these numbers $s\_0s\_1s\_2\cdots$ to create a string $w$ of infinite length.  
+Concatenate these numbers $s_0s_1s_2\cdots$ to create a string $w$ of infinite length.  
 Then, $w = {\color{blue}14025256741014958470038053646\cdots}$
 
 For a positive integer $k$, if no substring of $w$ exists with a sum of digits equal to $k$, $p(k)$ is defined to be zero. If at least one substring of $w$ exists with a sum of digits equal to $k$, we define $p(k) = z$, where $z$ is the starting position of the earliest such substring.
@@ -4239,10 +4051,10 @@ Give your answer rounded to $12$ places behind the decimal point in the form 0.a
 
 There are $1111$ ways in which five $6$-sided dice (sides numbered $1$ to $6$) can be rolled so that the top three sum to $15$. Some examples are:  
   
-$D\_1,D\_2,D\_3,D\_4,D\_5 = 4,3,6,3,5$  
-$D\_1,D\_2,D\_3,D\_4,D\_5 = 4,3,3,5,6$  
-$D\_1,D\_2,D\_3,D\_4,D\_5 = 3,3,3,6,6$  
-$D\_1,D\_2,D\_3,D\_4,D\_5 = 6,6,3,3,3$  
+$D_1,D_2,D_3,D_4,D_5 = 4,3,6,3,5$  
+$D_1,D_2,D_3,D_4,D_5 = 4,3,3,5,6$  
+$D_1,D_2,D_3,D_4,D_5 = 3,3,3,6,6$  
+$D_1,D_2,D_3,D_4,D_5 = 6,6,3,3,3$  
   
 In how many ways can twenty $12$-sided dice (sides numbered $1$ to $12$) be rolled so that the top ten sum to $70$?
 
@@ -4258,7 +4070,7 @@ Find the sum of all positive integers $n \le 10^{18}$ for which $p(n)$ has the f
 
 # Problem 242
 
-Given the set $\{1,2,\dots,n\}$, we define $f(n, k)$ as the number of its $k$-element subsets with an odd sum of elements. For example, $f(5,3) = 4$, since the set $\{1,2,3,4,5\}$ has four $3$-element subsets having an odd sum of elements, i.e.: $\{1,2,4\}$, $\{1,3,5\}$, $\{2,3,4\}$ and $\{2,4,5\}$.
+Given the set $\1,2,\dots,n\$, we define $f(n, k)$ as the number of its $k$-element subsets with an odd sum of elements. For example, $f(5,3) = 4$, since the set $\1,2,3,4,5\$ has four $3$-element subsets having an odd sum of elements, i.e.: $\1,2,4\$, $\1,3,5\$, $\2,3,4\$ and $\2,4,5\$.
 
 When all three values $n$, $k$ and $f(n, k)$ are odd, we say that they make
 an <span class="dfn">odd-triplet</span> $\[n,k,f(n, k)\]$.
@@ -4288,31 +4100,31 @@ A move is denoted by the uppercase initial of the direction (Left, Right, Up, Do
 
 <div class="center">
 
-|         |                                                                           |           |                                                                    |
-| ------- | ------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------ |
-| (**S**) | ![0244\_start.gif](resources/images/0244_start.gif?1678992055?1678992055) | , (**E**) | ![0244\_example.gif](resources/images/0244_example.gif?1678992055) |
+|         |                                                                                                           |           |                                                                                                    |
+|---------|-----------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------|
+| (**S**) | <img src="resources/images/0244_start.gif?1678992055?1678992055" class="dark_img" alt="0244_start.gif" /> | , (**E**) | <img src="resources/images/0244_example.gif?1678992055" class="dark_img" alt="0244_example.gif" /> |
 
 </div>
 
 For each path, its checksum is calculated by (pseudocode):
 
-\begin{align}
-\mathrm{checksum} &= 0\\
-\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m\_1) \bmod 100\,000\,007\\
-\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m\_2) \bmod 100\,000\,007\\
-\cdots &\\
-\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m\_n) \bmod 100\,000\,007
-\end{align}
-where $m\_k$ is the ASCII value of the $k$<sup>`th`</sup> letter in the move sequence and the ASCII values for the moves are:
+$$\begin{align}
+\mathrm{checksum} &= 0\
+\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m_1) \bmod 100\000\007\
+\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m_2) \bmod 100\000\007\
+\cdots &\
+\mathrm{checksum} &= (\mathrm{checksum} \times 243 + m_n) \bmod 100\000\007
+\end{align}$$
+where $m_k$ is the ASCII value of the $k$<sup>`th`</sup> letter in the move sequence and the ASCII values for the moves are:
 
 <div class="center">
 
-|       |    |
-| ----- | -- |
-| **L** | 76 |
-| **R** | 82 |
-| **U** | 85 |
-| **D** | 68 |
+|       |     |
+|-------|-----|
+| **L** | 76  |
+| **R** | 82  |
+| **U** | 85  |
+| **D** | 68  |
 
 </div>
 
@@ -4323,9 +4135,9 @@ find all shortest ways to reach configuration (**T**).
 
 <div class="center">
 
-|         |                                                                           |           |                                                                  |
-| ------- | ------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------- |
-| (**S**) | ![0244\_start.gif](resources/images/0244_start.gif?1678992055?1678992055) | , (**T**) | ![0244\_target.gif](resources/images/0244_target.gif?1678992055) |
+|         |                                                                                                           |           |                                                                                                  |
+|---------|-----------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------|
+| (**S**) | <img src="resources/images/0244_start.gif?1678992055?1678992055" class="dark_img" alt="0244_start.gif" /> | , (**T**) | <img src="resources/images/0244_target.gif?1678992055" class="dark_img" alt="0244_target.gif" /> |
 
 </div>
 
@@ -4353,19 +4165,19 @@ The construction of the points of the ellipse is shown below.
 
 <div class="center">
 
-![](resources/images/0246_anim.gif?1678992055)
+<img src="resources/images/0246_anim.gif?1678992055" class="dark_img" />
 
 </div>
 
 Given are the points $M(-2000,1500)$ and $G(8000,1500)$.  
 Given is also the circle $c$ with centre $M$ and radius $15000$.  
 The locus of the points that are equidistant from $G$ and $c$ form an ellipse $e$.  
-From a point $P$ outside $e$ the two tangents $t\_1$ and $t\_2$ to the ellipse are drawn.  
-Let the points where $t\_1$ and $t\_2$ touch the ellipse be $R$ and $S$.
+From a point $P$ outside $e$ the two tangents $t_1$ and $t_2$ to the ellipse are drawn.  
+Let the points where $t_1$ and $t_2$ touch the ellipse be $R$ and $S$.
 
 <div class="center">
 
-![](resources/images/0246_ellipse.gif?1678992055)
+<img src="resources/images/0246_ellipse.gif?1678992055" class="dark_img" />
 
 </div>
 
@@ -4375,39 +4187,39 @@ For how many lattice points $P$ is angle $RPS$ greater than $45$ degrees?
 
 Consider the region constrained by $1 \le x$ and $0 \le y \le 1/x$.
 
-Let $S\_1$ be the largest square that can fit under the curve.  
-Let $S\_2$ be the largest square that fits in the remaining area, and so on.  
-Let the <span class="dfn">index</span> of $S\_n$ be the pair $(\text{left}, \text{below})$ indicating the number of squares to the left of $S\_n$ and the number of squares below $S\_n$.
+Let $S_1$ be the largest square that can fit under the curve.  
+Let $S_2$ be the largest square that fits in the remaining area, and so on.  
+Let the <span class="dfn">index</span> of $S_n$ be the pair $(\text{left}, \text{below})$ indicating the number of squares to the left of $S_n$ and the number of squares below $S_n$.
 
 <div class="center">
 
-![](resources/images/0247_hypersquares.gif?1678992055)
+<img src="resources/images/0247_hypersquares.gif?1678992055" class="dark_img" />
 
 </div>
 
 The diagram shows some such squares labelled by number.  
-$S\_2$ has one square to its left and none below, so the index of $S\_2$ is $(1,0)$.  
+$S_2$ has one square to its left and none below, so the index of $S_2$ is $(1,0)$.  
 It can be seen that the index of $S\_{32}$ is $(1,1)$ as is the index of $S\_{50}$.  
-$50$ is the largest $n$ for which the index of $S\_n$ is $(1,1)$.
+$50$ is the largest $n$ for which the index of $S_n$ is $(1,1)$.
 
-What is the largest $n$ for which the index of $S\_n$ is $(3,3)$?
+What is the largest $n$ for which the index of $S_n$ is $(3,3)$?
 
 # Problem 248
 
 The first number $n$ for which $\phi(n)=13!$ is $6227180929$.
 
-Find the $150\,000$<sup>th</sup> such number.
+Find the $150\000$<sup>th</sup> such number.
 
 # Problem 249
 
-Let $S = \{2, 3, 5, \dots, 4999\}$ be the set of prime numbers less than $5000$.
+Let $S = \2, 3, 5, \dots, 4999\$ be the set of prime numbers less than $5000$.
 
 Find the number of subsets of $S$, the sum of whose elements is a prime number.  
 Enter the rightmost $16$ digits as your answer.
 
 # Problem 250
 
-Find the number of non-empty subsets of $\{1^1, 2^2, 3^3,\dots, 250250^{250250}\}$, the sum of whose elements is divisible by $250$. Enter the rightmost $16$ digits as your answer.
+Find the number of non-empty subsets of $\1^1, 2^2, 3^3,\dots, 250250^{250250}\$, the sum of whose elements is divisible by $250$. Enter the rightmost $16$ digits as your answer.
 
 # Problem 251
 
@@ -4419,7 +4231,7 @@ For example, $(2,1,5)$ is a Cardano Triplet.
 
 There exist $149$ Cardano Triplets for which $a + b + c \le 1000$.
 
-Find how many Cardano Triplets exist such that $a + b + c \le 110\,000\,000$.
+Find how many Cardano Triplets exist such that $a + b + c \le 110\000\000$.
 
 # Problem 252
 
@@ -4430,17 +4242,17 @@ The convex hole shown as a red heptagon has an area equal to $1049694.5$ square 
 
 <div class="center">
 
-![](resources/images/0252_convexhole.gif?1678992056)
+<img src="resources/images/0252_convexhole.gif?1678992056" class="dark_img" />
 
 </div>
 
 For our example, we used the first $20$ points $(T\_{2k - 1}, T\_{2k})$, for $k = 1,2,\dots,20$, produced with the pseudo-random number generator:
 
-\begin{align}
-S\_0 &= 290797\\
-S\_{n + 1} &= S\_n^2 \bmod 50515093\\
-T\_n &= (S\_n \bmod 2000) - 1000
-\end{align}
+$$\begin{align}
+S_0 &= 290797\
+S\_{n + 1} &= S_n^2 \bmod 50515093\
+T_n &= (S_n \bmod 2000) - 1000
+\end{align}$$
 
 *i.e.* $(527, 144), (-488, 732), (-454, -947), \dots$
 
@@ -4460,7 +4272,7 @@ For example:
 <div class="center">
 
 | **Piece Placed** | **Segments So Far** |
-| :--------------: | :-----------------: |
+|:----------------:|:-------------------:|
 |        12        |          1          |
 |        4         |          2          |
 |        29        |          3          |
@@ -4478,12 +4290,12 @@ For a caterpillar of ten pieces, the number of possibilities for each $M$ is
 <div class="center">
 
 | **`M`** | **Possibilities** |
-| :-----: | ----------------: |
-|    1    |               512 |
-|    2    |            250912 |
-|    3    |           1815264 |
-|    4    |           1418112 |
-|    5    |            144000 |
+|:-------:|------------------:|
+|    1    |         512       |
+|    2    |      250912       |
+|    3    |     1815264       |
+|    4    |     1418112       |
+|    5    |      144000       |
 
 </div>
 
@@ -4514,23 +4326,23 @@ We define the <span class="dfn">rounded-square-root</span> of a positive integer
 The following procedure (essentially Heron's method adapted to integer arithmetic) finds the rounded-square-root of $n$:
 
 Let $d$ be the number of digits of the number $n$.  
-If $d$ is odd, set $x\_0 = 2 \times 10^{(d-1)/2}$.  
-If $d$ is even, set $x\_0 = 7 \times 10^{(d-2)/2}$.  
+If $d$ is odd, set $x_0 = 2 \times 10^{(d-1)/2}$.  
+If $d$ is even, set $x_0 = 7 \times 10^{(d-2)/2}$.  
 Repeat:
 
-$$x\_{k+1} = \Biggl\lfloor{\dfrac{x\_k + \lceil{n / x\_k}\rceil}{2}}\Biggr\rfloor$$
+$$x\_{k+1} = \Biggl\lfloor{\dfrac{x_k + \lceil{n / x_k}\rceil}{2}}\Biggr\rfloor$$
 
-until $x\_{k+1} = x\_k$.
+until $x\_{k+1} = x_k$.
 
 As an example, let us find the rounded-square-root of $n = 4321$.  
-$n$ has $4$ digits, so $x\_0 = 7 \times 10^{(4-2)/2} = 70$.  
-$$x\_1 = \Biggl\lfloor{\dfrac{70 + \lceil{4321 / 70}\rceil}{2}}\Biggr\rfloor = 66$$
-$$x\_2 = \Biggl\lfloor{\dfrac{66 + \lceil{4321 / 66}\rceil}{2}}\Biggr\rfloor = 66$$
-Since $x\_2 = x\_1$, we stop here.  
+$n$ has $4$ digits, so $x_0 = 7 \times 10^{(4-2)/2} = 70$.  
+$$x_1 = \Biggl\lfloor{\dfrac{70 + \lceil{4321 / 70}\rceil}{2}}\Biggr\rfloor = 66$$
+$$x_2 = \Biggl\lfloor{\dfrac{66 + \lceil{4321 / 66}\rceil}{2}}\Biggr\rfloor = 66$$
+Since $x_2 = x_1$, we stop here.  
 So, after just two iterations, we have found that the rounded-square-root of $4321$ is $66$ (the actual square root is $65.7343137\cdots$).
 
 The number of iterations required when using this method is surprisingly low.  
-For example, we can find the rounded-square-root of a $5$-digit integer ($10\,000 \le n \le 99\,999$) with an average of $3.2102888889$ iterations (the average value was rounded to $10$ decimal places).
+For example, we can find the rounded-square-root of a $5$-digit integer ($10\000 \le n \le 99\999$) with an average of $3.2102888889$ iterations (the average value was rounded to $10$ decimal places).
 
 Using the procedure described above, what is the average number of iterations required to find the rounded-square-root of a $14$-digit number ($10^{13} \le n \lt 10^{14}$)?  
 Give your answer rounded to $10$ decimal places.
@@ -4549,9 +4361,9 @@ We use the term 'size' to denote the floor surface area of the room, and — wit
 There is one rule to follow when laying out tatami: there must be no points where corners of four different mats meet.  
 For example, consider the two arrangements below for a $4 \times 4$ room:
 
-<div data-align="center">
+<div align="center">
 
-![0256\_tatami3.gif](resources/images/0256_tatami3.gif?1678992056)  
+![0256_tatami3.gif](resources/images/0256_tatami3.gif?1678992056)  
 
 </div>
 
@@ -4576,9 +4388,9 @@ Given is an integer sided triangle $ABC$ with sides $a \le b \le c$.
 ($AB = c$, $BC = a$ and $AC = b$.)  
 The angular bisectors of the triangle intersect the sides at points $E$, $F$ and $G$ (see picture below).
 
-<div data-align="center">
+<div align="center">
 
-![0257\_bisector.gif](resources/images/0257_bisector.gif?1678992056)  
+<img src="resources/images/0257_bisector.gif?1678992056" class="dark_img" alt="0257_bisector.gif" />  
 
 </div>
 
@@ -4586,27 +4398,27 @@ The segments $EF$, $EG$ and $FG$ partition the triangle $ABC$ into four smaller 
 It can be proven that for each of these four triangles the ratio area($ABC$)/area(subtriangle) is rational.  
 However, there exist triangles for which some or all of these ratios are integral.
 
-How many triangles $ABC$ with perimeter $\le 100\,000\,000$ exist so that the ratio area($ABC$)/area($AEG$) is integral?
+How many triangles $ABC$ with perimeter $\le 100\000\000$ exist so that the ratio area($ABC$)/area($AEG$) is integral?
 
 # Problem 258
 
 A sequence is defined as:
 
-  - $g\_k = 1$, for $0 \le k \le 1999$
-  - $g\_k = g\_{k-2000} + g\_{k - 1999}$, for $k \ge 2000$.
+- $g_k = 1$, for $0 \le k \le 1999$
+- $g_k = g\_{k-2000} + g\_{k - 1999}$, for $k \ge 2000$.
 
-Find $g\_k \bmod 20092010$ for $k = 10^{18}$.
+Find $g_k \bmod 20092010$ for $k = 10^{18}$.
 
 # Problem 259
 
 A positive integer will be called <span class="dfn">reachable</span> if it can result from an arithmetic expression obeying the following rules:
 
-  - Uses the digits $1$ through $9$, in that order and exactly once each.
-  - Any successive digits can be concatenated (for example, using the digits $2$, $3$ and $4$ we obtain the number $234$).
-  - Only the four usual binary arithmetic operations (addition, subtraction, multiplication and division) are allowed.
-  - Each operation can be used any number of times, or not at all.
-  - **Unary minus<span class="tooltiptext">A minus sign applied to a single operand (as opposed to a subtraction operator between two operands)</span>** is not allowed.
-  - Any number of (possibly nested) parentheses may be used to define the order of operations.
+- Uses the digits $1$ through $9$, in that order and exactly once each.
+- Any successive digits can be concatenated (for example, using the digits $2$, $3$ and $4$ we obtain the number $234$).
+- Only the four usual binary arithmetic operations (addition, subtraction, multiplication and division) are allowed.
+- Each operation can be used any number of times, or not at all.
+- **Unary minus<span class="tooltiptext">A minus sign applied to a single operand (as opposed to a subtraction operator between two operands)</span>** is not allowed.
+- Any number of (possibly nested) parentheses may be used to define the order of operations.
 
 For example, $42$ is reachable, since $(1 / 23) \times ((4 \times 5) - 6) \times (78 - 9) = 42$.
 
@@ -4619,9 +4431,9 @@ On each player's turn, the player may remove one or more stones from the piles. 
 
 In other words, the player chooses some $N \gt 0$ and removes:
 
-  - $N$ stones from any single pile; or
-  - $N$ stones from each of any two piles ($2N$ total); or
-  - $N$ stones from each of the three piles ($3N$ total).
+- $N$ stones from any single pile; or
+- $N$ stones from each of any two piles ($2N$ total); or
+- $N$ stones from each of the three piles ($3N$ total).
 
 The player taking the last stone(s) wins the game.
 
@@ -4631,10 +4443,10 @@ For example, $(0,0,13)$, $(0,11,11)$, and $(5,5,5)$ are winning configurations b
 A <span class="dfn">losing configuration</span> is one where the second player can force a win, no matter what the first player does.  
 For example, $(0,1,2)$ and $(1,3,3)$ are losing configurations: any legal move leaves a winning configuration for the second player.
 
-Consider all losing configurations $(x\_i, y\_i, z\_i)$ where $x\_i \le y\_i \le z\_i \le 100$.  
-We can verify that $\sum (x\_i + y\_i + z\_i) = 173895$ for these.
+Consider all losing configurations $(x_i, y_i, z_i)$ where $x_i \le y_i \le z_i \le 100$.  
+We can verify that $\sum (x_i + y_i + z_i) = 173895$ for these.
 
-Find $\sum (x\_i + y\_i + z\_i)$ where $(x\_i, y\_i, z\_i)$ ranges over the losing configurations with $x\_i \le y\_i \le z\_i \le 1000$.
+Find $\sum (x_i + y_i + z_i)$ where $(x_i, y_i, z_i)$ ranges over the losing configurations with $x_i \le y_i \le z_i \le 1000$.
 
 # Problem 261
 
@@ -4644,17 +4456,17 @@ $$(k - m)^2 + \cdots + k^2 = (n + 1)^2 + \cdots + (n + m)^2.$$
 
 Some small square-pivots are
 
-  - $\mathbf 4$: $3^2 + \mathbf 4^2 = 5^2$
-  - $\mathbf{21}$: $20^2 + \mathbf{21}^2 = 29^2$
-  - $\mathbf{24}$: $21^2 + 22^2 + 23^2 + \mathbf{24}^2 = 25^2 + 26^2 + 27^2$
-  - $\mathbf{110}$: $108^2 + 109^2 + \mathbf{110}^2 = 133^2 + 134^2$
+- $\mathbf 4$: $3^2 + \mathbf 4^2 = 5^2$
+- $\mathbf{21}$: $20^2 + \mathbf{21}^2 = 29^2$
+- $\mathbf{24}$: $21^2 + 22^2 + 23^2 + \mathbf{24}^2 = 25^2 + 26^2 + 27^2$
+- $\mathbf{110}$: $108^2 + 109^2 + \mathbf{110}^2 = 133^2 + 134^2$
 
 Find the sum of all **distinct** square-pivots $\le 10^{10}$.
 
 # Problem 262
 
 The following equation represents the *continuous* topography of a mountainous region, giving the **elevation<span class="tooltiptext">height above sea level</span>** $h$ at any point $(x, y)$:
-$$h = \left(5000 - \frac{x^2 + y^2 + xy}{200} + \frac{25(x + y)}2\right) \cdot e^{-\left|\frac{x^2 + y^2}{1000000} - \frac{3(x + y)}{2000} + \frac 7 {10}\right|}.$$
+$$h = \left(5000 - \frac{x^2 + y^2 + xy}{200} + \frac{25(x + y)}2\right) \cdot e^{-\left\|\frac{x^2 + y^2}{1000000} - \frac{3(x + y)}{2000} + \frac 7 {10}\right\|}.$$
 
 A mosquito intends to fly from $A(200,200)$ to $B(1400,1400)$, without leaving the area given by $0 \le x, y \le 1600$.
 
@@ -4665,7 +4477,7 @@ Then, find the length of the shortest path between $A^\prime$ and $B^\prime$, wh
 
 Give that length as your answer, rounded to three decimal places.
 
-<span class="underline">Note</span>: For convenience, the elevation function shown above is repeated below, in a form suitable for most programming languages:  
+<u>Note</u>: For convenience, the elevation function shown above is repeated below, in a form suitable for most programming languages:  
 h=( 5000-0.005\*(x\*x+y\*y+x\*y)+12.5\*(x+y) ) \* exp( -abs(0.000001\*(x\*x+y\*y)-0.0015\*(x+y)+0.7) )
 
 # Problem 263
@@ -4681,8 +4493,8 @@ We may occasionally find a triple-pair, which means three consecutive sexy prime
 
 We shall call a number $n$ such that :
 
-  - $(n-9, n-3)$, $(n-3,n+3)$, $(n+3, n+9)$ form a triple-pair, and
-  - the numbers $n-8$, $n-4$, $n$, $n+4$ and $n+8$ are all practical,
+- $(n-9, n-3)$, $(n-3,n+3)$, $(n+3, n+9)$ form a triple-pair, and
+- the numbers $n-8$, $n-4$, $n$, $n+4$ and $n+8$ are all practical,
 
 an engineers’ paradise.
 
@@ -4692,9 +4504,9 @@ Find the sum of the first four engineers’ paradises.
 
 Consider all the triangles having:
 
-  - All their vertices on **lattice points<span class="tooltiptext">Integer coordinates</span>**.
-  - **Circumcentre<span class="tooltiptext">Centre of the circumscribed circle</span>** at the origin $O$.
-  - **Orthocentre<span class="tooltiptext">Point where the three altitudes meet</span>** at the point $H(5, 0)$.
+- All their vertices on **lattice points<span class="tooltiptext">Integer coordinates</span>**.
+- **Circumcentre<span class="tooltiptext">Centre of the circumscribed circle</span>** at the origin $O$.
+- **Orthocentre<span class="tooltiptext">Point where the three altitudes meet</span>** at the point $H(5, 0)$.
 
 There are nine such triangles having a perimeter $\le 50$.  
 Listed and shown in ascending order of their perimeter, they are:
@@ -4736,9 +4548,9 @@ $2^N$ binary digits can be placed in a circle so that all the $N$-digit clockwis
 
 For $N=3$, two such circular arrangements are possible, ignoring rotations:
 
-<div data-align="center">
+<div align="center">
 
-![0265\_BinaryCircles.gif](resources/images/0265_BinaryCircles.gif?1678992056)
+<img src="resources/images/0265_BinaryCircles.gif?1678992056" class="dark_img" alt="0265_BinaryCircles.gif" />
 
 </div>
 
@@ -4747,10 +4559,10 @@ $000$, $001$, $010$, $101$, $011$, $111$, $110$ and $100$.
 
 Each circular arrangement can be encoded as a number by concatenating the binary digits starting with the subsequence of all zeros as the most significant bits and proceeding clockwise. The two arrangements for $N=3$ are thus represented as $23$ and $29$:
 
-\begin{align}
-00010111\_2 &= 23\\
-00011101\_2 &= 29
-\end{align}
+$$\begin{align}
+00010111_2 &= 23\
+00011101_2 &= 29
+\end{align}$$
 
 Calling $S(N)$ the sum of the unique numeric representations, we can see that $S(3) = 23 + 29 = 52$.
 
@@ -4789,18 +4601,18 @@ Find how many positive integers less than $10^{16}$ are divisible by at least fo
 # Problem 269
 
 A root or zero of a polynomial $P(x)$ is a solution to the equation $P(x) = 0$.  
-Define $P\_n$ as the polynomial whose coefficients are the digits of $n$.  
+Define $P_n$ as the polynomial whose coefficients are the digits of $n$.  
 For example, $P\_{5703}(x) = 5x^3 + 7x^2 + 3$.
 
 We can see that:
 
-  - $P\_n(0)$ is the last digit of $n$,
-  - $P\_n(1)$ is the sum of the digits of $n$,
-  - $P\_n(10)$ is $n$ itself.
+- $P_n(0)$ is the last digit of $n$,
+- $P_n(1)$ is the sum of the digits of $n$,
+- $P_n(10)$ is $n$ itself.
 
-Define $Z(k)$ as the number of positive integers, $n$, not exceeding $k$ for which the polynomial $P\_n$ has at least one integer root.
+Define $Z(k)$ as the number of positive integers, $n$, not exceeding $k$ for which the polynomial $P_n$ has at least one integer root.
 
-It can be verified that $Z(100\,000)$ is $14696$.
+It can be verified that $Z(100\000)$ is $14696$.
 
 What is $Z(10^{16})$?
 
@@ -4808,15 +4620,15 @@ What is $Z(10^{16})$?
 
 A square piece of paper with integer dimensions $N \times N$ is placed with a corner at the origin and two of its sides along the $x$- and $y$-axes. Then, we cut it up respecting the following rules:
 
-  - We only make straight cuts between two points lying on different sides of the square, and having integer coordinates.
-  - Two cuts cannot cross, but several cuts can meet at the same border point.
-  - Proceed until no more legal cuts can be made.
+- We only make straight cuts between two points lying on different sides of the square, and having integer coordinates.
+- Two cuts cannot cross, but several cuts can meet at the same border point.
+- Proceed until no more legal cuts can be made.
 
 Counting any reflections or rotations as distinct, we call $C(N)$ the number of ways to cut an $N \times N$ square. For example, $C(1) = 2$ and $C(2) = 30$ (shown below).
 
-<div data-align="center">
+<div align="center">
 
-![0270\_CutSquare.gif](resources/images/0270_CutSquare.gif?1678992056)
+![0270_CutSquare.gif](resources/images/0270_CutSquare.gif?1678992056)
 
 </div>
 
@@ -4877,17 +4689,17 @@ The sum of the divisibility multipliers for the primes that are coprime to $10$ 
 
 Let us define a <span class="dfn">balanced sculpture</span> of order $n$ as follows:
 
-  - A **polyomino<span class="tooltiptext">An arrangement of identical squares connected through shared edges; holes are allowed.</span>** made up of $n + 1$ tiles known as the <span class="dfn">blocks</span> ($n$ tiles)  
-    and the <span class="dfn">plinth</span> (remaining tile);
-  - the plinth has its centre at position ($x = 0, y = 0$);
-  - the blocks have $y$-coordinates greater than zero (so the plinth is the unique lowest tile);
-  - the centre of mass of all the blocks, combined, has $x$-coordinate equal to zero.
+- A **polyomino<span class="tooltiptext">An arrangement of identical squares connected through shared edges; holes are allowed.</span>** made up of $n + 1$ tiles known as the <span class="dfn">blocks</span> ($n$ tiles)  
+  and the <span class="dfn">plinth</span> (remaining tile);
+- the plinth has its centre at position ($x = 0, y = 0$);
+- the blocks have $y$-coordinates greater than zero (so the plinth is the unique lowest tile);
+- the centre of mass of all the blocks, combined, has $x$-coordinate equal to zero.
 
-When counting the sculptures, any arrangements which are simply reflections about the $y$-axis, are <span class="underline">not</span> counted as distinct. For example, the $18$ balanced sculptures of order $6$ are shown below; note that each pair of mirror images (about the $y$-axis) is counted as one sculpture:
+When counting the sculptures, any arrangements which are simply reflections about the $y$-axis, are <u>not</u> counted as distinct. For example, the $18$ balanced sculptures of order $6$ are shown below; note that each pair of mirror images (about the $y$-axis) is counted as one sculpture:
 
-<div data-align="center">
+<div align="center">
 
-![0275\_sculptures2.gif](resources/images/0275_sculptures2.gif?1678992056)
+![0275_sculptures2.gif](resources/images/0275_sculptures2.gif?1678992056)
 
 </div>
 
@@ -4898,42 +4710,42 @@ How many balanced sculptures are there of order $18$?
 
 Consider the triangles with integer sides $a$, $b$ and $c$ with $a \le b \le c$.  
 An integer sided triangle $(a,b,c)$ is called primitive if **$\gcd(a, b, c)$<span class="tooltiptext">$\gcd(a,b,c)=\gcd(a,\gcd(b,c))$</span>**$=1$.  
-How many primitive integer sided triangles exist with a perimeter not exceeding $10\,000\,000$?
+How many primitive integer sided triangles exist with a perimeter not exceeding $10\000\000$?
 
 # Problem 277
 
-A modified Collatz sequence of integers is obtained from a starting value $a\_1$ in the following way:
+A modified Collatz sequence of integers is obtained from a starting value $a_1$ in the following way:
 
-$a\_{n+1} = \, \,\, \frac {a\_n} 3 \quad$ if $a\_n$ is divisible by $3$. We shall denote this as a large downward step, "D".
+$a\_{n+1} = \ \\ \frac {a_n} 3 \quad$ if $a_n$ is divisible by $3$. We shall denote this as a large downward step, "D".
 
-$a\_{n+1} = \frac {4 a\_n+2} 3 \, \,$ if $a\_n$ divided by $3$ gives a remainder of $1$. We shall denote this as an upward step, "U".
+$a\_{n+1} = \frac {4 a_n+2} 3 \ \$ if $a_n$ divided by $3$ gives a remainder of $1$. We shall denote this as an upward step, "U".
 
-$a\_{n+1} = \frac {2 a\_n -1} 3 \, \,$ if $a\_n$ divided by $3$ gives a remainder of $2$. We shall denote this as a small downward step, "d".
+$a\_{n+1} = \frac {2 a_n -1} 3 \ \$ if $a_n$ divided by $3$ gives a remainder of $2$. We shall denote this as a small downward step, "d".
 
-The sequence terminates when some $a\_n = 1$.
+The sequence terminates when some $a_n = 1$.
 
 Given any integer, we can list out the sequence of steps.  
-For instance if $a\_1=231$, then the sequence $\{a\_n\}=\{231,77,51,17,11,7,10,14,9,3,1\}$ corresponds to the steps "DdDddUUdDD".
+For instance if $a_1=231$, then the sequence $\a_n\=\231,77,51,17,11,7,10,14,9,3,1\$ corresponds to the steps "DdDddUUdDD".
 
 Of course, there are other sequences that begin with that same sequence "DdDddUUdDD....".  
-For instance, if $a\_1=1004064$, then the sequence is DdDddUUdDDDdUDUUUdDdUUDDDUdDD.  
-In fact, $1004064$ is the smallest possible $a\_1 \> 10^6$ that begins with the sequence DdDddUUdDD.
+For instance, if $a_1=1004064$, then the sequence is DdDddUUdDDDdUDUUUdDdUUDDDUdDD.  
+In fact, $1004064$ is the smallest possible $a_1 \> 10^6$ that begins with the sequence DdDddUUdDD.
 
-What is the smallest $a\_1 \> 10^{15}$ that begins with the sequence "UDDDUdddDDUDDddDdDddDDUDDdUUDd"?
+What is the smallest $a_1 \> 10^{15}$ that begins with the sequence "UDDDUdddDDUDDddDdDddDDUDDdUUDd"?
 
 # Problem 278
 
-Given the values of integers $1 \< a\_1 \< a\_2 \< \dots \< a\_n$, consider the linear combination  
-$q\_1 a\_1+q\_2 a\_2 + \dots + q\_n a\_n=b$, using only integer values $q\_k \ge 0$.
+Given the values of integers $1 \< a_1 \< a_2 \< \dots \< a_n$, consider the linear combination  
+$q_1 a_1+q_2 a_2 + \dots + q_n a_n=b$, using only integer values $q_k \ge 0$.
 
-Note that for a given set of $a\_k$, it may be that not all values of $b$ are possible.  
-For instance, if $a\_1=5$ and $a\_2=7$, there are no $q\_1 \ge 0$ and $q\_2 \ge 0$ such that $b$ could be  
+Note that for a given set of $a_k$, it may be that not all values of $b$ are possible.  
+For instance, if $a_1=5$ and $a_2=7$, there are no $q_1 \ge 0$ and $q_2 \ge 0$ such that $b$ could be  
 $1, 2, 3, 4, 6, 8, 9, 11, 13, 16, 18$ or $23$.  
-In fact, $23$ is the largest impossible value of $b$ for $a\_1=5$ and $a\_2=7$.  
+In fact, $23$ is the largest impossible value of $b$ for $a_1=5$ and $a_2=7$.  
 We therefore call $f(5, 7) = 23$.  
 Similarly, it can be shown that $f(6, 10, 15)=29$ and $f(14, 22, 77) = 195$.
 
-Find $\displaystyle \sum f( p\, q,p \, r, q \, r)$, where $p$, $q$ and $r$ are prime numbers and $p \< q \< r \< 5000$.
+Find $\displaystyle \sum f( p\ q,p \ r, q \ r)$, where $p$, $q$ and $r$ are prime numbers and $p \< q \< r \< 5000$.
 
 # Problem 279
 
@@ -4958,9 +4770,9 @@ Reflections are considered distinct, rotations are not.
 Thus, for instance, $f(2,1) = 1$, $f(2, 2) = f(3, 1) = 2$ and $f(3, 2) = 16$.  
 $f(3, 2)$ is shown below:
 
-<div data-align="center">
+<div align="center">
 
-![0281\_pizza.gif](resources/images/0281_pizza.gif?1678992056)
+<img src="resources/images/0281_pizza.gif?1678992056" class="dark_img" alt="0281_pizza.gif" />
 
 </div>
 
@@ -4968,7 +4780,7 @@ Find the sum of all $f(m, n)$ such that $f(m, n) \le 10^{15}$.
 
 # Problem 282
 
-$\def\htmltext\#1{\style{font-family:inherit;}{\text{\#1}}}$
+$\def\htmltext#1{\style{font-family:inherit;}{\text{#1}}}$
 
 For non-negative integers $m$, $n$, the Ackermann function $A(m,n)$ is defined as follows:
 $$
@@ -5019,7 +4831,7 @@ If he plays $10^5$ turns with $k = 1, k = 2, k = 3, \dots, k = 10^5$, what is th
 
 Barbara is a mathematician and a basketball player. She has found that the probability of scoring a point when shooting from a distance $x$ is exactly $(1 - x / q)$, where $q$ is a real constant greater than $50$.
 
-During each practice run, she takes shots from distances $x = 1, x = 2, \dots, x = 50$ and, according to her records, she has precisely a $2\%$ chance to score a total of exactly $20$ points.
+During each practice run, she takes shots from distances $x = 1, x = 2, \dots, x = 50$ and, according to her records, she has precisely a $2\$ chance to score a total of exactly $20$ points.
 
 Find $q$ and give your answer rounded to $10$ decimal places.
 
@@ -5027,18 +4839,18 @@ Find $q$ and give your answer rounded to $10$ decimal places.
 
 The quadtree encoding allows us to describe a $2^N \times 2^N$ black and white image as a sequence of bits (0 and 1). Those sequences are to be read from left to right like this:
 
-  - the first bit deals with the complete $2^N \times 2^N$ region;
-  - "0" denotes a split:  
-    the current $2^n \times 2^n$ region is divided into $4$ sub-regions of dimension $2^{n - 1} \times 2^{n - 1}$,  
-    the next bits contains the description of the top left, top right, bottom left and bottom right sub-regions - in that order;
-  - "10" indicates that the current region contains only black pixels;
-  - "11" indicates that the current region contains only white pixels.
+- the first bit deals with the complete $2^N \times 2^N$ region;
+- "0" denotes a split:  
+  the current $2^n \times 2^n$ region is divided into $4$ sub-regions of dimension $2^{n - 1} \times 2^{n - 1}$,  
+  the next bits contains the description of the top left, top right, bottom left and bottom right sub-regions - in that order;
+- "10" indicates that the current region contains only black pixels;
+- "11" indicates that the current region contains only white pixels.
 
 Consider the following $4 \times 4$ image (colored marks denote places where a split can occur):
 
 <div class="center">
 
-![0287\_quadtree.gif](resources/images/0287_quadtree.gif?1678992056)
+<img src="resources/images/0287_quadtree.gif?1678992056" class="dark_img" alt="0287_quadtree.gif" />
 
 </div>
 
@@ -5046,23 +4858,23 @@ This image can be described by several sequences, for example :
 "<span class="red strong">0</span><span class="blue strong">0</span>10101010<span class="green strong">0</span>1011111011<span class="orange strong">0</span>10101010", of length $30$, or  
 "<span class="red strong">0</span>10<span class="green strong">**0**</span>101111101110", of length $16$, which is the minimal sequence for this image.
 
-For a positive integer $N$, define $D\_N$ as the $2^N \times 2^N$ image with the following coloring scheme:
+For a positive integer $N$, define $D_N$ as the $2^N \times 2^N$ image with the following coloring scheme:
 
-  - the pixel with coordinates $x = 0, y = 0$ corresponds to the bottom left pixel,
-  - if $(x - 2^{N - 1})^2 + (y - 2^{N - 1})^2 \le 2^{2N - 2}$ then the pixel is black,
-  - otherwise the pixel is white.
+- the pixel with coordinates $x = 0, y = 0$ corresponds to the bottom left pixel,
+- if $(x - 2^{N - 1})^2 + (y - 2^{N - 1})^2 \le 2^{2N - 2}$ then the pixel is black,
+- otherwise the pixel is white.
 
 What is the length of the minimal sequence describing $D\_{24}$?
 
 # Problem 288
 
 For any prime $p$ the number $N(p, q)$ is defined by
-$N(p, q) = \sum\_{n = 0}^q T\_n \cdot p^n$  
-with $T\_n$ generated by the following random number generator:
+$N(p, q) = \sum\_{n = 0}^q T_n \cdot p^n$  
+with $T_n$ generated by the following random number generator:
 
-$S\_0 = 290797$  
-$S\_{n + 1} = S\_n^2 \bmod 50515093$  
-$T\_n = S\_n \bmod p$
+$S_0 = 290797$  
+$S\_{n + 1} = S_n^2 \bmod 50515093$  
+$T_n = S_n \bmod p$
 
 Let $\operatorname{Nfac}(p, q)$ be the factorial of $N(p, q)$.  
 Let $\operatorname{NF}(p, q)$ be the number of factors $p$ in $\operatorname{Nfac}(p, q)$.
@@ -5076,16 +4888,16 @@ Find $\operatorname{NF}(61, 10^7) \bmod 61^{10}$.
 Let $C(x, y)$ be a circle passing through the points $(x, y)$, $(x, y + 1)$, $(x + 1, y)$ and $(x + 1, y + 1)$.
 
 For positive integers $m$ and $n$, let $E(m, n)$ be a configuration which consists of the $m \cdot n$ circles:  
-$\{ C(x, y): 0 \le x \lt m, 0 \le y \lt n, x \text{ and } y \text{ are integers} \}$.
+$\ C(x, y): 0 \le x \lt m, 0 \le y \lt n, x \text{ and } y \text{ are integers} \$.
 
 An Eulerian cycle on $E(m, n)$ is a closed path that passes through each arc exactly once.  
 Many such paths are possible on $E(m, n)$, but we are only interested in those which are not self-crossing: a non-crossing path just touches itself at lattice points, but it never crosses itself.
 
 The image below shows $E(3,3)$ and an example of an Eulerian non-crossing path.  
 
-<div data-align="center">
+<div align="center">
 
-![0289\_euler.gif](resources/images/0289_euler.gif?1678992056)
+![0289_euler.gif](resources/images/0289_euler.gif?1678992056)
 
 </div>
 
@@ -5108,10 +4920,10 @@ Find how many Panaitopol primes are less than $5 \times 10^{15}$.
 
 We shall define a <span class="dfn">pythagorean polygon</span> to be a **convex polygon** with the following properties:  
 
-  - there are at least three vertices,
-  - no three vertices are aligned,
-  - each vertex has **integer coordinates**,
-  - each edge has **integer length**.
+- there are at least three vertices,
+- no three vertices are aligned,
+- each vertex has **integer coordinates**,
+- each edge has **integer length**.
 
 For a given integer $n$, define $P(n)$ as the number of distinct pythagorean polygons for which the perimeter is $\le n$.  
 Pythagorean polygons should be considered distinct as long as none is a translation of another.
@@ -5139,8 +4951,8 @@ Thus $d(42) = 4+2 = 6$.
 
 For a positive integer $n$, define $S(n)$ as the number of positive integers $k \lt 10^n$ with the following properties :
 
-  - $k$ is divisible by $23$ and
-  - $d(k) = 23$.
+- $k$ is divisible by $23$ and
+- $d(k) = 23$.
 
 You are given that $S(9) = 263626$ and $S(42) = 6377168878570056$.
 
@@ -5150,32 +4962,32 @@ Find $S(11^{12})$ and give your answer mod $10^9$.
 
 We call the convex area enclosed by two circles a <span class="dfn">lenticular hole</span> if:
 
-  - The centres of both circles are on lattice points.
-  - The two circles intersect at two distinct lattice points.
-  - The interior of the convex area enclosed by both circles does not contain any lattice points.
+- The centres of both circles are on lattice points.
+- The two circles intersect at two distinct lattice points.
+- The interior of the convex area enclosed by both circles does not contain any lattice points.
 
 Consider the circles:  
-$C\_0$: $x^2 + y^2 = 25$  
-$C\_1$: $(x + 4)^2 + (y - 4)^2 = 1$  
-$C\_2$: $(x - 12)^2 + (y - 4)^2 = 65$
+$C_0$: $x^2 + y^2 = 25$  
+$C_1$: $(x + 4)^2 + (y - 4)^2 = 1$  
+$C_2$: $(x - 12)^2 + (y - 4)^2 = 65$
 
-The circles $C\_0$, $C\_1$ and $C\_2$ are drawn in the picture below.
+The circles $C_0$, $C_1$ and $C_2$ are drawn in the picture below.
 
-<div data-align="center">
+<div align="center">
 
-![0295\_lenticular.gif](resources/images/0295_lenticular.gif?1678992056)
+![0295_lenticular.gif](resources/images/0295_lenticular.gif?1678992056)
 
 </div>
 
-$C\_0$ and $C\_1$ form a lenticular hole, as well as $C\_0$ and $C\_2$.
+$C_0$ and $C_1$ form a lenticular hole, as well as $C_0$ and $C_2$.
 
-We call an ordered pair of positive real numbers $(r\_1, r\_2)$ a <span class="dfn">lenticular pair</span> if there exist two circles with radii $r\_1$ and $r\_2$ that form a lenticular hole.
+We call an ordered pair of positive real numbers $(r_1, r_2)$ a <span class="dfn">lenticular pair</span> if there exist two circles with radii $r_1$ and $r_2$ that form a lenticular hole.
 We can verify that $(1, 5)$ and $(5, \sqrt{65})$ are the lenticular pairs of the example above.
 
-Let $L(N)$ be the number of **distinct** lenticular pairs $(r\_1, r\_2)$ for which $0 \lt r\_1 \le r\_2 \le N$.  
+Let $L(N)$ be the number of **distinct** lenticular pairs $(r_1, r_2)$ for which $0 \lt r_1 \le r_2 \le N$.  
 We can verify that $L(10) = 30$ and $L(100) = 3442$.
 
-Find $L(100\,000)$.
+Find $L(100\000)$.
 
 # Problem 296
 
@@ -5185,13 +4997,13 @@ $m$ is the tangent at $C$ to the circumscribed circle of $ABC$.
 $n$ is a line parallel to $m$ through $B$.  
 The intersection of $n$ and $k$ is called $E$.
 
-<div data-align="center">
+<div align="center">
 
-![0296\_bisector.gif](resources/images/0296_bisector.gif?1678992056)
+<img src="resources/images/0296_bisector.gif?1678992056" class="dark_img" alt="0296_bisector.gif" />
 
 </div>
 
-How many triangles $ABC$ with a perimeter not exceeding $100\,000$ exist such that $BE$ has integral length?
+How many triangles $ABC$ with a perimeter not exceeding $100\000$ exist such that $BE$ has integral length?
 
 # Problem 297
 
@@ -5217,7 +5029,7 @@ Robin's strategy is to remove the number that's been in the memory the longest t
 
 Example game:
 
-<table style="width:100%;">
+<table class="grid center" style="width:100%;">
 <colgroup>
 <col style="width: 16%" />
 <col style="width: 16%" />
@@ -5231,11 +5043,11 @@ Example game:
 <th>Turn</th>
 <th>Called<br />
 number</th>
-<th>Larry's<br />
+<th class="right">Larry's<br />
 memory</th>
 <th>Larry's<br />
 score</th>
-<th>Robin's<br />
+<th class="right">Robin's<br />
 memory</th>
 <th>Robin's<br />
 score</th>
@@ -5245,87 +5057,87 @@ score</th>
 <tr class="odd">
 <td>1</td>
 <td>1</td>
-<td>1</td>
+<td class="right">1</td>
 <td>0</td>
-<td>1</td>
+<td class="right">1</td>
 <td>0</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>2</td>
-<td>1,2</td>
+<td class="right">1,2</td>
 <td>0</td>
-<td>1,2</td>
+<td class="right">1,2</td>
 <td>0</td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>4</td>
-<td>1,2,4</td>
+<td class="right">1,2,4</td>
 <td>0</td>
-<td>1,2,4</td>
+<td class="right">1,2,4</td>
 <td>0</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>6</td>
-<td>1,2,4,6</td>
+<td class="right">1,2,4,6</td>
 <td>0</td>
-<td>1,2,4,6</td>
+<td class="right">1,2,4,6</td>
 <td>0</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>1</td>
-<td>1,2,4,6</td>
+<td class="right">1,2,4,6</td>
 <td>1</td>
-<td>1,2,4,6</td>
+<td class="right">1,2,4,6</td>
 <td>1</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>8</td>
-<td>1,2,4,6,8</td>
+<td class="right">1,2,4,6,8</td>
 <td>1</td>
-<td>1,2,4,6,8</td>
+<td class="right">1,2,4,6,8</td>
 <td>1</td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>10</td>
-<td>1,4,6,8,10</td>
+<td class="right">1,4,6,8,10</td>
 <td>1</td>
-<td>2,4,6,8,10</td>
+<td class="right">2,4,6,8,10</td>
 <td>1</td>
 </tr>
 <tr class="even">
 <td>8</td>
 <td>2</td>
-<td>1,2,6,8,10</td>
+<td class="right">1,2,6,8,10</td>
 <td>1</td>
-<td>2,4,6,8,10</td>
+<td class="right">2,4,6,8,10</td>
 <td>2</td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>4</td>
-<td>1,2,4,8,10</td>
+<td class="right">1,2,4,8,10</td>
 <td>1</td>
-<td>2,4,6,8,10</td>
+<td class="right">2,4,6,8,10</td>
 <td>3</td>
 </tr>
 <tr class="even">
 <td>10</td>
 <td>1</td>
-<td>1,2,4,8,10</td>
+<td class="right">1,2,4,8,10</td>
 <td>2</td>
-<td>1,4,6,8,10</td>
+<td class="right">1,4,6,8,10</td>
 <td>3</td>
 </tr>
 </tbody>
 </table>
 
-Denoting Larry's score by `L` and Robin's score by `R`, what is the expected value of |`L`-`R`| after 50 turns? Give your answer rounded to eight decimal places using the format x.xxxxxxxx .
+Denoting Larry's score by `L` and Robin's score by `R`, what is the expected value of \|`L`-`R`\| after 50 turns? Give your answer rounded to eight decimal places using the format x.xxxxxxxx .
 
 # Problem 299
 
@@ -5333,9 +5145,9 @@ Four points with integer coordinates are selected:
 $A(a, 0)$, $B(b, 0)$, $C(0, c)$ and $D(0, d)$, with $0 \lt a \lt b$ and $0 \lt c \lt d$.  
 Point $P$, also with integer coordinates, is chosen on the line $AC$ so that the three triangles $ABP$, $CDP$ and $BDP$ are all <span class="dfn tooltip">similar<span class="tooltiptext">Have equal angles</span></span>.
 
-<div data-align="center">
+<div align="center">
 
-![0299\_ThreeSimTri.gif](resources/images/0299_ThreeSimTri.gif?1678992056)
+<img src="resources/images/0299_ThreeSimTri.gif?1678992056" class="dark_img" alt="0299_ThreeSimTri.gif" />
 
 </div>
 
@@ -5347,9 +5159,9 @@ For example, if $(a, b, d)=(2,3,4)$, it can be easily verified that point $P(1,1
 Note that the triplets $(2,3,4)$ and $(2,4,3)$ are considered as distinct, although point $P(1,1)$ is common for both.
 
 If $b + d \lt 100$, there are $92$ distinct triplets $(a, b, d)$ such that point $P$ exists.  
-If $b + d \lt 100\,000$, there are $320471$ distinct triplets $(a, b, d)$ such that point $P$ exists.
+If $b + d \lt 100\000$, there are $320471$ distinct triplets $(a, b, d)$ such that point $P$ exists.
 
-If $b + d \lt 100\,000\,000$, how many distinct triplets $(a, b, d)$ are there such that point $P$ exists?
+If $b + d \lt 100\000\000$, how many distinct triplets $(a, b, d)$ are there such that point $P$ exists?
 
 # Problem 300
 
@@ -5358,13 +5170,13 @@ For this problem, the orientation of a protein is important; e.g. HPP is conside
 
 When one encounters these strings in nature, they are always folded in such a way that the number of H-H contact points is as large as possible, since this is energetically advantageous.  
 As a result, the H-elements tend to accumulate in the inner part, with the P-elements on the outside.  
-Natural proteins are folded in three dimensions of course, but we will only consider protein folding in <span class="underline">two dimensions</span>.
+Natural proteins are folded in three dimensions of course, but we will only consider protein folding in <u>two dimensions</u>.
 
 The figure below shows two possible ways that our example protein could be folded (H-H contact points are shown with red dots).
 
-<div data-align="center">
+<div align="center">
 
-![0300\_protein.gif](resources/images/0300_protein.gif?1678992056)
+![0300_protein.gif](resources/images/0300_protein.gif?1678992056)
 
 </div>
 
@@ -5382,21 +5194,21 @@ Give your answer using as many decimal places as necessary for an exact result.
 
 We'll consider the three-heap normal-play version of Nim, which works as follows:
 
-  - At the start of the game there are three heaps of stones.
-  - On each player's turn, the player may remove any positive number of stones from any single heap.
-  - The first player unable to move (because no stones remain) loses.
+- At the start of the game there are three heaps of stones.
+- On each player's turn, the player may remove any positive number of stones from any single heap.
+- The first player unable to move (because no stones remain) loses.
 
-If $(n\_1,n\_2,n\_3)$ indicates a Nim position consisting of heaps of size $n\_1$, $n\_2$, and $n\_3$, then there is a simple function, which you may look up or attempt to deduce for yourself, $X(n\_1,n\_2,n\_3)$ that returns:
+If $(n_1,n_2,n_3)$ indicates a Nim position consisting of heaps of size $n_1$, $n_2$, and $n_3$, then there is a simple function, which you may look up or attempt to deduce for yourself, $X(n_1,n_2,n_3)$ that returns:
 
-  - zero if, with perfect strategy, the player about to move will eventually lose; or
-  - non-zero if, with perfect strategy, the player about to move will eventually win.
+- zero if, with perfect strategy, the player about to move will eventually lose; or
+- non-zero if, with perfect strategy, the player about to move will eventually win.
 
 For example $X(1,2,3) = 0$ because, no matter what the current player does, the opponent can respond with a move that leaves two heaps of equal size, at which point every move by the current player can be mirrored by the opponent until no stones remain; so the current player loses. To illustrate:
 
-  - current player moves to $(1,2,1)$
-  - opponent moves to $(1,0,1)$
-  - current player moves to $(0,0,1)$
-  - opponent moves to $(0,0,0)$, and so wins.
+- current player moves to $(1,2,1)$
+- opponent moves to $(1,0,1)$
+- current player moves to $(0,0,1)$
+- opponent moves to $(0,0,0)$, and so wins.
 
 For how many positive integers $n \le 2^{30}$ does $X(n,2n,3n) = 0$ ?
 
@@ -5429,17 +5241,17 @@ Find $\sum \limits\_{n=1}^{10000} {\dfrac{f(n)}{n}}$.
 
 # Problem 304
 
-For any positive integer $n$ the function $\operatorname{next\\_prime}(n)$ returns the smallest prime $p$ such that $p \gt n$.
+For any positive integer $n$ the function $\operatorname{next\prime}(n)$ returns the smallest prime $p$ such that $p \gt n$.
 
 The sequence $a(n)$ is defined by:  
-$a(1)=\operatorname{next\\_prime}(10^{14})$ and $a(n)=\operatorname{next\\_prime}(a(n-1))$ for $n \gt 1$.
+$a(1)=\operatorname{next\prime}(10^{14})$ and $a(n)=\operatorname{next\prime}(a(n-1))$ for $n \gt 1$.
 
 The Fibonacci sequence $f(n)$ is defined by:
 $f(0)=0$, $f(1)=1$ and $f(n)=f(n-1)+f(n-2)$ for $n \gt 1$.
 
 The sequence $b(n)$ is defined as $f(a(n))$.
 
-Find $\sum b(n)$ for $1 \le n \le 100\,000$.
+Find $\sum b(n)$ for $1 \le n \le 100\000$.
 Give your answer mod $1234567891011$.
 
 # Problem 305
@@ -5462,15 +5274,15 @@ Two players start with a strip of $n$ white squares and they take alternate turn
 On each turn, a player picks two contiguous white squares and paints them black.  
 The first player who cannot make a move loses.
 
-  - $n = 1$: No valid moves, so the first player loses automatically.
-  - $n = 2$: Only one valid move, after which the second player loses.
-  - $n = 3$: Two valid moves, but both leave a situation where the second player loses.
-  - $n = 4$: Three valid moves for the first player, who is able to win the game by painting the two middle squares.
-  - $n = 5$: Four valid moves for the first player (shown below in red), but no matter what the player does, the second player (blue) wins.
+- $n = 1$: No valid moves, so the first player loses automatically.
+- $n = 2$: Only one valid move, after which the second player loses.
+- $n = 3$: Two valid moves, but both leave a situation where the second player loses.
+- $n = 4$: Three valid moves for the first player, who is able to win the game by painting the two middle squares.
+- $n = 5$: Four valid moves for the first player (shown below in red), but no matter what the player does, the second player (blue) wins.
 
 <div class="center">
 
-![p306\_pstrip.gif](project/images/p306_pstrip.gif)
+<img src="resources/images/0306_pstrip.gif?1678992056" class="dark_img" alt="0306_pstrip.gif" />
 
 </div>
 
@@ -5486,7 +5298,7 @@ $k$ defects are randomly distributed amongst $n$ integrated-circuit chips produc
 Let $p(k, n)$ represent the probability that there is a chip with at least $3$ defects.  
 For instance $p(3,7) \approx 0.0204081633$.
 
-Find $p(20\,000, 1\,000\,000)$ and give your answer rounded to $10$ decimal places in the form 0.abcdefghij.
+Find $p(20\000, 1\000\000)$ and give your answer rounded to $10$ decimal places in the form 0.abcdefghij.
 
 # Problem 308
 
@@ -5510,9 +5322,9 @@ If someone uses the above Fractran program to solve Project Euler Problem 7 (fin
 
 In the classic "Crossing Ladders" problem, we are given the lengths $x$ and $y$ of two ladders resting on the opposite walls of a narrow, level street. We are also given the height $h$ above the street where the two ladders cross and we are asked to find the width of the street ($w$).
 
-<div data-align="center">
+<div align="center">
 
-![0309\_ladders.gif](resources/images/0309_ladders.gif?1678992056)
+<img src="resources/images/0309_ladders.gif?1678992056" class="dark_img" alt="0309_ladders.gif" />
 
 </div>
 
@@ -5522,7 +5334,7 @@ For example, if $x = 70$, $y = 119$ and $h = 30$, we can calculate that $w = 56$
 In fact, for integer values $x$, $y$, $h$ and $0 \lt x \lt y \lt 200$, there are only five triplets $(x, y, h)$ producing integer solutions for $w$:  
 $(70, 119, 30)$, $(74, 182, 21)$, $(87, 105, 35)$, $(100, 116, 35)$ and $(119, 175, 40)$.
 
-For integer values $x, y, h$ and $0 \lt x \lt y \lt 1\,000\,000$, how many triplets $(x, y, h)$ produce integer solutions for $w$?
+For integer values $x, y, h$ and $0 \lt x \lt y \lt 1\000\000$, how many triplets $(x, y, h)$ produce integer solutions for $w$?
 
 # Problem 310
 
@@ -5531,7 +5343,7 @@ Nim Square is just like ordinary three-heap normal play Nim, but the players may
 The number of stones in the three heaps is represented by the ordered triple $(a,b,c)$.  
 If $0 \le a \le b \le c \le 29$ then the number of losing positions for the next player is $1160$.
 
-Find the number of losing positions for the next player if $0 \le a \le b \le c \le 100\,000$.
+Find the number of losing positions for the next player if $0 \le a \le b \le c \le 100\000$.
 
 # Problem 311
 
@@ -5542,60 +5354,60 @@ We'll call $ABCD$ a <span class="dfn">biclinic integral quadrilateral</span> if 
 For example, the following quadrilateral is a biclinic integral quadrilateral:  
 $AB = 19$, $BC = 29$, $CD = 37$, $AD = 43$, $BD = 48$ and $AO = CO = 23$.
 
-<div data-align="center">
+<div align="center">
 
-![0311\_biclinic.gif](resources/images/0311_biclinic.gif?1678992056)
+<img src="resources/images/0311_biclinic.gif?1678992056" class="dark_img" alt="0311_biclinic.gif" />
 
 </div>
 
 Let $B(N)$ be the number of distinct biclinic integral quadrilaterals $ABCD$ that satisfy $AB^2+BC^2+CD^2+AD^2 \le N$.  
-We can verify that $B(10\,000) = 49$ and $B(1\,000\,000) = 38239$.
+We can verify that $B(10\000) = 49$ and $B(1\000\000) = 38239$.
 
-Find $B(10\,000\,000\,000)$.
+Find $B(10\000\000\000)$.
 
 # Problem 312
 
-\- A **Sierpiński graph** of order-$1$ ($S\_1$) is an equilateral triangle.  
-\- $S\_{n + 1}$ is obtained from $S\_n$ by positioning three copies of $S\_n$ so that every pair of copies has one common corner.
+\- A **Sierpiński graph** of order-$1$ ($S_1$) is an equilateral triangle.  
+- $S\_{n + 1}$ is obtained from $S_n$ by positioning three copies of $S_n$ so that every pair of copies has one common corner.
 
-<div data-align="center">
+<div align="center">
 
-![0312\_sierpinskyAt.gif](resources/images/0312_sierpinskyAt.gif?1678992056)
+<img src="resources/images/0312_sierpinskyAt.gif?1678992056" class="dark_img" alt="0312_sierpinskyAt.gif" />
 
 </div>
 
-Let $C(n)$ be the number of cycles that pass exactly once through all the vertices of $S\_n$.  
-For example, $C(3) = 8$ because eight such cycles can be drawn on $S\_3$, as shown below:
+Let $C(n)$ be the number of cycles that pass exactly once through all the vertices of $S_n$.  
+For example, $C(3) = 8$ because eight such cycles can be drawn on $S_3$, as shown below:
 
-<div data-align="center">
+<div align="center">
 
-![0312\_sierpinsky8t.gif](resources/images/0312_sierpinsky8t.gif?1678992056)
+<img src="resources/images/0312_sierpinsky8t.gif?1678992056" class="dark_img" alt="0312_sierpinsky8t.gif" />
 
 </div>
 
 It can also be verified that :  
 $C(1) = C(2) = 1$  
 $C(5) = 71328803586048$  
-$C(10\,000) \bmod 10^8 = 37652224$  
-$C(10\,000) \bmod 13^8 = 617720485$  
+$C(10\000) \bmod 10^8 = 37652224$  
+$C(10\000) \bmod 13^8 = 617720485$  
 
-Find $C(C(C(10\,000))) \bmod 13^8$.
+Find $C(C(C(10\000))) \bmod 13^8$.
 
 # Problem 313
 
 In a sliding game a counter may slide horizontally or vertically into an empty space. The objective of the game is to move the red counter from the top left corner of a grid to the bottom right corner; the space always starts in the bottom right corner. For example, the following sequence of pictures show how the game can be completed in five moves on a $2$ by $2$ grid.
 
-<div data-align="center">
+<div align="center">
 
-![0313\_sliding\_game\_1.gif](resources/images/0313_sliding_game_1.gif?1678992056)
+![0313_sliding_game_1.gif](resources/images/0313_sliding_game_1.gif?1678992056)
 
 </div>
 
 Let $S(m,n)$ represent the minimum number of moves to complete the game on an $m$ by $n$ grid. For example, it can be verified that $S(5,4) = 25$.
 
-<div data-align="center">
+<div align="center">
 
-![0313\_sliding\_game\_2.gif](resources/images/0313_sliding_game_2.gif?1678992056)
+![0313_sliding_game_2.gif](resources/images/0313_sliding_game_2.gif?1678992056)
 
 </div>
 
@@ -5616,9 +5428,9 @@ Although not allowed , but to get an idea if this is anything better: if you pla
 
 However, if you cut off from the square four triangles with sides $\pu{75 m}$, $\pu{75 m}$ and $75\pu{\sqrt 2 m}$ the total area becomes $\pu{238750 m^2}$ and the perimeter becomes $1400+300\pu{\sqrt 2 m}$. So this gives an enclosed-area/wall-length ratio of $130.87$, which is significantly better.
 
-<div data-align="center">
+<div align="center">
 
-![0314\_landgrab.gif](resources/images/0314_landgrab.gif?1678992056)
+<img src="resources/images/0314_landgrab.gif?1678992056" class="dark_img" alt="0314_landgrab.gif" />
 
 </div>
 
@@ -5627,9 +5439,9 @@ Give your answer rounded to $8$ places behind the decimal point in the form abc.
 
 # Problem 315
 
-<div data-align="center">
+<div align="center">
 
-![0315\_clocks.gif](resources/images/0315_clocks.gif?1678992056)
+![0315_clocks.gif](resources/images/0315_clocks.gif?1678992056)
 
 </div>
 
@@ -5650,11 +5462,11 @@ Sam and Max built two different clocks.
 Sam's clock is fed e.g. number 137: the clock shows "**137**", then the panel is turned off, then the next number ("**11**") is turned on, then the panel is turned off again and finally the last number ("**2**") is turned on and, after some time, off.  
 For the example, with number 137, Sam's clock requires:  
 
-|           |   |                                                      |
-| --------- | - | ---------------------------------------------------- |
-| "**137**" | : | (2 + 5 + 4) × 2 = 22 transitions ("**137**" on/off). |
-| "**11**"  | : | (2 + 2) × 2 = 8 transitions ("**11**" on/off).       |
-| "**2**"   | : | (5) × 2 = 10 transitions ("**2**" on/off).           |
+|           |     |                                                      |
+|-----------|-----|------------------------------------------------------|
+| "**137**" | :   | (2 + 5 + 4) × 2 = 22 transitions ("**137**" on/off). |
+| "**11**"  | :   | (2 + 2) × 2 = 8 transitions ("**11**" on/off).       |
+| "**2**"   | :   | \(5\) × 2 = 10 transitions ("**2**" on/off).         |
 
 For a grand total of 40 transitions.
 
@@ -5712,11 +5524,11 @@ Find the difference between the total number of transitions needed by Sam's cloc
 
 # Problem 316
 
-Let $p = p\_1 p\_2 p\_3 \cdots$ be an infinite sequence of random digits, selected from $\{0,1,2,3,4,5,6,7,8,9\}$ with equal probability.  
-It can be seen that $p$ corresponds to the real number $0.p\_1 p\_2 p\_3 \cdots$  
-It can also be seen that choosing a random real number from the interval $\[0,1)$ is equivalent to choosing an infinite sequence of random digits selected from $\{0,1,2,3,4,5,6,7,8,9\}$ with equal probability.
+Let $p = p_1 p_2 p_3 \cdots$ be an infinite sequence of random digits, selected from $\0,1,2,3,4,5,6,7,8,9\$ with equal probability.  
+It can be seen that $p$ corresponds to the real number $0.p_1 p_2 p_3 \cdots$  
+It can also be seen that choosing a random real number from the interval $\[0,1)$ is equivalent to choosing an infinite sequence of random digits selected from $\0,1,2,3,4,5,6,7,8,9\$ with equal probability.
 
-For any positive integer $n$ with $d$ decimal digits, let $k$ be the smallest index such that $p\_k, p\_{k + 1}, \dots, p\_{k + d - 1}$ are the decimal digits of $n$, in the same order.  
+For any positive integer $n$ with $d$ decimal digits, let $k$ be the smallest index such that $p_k, p\_{k + 1}, \dots, p\_{k + d - 1}$ are the decimal digits of $n$, in the same order.  
 Also, let $g(n)$ be the expected value of $k$; it can be proven that $g(n)$ is always finite and, interestingly, always an integer number.
 
 For example, if $n = 535$, then  
@@ -5726,7 +5538,7 @@ etc and we find that $g(535) = 1008$.
 
 Given that $\displaystyle\sum\_{n = 2}^{999} g \left(\left\lfloor\frac{10^6} n \right\rfloor\right) = 27280188$, find $\displaystyle\sum\_{n = 2}^{999999} g \left(\left\lfloor\frac{10^{16}} n \right\rfloor\right)$.
 
-<span class="underline">*Note*</span>: $\lfloor x \rfloor$ represents the floor function.
+<u>*Note*</u>: $\lfloor x \rfloor$ represents the floor function.
 
 # Problem 317
 
@@ -5761,20 +5573,20 @@ Let $C(p,q,n)$ be the number of consecutive nines at the beginning of the fracti
 
 Let $N(p,q)$ be the minimal value of $n$ such that $C(p,q,n) \ge 2011$.
 
-Find $\displaystyle \sum N(p,q) \,\, \text{ for } p+q \le 2011$.
+Find $\displaystyle \sum N(p,q) \\ \text{ for } p+q \le 2011$.
 
 # Problem 319
 
-Let $x\_1, x\_2, \dots, x\_n$ be a sequence of length $n$ such that:
+Let $x_1, x_2, \dots, x_n$ be a sequence of length $n$ such that:
 
-  - $x\_1 = 2$
-  - for all $1 \lt i \le n$: $x\_{i - 1} \lt x\_i$
-  - for all $i$ and $j$ with $1 \le i, j \le n$: $(x\_i)^j \lt (x\_j + 1)^i$.
+- $x_1 = 2$
+- for all $1 \lt i \le n$: $x\_{i - 1} \lt x_i$
+- for all $i$ and $j$ with $1 \le i, j \le n$: $(x_i)^j \lt (x_j + 1)^i$.
 
 There are only five such sequences of length $2$, namely:
-$\{2,4\}$, $\{2,5\}$, $\{2,6\}$, $\{2,7\}$ and $\{2,8\}$.  
+$\2,4\$, $\2,5\$, $\2,6\$, $\2,7\$ and $\2,8\$.  
 There are $293$ such sequences of length $5$; three examples are given below:  
-$\{2,5,11,25,55\}$, $\{2,6,14,36,88\}$, $\{2,8,22,64,181\}$.
+$\2,5,11,25,55\$, $\2,6,14,36,88\$, $\2,8,22,64,181\$.
 
 Let $t(n)$ denote the number of such sequences of length $n$.  
 You are given that $t(10) = 86195$ and $t(20) = 5227991891$.
@@ -5789,23 +5601,23 @@ Let $S(u)=\sum N(i)$ for $10 \le i \le u$.
 
 $S(1000)=614538266565663$.
 
-Find $S(1\,000\,000) \bmod 10^{18}$.
+Find $S(1\000\000) \bmod 10^{18}$.
 
 # Problem 321
 
 A horizontal row comprising of $2n + 1$ squares has $n$ red counters placed at one end and $n$ blue counters at the other end, being separated by a single empty square in the centre. For example, when $n = 3$.
 
-<div data-align="center">
+<div align="center">
 
-![0321\_swapping\_counters\_1.gif](resources/images/0321_swapping_counters_1.gif?1678992056)
+![0321_swapping_counters_1.gif](resources/images/0321_swapping_counters_1.gif?1678992056)
 
 </div>
 
 A counter can move from one square to the next (slide) or can jump over another counter (hop) as long as the square next to that counter is unoccupied.
 
-<div data-align="center">
+<div align="center">
 
-![0321\_swapping\_counters\_2.gif](resources/images/0321_swapping_counters_2.gif?1678992056)
+![0321_swapping_counters_2.gif](resources/images/0321_swapping_counters_2.gif?1678992056)
 
 </div>
 
@@ -5820,22 +5632,22 @@ Find the sum of the first forty terms of this sequence.
 
 # Problem 322
 
-Let $T(m, n)$ be the number of the binomial coefficients $^iC\_n$ that are divisible by $10$ for $n \le i \lt m$ ($i$, $m$ and $n$ are positive integers).  
+Let $T(m, n)$ be the number of the binomial coefficients $^iC_n$ that are divisible by $10$ for $n \le i \lt m$ ($i$, $m$ and $n$ are positive integers).  
 You are given that $T(10^9, 10^7-10) = 989697000$.
 
 Find $T(10^{18}, 10^{12}-10)$.
 
 # Problem 323
 
-Let $y\_0, y\_1, y\_2, \dots$ be a sequence of random unsigned $32$-bit integers  
-(i.e. $0 \le y\_i \lt 2^{32}$, every value equally likely).
+Let $y_0, y_1, y_2, \dots$ be a sequence of random unsigned $32$-bit integers  
+(i.e. $0 \le y_i \lt 2^{32}$, every value equally likely).
 
-For the sequence $x\_i$ the following recursion is given:  
+For the sequence $x_i$ the following recursion is given:  
 
-  - $x\_0 = 0$ and
-  - $x\_i = x\_{i - 1} \boldsymbol \mid y\_{i - 1}$, for $i \gt 0$. ($\boldsymbol \mid$ is the bitwise-OR operator).
+- $x_0 = 0$ and
+- $x_i = x\_{i - 1} \boldsymbol \mid y\_{i - 1}$, for $i \gt 0$. ($\boldsymbol \mid$ is the bitwise-OR operator).
 
-It can be seen that eventually there will be an index $N$ such that $x\_i = 2^{32} - 1$ (a bit-pattern of all ones) for all $i \ge N$.
+It can be seen that eventually there will be an index $N$ such that $x_i = 2^{32} - 1$ (a bit-pattern of all ones) for all $i \ge N$.
 
 Find the expected value of $N$.  
 Give your answer rounded to $10$ digits after the decimal point.
@@ -5868,22 +5680,22 @@ A <span class="dfn">winning configuration</span> is one where the first player c
 
 A <span class="dfn">losing configuration</span> is one where the second player can force a win, no matter what the first player does. For example, $(2,3)$ and $(3,4)$ are losing configurations: any legal move leaves a winning configuration for the second player.
 
-Define $S(N)$ as the sum of $(x\_i + y\_i)$ for all losing configurations $(x\_i, y\_i), 0 \lt x\_i \lt y\_i \le N$.  
+Define $S(N)$ as the sum of $(x_i + y_i)$ for all losing configurations $(x_i, y_i), 0 \lt x_i \lt y_i \le N$.  
 We can verify that $S(10) = 211$ and $S(10^4) = 230312207313$.
 
 Find $S(10^{16}) \bmod 7^{10}$.
 
 # Problem 326
 
-Let $a\_n$ be a sequence recursively defined by:$\quad a\_1=1,\quad\displaystyle a\_n=\biggl(\sum\_{k=1}^{n-1}k\cdot a\_k\biggr)\bmod n$.
+Let $a_n$ be a sequence recursively defined by:$\quad a_1=1,\quad\displaystyle a_n=\biggl(\sum\_{k=1}^{n-1}k\cdot a_k\biggr)\bmod n$.
 
-So the first $10$ elements of $a\_n$ are: $1,1,0,3,0,3,5,4,1,9$.
+So the first $10$ elements of $a_n$ are: $1,1,0,3,0,3,5,4,1,9$.
 
 Let $f(N, M)$ represent the number of pairs $(p, q)$ such that:
 
 $$
-\def\htmltext\#1{\style{font-family:inherit;}{\text{\#1}}}
-1\le p\le q\le N \quad\htmltext{and}\quad\biggl(\sum\_{i=p}^qa\_i\biggr)\bmod M=0
+\def\htmltext#1{\style{font-family:inherit;}{\text{#1}}}
+1\le p\le q\le N \quad\htmltext{and}\quad\biggl(\sum\_{i=p}^qa_i\biggr)\bmod M=0
 $$
 
 It can be seen that $f(10,10)=4$ with the pairs $(3,3)$, $(5,5)$, $(7,9)$ and $(9,10)$.
@@ -5896,9 +5708,9 @@ Find $f(10^{12},10^6)$.
 
 A series of three rooms are connected to each other by automatic doors.
 
-<div data-align="center">
+<div align="center">
 
-![0327\_rooms\_of\_doom.gif](resources/images/0327_rooms_of_doom.gif?1678992056)
+![0327_rooms_of_doom.gif](resources/images/0327_rooms_of_doom.gif?1678992056)
 
 </div>
 
@@ -5925,14 +5737,14 @@ Find $\sum M(C,30)$ for $3 \le C \le 40$.
 
 # Problem 328
 
-We are trying to find a hidden number selected from the set of integers $\{1, 2, \dots, n\}$ by asking questions.
-Each number (question) we ask, has a <span class="underline">cost equal to the number asked</span> and we get one of three possible answers:  
+We are trying to find a hidden number selected from the set of integers $\1, 2, \dots, n\$ by asking questions.
+Each number (question) we ask, has a <u>cost equal to the number asked</u> and we get one of three possible answers:  
 
-  - "Your guess is lower than the hidden number", or
-  - "Yes, that's it!", or
-  - "Your guess is higher than the hidden number".
+- "Your guess is lower than the hidden number", or
+- "Yes, that's it!", or
+- "Your guess is higher than the hidden number".
 
-Given the value of $n$, an <span class="dfn">optimal strategy</span> minimizes the total cost (i.e. the sum of all the questions asked) <span class="underline">for the worst possible case</span>. E.g.
+Given the value of $n$, an <span class="dfn">optimal strategy</span> minimizes the total cost (i.e. the sum of all the questions asked) <u>for the worst possible case</u>. E.g.
 
 If $n=3$, the best we can do is obviously to ask the number "**2**". The answer will immediately lead us to find the hidden number (at a total cost $= 2$).
 
@@ -5970,7 +5782,7 @@ Give your answer as a fraction $p/q$ in reduced form.
 
 An infinite sequence of real numbers $a(n)$ is defined for all integers $n$ as follows:
 $$a(n) = \begin{cases}
-1 & n \lt 0\\
+1 & n \lt 0\
 \sum \limits\_{i = 1}^{\infty}{\dfrac{a(n - i)}{i!}} & n \ge 0
 \end{cases}$$
 
@@ -5986,7 +5798,7 @@ It can be shown that $a(n)$ is of the form $\dfrac{A(n)e + B(n)}{n!}$ for intege
 
 For example, $a(10) = \dfrac{328161643e - 652694486}{10!}$.
 
-Find $A(10^9) + B(10^9)$ and give your answer mod $77\,777\,777$.
+Find $A(10^9) + B(10^9)$ and give your answer mod $77\777\777$.
 
 # Problem 331
 
@@ -5994,9 +5806,9 @@ $N \times N$ disks are placed on a square game board. Each disk has a black side
 
 At each turn, you may choose a disk and flip all the disks in the same row and the same column as this disk: thus $2 \times N - 1$ disks are flipped. The game ends when all disks show their white side. The following example shows a game on a $5 \times 5$ board.
 
-<div data-align="center">
+<div align="center">
 
-![0331\_crossflips3.gif](resources/images/0331_crossflips3.gif?1678992056)
+![0331_crossflips3.gif](resources/images/0331_crossflips3.gif?1678992056)
 
 </div>
 
@@ -6005,11 +5817,11 @@ It can be proven that $3$ is the minimal number of turns to finish this game.
 The bottom left disk on the $N \times N$ board has coordinates $(0,0)$;  
 the bottom right disk has coordinates $(N-1,0)$ and the top left disk has coordinates $(0,N-1)$.
 
-Let $C\_N$ be the following configuration of a board with $N \times N$ disks:  
-A disk at $(x, y)$ satisfying $N - 1 \le \sqrt{x^2 + y^2} \lt N$, shows its black side; otherwise, it shows its white side. $C\_5$ is shown above.
+Let $C_N$ be the following configuration of a board with $N \times N$ disks:  
+A disk at $(x, y)$ satisfying $N - 1 \le \sqrt{x^2 + y^2} \lt N$, shows its black side; otherwise, it shows its white side. $C_5$ is shown above.
 
-Let $T(N)$ be the minimal number of turns to finish a game starting from configuration $C\_N$ or $0$ if configuration $C\_N$ is unsolvable.  
-We have shown that $T(5)=3$. You are also given that $T(10)=29$ and $T(1\,000)=395253$.
+Let $T(N)$ be the minimal number of turns to finish a game starting from configuration $C_N$ or $0$ if configuration $C_N$ is unsolvable.  
+We have shown that $T(5)=3$. You are also given that $T(10)=29$ and $T(1\000)=395253$.
 
 Find $\sum \limits\_{i = 3}^{31} T(2^i - i)$.
 
@@ -6017,16 +5829,16 @@ Find $\sum \limits\_{i = 3}^{31} T(2^i - i)$.
 
 A **spherical triangle** is a figure formed on the surface of a sphere by three **great circular arcs** intersecting pairwise in three vertices.
 
-<div data-align="center">
+<div align="center">
 
-![0332\_spherical.jpg](resources/images/0332_spherical.jpg?1678992054)
+<img src="resources/images/0332_spherical.jpg?1678992054" class="dark_img" alt="0332_spherical.jpg" />
 
 </div>
 
 Let $C(r)$ be the sphere with the centre $(0,0,0)$ and radius $r$.  
 Let $Z(r)$ be the set of points on the surface of $C(r)$ with integer coordinates.  
 Let $T(r)$ be the set of spherical triangles with vertices in $Z(r)$.
-Degenerate spherical triangles, formed by three points on the same great arc, are <span class="underline">not</span> included in $T(r)$.  
+Degenerate spherical triangles, formed by three points on the same great arc, are <u>not</u> included in $T(r)$.  
 Let $A(r)$ be the area of the smallest spherical triangle in $T(r)$.
 
 For example $A(14)$ is $3.294040$ rounded to six decimal places.
@@ -6061,39 +5873,39 @@ The game ends when each bowl contains either one or no beans.
 
 For example, consider two adjacent bowls containing $2$ and $3$ beans respectively, all other bowls being empty. The following eight moves will finish the game:
 
-<div data-align="center">
+<div align="center">
 
-![0334\_beans.gif](resources/images/0334_beans.gif?1678992056)
+<img src="resources/images/0334_beans.gif?1678992056" class="dark_img" alt="0334_beans.gif" />
 
 </div>
 
 You are given the following sequences:  
 
-$\def\htmltext\#1{\style{font-family:inherit;}{\text{\#1}}}$
+$\def\htmltext#1{\style{font-family:inherit;}{\text{#1}}}$
 $
 \begin{align}
-\qquad t\_0 &= 123456,\cr
-\qquad t\_i &= \cases{
-\;\;\frac{t\_{i-1}}{2},&$\htmltext{if }t\_{i-1}\htmltext{ is even}$\cr
+\qquad t_0 &= 123456,\cr
+\qquad t_i &= \cases{
+\\\frac{t\_{i-1}}{2},&$\htmltext{if }t\_{i-1}\htmltext{ is even}$\cr
 \left\lfloor\frac{t\_{i-1}}{2}\right\rfloor\oplus 926252,&$\htmltext{if }t\_{i-1}\htmltext{ is odd}$\cr}\cr
 &\qquad\htmltext{where }\lfloor x\rfloor\htmltext{ is the floor function }\cr
-&\qquad\!\htmltext{and }\oplus\htmltext{is the bitwise XOR operator.}\cr
-\qquad b\_i &= (t\_i\bmod2^{11}) + 1.\cr
+&\qquad\\htmltext{and }\oplus\htmltext{is the bitwise XOR operator.}\cr
+\qquad b_i &= (t_i\bmod2^{11}) + 1.\cr
 \end{align}
 $
 
-The first two terms of the last sequence are $b\_1 = 289$ and $b\_2 = 145$.  
-If we start with $b\_1$ and $b\_2$ beans in two adjacent bowls, $3419100$ moves would be required to finish the game.
+The first two terms of the last sequence are $b_1 = 289$ and $b_2 = 145$.  
+If we start with $b_1$ and $b_2$ beans in two adjacent bowls, $3419100$ moves would be required to finish the game.
 
-Consider now $1500$ adjacent bowls containing $b\_1, b\_2, \ldots, b\_{1500}$ beans respectively, all other bowls being empty. Find how many moves it takes before the game ends.
+Consider now $1500$ adjacent bowls containing $b_1, b_2, \ldots, b\_{1500}$ beans respectively, all other bowls being empty. Find how many moves it takes before the game ends.
 
 # Problem 335
 
 Whenever Peter feels bored, he places some bowls, containing one bean each, in a circle. After this, he takes all the beans out of a certain bowl and drops them one by one in the bowls going clockwise. He repeats this, starting from the bowl he dropped the last bean in, until the initial situation appears again. For example with 5 bowls he acts as follows:
 
-<div data-align="center">
+<div align="center">
 
-![0335\_mancala.gif](resources/images/0335_mancala.gif?1678992056)
+<img src="resources/images/0335_mancala.gif?1678992056" class="dark_img" alt="0335_mancala.gif" />
 
 </div>
 
@@ -6113,9 +5925,9 @@ However, Simple Simon, the train driver, is not known for his efficiency, so he 
 
 Using four carriages, the worst possible arrangements for Simon, which we shall call *maximix arrangements*, are DACB and DBAC; each requiring him five rotations (although, using the most efficient approach, they could be solved using just three rotations). The process he uses for DACB is shown below.
 
-<div data-align="center">
+<div align="center">
 
-![p336\_maximix.gif](project/images/p336_maximix.gif)
+<img src="resources/images/0336_maximix.gif?1678992056" class="dark_img" alt="0336_maximix.gif" />
 
 </div>
 
@@ -6125,16 +5937,16 @@ Find the 2011<sup>th</sup> lexicographic maximix arrangement for eleven carriage
 
 # Problem 337
 
-Let $\{a\_1, a\_2, \dots, a\_n\}$ be an integer sequence of length $n$ such that:
+Let $\a_1, a_2, \dots, a_n\$ be an integer sequence of length $n$ such that:
 
-  - $a\_1 = 6$
-  - for all $1 \le i \lt n$: $\phi(a\_i) \lt \phi(a\_{i + 1}) \lt a\_i \lt a\_{i + 1}$.<sup>1</sup>
+- $a_1 = 6$
+- for all $1 \le i \lt n$: $\phi(a_i) \lt \phi(a\_{i + 1}) \lt a_i \lt a\_{i + 1}$.<sup>1</sup>
 
-Let $S(N)$ be the number of such sequences with $a\_n \le N$.  
-For example, $S(10) = 4$: $\{6\}$, $\{6, 8\}$, $\{6, 8, 9\}$ and $\{6, 10\}$.  
-We can verify that $S(100) = 482073668$ and $S(10\,000) \bmod 10^8 = 73808307$.
+Let $S(N)$ be the number of such sequences with $a_n \le N$.  
+For example, $S(10) = 4$: $\6\$, $\6, 8\$, $\6, 8, 9\$ and $\6, 10\$.  
+We can verify that $S(100) = 482073668$ and $S(10\000) \bmod 10^8 = 73808307$.
 
-Find $S(20\,000\,000) \bmod 10^8$.
+Find $S(20\000\000) \bmod 10^8$.
 
 <sup>1</sup> $\phi$ denotes **Euler's totient function**.
 
@@ -6145,9 +5957,9 @@ When we cut the sheet along the grid lines into two pieces and rearrange those p
 
 For example, from a sheet with dimensions $9 \times 4$, we can make rectangles with dimensions $18 \times 2$, $12 \times 3$ and $6 \times 6$ by cutting and rearranging as below:
 
-<div data-align="center">
+<div align="center">
 
-![0338\_gridpaper.gif](resources/images/0338_gridpaper.gif?1678992056)  
+![0338_gridpaper.gif](resources/images/0338_gridpaper.gif?1678992056)  
 
 </div>
 
@@ -6171,7 +5983,7 @@ Find $G(10^{12})$. Give your answer modulo $10^8$.
 Initially each flock consists of $n$ sheep. Each sheep (regardless of colour) is equally likely to be the next sheep to bleat. After a sheep has bleated and a sheep from the other flock has crossed over, Peredur may remove a number of white sheep in order to maximize the expected final number of black sheep. Let $E(n)$ be the expected final number of black sheep if Peredur uses an optimal strategy.
 
 You are given that $E(5) = 6.871346$ rounded to $6$ places behind the decimal point.  
-Find $E(10\,000)$ and give your answer rounded to $6$ places behind the decimal point.
+Find $E(10\000)$ and give your answer rounded to $6$ places behind the decimal point.
 
 # Problem 340
 
@@ -6190,14 +6002,14 @@ Find the last $9$ digits of $S(21^7, 7^{21}, 12^7)$.
 
 The **Golomb's self-describing sequence** $(G(n))$ is the only nondecreasing sequence of natural numbers such that $n$ appears exactly $G(n)$ times in the sequence. The values of $G(n)$ for the first few $n$ are
 
-<div data-align="center">
+<div align="center">
 
-\\[
+$$
 \begin{matrix}
-n & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & \ldots \\
+n & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & \ldots \
 G(n) & 1 & 2 & 2 & 3 & 3 & 4 & 4 & 4 & 5 & 5 & 5 & 6 & 6 & 6 & 6 & \ldots
 \end{matrix}
-\\]
+$$
 
 </div>
 
@@ -6218,10 +6030,10 @@ Find the sum of all numbers $n$, $1 \lt n \lt 10^{10}$ such that $\phi(n^2)$ is 
 
 # Problem 343
 
-For any positive integer $k$, a finite sequence $a\_i$ of fractions $x\_i/y\_i$ is defined by:  
-$a\_1 = 1/k$ and  
-$a\_i = (x\_{i - 1} + 1) / (y\_{i - 1} - 1)$ reduced to lowest terms for $i \gt 1$.  
-When $a\_i$ reaches some integer $n$, the sequence stops. (That is, when $y\_i = 1$.)  
+For any positive integer $k$, a finite sequence $a_i$ of fractions $x_i/y_i$ is defined by:  
+$a_1 = 1/k$ and  
+$a_i = (x\_{i - 1} + 1) / (y\_{i - 1} - 1)$ reduced to lowest terms for $i \gt 1$.  
+When $a_i$ reaches some integer $n$, the sequence stops. (That is, when $y_i = 1$.)  
 Define $f(k) = n$.  
 For example, for $k = 20$:
 
@@ -6245,9 +6057,9 @@ Alternatively, the player can choose to make the <span class="dfn">special</span
 
 The winner is the player who pockets the silver dollar.
 
-<div data-align="center">
+<div align="center">
 
-![0344\_silverdollar.gif](resources/images/0344_silverdollar.gif?1678992056)  
+![0344_silverdollar.gif](resources/images/0344_silverdollar.gif?1678992056)  
 
 </div>
 
@@ -6257,7 +6069,7 @@ Let $W(n,c)$ be the number of winning configurations for a strip of $n$ squares,
 
 You are given that $W(10,2) = 324$ and $W(100,10) = 1514704946113500$.
 
-Find $W(1\,000\,000, 100)$ modulo the semiprime $1000\,036\,000\,099$ ($= 1\,000\,003 \cdot 1\,000\,033$).
+Find $W(1\000\000, 100)$ modulo the semiprime $1000\036\000\099$ ($= 1\000\003 \cdot 1\000\033$).
 
 # Problem 345
 
@@ -6265,11 +6077,11 @@ We define the <span class="dfn">Matrix Sum</span> of a matrix as the maximum pos
 
 For example, the Matrix Sum of the matrix below equals 3315 ( = 863 + 383 + 343 + 959 + 767):
 
-  7  53 183 439 <span style="color:#00ff00;font-family:&#39;courier new&#39;;">**863**</span>  
-497 <span style="color:#00ff00;font-family:&#39;courier new&#39;;">**383**</span> 563  79 973  
-287  63 <span style="color:#00ff00;font-family:&#39;courier new&#39;;">**343**</span> 169 583  
-627 343 773 <span style="color:#00ff00;font-family:&#39;courier new&#39;;">**959**</span> 943  
-<span style="color:#00ff00;font-family:&#39;courier new&#39;;">**767**</span> 473 103 699 303  
+  7  53 183 439 <span style="color:#00ff00;font-family:'courier new';">**863**</span>  
+497 <span style="color:#00ff00;font-family:'courier new';">**383**</span> 563  79 973  
+287  63 <span style="color:#00ff00;font-family:'courier new';">**343**</span> 169 583  
+627 343 773 <span style="color:#00ff00;font-family:'courier new';">**959**</span> 943  
+<span style="color:#00ff00;font-family:'courier new';">**767**</span> 473 103 699 303  
 
 Find the Matrix Sum of:  
 
@@ -6291,9 +6103,9 @@ Find the Matrix Sum of:
 
 # Problem 346
 
-The number $7$ is special, because $7$ is $111$ written in base $2$, and $11$ written in base $6$ (i.e. $7\_{10} = 11\_6 = 111\_2$). In other words, $7$ is a repunit in at least two bases $b \gt 1$.
+The number $7$ is special, because $7$ is $111$ written in base $2$, and $11$ written in base $6$ (i.e. $7\_{10} = 11_6 = 111_2$). In other words, $7$ is a repunit in at least two bases $b \gt 1$.
 
-We shall call a positive integer with this property a strong repunit. It can be verified that there are $8$ strong repunits below $50$: $\{1,7,13,15,21,31,40,43\}$.  
+We shall call a positive integer with this property a strong repunit. It can be verified that there are $8$ strong repunits below $50$: $\1,7,13,15,21,31,40,43\$.  
 Furthermore, the sum of all strong repunits below $1000$ equals $15864$.
 
 Find the sum of all strong repunits below $10^{12}$.
@@ -6310,7 +6122,7 @@ Also $M(2,73,100)=0$ because there does not exist a positive integer $\le 100$ t
 Let $S(N)$ be the sum of all distinct $M(p,q,N)$.
 $S(100)=2262$.
 
-Find $S(10\,000\,000)$.
+Find $S(10\000\000)$.
 
 # Problem 348
 
@@ -6330,8 +6142,8 @@ Find the sum of the five smallest such palindromic numbers.
 
 An ant moves on a regular grid of squares that are coloured either black or white.  
 The ant is always oriented in one of the cardinal directions (left, right, up or down) and moves from square to adjacent square according to the following rules:  
-\- if it is on a black square, it flips the colour of the square to white, rotates $90$ degrees counterclockwise and moves forward one square.  
-\- if it is on a white square, it flips the colour of the square to black, rotates $90$ degrees clockwise and moves forward one square.  
+- if it is on a black square, it flips the colour of the square to white, rotates $90$ degrees counterclockwise and moves forward one square.  
+- if it is on a white square, it flips the colour of the square to black, rotates $90$ degrees clockwise and moves forward one square.  
 
 Starting with a grid that is entirely white, how many squares are black after $10^{18}$ moves of the ant?
 
@@ -6359,9 +6171,9 @@ Find $f(10^6, 10^{12}, 10^{18}) \bmod 101^4$.
 
 A <span class="dfn">hexagonal orchard</span> of order $n$ is a triangular lattice made up of points within a regular hexagon with side $n$. The following is an example of a hexagonal orchard of order $5$:
 
-<div data-align="center">
+<div align="center">
 
-![0351\_hexorchard.png](resources/images/0351_hexorchard.png?1678992052)  
+<img src="resources/images/0351_hexorchard.png?1678992052" class="dark_img" alt="0351_hexorchard.png" />  
 
 </div>
 
@@ -6369,13 +6181,13 @@ Highlighted in green are the points which are hidden from the center by a point 
 
 Let $H(n)$ be the number of points hidden from the center in a hexagonal orchard of order $n$.
 
-$H(5) = 30$. $H(10) = 138$. $H(1\,000) = 1177848$.
+$H(5) = 30$. $H(10) = 138$. $H(1\000) = 1177848$.
 
-Find $H(100\,000\,000)$.
+Find $H(100\000\000)$.
 
 # Problem 352
 
-Each one of the $25$ sheep in a flock must be tested for a rare virus, known to affect $2\%$ of the sheep population.
+Each one of the $25$ sheep in a flock must be tested for a rare virus, known to affect $2\$ of the sheep population.
 An accurate and extremely sensitive PCR test exists for blood samples, producing a clear positive / negative result, but it is very time-consuming and expensive.
 
 Because of the high cost, the vet-in-charge suggests that instead of performing $25$ separate tests, the following procedure can be used instead:  
@@ -6383,22 +6195,22 @@ Because of the high cost, the vet-in-charge suggests that instead of performing 
 The sheep are split into $5$ groups of $5$ sheep in each group.
 For each group, the $5$ samples are mixed together and a single test is performed. Then,
 
-  - If the result is negative, all the sheep in that group are deemed to be virus-free.
-  - If the result is positive, $5$ additional tests will be performed (a separate test for each animal) to determine the affected individual(s).
+- If the result is negative, all the sheep in that group are deemed to be virus-free.
+- If the result is positive, $5$ additional tests will be performed (a separate test for each animal) to determine the affected individual(s).
 
 Since the probability of infection for any specific animal is only $0.02$, the first test (on the pooled samples) for each group will be:
 
-  - Negative (and no more tests needed) with probability $0.98^5 = 0.9039207968$.
-  - Positive ($5$ additional tests needed) with probability $1 - 0.9039207968 = 0.0960792032$.
+- Negative (and no more tests needed) with probability $0.98^5 = 0.9039207968$.
+- Positive ($5$ additional tests needed) with probability $1 - 0.9039207968 = 0.0960792032$.
 
 Thus, the expected number of tests for each group is $1 + 0.0960792032 \times 5 = 1.480396016$.  
-Consequently, all $5$ groups can be screened using an average of only $1.480396016 \times 5 = \mathbf{7.40198008}$ tests, which represents a huge saving of more than $70\%$!
+Consequently, all $5$ groups can be screened using an average of only $1.480396016 \times 5 = \mathbf{7.40198008}$ tests, which represents a huge saving of more than $70\$!
 
 Although the scheme we have just described seems to be very efficient, it can still be improved considerably (always assuming that the test is sufficiently sensitive and that there are no adverse effects caused by mixing different samples). E.g.:
 
-  - We may start by running a test on a mixture of all the $25$ samples. It can be verified that in about $60.35\%$ of the cases this test will be negative, thus no more tests will be needed. Further testing will only be required for the remaining $39.65\%$ of the cases.
-  - If we know that at least one animal in a group of $5$ is infected and the first $4$ individual tests come out negative, there is no need to run a test on the fifth animal (we know that it must be infected).
-  - We can try a different number of groups / different number of animals in each group, adjusting those numbers at each level so that the total expected number of tests will be minimised.
+- We may start by running a test on a mixture of all the $25$ samples. It can be verified that in about $60.35\$ of the cases this test will be negative, thus no more tests will be needed. Further testing will only be required for the remaining $39.65\$ of the cases.
+- If we know that at least one animal in a group of $5$ is infected and the first $4$ individual tests come out negative, there is no need to run a test on the fifth animal (we know that it must be infected).
+- We can try a different number of groups / different number of animals in each group, adjusting those numbers at each level so that the total expected number of tests will be minimised.
 
 To simplify the very wide range of possibilities, there is one restriction we place when devising the most cost-efficient testing scheme: whenever we start with a mixed sample, all the sheep contributing to that sample must be fully screened (i.e. a verdict of infected / virus-free must be reached for all of them) before we start examining any other animals.
 
@@ -6420,9 +6232,9 @@ All stations are connected with each other via the shortest road on the great ar
 
 A direct journey from the North Pole station to the South Pole station has the length $\pi r$ and risk $1$. The journey from the North Pole station to the South Pole station via $(0,r,0)$ has the same length, but a smaller risk:
 
-\\[
+$$
 \left(\frac{\frac{1}{2}\pi r}{\pi r}\right)^2+\left(\frac{\frac{1}{2}\pi r}{\pi r}\right)^2=0.5
-\\]
+$$
 
 The minimal risk of a journey from the North Pole station to the South Pole station on $C(r)$ is $M(r)$.
 
@@ -6436,22 +6248,22 @@ Give your answer rounded to $10$ digits behind the decimal point in the form a.b
 
 Consider a honey bee's honeycomb where each cell is a perfect regular hexagon with side length $1$.
 
-<div data-align="center">
+<div align="center">
 
-![p354\_bee\_honeycomb.png](project/images/p354_bee_honeycomb.png)
+![0354_bee_honeycomb.png](resources/images/0354_bee_honeycomb.png?1678992052)
 
 </div>
 
 One particular cell is occupied by the queen bee.  
 For a positive real number $L$, let $\text{B}(L)$ count the cells with distance $L$ from the queen bee cell (all distances are measured from centre to centre); you may assume that the honeycomb is large enough to accommodate for any distance we wish to consider.  
-For example, $\text{B}(\sqrt 3)=6$, $\text{B}(\sqrt {21}) = 12$ and $\text{B}(111\,111\,111) = 54$.
+For example, $\text{B}(\sqrt 3)=6$, $\text{B}(\sqrt {21}) = 12$ and $\text{B}(111\111\111) = 54$.
 
 Find the number of $L \le 5 \times 10^{11}$ such that $\text{B}(L) = 450$.
 
 # Problem 355
 
-Define $\operatorname{Co}(n)$ to be the maximal possible sum of a set of mutually co-prime elements from $\{1,2,\dots,n\}$.  
-For example $\operatorname{Co}(10)$ is $30$ and hits that maximum on the subset $\{1,5,7,8,9\}$.
+Define $\operatorname{Co}(n)$ to be the maximal possible sum of a set of mutually co-prime elements from $\1,2,\dots,n\$.  
+For example $\operatorname{Co}(10)$ is $30$ and hits that maximum on the subset $\1,5,7,8,9\$.
 
 You are given that $\operatorname{Co}(30) = 193$ and $\operatorname{Co}(100) = 1356$.
 
@@ -6459,19 +6271,19 @@ Find $\operatorname{Co}(200000)$.
 
 # Problem 356
 
-Let $a\_n$ be the largest real root of a polynomial $g(x) = x^3 - 2^n \cdot x^2 + n$.  
-For example, $a\_2 = 3.86619826\cdots$
+Let $a_n$ be the largest real root of a polynomial $g(x) = x^3 - 2^n \cdot x^2 + n$.  
+For example, $a_2 = 3.86619826\cdots$
 
-Find the last eight digits of $\sum \limits\_{i = 1}^{30} \lfloor a\_i^{987654321} \rfloor$.
+Find the last eight digits of $\sum \limits\_{i = 1}^{30} \lfloor a_i^{987654321} \rfloor$.
 
-<span class="underline">*Note*</span>: $\lfloor a \rfloor$ represents the floor function.
+<u>*Note*</u>: $\lfloor a \rfloor$ represents the floor function.
 
 # Problem 357
 
 Consider the divisors of $30$: $1,2,3,5,6,10,15,30$.  
 It can be seen that for every divisor $d$ of $30$, $d + 30 / d$ is prime.
 
-Find the sum of all positive integers $n$ not exceeding $100\,000\,000$  
+Find the sum of all positive integers $n$ not exceeding $100\000\000$  
 such that for every divisor $d$ of $n$, $d + n / d$ is prime.
 
 # Problem 358
@@ -6504,8 +6316,8 @@ An infinite number of people (numbered $1$, $2$, $3$, etc.) are lined up to get 
 
 Initially the hotel is empty. Hilbert declares a rule on how the $n$<sup>th</sup> person is assigned a room: person $n$ gets the first vacant room in the lowest numbered floor satisfying either of the following:
 
-  - the floor is empty
-  - the floor is not empty, and if the latest person taking a room in that floor is person $m$, then $m + n$ is a perfect square
+- the floor is empty
+- the floor is not empty, and if the latest person taking a room in that floor is person $m$, then $m + n$ is a perfect square
 
 Person $1$ gets room $1$ in floor $1$ since floor $1$ is empty.  
 Person $2$ does not get room $2$ in floor $1$ since $1 + 2 = 3$ is not a perfect square.  
@@ -6526,8 +6338,8 @@ Find the sum of all $P(f, r)$ for all positive $f$ and $r$ such that $f \times r
 
 # Problem 360
 
-Given two points $(x\_1, y\_1, z\_1)$ and $(x\_2, y\_2, z\_2)$ in three dimensional space, the **Manhattan distance** between those points is defined as  
-$|x\_1 - x\_2| + |y\_1 - y\_2| + |z\_1 - z\_2|$.
+Given two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ in three dimensional space, the **Manhattan distance** between those points is defined as  
+$\|x_1 - x_2\| + \|y_1 - y_2\| + \|z_1 - z_2\|$.
 
 Let $C(r)$ be a sphere with radius $r$ and center in the origin $O(0,0,0)$.  
 Let $I(r)$ be the set of all points with integer coordinates on the surface of $C(r)$.  
@@ -6539,25 +6351,25 @@ Find $S(10^{10})$.
 
 # Problem 361
 
-The **Thue-Morse sequence** $\{T\_n\}$ is a binary sequence satisfying:
+The **Thue-Morse sequence** $\T_n\$ is a binary sequence satisfying:
 
-  - $T\_0 = 0$
-  - $T\_{2n} = T\_n$
-  - $T\_{2n + 1} = 1 - T\_n$
+- $T_0 = 0$
+- $T\_{2n} = T_n$
+- $T\_{2n + 1} = 1 - T_n$
 
-The first several terms of $\{T\_n\}$ are given as follows:  
+The first several terms of $\T_n\$ are given as follows:  
 $01101001{\color{red}10010}1101001011001101001\cdots$
 
-We define $\{A\_n\}$ as the sorted sequence of integers such that the binary expression of each element appears as a subsequence in $\{T\_n\}$.  
-For example, the decimal number $18$ is expressed as $10010$ in binary. $10010$ appears in $\{T\_n\}$ ($T\_8$ to $T\_{12}$), so $18$ is an element of $\{A\_n\}$.  
-The decimal number $14$ is expressed as $1110$ in binary. $1110$ never appears in $\{T\_n\}$, so $14$ is not an element of $\{A\_n\}$.
+We define $\A_n\$ as the sorted sequence of integers such that the binary expression of each element appears as a subsequence in $\T_n\$.  
+For example, the decimal number $18$ is expressed as $10010$ in binary. $10010$ appears in $\T_n\$ ($T_8$ to $T\_{12}$), so $18$ is an element of $\A_n\$.  
+The decimal number $14$ is expressed as $1110$ in binary. $1110$ never appears in $\T_n\$, so $14$ is not an element of $\A_n\$.
 
-The first several terms of $\{A\_n\}$ are given as follows:
+The first several terms of $\A_n\$ are given as follows:
 
-|        |     |     |     |     |     |     |     |     |      |      |      |      |      |           |
-| :----: | --: | --: | --: | --: | --: | --: | --: | --: | ---: | ---: | ---: | ---: | ---: | --------: |
-|  $n$   | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |  $8$ |  $9$ | $10$ | $11$ | $12$ | $\cdots$ |
-| $A\_n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $9$ | $10$ | $11$ | $12$ | $13$ | $18$ | $\cdots$ |
+|         |       |       |       |       |       |       |       |       |        |        |        |        |        |            |
+|:-------:|------:|------:|------:|------:|------:|------:|------:|------:|-------:|-------:|-------:|-------:|-------:|-----------:|
+|  $n$  | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |  $8$ |  $9$ | $10$ | $11$ | $12$ | $\cdots$ |
+| $A_n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $9$ | $10$ | $11$ | $12$ | $13$ | $18$ | $\cdots$ |
 
 We can also verify that $A\_{100} = 3251$ and $A\_{1000} = 80852364498$.
 
@@ -6577,34 +6389,34 @@ Let $S(n)$ be $\sum \operatorname{Fsf}(k)$ for $k=2$ to $n$.
 
 $S(100)=193$.
 
-Find $S(10\,000\,000\,000)$.
+Find $S(10\000\000\000)$.
 
 # Problem 363
 
-A cubic Bézier curve is defined by four points: $P\_0, P\_1, P\_2,$ and $P\_3$.
+A cubic Bézier curve is defined by four points: $P_0, P_1, P_2,$ and $P_3$.
 
 <div class="float_right">
 
-![p363\_bezier.png](project/images/p363_bezier.png)
+<img src="resources/images/0363_bezier.png?1678992053" class="dark_img" alt="0363_bezier.png" />
 
 </div>
 
 The curve is constructed as follows:
 
-On the segments $P\_0 P\_1$, $P\_1 P\_2$, and $P\_2 P\_3$ the points $Q\_0, Q\_1,$ and $Q\_2$ are drawn such that $\dfrac{P\_0 Q\_0}{P\_0 P\_1} = \dfrac{P\_1 Q\_1}{P\_1 P\_2} = \dfrac{P\_2 Q\_2}{P\_2 P\_3} = t$, with $t$ in $\[0, 1\]$.
+On the segments $P_0 P_1$, $P_1 P_2$, and $P_2 P_3$ the points $Q_0, Q_1,$ and $Q_2$ are drawn such that $\dfrac{P_0 Q_0}{P_0 P_1} = \dfrac{P_1 Q_1}{P_1 P_2} = \dfrac{P_2 Q_2}{P_2 P_3} = t$, with $t$ in $\[0, 1\]$.
 
-On the segments $Q\_0 Q\_1$ and $Q\_1 Q\_2$ the points $R\_0$ and $R\_1$ are drawn such that  
-$\dfrac{Q\_0 R\_0}{Q\_0 Q\_1} = \dfrac{Q\_1 R\_1}{Q\_1 Q\_2} = t$ for the same value of $t$.
+On the segments $Q_0 Q_1$ and $Q_1 Q_2$ the points $R_0$ and $R_1$ are drawn such that  
+$\dfrac{Q_0 R_0}{Q_0 Q_1} = \dfrac{Q_1 R_1}{Q_1 Q_2} = t$ for the same value of $t$.
 
-On the segment $R\_0 R\_1$ the point $B$ is drawn such that $\dfrac{R\_0 B}{R\_0 R\_1} = t$ for the same value of $t$.
+On the segment $R_0 R_1$ the point $B$ is drawn such that $\dfrac{R_0 B}{R_0 R_1} = t$ for the same value of $t$.
 
-The Bézier curve defined by the points $P\_0, P\_1, P\_2, P\_3$ is the locus of $B$ as $Q\_0$ takes all possible positions on the segment $P\_0 P\_1$.  
+The Bézier curve defined by the points $P_0, P_1, P_2, P_3$ is the locus of $B$ as $Q_0$ takes all possible positions on the segment $P_0 P_1$.  
 (Please note that for all points the value of $t$ is the same.)
 
-From the construction it is clear that the Bézier curve will be tangent to the segments $P\_0 P\_1$ in $P\_0$ and $P\_2 P\_3$ in $P\_3$.
+From the construction it is clear that the Bézier curve will be tangent to the segments $P_0 P_1$ in $P_0$ and $P_2 P_3$ in $P_3$.
 
-A cubic Bézier curve with $P\_0 = (1, 0), P\_1 = (1, v), P\_2 = (v, 1),$ and $P\_3 = (0, 1)$ is used to approximate a quarter circle.  
-The value $v \gt 0$ is chosen such that the area enclosed by the lines $O P\_0, OP\_3$ and the curve is equal to $\dfrac{\pi}{4}$ (the area of the quarter circle).
+A cubic Bézier curve with $P_0 = (1, 0), P_1 = (1, v), P_2 = (v, 1),$ and $P_3 = (0, 1)$ is used to approximate a quarter circle.  
+The value $v \gt 0$ is chosen such that the area enclosed by the lines $O P_0, OP_3$ and the curve is equal to $\dfrac{\pi}{4}$ (the area of the quarter circle).
 
 By how many percent does the length of the curve differ from the length of the quarter circle?  
 That is, if $L$ is the length of the curve, calculate $100 \times \dfrac{L - \frac{\pi}{2}}{\frac{\pi}{2}}$  
@@ -6621,15 +6433,15 @@ There are $N$ seats in a row. $N$ people come after each other to fill the seats
 Let $T(N)$ be the number of possibilities that $N$ seats are occupied by $N$ people with the given rules.  
 The following figure shows $T(4)=8$.
 
-<div data-align="center">
+<div align="center">
 
-![0364\_comf\_dist.gif](resources/images/0364_comf_dist.gif?1678992056)
+<img src="resources/images/0364_comf_dist.gif?1678992056" class="dark_img" alt="0364_comf_dist.gif" />
 
 </div>
 
-We can verify that $T(10) = 61632$ and $T(1\,000) \bmod 100\,000\,007 = 47255094$.
+We can verify that $T(10) = 61632$ and $T(1\000) \bmod 100\000\007 = 47255094$.
 
-Find $T(1\,000\,000) \bmod 100\,000\,007$.
+Find $T(1\000\000) \bmod 100\000\007$.
 
 # Problem 365
 
@@ -6731,11 +6543,11 @@ Give your answer rounded to 8 decimal places behind the decimal point.
 
 # Problem 372
 
-Let $R(M, N)$ be the number of lattice points $(x, y)$ which satisfy $M\!\lt\!x\!\le\!N$, $M\!\lt\!y\!\le\!N$ and $\large\left\lfloor\!\frac{y^2}{x^2}\!\right\rfloor$ is odd.  
+Let $R(M, N)$ be the number of lattice points $(x, y)$ which satisfy $M\\lt\x\\le\N$, $M\\lt\y\\le\N$ and $\large\left\lfloor\\frac{y^2}{x^2}\\right\rfloor$ is odd.  
 We can verify that $R(0, 100) = 3019$ and $R(100, 10000) = 29750422$.  
 Find $R(2\cdot10^6, 10^9)$.
 
-<span class="underline">*Note*</span>: $\lfloor x\rfloor$ represents the floor function.
+<u>*Note*</u>: $\lfloor x\rfloor$ represents the floor function.
 
 # Problem 373
 
@@ -6773,18 +6585,18 @@ Give your answer modulo $982451653$, the $50$ millionth prime.
 
 # Problem 375
 
-Let $S\_n$ be an integer sequence produced with the following pseudo-random number generator:
+Let $S_n$ be an integer sequence produced with the following pseudo-random number generator:
 
-\begin{align}
-S\_0 & = 290797 \\
-S\_{n+1} & = S\_n^2 \bmod 50515093
-\end{align}
+$$\begin{align}
+S_0 & = 290797 \
+S\_{n+1} & = S_n^2 \bmod 50515093
+\end{align}$$
 
-Let $A(i, j)$ be the minimum of the numbers $S\_i, S\_{i+1}, \dots, S\_j$ for $i\le j$.  
+Let $A(i, j)$ be the minimum of the numbers $S_i, S\_{i+1}, \dots, S_j$ for $i\le j$.  
 Let $M(N) = \sum A(i, j)$ for $1 \le i \le j \le N$.  
-We can verify that $M(10) = 432256955$ and $M(10\,000) = 3264567774119$.
+We can verify that $M(10) = 432256955$ and $M(10\000) = 3264567774119$.
 
-Find $M(2\,000\,000\,000)$.
+Find $M(2\000\000\000)$.
 
 # Problem 376
 
@@ -6805,15 +6617,15 @@ $P(\text{second player wins}) = 7/12 \gt 1/2$.
 If the first player picks die $C$ and the second player picks die $A$ we get  
 $P(\text{second player wins}) = 25/36 \gt 1/2$.
 
-So whatever die the first player picks, the second player can pick another die and have a larger than $50\%$ chance of winning.  
+So whatever die the first player picks, the second player can pick another die and have a larger than $50\$ chance of winning.  
 A set of dice having this property is called a **nontransitive set of dice**.
 
 We wish to investigate how many sets of nontransitive dice exist. We will assume the following conditions:
 
-  - There are three six-sided dice with each side having between $1$ and $N$ pips, inclusive.
-  - Dice with the same set of pips are equal, regardless of which side on the die the pips are located.
-  - The same pip value may appear on multiple dice; if both players roll the same value neither player wins.
-  - The sets of dice $\{A,B,C\}$, $\{B,C,A\}$ and $\{C,A,B\}$ are the same set.
+- There are three six-sided dice with each side having between $1$ and $N$ pips, inclusive.
+- Dice with the same set of pips are equal, regardless of which side on the die the pips are located.
+- The same pip value may appear on multiple dice; if both players roll the same value neither player wins.
+- The sets of dice $\A,B,C\$, $\B,C,A\$ and $\C,A,B\$ are the same set.
 
 For $N = 7$ we find there are $9780$ such sets.  
 How many are there for $N = 30$?
@@ -6858,7 +6670,7 @@ Find $g(10^{12})$.
 An $m \times n$ maze is an $m \times n$ rectangular grid with walls placed between grid cells such that there is exactly one path from the top-left square to any other square.  
 The following are examples of a $9 \times 12$ maze and a $15 \times 20$ maze:
 
-![0380\_mazes.gif](resources/images/0380_mazes.gif?1678992056)
+<img src="resources/images/0380_mazes.gif?1678992056" class="dark_img" alt="0380_mazes.gif" />
 
 Let $C(m,n)$ be the number of distinct $m \times n$ mazes. Mazes which can be formed by rotation and reflection from another maze are considered distinct.
 
@@ -6886,40 +6698,40 @@ A **polygon** is a flat shape consisting of straight line segments that are join
 
 A set $S$ of positive numbers is said to <span class="dfn">generate a polygon</span> $P$ if:
 
-  - no two sides of $P$ are the same length,
-  - the length of every side of $P$ is in $S$, and
-  - $S$ contains no other value.
+- no two sides of $P$ are the same length,
+- the length of every side of $P$ is in $S$, and
+- $S$ contains no other value.
 
 For example:  
-The set $\{3, 4, 5\}$ generates a polygon with sides $3$, $4$, and $5$ (a triangle).  
-The set $\{6, 9, 11, 24\}$ generates a polygon with sides $6$, $9$, $11$, and $24$ (a quadrilateral).  
-The sets $\{1, 2, 3\}$ and $\{2, 3, 4, 9\}$ do not generate any polygon at all.  
+The set $\3, 4, 5\$ generates a polygon with sides $3$, $4$, and $5$ (a triangle).  
+The set $\6, 9, 11, 24\$ generates a polygon with sides $6$, $9$, $11$, and $24$ (a quadrilateral).  
+The sets $\1, 2, 3\$ and $\2, 3, 4, 9\$ do not generate any polygon at all.  
 
 Consider the sequence $s$, defined as follows:
 
-  - $s\_1 = 1$, $s\_2 = 2$, $s\_3 = 3$
-  - $s\_n = s\_{n-1} + s\_{n-3}$ for $n \gt 3$.
+- $s_1 = 1$, $s_2 = 2$, $s_3 = 3$
+- $s_n = s\_{n-1} + s\_{n-3}$ for $n \gt 3$.
 
-Let $U\_n$ be the set $\{s\_1, s\_2, \dots, s\_n\}$. For example, $U\_{10} = \{1, 2, 3, 4, 6, 9, 13, 19, 28, 41\}$.  
-Let $f(n)$ be the number of subsets of $U\_n$ which generate at least one polygon.  
+Let $U_n$ be the set $\s_1, s_2, \dots, s_n\$. For example, $U\_{10} = \1, 2, 3, 4, 6, 9, 13, 19, 28, 41\$.  
+Let $f(n)$ be the number of subsets of $U_n$ which generate at least one polygon.  
 For example, $f(5) = 7$, $f(10) = 501$ and $f(25) = 18635853$.
 
 Find the last $9$ digits of $f(10^{18})$.
 
 # Problem 383
 
-Let $f\_5(n)$ be the largest integer $x$ for which $5^x$ divides $n$.  
-For example, $f\_5(625000) = 7$.
+Let $f_5(n)$ be the largest integer $x$ for which $5^x$ divides $n$.  
+For example, $f_5(625000) = 7$.
 
-Let $T\_5(n)$ be the number of integers $i$ which satisfy $f\_5((2 \cdot i - 1)!) \lt 2 \cdot f\_5(i!)$ and $1 \le i \le n$.  
-It can be verified that $T\_5(10^3) = 68$ and $T\_5(10^9) = 2408210$.
+Let $T_5(n)$ be the number of integers $i$ which satisfy $f_5((2 \cdot i - 1)!) \lt 2 \cdot f_5(i!)$ and $1 \le i \le n$.  
+It can be verified that $T_5(10^3) = 68$ and $T_5(10^9) = 2408210$.
 
-Find $T\_5(10^{18})$.
+Find $T_5(10^{18})$.
 
 # Problem 384
 
 Define the sequence $a(n)$ as the number of adjacent pairs of ones in the binary expansion of $n$ (possibly overlapping).  
-E.g.: $a(5) = a(101\_2) = 0$, $a(6) = a(110\_2) = 1$, $a(7) = a(111\_2) = 2$.
+E.g.: $a(5) = a(101_2) = 0$, $a(6) = a(110_2) = 1$, $a(7) = a(111_2) = 2$.
 
 Define the sequence $b(n) = (-1)^{a(n)}$.  
 This sequence is called the **Rudin-Shapiro** sequence.
@@ -6928,8 +6740,8 @@ Also consider the summatory sequence of $b(n)$: $s(n) = \sum \limits\_{i = 0}^n 
 
 The first couple of values of these sequences are:
 
-|        |     |     |     |      |     |     |      |     |
-| :----: | --: | --: | --: | ---: | --: | --: | ---: | --: |
+|          |       |       |       |        |       |       |        |       |
+|:--------:|------:|------:|------:|-------:|------:|------:|-------:|------:|
 |  $n$   | $0$ | $1$ | $2$ |  $3$ | $4$ | $5$ |  $6$ | $7$ |
 | $a(n)$ | $0$ | $0$ | $0$ |  $1$ | $0$ | $0$ |  $1$ | $2$ |
 | $b(n)$ | $1$ | $1$ | $1$ | $-1$ | $1$ | $1$ | $-1$ | $1$ |
@@ -6952,18 +6764,18 @@ Find $\sum GF(t)$ for $2 \le t \le 45$.
 
 For any triangle $T$ in the plane, it can be shown that there is a unique ellipse with largest area that is completely inside $T$.
 
-![0385\_ellipsetriangle.png](resources/images/0385_ellipsetriangle.png?1678992053)
+![0385_ellipsetriangle.png](resources/images/0385_ellipsetriangle.png?1678992053)
 
 For a given $n$, consider triangles $T$ such that:  
-\- the vertices of $T$ have integer coordinates with absolute value $\le n$, and  
-\- the **foci**<sup>1</sup> of the largest-area ellipse inside $T$ are $(\sqrt{13},0)$ and $(-\sqrt{13},0)$.  
+- the vertices of $T$ have integer coordinates with absolute value $\le n$, and  
+- the **foci**<sup>1</sup> of the largest-area ellipse inside $T$ are $(\sqrt{13},0)$ and $(-\sqrt{13},0)$.  
 Let $A(n)$ be the sum of the areas of all such triangles.
 
 For example, if $n = 8$, there are two such triangles. Their vertices are $(-4,-3),(-4,3),(8,0)$ and $(4,3),(4,-3),(-8,0)$, and the area of each triangle is $36$. Thus $A(8) = 36 + 36 = 72$.
 
 It can be verified that $A(10) = 252$, $A(100) = 34632$ and $A(1000) = 3529008$.
 
-Find $A(1\,000\,000\,000)$.
+Find $A(1\000\000\000)$.
 
 <span style="font-size:smaller;"><sup>1</sup>The **foci** (plural of **focus**) of an ellipse are two points $A$ and $B$ such that for every point $P$ on the boundary of the ellipse, $AP + PB$ is constant.</span>
 
@@ -6973,9 +6785,9 @@ Let $n$ be an integer and $S(n)$ be the set of factors of $n$.
 
 A subset $A$ of $S(n)$ is called an **antichain** of $S(n)$ if $A$ contains only one element or if none of the elements of $A$ divides any of the other elements of $A$.
 
-For example: $S(30) = \{1, 2, 3, 5, 6, 10, 15, 30\}$.  
-$\{2, 5, 6\}$ is not an antichain of $S(30)$.  
-$\{2, 3, 5\}$ is an antichain of $S(30)$.
+For example: $S(30) = \1, 2, 3, 5, 6, 10, 15, 30\$.  
+$\2, 5, 6\$ is not an antichain of $S(30)$.  
+$\2, 3, 5\$ is an antichain of $S(30)$.
 
 Let $N(n)$ be the maximum length of an antichain of $S(n)$.
 
@@ -7008,7 +6820,7 @@ Consider all lattice points $(a,b,c)$ with $0 \le a,b,c \le N$.
 From the origin $O(0,0,0)$ all lines are drawn to the other lattice points.  
 Let $D(N)$ be the number of *distinct* such lines.
 
-You are given that $D(1\,000\,000) = 831909254469114121$.
+You are given that $D(1\000\000) = 831909254469114121$.
 
 Find $D(10^{10})$. Give as your answer the first nine digits followed by the last nine digits.
 
@@ -7026,7 +6838,7 @@ Find the **variance** of $I$, and give your answer rounded to $4$ decimal places
 Consider the triangle with sides $\sqrt 5$, $\sqrt {65}$ and $\sqrt {68}$.
 It can be shown that this triangle has area $9$.
 
-$S(n)$ is the sum of the areas of all triangles with sides $\sqrt{1+b^2}$, $\sqrt {1+c^2}$ and $\sqrt{b^2+c^2}\,$ (for positive integers $b$ and $c$) that have an integral area not exceeding $n$.
+$S(n)$ is the sum of the areas of all triangles with sides $\sqrt{1+b^2}$, $\sqrt {1+c^2}$ and $\sqrt{b^2+c^2}\$ (for positive integers $b$ and $c$) that have an integral area not exceeding $n$.
 
 The example triangle has $b=2$ and $c=8$.
 
@@ -7036,9 +6848,9 @@ Find $S(10^{10})$.
 
 # Problem 391
 
-Let $s\_k$ be the number of 1’s when writing the numbers from 0 to $k$ in binary.  
-For example, writing 0 to 5 in binary, we have $0, 1, 10, 11, 100, 101$. There are seven 1’s, so $s\_5 = 7$.  
-The sequence $S = \{s\_k : k \ge 0\}$ starts $\{0, 1, 2, 4, 5, 7, 9, 12, ...\}$.
+Let $s_k$ be the number of 1’s when writing the numbers from 0 to $k$ in binary.  
+For example, writing 0 to 5 in binary, we have $0, 1, 10, 11, 100, 101$. There are seven 1’s, so $s_5 = 7$.  
+The sequence $S = \s_k : k \ge 0\$ starts $\0, 1, 2, 4, 5, 7, 9, 12, ...\$.
 
 A game is played by two players. Before the game starts, a number $n$ is chosen. A counter $c$ starts at 0. At each turn, the player chooses a number from 1 to $n$ (inclusive) and increases $c$ by that number. The resulting value of $c$ must be a member of $S$. If there are no more valid moves, then the player loses.
 
@@ -7064,17 +6876,17 @@ An example of such grid is logarithmic graph paper.
 
 Consider rectilinear grids in the Cartesian coordinate system with the following properties:  
 
-  - The gridlines are parallel to the axes of the Cartesian coordinate system.
-  - There are $N+2$ vertical and $N+2$ horizontal gridlines. Hence there are $(N+1) \times (N+1)$ rectangular cells.
-  - The equations of the two outer vertical gridlines are $x = -1$ and $x = 1$.
-  - The equations of the two outer horizontal gridlines are $y = -1$ and $y = 1$.
-  - The grid cells are colored red if they overlap with the **unit circle<span class="tooltiptext">The unit circle is the circle that has radius $1$ and is centered at the origin</span>**, black otherwise.
+- The gridlines are parallel to the axes of the Cartesian coordinate system.
+- There are $N+2$ vertical and $N+2$ horizontal gridlines. Hence there are $(N+1) \times (N+1)$ rectangular cells.
+- The equations of the two outer vertical gridlines are $x = -1$ and $x = 1$.
+- The equations of the two outer horizontal gridlines are $y = -1$ and $y = 1$.
+- The grid cells are colored red if they overlap with the **unit circle<span class="tooltiptext">The unit circle is the circle that has radius $1$ and is centered at the origin</span>**, black otherwise.
 
 For this problem we would like you to find the positions of the remaining $N$ inner horizontal and $N$ inner vertical gridlines so that the area occupied by the red cells is minimized.
 
 E.g. here is a picture of the solution for $N = 10$:
 
-![0392\_gridlines.png](resources/images/0392_gridlines.png?1678992053)
+![0392_gridlines.png](resources/images/0392_gridlines.png?1678992053)
 
 The area occupied by the red cells for $N = 10$ rounded to $10$ digits behind the decimal point is $3.3469640797$.
 
@@ -7095,11 +6907,11 @@ Find $f(10)$.
 Jeff eats a pie in an unusual way.  
 The pie is circular. He starts with slicing an initial cut in the pie along a radius.  
 While there is at least a given fraction $F$ of pie left, he performs the following procedure:  
-\- He makes two slices from the pie centre to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. This will divide the remaining pie into three pieces.  
-\- Going counterclockwise from the initial cut, he takes the first two pie pieces and eats them.  
+- He makes two slices from the pie centre to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. This will divide the remaining pie into three pieces.  
+- Going counterclockwise from the initial cut, he takes the first two pie pieces and eats them.  
 When less than a fraction $F$ of pie remains, he does not repeat this procedure. Instead, he eats all of the remaining pie.
 
-![0394\_eatpie.gif](resources/images/0394_eatpie.gif?1678992056)
+![0394_eatpie.gif](resources/images/0394_eatpie.gif?1678992056)
 
 For $x \ge 1$, let $E(x)$ be the expected number of times Jeff repeats the procedure above with $F = 1/x$.  
 It can be verified that $E(1) = 1$, $E(2) \approx 1.2676536759$, and $E(7.5) \approx 2.1215732071$.
@@ -7118,9 +6930,9 @@ Start with a unit square. Then, calling one of the sides its base (in the animat
 
 The resulting figure, after an infinite number of iterations, is the Pythagorean tree.
 
-<div data-align="center">
+<div align="center">
 
-![0395\_pythagorean.gif](resources/images/0395_pythagorean.gif?1678992056)
+![0395_pythagorean.gif](resources/images/0395_pythagorean.gif?1678992056)
 
 </div>
 
@@ -7130,19 +6942,19 @@ Find the smallest area possible for such a bounding rectangle, and give your ans
 
 # Problem 396
 
-For any positive integer $n$, the **$n$th weak Goodstein sequence** $\{g\_1, g\_2, g\_3, \dots\}$ is defined as:
+For any positive integer $n$, the **$n$th weak Goodstein sequence** $\g_1, g_2, g_3, \dots\$ is defined as:
 
-  - $g\_1 = n$
-  - for $k \gt 1$, $g\_k$ is obtained by writing $g\_{k-1}$ in base $k$, interpreting it as a base $k + 1$ number, and subtracting $1$.
+- $g_1 = n$
+- for $k \gt 1$, $g_k$ is obtained by writing $g\_{k-1}$ in base $k$, interpreting it as a base $k + 1$ number, and subtracting $1$.
 
-The sequence terminates when $g\_k$ becomes $0$.
+The sequence terminates when $g_k$ becomes $0$.
 
-For example, the $6$th weak Goodstein sequence is $\{6, 11, 17, 25, \dots\}$:
+For example, the $6$th weak Goodstein sequence is $\6, 11, 17, 25, \dots\$:
 
-  - $g\_1 = 6$.
-  - $g\_2 = 11$ since $6 = 110\_2$, $110\_3 = 12$, and $12 - 1 = 11$.
-  - $g\_3 = 17$ since $11 = 102\_3$, $102\_4 = 18$, and $18 - 1 = 17$.
-  - $g\_4 = 25$ since $17 = 101\_4$, $101\_5 = 26$, and $26 - 1 = 25$.
+- $g_1 = 6$.
+- $g_2 = 11$ since $6 = 110_2$, $110_3 = 12$, and $12 - 1 = 11$.
+- $g_3 = 17$ since $11 = 102_3$, $102_4 = 18$, and $18 - 1 = 17$.
+- $g_4 = 25$ since $17 = 101_4$, $101_5 = 26$, and $26 - 1 = 25$.
 
 and so on.
 
@@ -7186,28 +6998,28 @@ The $200$th squarefree Fibonacci number is:
 $971183874599339129547649988289594072811608739584170445$.  
 The last sixteen digits of this number are: $1608739584170445$ and in scientific notation this number can be written as $9.7\mathrm e53$.
 
-Find the $100\,000\,000$th squarefree Fibonacci number.  
+Find the $100\000\000$th squarefree Fibonacci number.  
 Give as your answer its last sixteen digits followed by a comma followed by the number in scientific notation (rounded to one digit after the decimal point).  
 For the $200$th squarefree number the answer would have been: 1608739584170445,9.7e53
 
 Note:  
 For this problem, assume that for every prime $p$, the first fibonacci number divisible by $p$ is not divisible by $p^2$ (this is part of **Wall's conjecture**). This has been verified for primes $\le 3 \cdot 10^{15}$, but has not been proven in general.  
-If it happens that the conjecture is false, then the accepted answer to this problem isn't guaranteed to be the $100\,000\,000$th squarefree Fibonacci number, rather it represents only a lower bound for that number.
+If it happens that the conjecture is false, then the accepted answer to this problem isn't guaranteed to be the $100\000\000$th squarefree Fibonacci number, rather it represents only a lower bound for that number.
 
 # Problem 400
 
 A **Fibonacci tree** is a binary tree recursively defined as:
 
-  - $T(0)$ is the empty tree.
-  - $T(1)$ is the binary tree with only one node.
-  - $T(k)$ consists of a root node that has $T(k-1)$ and $T(k-2)$ as children.
+- $T(0)$ is the empty tree.
+- $T(1)$ is the binary tree with only one node.
+- $T(k)$ consists of a root node that has $T(k-1)$ and $T(k-2)$ as children.
 
 On such a tree two players play a take-away game. On each turn a player selects a node and removes that node along with the subtree rooted at that node.  
 The player who is forced to take the root node of the entire tree loses.
 
 Here are the winning moves of the first player on the first turn for $T(k)$ from $k=1$ to $k=6$.
 
-![0400\_winning.png](resources/images/0400_winning.png?1678992053)
+<img src="resources/images/0400_winning.png?1678992053" class="dark_img" alt="0400_winning.png" />
 
 Let $f(k)$ be the number of winning moves of the first player (i.e. the moves for which the second player has no winning strategy) on the first turn of the game when this game is played on $T(k)$.
 
@@ -7238,33 +7050,33 @@ Also, define $S(N)$ as the sum of $M(a, b, c)$ for all $0 \lt a, b, c \leq N$.
 
 We can verify that $S(10) = 1972$ and $S(10000) = 2024258331114$.
 
-Let $F\_k$ be the Fibonacci sequence:  
-$F\_0 = 0$, $F\_1 = 1$ and  
-$F\_k = F\_{k-1} + F\_{k-2}$ for $k \geq 2$.
+Let $F_k$ be the Fibonacci sequence:  
+$F_0 = 0$, $F_1 = 1$ and  
+$F_k = F\_{k-1} + F\_{k-2}$ for $k \geq 2$.
 
-Find the last $9$ digits of $\sum S(F\_k)$ for $2 \leq k \leq 1234567890123$.
+Find the last $9$ digits of $\sum S(F_k)$ for $2 \leq k \leq 1234567890123$.
 
 # Problem 403
 
 For integers $a$ and $b$, we define $D(a, b)$ as the domain enclosed by the parabola $y = x^2$ and the line $y = a\cdot x + b$:  
-$D(a, b) = \{(x, y) \mid x^2 \leq y \leq a\cdot x + b \}$.
+$D(a, b) = \(x, y) \mid x^2 \leq y \leq a\cdot x + b \$.
 
 $L(a, b)$ is defined as the number of lattice points contained in $D(a, b)$.  
 For example, $L(1, 2) = 8$ and $L(2, -1) = 1$.
 
-We also define $S(N)$ as the sum of $L(a, b)$ for all the pairs $(a, b)$ such that the area of $D(a, b)$ is a rational number and $|a|,|b| \leq N$.  
+We also define $S(N)$ as the sum of $L(a, b)$ for all the pairs $(a, b)$ such that the area of $D(a, b)$ is a rational number and $\|a\|,\|b\| \leq N$.  
 We can verify that $S(5) = 344$ and $S(100) = 26709528$.
 
 Find $S(10^{12})$. Give your answer mod $10^8$.
 
 # Problem 404
 
-$E\_a$ is an ellipse with an equation of the form $x^2 + 4y^2 = 4a^2$.  
-$E\_a^\prime$ is the rotated image of $E\_a$ by $\theta$ degrees counterclockwise around the origin $O(0, 0)$ for $0^\circ \lt \theta \lt 90^\circ$.
+$E_a$ is an ellipse with an equation of the form $x^2 + 4y^2 = 4a^2$.  
+$E_a^\prime$ is the rotated image of $E_a$ by $\theta$ degrees counterclockwise around the origin $O(0, 0)$ for $0^\circ \lt \theta \lt 90^\circ$.
 
-<div data-align="center">
+<div align="center">
 
-![0404\_c\_ellipse.gif](resources/images/0404_c_ellipse.gif?1678992056)
+![0404_c_ellipse.gif](resources/images/0404_c_ellipse.gif?1678992056)
 
 </div>
 
@@ -7283,17 +7095,17 @@ We wish to tile a rectangle whose length is twice its width.
 Let $T(0)$ be the tiling consisting of a single rectangle.  
 For $n \gt 0$, let $T(n)$ be obtained from $T(n-1)$ by replacing all tiles in the following manner:
 
-<div data-align="center">
+<div align="center">
 
-![0405\_tile1.png](resources/images/0405_tile1.png?1678992053)
+![0405_tile1.png](resources/images/0405_tile1.png?1678992053)
 
 </div>
 
 The following animation demonstrates the tilings $T(n)$ for $n$ from $0$ to $5$:
 
-<div data-align="center">
+<div align="center">
 
-![0405\_tile2.gif](resources/images/0405_tile2.gif?1678992056)
+![0405_tile2.gif](resources/images/0405_tile2.gif?1678992056)
 
 </div>
 
@@ -7304,14 +7116,14 @@ Find $f(10^k)$ for $k = 10^{18}$, give your answer modulo $17^7$.
 
 # Problem 406
 
-We are trying to find a hidden number selected from the set of integers $\{1, 2, \dots, n\}$ by asking questions.
+We are trying to find a hidden number selected from the set of integers $\1, 2, \dots, n\$ by asking questions.
 Each number (question) we ask, we get one of three possible answers:  
 
-  - "Your guess is lower than the hidden number" (and you incur a cost of $a$), or
-  - "Your guess is higher than the hidden number" (and you incur a cost of $b$), or
-  - "Yes, that's it!" (and the game ends).
+- "Your guess is lower than the hidden number" (and you incur a cost of $a$), or
+- "Your guess is higher than the hidden number" (and you incur a cost of $b$), or
+- "Yes, that's it!" (and the game ends).
 
-Given the value of $n$, $a$, and $b$, an <span class="dfn">optimal strategy</span> minimizes the total cost <span class="underline">for the worst possible case</span>.
+Given the value of $n$, $a$, and $b$, an <span class="dfn">optimal strategy</span> minimizes the total cost <u>for the worst possible case</u>.
 
 For example, if $n = 5$, $a = 2$, and $b = 3$, then we may begin by asking "**2**" as our first question.
 
@@ -7330,8 +7142,8 @@ $C(500, \sqrt 2, \sqrt 3) = 13.22073197\dots$
 $C(20000, 5, 7) = 82$  
 $C(2000000, \sqrt 5, \sqrt 7) = 49.63755955\dots$
 
-Let $F\_k$ be the Fibonacci numbers: $F\_k=F\_{k-1}+F\_{k-2}$ with base cases $F\_1=F\_2= 1$.  
-Find $\displaystyle \sum \limits\_{k = 1}^{30} {C \left (10^{12}, \sqrt{k}, \sqrt{F\_k} \right )}$, and give your answer rounded to 8 decimal places behind the decimal point.
+Let $F_k$ be the Fibonacci numbers: $F_k=F\_{k-1}+F\_{k-2}$ with base cases $F_1=F_2= 1$.  
+Find $\displaystyle \sum \limits\_{k = 1}^{30} {C \left (10^{12}, \sqrt{k}, \sqrt{F_k} \right )}$, and give your answer rounded to 8 decimal places behind the decimal point.
 
 # Problem 407
 
@@ -7348,25 +7160,25 @@ Find $\sum M(n)$ for $1 \leq n \leq 10^7$.
 Let's call a lattice point $(x, y)$ <span class="dfn">inadmissible</span> if $x, y$ and $x+y$ are all positive perfect squares.  
 For example, $(9, 16)$ is inadmissible, while $(0, 4)$, $(3, 1)$ and $(9, 4)$ are not.
 
-Consider a path from point $(x\_1, y\_1)$ to point $(x\_2, y\_2)$ using only unit steps north or east.  
+Consider a path from point $(x_1, y_1)$ to point $(x_2, y_2)$ using only unit steps north or east.  
 Let's call such a path <span class="dfn">admissible</span> if none of its intermediate points are inadmissible.
 
 Let $P(n)$ be the number of admissible paths from $(0, 0)$ to $(n, n)$.  
-It can be verified that $P(5) = 252$, $P(16) = 596994440$ and $P(1000) \bmod 1\,000\,000\,007 = 341920854$.
+It can be verified that $P(5) = 252$, $P(16) = 596994440$ and $P(1000) \bmod 1\000\000\007 = 341920854$.
 
-Find $P(10\,000\,000) \bmod 1\,000\,000\,007$.
+Find $P(10\000\000) \bmod 1\000\000\007$.
 
 # Problem 409
 
 Let $n$ be a positive integer. Consider **nim** positions where:
 
-  - There are $n$ non-empty piles.
-  - Each pile has size less than $2^n$.
-  - No two piles have the same size.
+- There are $n$ non-empty piles.
+- Each pile has size less than $2^n$.
+- No two piles have the same size.
 
-Let $W(n)$ be the number of winning nim positions satisfying the above conditions (a position is winning if the first player has a winning strategy). For example, $W(1) = 1$, $W(2) = 6$, $W(3) = 168$, $W(5) = 19764360$ and $W(100) \bmod 1\,000\,000\,007 = 384777056$.
+Let $W(n)$ be the number of winning nim positions satisfying the above conditions (a position is winning if the first player has a winning strategy). For example, $W(1) = 1$, $W(2) = 6$, $W(3) = 168$, $W(5) = 19764360$ and $W(100) \bmod 1\000\000\007 = 384777056$.
 
-Find $W(10\,000\,000) \bmod 1\,000\,000\,007$.
+Find $W(10\000\000) \bmod 1\000\000\007$.
 
 # Problem 410
 
@@ -7389,7 +7201,7 @@ Let $S(n)$ be the maximum number of stations such a path can pass through.
 For example, if $n = 22$, there are $11$ distinct stations, and a valid path can pass through at most $5$ stations. Therefore, $S(22) = 5$.
 The case is illustrated below, with an example of an optimal path:
 
-![0411\_longpath.png](resources/images/0411_longpath.png?1678992053)
+![0411_longpath.png](resources/images/0411_longpath.png?1678992053)
 
 It can also be verified that $S(123) = 14$ and $S(10000) = 48$.
 
@@ -7401,13 +7213,13 @@ For integers $m, n$ ($0 \leq n \lt m$), let $L(m, n)$ be an $m \times m$ grid wi
 
 For example, $L(5, 3)$ looks like this:
 
-![0412\_table53.png](resources/images/0412_table53.png?1678992053)
+![0412_table53.png](resources/images/0412_table53.png?1678992053)
 
 We want to number each cell of $L(m, n)$ with consecutive integers $1, 2, 3, \dots$ such that the number in every cell is smaller than the number below it and to the left of it.
 
 For example, here are two valid numberings of $L(5, 3)$:
 
-![0412\_tablenums.png](resources/images/0412_tablenums.png?1678992053)
+![0412_tablenums.png](resources/images/0412_tablenums.png?1678992053)
 
 Let $\operatorname{LC}(m, n)$ be the number of valid numberings of $L(m, n)$.  
 It can be verified that $\operatorname{LC}(3, 0) = 42$, $\operatorname{LC}(5, 3) = 250250$, $\operatorname{LC}(6, 3) = 406029023400$ and $\operatorname{LC}(10, 5) \bmod 76543217 = 61251715$.
@@ -7444,11 +7256,11 @@ However, it can be shown that for $5$ digits and a base $b = 6t+3\neq 9$, a Kapr
 E.g. base $15$: $(10,4,14,9,5)\_{15}$  
 base $21$: $(14,6,20,13,7)\_{21}$
 
-Define $C\_b$ to be the Kaprekar constant in base $b$ for $5$ digits.
+Define $C_b$ to be the Kaprekar constant in base $b$ for $5$ digits.
 Define the function $sb(i)$ to be
 
-  - $0$ if $i = C\_b$ or if $i$ written in base $b$ consists of $5$ identical digits
-  - the number of iterations it takes the Kaprekar routine in base $b$ to arrive at $C\_b$, otherwise
+- $0$ if $i = C_b$ or if $i$ written in base $b$ consists of $5$ identical digits
+- the number of iterations it takes the Kaprekar routine in base $b$ to arrive at $C_b$, otherwise
 
 Note that we can define $sb(i)$ for all integers $i \lt b^5$. If $i$ written in base $b$ takes less than $5$ digits, the number is padded with leading zero digits until we have $5$ digits before applying the Kaprekar routine.
 
@@ -7463,9 +7275,9 @@ Give the last $18$ digits as your answer.
 
 A set of lattice points $S$ is called a <span class="dfn">titanic set</span> if there exists a line passing through exactly two points in $S$.
 
-An example of a titanic set is $S = \{(0, 0), (0, 1), (0, 2), (1, 1), (2, 0), (1, 0)\}$, where the line passing through $(0, 1)$ and $(2, 0)$ does not pass through any other point in $S$.
+An example of a titanic set is $S = \(0, 0), (0, 1), (0, 2), (1, 1), (2, 0), (1, 0)\$, where the line passing through $(0, 1)$ and $(2, 0)$ does not pass through any other point in $S$.
 
-On the other hand, the set $\{(0, 0), (1, 1), (2, 2), (4, 4)\}$ is not a titanic set since the line passing through any two points in the set also passes through the other two.
+On the other hand, the set $\(0, 0), (1, 1), (2, 2), (4, 4)\$ is not a titanic set since the line passing through any two points in the set also passes through the other two.
 
 For any positive integer $N$, let $T(N)$ be the number of titanic sets $S$ whose every point $(x, y)$ satisfies $0 \leq x, y \leq N$.
 It can be verified that $T(1) = 11$, $T(2) = 494$, $T(4) = 33554178$, $T(111) \bmod 10^8 = 13500401$ and $T(10^5) \bmod 10^8 = 63259062$.
@@ -7485,17 +7297,17 @@ Find the last $9$ digits of $F(10, 10^{12})$.
 
 A unit fraction contains $1$ in the numerator. The decimal representation of the unit fractions with denominators $2$ to $10$ are given:
 
-\begin{align}
-1/2 &= 0.5\\
-1/3 &=0.(3)\\
-1/4 &=0.25\\
-1/5 &= 0.2\\
-1/6 &= 0.1(6)\\
-1/7 &= 0.(142857)\\
-1/8 &= 0.125\\
-1/9 &= 0.(1)\\
+$$\begin{align}
+1/2 &= 0.5\
+1/3 &=0.(3)\
+1/4 &=0.25\
+1/5 &= 0.2\
+1/6 &= 0.1(6)\
+1/7 &= 0.(142857)\
+1/8 &= 0.125\
+1/9 &= 0.(1)\
 1/10 &= 0.1
-\end{align}
+\end{align}$$
 
 Where $0.1(6)$ means $0.166666\cdots$, and has a $1$-digit recurring cycle. It can be seen that $1/7$ has a $6$-digit recurring cycle.
 
@@ -7503,16 +7315,16 @@ Unit fractions whose denominator has no other prime factors than $2$ and/or $5$ 
 We define the length of the recurring cycle of those unit fractions as $0$.
 
 Let $L(n)$ denote the length of the recurring cycle of $1/n$.
-You are given that $\sum L(n)$ for $3 \leq n \leq 1\,000\,000$ equals $55535191115$.
+You are given that $\sum L(n)$ for $3 \leq n \leq 1\000\000$ equals $55535191115$.
 
-Find $\sum L(n)$ for $3 \leq n \leq 100\,000\,000$.
+Find $\sum L(n)$ for $3 \leq n \leq 100\000\000$.
 
 # Problem 418
 
 Let $n$ be a positive integer. An integer triple $(a, b, c)$ is called a <span class="dfn">factorisation triple</span> of $n$ if:
 
-  - $1 \leq a \leq b \leq c$
-  - $a \cdot b \cdot c = n$.
+- $1 \leq a \leq b \leq c$
+- $a \cdot b \cdot c = n$.
 
 Define $f(n)$ to be $a + b + c$ for the factorisation triple $(a, b, c)$ of $n$ which minimises $c / a$. One can show that this triple is unique.
 
@@ -7545,15 +7357,15 @@ A <span class="dfn">positive integer matrix</span> is a matrix whose elements ar
 Some positive integer matrices can be expressed as a square of a positive integer matrix in two different ways. Here is an example:
 
 $$\begin{pmatrix}
-40 & 12\\
+40 & 12\
 48 & 40
 \end{pmatrix} =
 \begin{pmatrix}
-2 & 3\\
+2 & 3\
 12 & 2
 \end{pmatrix}^2 =
 \begin{pmatrix}
-6 & 1\\
+6 & 1\
 4 & 6
 \end{pmatrix}^2
 $$
@@ -7582,22 +7394,22 @@ Let $H$ be the hyperbola defined by the equation $12x^2 + 7xy - 12y^2 = 625$.
 
 Next, define $X$ as the point $(7, 1)$. It can be seen that $X$ is in $H$.
 
-Now we define a sequence of points in $H$, $\{P\_i: i \geq 1\}$, as:
+Now we define a sequence of points in $H$, $\P_i: i \geq 1\$, as:
 
-  - $P\_1 = (13, 61/4)$.
-  - $P\_2 = (-43/6, -4)$.
-  - For $i \gt 2$, $P\_i$ is the unique point in $H$ that is different from $P\_{i-1}$ and such that line $P\_iP\_{i-1}$ is parallel to line $P\_{i-2}X$. It can be shown that $P\_i$ is well-defined, and that its coordinates are always rational.
+- $P_1 = (13, 61/4)$.
+- $P_2 = (-43/6, -4)$.
+- For $i \gt 2$, $P_i$ is the unique point in $H$ that is different from $P\_{i-1}$ and such that line $P_iP\_{i-1}$ is parallel to line $P\_{i-2}X$. It can be shown that $P_i$ is well-defined, and that its coordinates are always rational.
 
 <div class="center">
 
-![0422\_hyperbola.gif](resources/images/0422_hyperbola.gif?1678992057)
+<img src="resources/images/0422_hyperbola.gif?1678992057" class="dark_img" alt="0422_hyperbola.gif" />
 
 </div>
 
-You are given that $P\_3 = (-19/2, -229/24)$, $P\_4 = (1267/144, -37/12)$ and $P\_7 = (17194218091/143327232, 274748766781/1719926784)$.
+You are given that $P_3 = (-19/2, -229/24)$, $P_4 = (1267/144, -37/12)$ and $P_7 = (17194218091/143327232, 274748766781/1719926784)$.
 
-Find $P\_n$ for $n = 11^{14}$ in the following format:  
-If $P\_n = (a/b, c/d)$ where the fractions are in lowest terms and the denominators are positive, then the answer is $(a + b + c + d) \bmod 1\,000\,000\,007$.
+Find $P_n$ for $n = 11^{14}$ in the following format:  
+If $P_n = (a/b, c/d)$ where the fractions are in lowest terms and the denominators are positive, then the answer is $(a + b + c + d) \bmod 1\000\000\007$.
 
 For $n = 7$, the answer would have been: $806236837$.
 
@@ -7607,18 +7419,18 @@ Let $n$ be a positive integer.
 A 6-sided die is thrown $n$ times. Let $c$ be the number of pairs of consecutive throws that give the same value.
 
 For example, if $n = 7$ and the values of the die throws are (1,1,5,6,6,6,3), then the following pairs of consecutive throws give the same value:  
-(<span class="underline">1,1</span>,5,6,6,6,3)  
-(1,1,5,<span class="underline">6,6</span>,6,3)  
-(1,1,5,6,<span class="underline">6,6</span>,3)  
+(<u>1,1</u>,5,6,6,6,3)  
+(1,1,5,<u>6,6</u>,6,3)  
+(1,1,5,6,<u>6,6</u>,3)  
 Therefore, $c = 3$ for (1,1,5,6,6,6,3).
 
 Define $C(n)$ as the number of outcomes of throwing a 6-sided die $n$ times such that $c$ does not exceed $\pi(n)$.<sup>1</sup>  
 For example, $C(3) = 216$, $C(4) = 1290$, $C(11) = 361912500$ and $C(24) = 4727547363281250000$.
 
 Define $S(L)$ as $\sum C(n)$ for $1 \leq n \leq L$.  
-For example, $S(50) \bmod 1\,000\,000\,007 = 832833871$.
+For example, $S(50) \bmod 1\000\000\007 = 832833871$.
 
-Find $S(50\,000\,000) \bmod 1\,000\,000\,007$.
+Find $S(50\000\000) \bmod 1\000\000\007$.
 
 <span style="font-size:smaller;"><sup>1</sup> $\pi$ denotes the **prime-counting function**, i.e. $\pi(n)$ is the number of primes $\leq n$.</span>
 
@@ -7626,13 +7438,13 @@ Find $S(50\,000\,000) \bmod 1\,000\,000\,007$.
 
 <div class="center">
 
-![p424\_kakuro1.gif](project/images/p424_kakuro1.gif)
+<img src="resources/images/0424_kakuro1.gif?1678992057" class="dark_img" alt="0424_kakuro1.gif" />
 
 </div>
 
 The above is an example of a cryptic kakuro (also known as cross sums, or even sums cross) puzzle, with its final solution on the right. (The common rules of kakuro puzzles can be found easily on numerous internet sites. Other related information can also be currently found at [krazydad.com](http://krazydad.com/) whose author has provided the puzzle data for this challenge.)
 
-The downloadable text file ([kakuro200.txt](project/resources/p424_kakuro200.txt)) contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first puzzle in the file is the above example which is coded as follows:
+The downloadable text file ([kakuro200.txt](resources/documents/0424_kakuro200.txt)) contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first puzzle in the file is the above example which is coded as follows:
 
 6,X,X,(vCC),(vI),X,X,X,(hH),B,O,(vCA),(vJE),X,(hFE,vD),O,O,O,O,(hA),O,I,(hJC,vB),O,O,(hJC),H,O,O,O,X,X,X,(hJE),O,O,X
 
@@ -7677,9 +7489,9 @@ A turn consists of moving each ball exactly once according to the following rule
 
 After one turn the sequence (2, 2, 2, 1, 2) becomes (2, 2, 1, 2, 3) as can be seen below; note that we begin the new sequence starting at the first occupied box.
 
-<div data-align="center">
+<div align="center">
 
-![0426\_baxball1.gif](resources/images/0426_baxball1.gif?1678992057)
+![0426_baxball1.gif](resources/images/0426_baxball1.gif?1678992057)
 
 </div>
 
@@ -7687,17 +7499,17 @@ A system like this is called a **Box-Ball System** or **BBS** for short.
 
 It can be shown that after a sufficient number of turns, the system evolves to a state where the consecutive numbers of occupied boxes is invariant. In the example below, the consecutive numbers of **occupied boxes** evolves to \[1, 2, 3\]; we shall call this the final state.
 
-<div data-align="center">
+<div align="center">
 
-![0426\_baxball2.gif](resources/images/0426_baxball2.gif?1678992057)
+![0426_baxball2.gif](resources/images/0426_baxball2.gif?1678992057)
 
 </div>
 
 We define the sequence {`t`<sub>`i`</sub>}:  
 
-  - `s`<sub>0</sub> = 290797
-  - `s`<sub>`k`+1</sub> = `s`<sub>`k`</sub><sup>2</sup> mod 50515093
-  - `t`<sub>`k`</sub> = (`s`<sub>`k`</sub> mod 64) + 1
+- `s`<sub>0</sub> = 290797
+- `s`<sub>`k`+1</sub> = `s`<sub>`k`</sub><sup>2</sup> mod 50515093
+- `t`<sub>`k`</sub> = (`s`<sub>`k`</sub> mod 64) + 1
 
 Starting from the initial configuration (`t`<sub>0</sub>, `t`<sub>1</sub>, …, `t`<sub>10</sub>), the final state becomes \[1, 3, 10, 24, 51, 75\].  
 Starting from the initial configuration (`t`<sub>0</sub>, `t`<sub>1</sub>, …, `t`<sub>10 000 000</sub>), find the final state.  
@@ -7705,8 +7517,8 @@ Give as your answer the sum of the squares of the elements of the final state. F
 
 # Problem 427
 
-A sequence of integers $S = \{s\_i\}$ is called an $n$-sequence if it has $n$ elements and each element $s\_i$ satisfies $1 \leq s\_i \leq n$. Thus there are $n^n$ distinct $n$-sequences in total.
-For example, the sequence $S = \{1, 5, 5, 10, 7, 7, 7, 2, 3, 7\}$ is a $10$-sequence.
+A sequence of integers $S = \s_i\$ is called an $n$-sequence if it has $n$ elements and each element $s_i$ satisfies $1 \leq s_i \leq n$. Thus there are $n^n$ distinct $n$-sequences in total.
+For example, the sequence $S = \1, 5, 5, 10, 7, 7, 7, 2, 3, 7\$ is a $10$-sequence.
 
 For any sequence $S$, let $L(S)$ be the length of the longest contiguous subsequence of $S$ with the same value.
 For example, for the given sequence $S$ above, $L(S) = 3$, because of the three consecutive $7$'s.
@@ -7715,30 +7527,30 @@ Let $f(n) = \sum L(S)$ for all $n$-sequences S.
 
 For example, $f(3) = 45$, $f(7) = 1403689$ and $f(11) = 481496895121$.
 
-Find $f(7\,500\,000) \bmod 1\,000\,000\,009$.
+Find $f(7\500\000) \bmod 1\000\000\009$.
 
 # Problem 428
 
 Let $a$, $b$ and $c$ be positive numbers.  
-Let $W, X, Y, Z$ be four collinear points where $|WX| = a$, $|XY| = b$, $|YZ| = c$ and $|WZ| = a + b + c$.  
+Let $W, X, Y, Z$ be four collinear points where $\|WX\| = a$, $\|XY\| = b$, $\|YZ\| = c$ and $\|WZ\| = a + b + c$.  
 Let $C\_{in}$ be the circle having the diameter $XY$.  
 Let $C\_{out}$ be the circle having the diameter $WZ$.  
 
-The triplet $(a, b, c)$ is called a <span class="dfn">necklace triplet</span> if you can place $k \geq 3$ distinct circles $C\_1, C\_2, \dots, C\_k$ such that:
+The triplet $(a, b, c)$ is called a <span class="dfn">necklace triplet</span> if you can place $k \geq 3$ distinct circles $C_1, C_2, \dots, C_k$ such that:
 
-  - $C\_i$ has no common interior points with any $C\_j$ for $1 \leq i, j \leq k$ and $i \neq j$,
-  - $C\_i$ is tangent to both $C\_{in}$ and $C\_{out}$ for $1 \leq i \leq k$,
-  - $C\_i$ is tangent to $C\_{i+1}$ for $1 \leq i \lt k$, and
-  - $C\_k$ is tangent to $C\_1$.
+- $C_i$ has no common interior points with any $C_j$ for $1 \leq i, j \leq k$ and $i \neq j$,
+- $C_i$ is tangent to both $C\_{in}$ and $C\_{out}$ for $1 \leq i \leq k$,
+- $C_i$ is tangent to $C\_{i+1}$ for $1 \leq i \lt k$, and
+- $C_k$ is tangent to $C_1$.
 
 For example, $(5, 5, 5)$ and $(4, 3, 21)$ are necklace triplets, while it can be shown that $(2, 2, 5)$ is not.
 
-![0428\_necklace.png](resources/images/0428_necklace.png?1678992053)
+<img src="resources/images/0428_necklace.png?1678992053" class="dark_img" alt="0428_necklace.png" />
 
 Let $T(n)$ be the number of necklace triplets $(a, b, c)$ such that $a$, $b$ and $c$ are positive integers, and $b \leq n$.
 For example, $T(1) = 9$, $T(20) = 732$ and $T(3000) = 438106$.
 
-Find $T(1\,000\,000\,000)$.
+Find $T(1\000\000\000)$.
 
 # Problem 429
 
@@ -7748,7 +7560,7 @@ The sum of their squares is $1^2 + 3^2 + 8^2 + 24^2 = 650$.
 
 Let $S(n)$ represent the sum of the squares of the unitary divisors of $n$. Thus $S(4!)=650$.
 
-Find $S(100\,000\,000!)$ modulo $1\,000\,000\,009$.
+Find $S(100\000\000!)$ modulo $1\000\000\009$.
 
 # Problem 430
 
@@ -7760,7 +7572,7 @@ All disks with an index from $A$ to $B$ (inclusive) are flipped.
 
 The following example shows the case $N = 8$. At the first turn $A = 5$ and $B = 2$, and at the second turn $A = 4$ and $B = 6$.
 
-![0430\_flips.gif](resources/images/0430_flips.gif?1678992057)
+<img src="resources/images/0430_flips.gif?1678992057" class="dark_img" alt="0430_flips.gif" />
 
 Let $E(N, M)$ be the expected number of disks that show their white side after $M$ turns.  
 We can verify that $E(3, 1) = 10/9$, $E(3, 2) = 5/3$, $E(10, 4) \approx 5.157$ and $E(100, 10) \approx 51.893$.
@@ -7776,7 +7588,7 @@ Quick thinking Quentin explains that when granular materials are delivered from 
 
 <div class="center">
 
-![0431\_grain\_silo.png](resources/images/0431_grain_silo.png?1678992053)
+<img src="resources/images/0431_grain_silo.png?1678992053" class="dark_img" alt="0431_grain_silo.png" />
 
 </div>
 
@@ -7796,10 +7608,10 @@ Give the last $9$ digits of your answer.
 
 # Problem 433
 
-Let $E(x\_0, y\_0)$ be the number of steps it takes to determine the greatest common divisor of $x\_0$ and $y\_0$ with **Euclid's algorithm**. More formally:  
-$x\_1 = y\_0$, $y\_1 = x\_0 \bmod y\_0$  
-$x\_n = y\_{n-1}$, $y\_n = x\_{n-1} \bmod y\_{n-1}$  
-$E(x\_0, y\_0)$ is the smallest $n$ such that $y\_n = 0$.
+Let $E(x_0, y_0)$ be the number of steps it takes to determine the greatest common divisor of $x_0$ and $y_0$ with **Euclid's algorithm**. More formally:  
+$x_1 = y_0$, $y_1 = x_0 \bmod y_0$  
+$x_n = y\_{n-1}$, $y_n = x\_{n-1} \bmod y\_{n-1}$  
+$E(x_0, y_0)$ is the smallest $n$ such that $y_n = 0$.
 
 We have $E(1,1) = 1$, $E(10,6) = 3$ and $E(6,10) = 4$.
 
@@ -7820,7 +7632,7 @@ The **grid graphs** embedded in the Euclidean plane are not rigid, as the follow
 
 <div class="center">
 
-![0434\_rigid.gif](resources/images/0434_rigid.gif?1678992057)
+<img src="resources/images/0434_rigid.gif?1678992057" class="dark_img" alt="0434_rigid.gif" />
 
 </div>
 
@@ -7828,7 +7640,7 @@ However, one can make them rigid by adding diagonal edges to the cells. For exam
 
 <div class="center">
 
-![0434\_rigid23.png](resources/images/0434_rigid23.png?1678992053)
+<img src="resources/images/0434_rigid23.png?1678992053" class="dark_img" alt="0434_rigid23.png" />
 
 </div>
 
@@ -7843,13 +7655,13 @@ Find $S(100)$, give your answer modulo $1000000033$.
 
 # Problem 435
 
-The **Fibonacci numbers** $\{f\_n, n \ge 0\}$ are defined recursively as $f\_n = f\_{n-1} + f\_{n-2}$ with base cases $f\_0 = 0$ and $f\_1 = 1$.
+The **Fibonacci numbers** $\f_n, n \ge 0\$ are defined recursively as $f_n = f\_{n-1} + f\_{n-2}$ with base cases $f_0 = 0$ and $f_1 = 1$.
 
-Define the polynomials $\{F\_n, n \ge 0\}$ as $F\_n(x) = \displaystyle{\sum\_{i=0}^n f\_i x^i}$.
+Define the polynomials $\F_n, n \ge 0\$ as $F_n(x) = \displaystyle{\sum\_{i=0}^n f_i x^i}$.
 
-For example, $F\_7(x) = x + x^2 + 2x^3 + 3x^4 + 5x^5 + 8x^6 + 13x^7$, and $F\_7(11) = 268\,357\,683$.
+For example, $F_7(x) = x + x^2 + 2x^3 + 3x^4 + 5x^5 + 8x^6 + 13x^7$, and $F_7(11) = 268\357\683$.
 
-Let $n = 10^{15}$. Find the sum $\displaystyle{\sum\_{x=0}^{100} F\_n(x)}$ and give your answer modulo $1\,307\,674\,368\,000 \ (= 15!)$.
+Let $n = 10^{15}$. Find the sum $\displaystyle{\sum\_{x=0}^{100} F_n(x)}$ and give your answer modulo $1\307\674\368\000 \ (= 15!)$.
 
 # Problem 436
 
@@ -7889,16 +7701,16 @@ So the powers of $8 \bmod 11$ are cyclic with period $10$, and $8^n + 8^{n+1} \e
 $8$ is called a **Fibonacci primitive root** of $11$.  
 Not every prime has a Fibonacci primitive root.  
 There are $323$ primes less than $10000$ with one or more Fibonacci primitive roots and the sum of these primes is $1480491$.  
-Find the sum of the primes less than $100\,000\,000$ with at least one Fibonacci primitive root.
+Find the sum of the primes less than $100\000\000$ with at least one Fibonacci primitive root.
 
 # Problem 438
 
-For an $n$-tuple of integers $t = (a\_1, \dots, a\_n)$, let $(x\_1, \dots, x\_n)$ be the solutions of the polynomial equation $x^n + a\_1 x^{n-1} + a\_2 x^{n-2} + \cdots + a\_{n-1}x + a\_n = 0$.
+For an $n$-tuple of integers $t = (a_1, \dots, a_n)$, let $(x_1, \dots, x_n)$ be the solutions of the polynomial equation $x^n + a_1 x^{n-1} + a_2 x^{n-2} + \cdots + a\_{n-1}x + a_n = 0$.
 
 Consider the following two conditions:
 
-  - $x\_1, \dots, x\_n$ are all real.
-  - If $x\_1, \dots, x\_n$ are sorted, $\lfloor x\_i\rfloor = i$ for $1 \leq i \leq n$. ($\lfloor \cdot \rfloor$: floor function.)
+- $x_1, \dots, x_n$ are all real.
+- If $x_1, \dots, x_n$ are sorted, $\lfloor x_i\rfloor = i$ for $1 \leq i \leq n$. ($\lfloor \cdot \rfloor$: floor function.)
 
 In the case of $n = 4$, there are $12$ $n$-tuples of integers which satisfy both conditions.  
 We define $S(t)$ as the sum of the absolute values of the integers in $t$.  
@@ -7921,7 +7733,7 @@ We want to tile a board of length $n$ and height $1$ completely, with either $1 
 
 <div class="center">
 
-![0440\_tiles.png](resources/images/0440_tiles.png?1678992053)
+![0440_tiles.png](resources/images/0440_tiles.png?1678992053)
 
 </div>
 
@@ -7929,7 +7741,7 @@ For example, here are some of the ways to tile a board of length $n = 8$:
 
 <div class="center">
 
-![0440\_some8.png](resources/images/0440_some8.png?1678992053)
+![0440_some8.png](resources/images/0440_some8.png?1678992053)
 
 </div>
 
@@ -7941,17 +7753,17 @@ Let $S(L)$ be the triple sum $\sum\_{a, b, c}\gcd(T(c^a), T(c^b))$ for $1 \leq a
 For example:  
 $S(2) = 10444$  
 $S(3) = 1292115238446807016106539989$  
-$S(4) \bmod 987\,898\,789 = 670616280$.
+$S(4) \bmod 987\898\789 = 670616280$.
 
-Find $S(2000) \bmod 987\,898\,789$.
+Find $S(2000) \bmod 987\898\789$.
 
 # Problem 441
 
 For an integer $M$, we define $R(M)$ as the sum of $1/(p \cdot q)$ for all the integer pairs $p$ and $q$ which satisfy all of these conditions:
 
-  - $1 \leq p \lt q \leq M$
-  - $p + q \geq M$
-  - $p$ and $q$ are coprime.
+- $1 \leq p \lt q \leq M$
+- $p + q \geq M$
+- $p$ and $q$ are coprime.
 
 We also define $S(N)$ as the sum of $R(i)$ for $2 \leq i \leq N$.  
 We can verify that $S(2) = R(2) = 1/2$, $S(10) \approx 6.9147$ and $S(100) \approx 58.2962$.
@@ -7964,7 +7776,7 @@ An integer is called <span class="dfn">eleven-free</span> if its decimal expansi
 
 For example, $2404$ and $13431$ are eleven-free, while $911$ and $4121331$ are not.
 
-Let $E(n)$ be the $n$th positive eleven-free integer. For example, $E(3) = 3$, $E(200) = 213$ and $E(500\,000) = 531563$.
+Let $E(n)$ be the $n$th positive eleven-free integer. For example, $E(3) = 3$, $E(200) = 213$ and $E(500\000) = 531563$.
 
 Find $E(10^{18})$.
 
@@ -7976,16 +7788,16 @@ $g(n) = g(n-1) + \gcd(n, g(n-1))$ for $n \gt 4$.
 
 The first few values are:
 
-<div data-align="center">
+<div align="center">
 
-|        |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |     |
-| ------ | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- |
-| $n$    | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | ... |
-| $g(n)$ | 13 | 14 | 16 | 17 | 18 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 51 | 54 | 55 | 60 | ... |
+|          |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| $n$    | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  | ... |
+| $g(n)$ | 13  | 14  | 16  | 17  | 18  | 27  | 28  | 29  | 30  | 31  | 32  | 33  | 34  | 51  | 54  | 55  | 60  | ... |
 
 </div>
 
-You are given that $g(1\,000) = 2524$ and $g(1\,000\,000) = 2624152$.
+You are given that $g(1\000) = 2524$ and $g(1\000\000) = 2624152$.
 
 Find $g(10^{15})$.
 
@@ -8005,55 +7817,55 @@ Assume that players will use the optimal strategy for maximizing the expected va
 Let $E(p)$ represent the expected number of players left at the table when the game ends in a game consisting of $p$ players.  
 E.g. $E(111) = 5.2912$ when rounded to 5 significant digits.
 
-Let $S\_1(N) = \sum \limits\_{p = 1}^{N} {E(p)}$.  
-Let $S\_k(N) = \sum \limits\_{p = 1}^{N} {S\_{k-1}(p)}$ for $k \gt 1$.
+Let $S_1(N) = \sum \limits\_{p = 1}^{N} {E(p)}$.  
+Let $S_k(N) = \sum \limits\_{p = 1}^{N} {S\_{k-1}(p)}$ for $k \gt 1$.
 
-Find $S\_{20}(10^{14})$ and write the answer in scientific notation rounded to 10 significant digits. Use a lowercase e to separate mantissa and exponent. For example, the answer for $S\_3(100)$ would be 5.983679014e5.
+Find $S\_{20}(10^{14})$ and write the answer in scientific notation rounded to 10 significant digits. Use a lowercase e to separate mantissa and exponent. For example, the answer for $S_3(100)$ would be 5.983679014e5.
 
 # Problem 445
 
 For every integer $n\>1$, the family of functions $f\_{n,a,b}$ is defined
 by  
-$f\_{n,a,b}(x)\equiv a x + b \mod n\,\,\, $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
+$f\_{n,a,b}(x)\equiv a x + b \mod n\\\ $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
 
-We will call $f\_{n,a,b}$ a *retraction* if $\,\,\, f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \,\,\,$ for every $0 \le x \< n$.  
+We will call $f\_{n,a,b}$ a *retraction* if $\\\ f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \\\$ for every $0 \le x \< n$.  
 Let $R(n)$ be the number of retractions for $n$.
 
 You are given that  
-$\displaystyle \sum\_{k=1}^{99\,999} R(\binom {100\,000} k) \equiv 628701600 \mod 1\,000\,000\,007$.
+$\displaystyle \sum\_{k=1}^{99\999} R(\binom {100\000} k) \equiv 628701600 \mod 1\000\000\007$.
 
-Find $\displaystyle \sum\_{k=1}^{9\,999\,999} R(\binom {10\,000\,000} k)$.  
-Give your answer modulo $1\,000\,000\,007$.
+Find $\displaystyle \sum\_{k=1}^{9\999\999} R(\binom {10\000\000} k)$.  
+Give your answer modulo $1\000\000\007$.
 
 # Problem 446
 
 For every integer $n\>1$, the family of functions $f\_{n,a,b}$ is defined
 by  
-$f\_{n,a,b}(x)\equiv a x + b \mod n\,\,\, $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
+$f\_{n,a,b}(x)\equiv a x + b \mod n\\\ $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
 
-We will call $f\_{n,a,b}$ a *retraction* if $\,\,\, f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \,\,\,$ for every $0 \le x \< n$.  
+We will call $f\_{n,a,b}$ a *retraction* if $\\\ f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \\\$ for every $0 \le x \< n$.  
 Let $R(n)$ be the number of retractions for $n$.
 
 $\displaystyle F(N)=\sum\_{n=1}^NR(n^4+4)$.  
 $F(1024)=77532377300600$.  
 
 Find $F(10^7)$.  
-Give your answer modulo $1\,000\,000\,007$.
+Give your answer modulo $1\000\000\007$.
 
 # Problem 447
 
 For every integer $n\>1$, the family of functions $f\_{n,a,b}$ is defined
 by  
-$f\_{n,a,b}(x)\equiv a x + b \mod n\,\,\, $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
+$f\_{n,a,b}(x)\equiv a x + b \mod n\\\ $ for $a,b,x$ integer and $0\< a \<n, 0 \le b \< n,0 \le x \< n$.
 
-We will call $f\_{n,a,b}$ a *retraction* if $\,\,\, f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \,\,\,$ for every $0 \le x \< n$.  
+We will call $f\_{n,a,b}$ a *retraction* if $\\\ f\_{n,a,b}(f\_{n,a,b}(x)) \equiv f\_{n,a,b}(x) \mod n \\\$ for every $0 \le x \< n$.  
 Let $R(n)$ be the number of retractions for $n$.
 
 $\displaystyle F(N)=\sum\_{n=2}^N R(n)$.  
-$F(10^7)\equiv 638042271 \mod 1\,000\,000\,007$.  
+$F(10^7)\equiv 638042271 \mod 1\000\000\007$.  
 
 Find $F(10^{14})$.  
-Give your answer modulo $1\,000\,000\,007$.
+Give your answer modulo $1\000\000\007$.
 
 # Problem 448
 
@@ -8090,31 +7902,21 @@ Where $R$ is the radius of the large circle and $r$ the radius of the small circ
 
 Let $C(R, r)$ be the set of distinct points with integer coordinates on the hypocycloid with radius `R` and `r` and for which there is a corresponding value of `t` such that $\sin(t)$ and $\cos(t)$ are rational numbers.
 
-Let $S(R, r) = \sum\_{(x,y) \in C(R, r)} |x| + |y|$ be the sum of the absolute values of the $x$ and $y$ coordinates of the points in $C(R, r)$.
+Let $S(R, r) = \sum\_{(x,y) \in C(R, r)} \|x\| + \|y\|$ be the sum of the absolute values of the $x$ and $y$ coordinates of the points in $C(R, r)$.
 
 Let $T(N) = \sum\_{R = 3}^N \sum\_{r=1}^{\lfloor \frac {R - 1} 2 \rfloor} S(R, r)$ be the sum of $S(R, r)$ for `R` and `r` positive integers, $R\leq N$ and $2r \< R$.
 
 You are given:
 
-$C(3, 1)$
-
-\=
-
-$\{(3, 0), (-1, 2), (-1,0), (-1,-2)\}$
-
-$C(2500, 1000)$
-
-\=
-
-$\{(2500, 0), (772, 2376), (772, -2376), (516, 1792), (516, -1792), (500, 0), (68, 504), (68, -504),$
-
- 
-
-$(-1356, 1088), (-1356, -1088), (-1500, 1000), (-1500, -1000)\}$
+|                   |     |                                                                                                         |
+|-------------------|-----|---------------------------------------------------------------------------------------------------------|
+| $C(3, 1)$       | =   | $\(3, 0), (-1, 2), (-1,0), (-1,-2)\$                                                                |
+| $C(2500, 1000)$ | =   | $\(2500, 0), (772, 2376), (772, -2376), (516, 1792), (516, -1792), (500, 0), (68, 504), (68, -504),$ |
+|                   |     | $(-1356, 1088), (-1356, -1088), (-1500, 1000), (-1500, -1000)\$                                      |
 
 *Note:* $(-625, 0)$ is not an element of $C(2500, 1000)$ because $\sin(t)$ is not a rational number for the corresponding values of $t$.
 
-$S(3, 1) = (|3| + |0|) + (|-1| + |2|) + (|-1| + |0|) + (|-1| + |-2|) = 10$
+$S(3, 1) = (\|3\| + \|0\|) + (\|-1\| + \|2\|) + (\|-1\| + \|0\|) + (\|-1\| + \|-2\|) = 10$
 
 $T(3) = 10; T(10) = 524; T(100) = 580442; T(10^3) = 583108600$.
 
@@ -8146,9 +7948,9 @@ Define $F(m,n)$ as the number of $n$-tuples of positive integers for which the p
 
 $F(10, 10) = 571$.
 
-$F(10^6, 10^6) \bmod 1\,234\,567\,891 = 252903833$.
+$F(10^6, 10^6) \bmod 1\234\567\891 = 252903833$.
 
-Find $F(10^9, 10^9) \bmod 1\,234\,567\,891$.
+Find $F(10^9, 10^9) \bmod 1\234\567\891$.
 
 # Problem 453
 
@@ -8158,7 +7960,7 @@ Let $Q(m, n)$ be the number of simple quadrilaterals whose vertices are lattice 
 
 For example, $Q(2, 2) = 94$ as can be seen below:
 
-![0453\_quad.png](resources/images/0453_quad.png?1678992053)
+<img src="resources/images/0453_quad.png?1678992053" class="dark_img" alt="0453_quad.png" />
 
 It can also be verified that $Q(3, 7) = 39590$, $Q(12, 3) = 309000$ and $Q(123, 45) = 70542215894646$.
 
@@ -8181,30 +7983,30 @@ Let $f(n)$ be the largest positive integer $x$ less than $10^9$ such that the la
 
 For example:
 
-  - $f(4) = 411728896$ ($4^{411728896} = \cdots 490\underline{411728896}$)
-  - $f(10) = 0$
-  - $f(157) = 743757$ ($157^{743757} = \cdots 567\underline{000743757}$)
-  - $\sum\_{2 \le n \le 10^3} f(n) = 442530011399$
+- $f(4) = 411728896$ ($4^{411728896} = \cdots 490\underline{411728896}$)
+- $f(10) = 0$
+- $f(157) = 743757$ ($157^{743757} = \cdots 567\underline{000743757}$)
+- $\sum\_{2 \le n \le 10^3} f(n) = 442530011399$
 
 Find $\sum\_{2 \le n \le 10^6}f(n)$.
 
 # Problem 456
 
 Define:  
-$x\_n = (1248^n \bmod 32323) - 16161$  
-$y\_n = (8421^n \bmod 30103) - 15051$  
-$P\_n = \{(x\_1, y\_1), (x\_2, y\_2), \dots, (x\_n, y\_n)\}$
+$x_n = (1248^n \bmod 32323) - 16161$  
+$y_n = (8421^n \bmod 30103) - 15051$  
+$P_n = \(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\$
 
-For example, $P\_8 = \{(-14913, -6630),$$(-10161, 5625),$$(5226, 11896),$$(8340, -10778),$$(15852, -5203),$$(-15165, 11295),$$(-1427, -14495),$$(12407, 1060)\}$.
+For example, $P_8 = \(-14913, -6630),$$(-10161, 5625),$$(5226, 11896),$$(8340, -10778),$$(15852, -5203),$$(-15165, 11295),$$(-1427, -14495),$$(12407, 1060)\$.
 
-Let $C(n)$ be the number of triangles whose vertices are in $P\_n$ which contain the origin in the interior.
+Let $C(n)$ be the number of triangles whose vertices are in $P_n$ which contain the origin in the interior.
 
 Examples:  
 $C(8) = 20$  
 $C(600) = 8950634$  
-$C(40\,000) = 2666610948988$
+$C(40\000) = 2666610948988$
 
-Find $C(2\,000\,000)$.
+Find $C(2\000\000)$.
 
 # Problem 457
 
@@ -8218,7 +8020,7 @@ Find $SR(10^7)$.
 
 # Problem 458
 
-Consider the alphabet $A$ made out of the letters of the word "$\text{project}$": $A=\{\text c,\text e,\text j,\text o,\text p,\text r,\text t\}$.  
+Consider the alphabet $A$ made out of the letters of the word "$\text{project}$": $A=\\text c,\text e,\text j,\text o,\text p,\text r,\text t\$.  
 Let $T(n)$ be the number of strings of length $n$ consisting of letters from $A$ that do not have a substring that is one of the $5040$ permutations of "$\text{project}$".
 
 $T(7)=7^7-7!=818503$.
@@ -8233,9 +8035,9 @@ The game starts with all disks showing their white side.
 
 A turn consists of flipping all disks in a rectangle with the following properties:
 
-  - the upper right corner of the rectangle contains a white disk
-  - the rectangle width is a perfect square ($1$, $4$, $9$, $16$, ...)
-  - the rectangle height is a **triangular number<span class="tooltiptext">The triangular numbers are defined as $\frac 1 2 n(n + 1)$ for positive integer $n$.</span>** ($1$, $3$, $6$, $10$, ...)
+- the upper right corner of the rectangle contains a white disk
+- the rectangle width is a perfect square ($1$, $4$, $9$, $16$, ...)
+- the rectangle height is a **triangular number<span class="tooltiptext">The triangular numbers are defined as $\frac 1 2 n(n + 1)$ for positive integer $n$.</span>** ($1$, $3$, $6$, $10$, ...)
 
 ![0459-flipping-game-0.png](resources/images/0459-flipping-game-0.png?1678992053)
 
@@ -8246,7 +8048,7 @@ $W(1) = 1$, $W(2) = 0$, $W(5) = 8$ and $W(10^2) = 31395$.
 
 For $N=5$, the first player's eight winning first moves are:
 
-![0459-flipping-game-1.png](resources/images/0459-flipping-game-1.png?1678992053)
+<img src="resources/images/0459-flipping-game-1.png?1678992053" class="dark_img" alt="0459-flipping-game-1.png" />
 
 Find $W(10^6)$.
 
@@ -8254,18 +8056,18 @@ Find $W(10^6)$.
 
 On the Euclidean plane, an ant travels from point $A(0, 1)$ to point $B(d, 1)$ for an integer $d$.
 
-In each step, the ant at point $(x\_0, y\_0)$ chooses one of the lattice points $(x\_1, y\_1)$ which satisfy $x\_1 \ge 0$ and $y\_1 \ge 1$ and goes straight to $(x\_1, y\_1)$ at a constant velocity $v$. The value of $v$ depends on $y\_0$ and $y\_1$ as follows:
+In each step, the ant at point $(x_0, y_0)$ chooses one of the lattice points $(x_1, y_1)$ which satisfy $x_1 \ge 0$ and $y_1 \ge 1$ and goes straight to $(x_1, y_1)$ at a constant velocity $v$. The value of $v$ depends on $y_0$ and $y_1$ as follows:
 
-  - If $y\_0 = y\_1$, the value of $v$ equals $y\_0$.
-  - If $y\_0 \ne y\_1$, the value of $v$ equals $(y\_1 - y\_0) / (\ln(y\_1) - \ln(y\_0))$.
+- If $y_0 = y_1$, the value of $v$ equals $y_0$.
+- If $y_0 \ne y_1$, the value of $v$ equals $(y_1 - y_0) / (\ln(y_1) - \ln(y_0))$.
 
-The left image is one of the possible paths for $d = 4$. First the ant goes from $A(0, 1)$ to $P\_1(1, 3)$ at velocity $(3 - 1) / (\ln(3) - \ln(1)) \approx 1.8205$. Then the required time is $\sqrt 5 / 1.8205 \approx 1.2283$.  
-From $P\_1(1, 3)$ to $P\_2(3, 3)$ the ant travels at velocity $3$ so the required time is $2 / 3 \approx 0.6667$. From $P\_2(3, 3)$ to $B(4, 1)$ the ant travels at velocity $(1 - 3) / (\ln(1) - \ln(3)) \approx 1.8205$ so the required time is $\sqrt 5 / 1.8205 \approx 1.2283$.  
+The left image is one of the possible paths for $d = 4$. First the ant goes from $A(0, 1)$ to $P_1(1, 3)$ at velocity $(3 - 1) / (\ln(3) - \ln(1)) \approx 1.8205$. Then the required time is $\sqrt 5 / 1.8205 \approx 1.2283$.  
+From $P_1(1, 3)$ to $P_2(3, 3)$ the ant travels at velocity $3$ so the required time is $2 / 3 \approx 0.6667$. From $P_2(3, 3)$ to $B(4, 1)$ the ant travels at velocity $(1 - 3) / (\ln(1) - \ln(3)) \approx 1.8205$ so the required time is $\sqrt 5 / 1.8205 \approx 1.2283$.  
 Thus the total required time is $1.2283 + 0.6667 + 1.2283 = 3.1233$.
 
 The right image is another path. The total required time is calculated as $0.98026 + 1 + 0.98026 = 2.96052$. It can be shown that this is the quickest path for $d = 4$.
 
-![0460\_ant.jpg](resources/images/0460_ant.jpg?1678992054)
+![0460_ant.jpg](resources/images/0460_ant.jpg?1678992054)
 
 Let $F(d)$ be the total required time if the ant chooses the quickest path. For example, $F(4) \approx 2.960516287$.  
 We can verify that $F(10) \approx 4.668187834$ and $F(100) \approx 9.217221972$.
@@ -8274,14 +8076,14 @@ Find $F(10000)$. Give your answer rounded to nine decimal places.
 
 # Problem 461
 
-Let $f\_n(k) = e^{k/n} - 1$, for all non-negative integers $k$.
+Let $f_n(k) = e^{k/n} - 1$, for all non-negative integers $k$.
 
 Remarkably, $f\_{200}(6)+f\_{200}(75)+f\_{200}(89)+f\_{200}(226)=\underline{3.1415926}44529\cdots\approx\pi$.
 
-In fact, it is the best approximation of $\pi$ of the form $f\_n(a) + f\_n(b) + f\_n(c) + f\_n(d)$ for $n=200$.
+In fact, it is the best approximation of $\pi$ of the form $f_n(a) + f_n(b) + f_n(c) + f_n(d)$ for $n=200$.
 
-Let $g(n)=a^2 + b^2 + c^2 + d^2$ for $a, b, c, d$ that minimize the error: $|f\_n(a) + f\_n(b) + f\_n(c) + f\_n(d) - \pi|$  
-(where $|x|$ denotes the absolute value of $x$).
+Let $g(n)=a^2 + b^2 + c^2 + d^2$ for $a, b, c, d$ that minimize the error: $\|f_n(a) + f_n(b) + f_n(c) + f_n(d) - \pi\|$  
+(where $\|x\|$ denotes the absolute value of $x$).
 
 You are given $g(200)=6^2+75^2+89^2+226^2=64658$.
 
@@ -8289,28 +8091,28 @@ Find $g(10000)$.
 
 # Problem 462
 
-A **$3$-smooth number** is an integer which has no prime factor larger than $3$. For an integer $N$, we define $S(N)$ as the set of <span style="white-space:nowrap;">$3$-smooth</span> numbers less than or equal to $N$. For example, $S(20) = \{ 1, 2, 3, 4, 6, 8, 9, 12, 16, 18 \}$.
+A **$3$-smooth number** is an integer which has no prime factor larger than $3$. For an integer $N$, we define $S(N)$ as the set of <span style="white-space:nowrap;">$3$-smooth</span> numbers less than or equal to $N$. For example, $S(20) = \ 1, 2, 3, 4, 6, 8, 9, 12, 16, 18 \$.
 
 We define $F(N)$ as the number of permutations of $S(N)$ in which each element comes after all of its proper divisors.
 
 This is one of the possible permutations for $N = 20$.  
-\- $1, 2, 4, 3, 9, 8, 16, 6, 18, 12.$  
+- $1, 2, 4, 3, 9, 8, 16, 6, 18, 12.$  
 This is not a valid permutation because $12$ comes before its divisor $6$.  
-\- $1, 2, 4, 3, 9, 8, \boldsymbol{12}, 16, \boldsymbol 6, 18$.
+- $1, 2, 4, 3, 9, 8, \boldsymbol{12}, 16, \boldsymbol 6, 18$.
 
 We can verify that $F(6) = 5$, $F(8) = 9$, $F(20) = 450$ and $F(1000) \approx 8.8521816557\mathrm e21$.  
 Find $F(10^{18})$. Give as your answer its scientific notation rounded to ten digits after the decimal point.  
-When giving your answer, use a lowercase e to separate mantissa and exponent. E.g. if the answer is $112\,233\,445\,566\,778\,899$ then the answer format would be 1.1223344557e17.
+When giving your answer, use a lowercase e to separate mantissa and exponent. E.g. if the answer is $112\233\445\566\778\899$ then the answer format would be 1.1223344557e17.
 
 # Problem 463
 
 The function $f$ is defined for all positive integers as follows:
 
-  - $f(1)=1$
-  - $f(3)=3$
-  - $f(2n)=f(n)$
-  - $f(4n + 1)=2f(2n + 1) - f(n)$
-  - $f(4n + 3)=3f(2n + 1) - 2f(n)$
+- $f(1)=1$
+- $f(3)=3$
+- $f(2n)=f(n)$
+- $f(4n + 1)=2f(2n + 1) - f(n)$
+- $f(4n + 3)=3f(2n + 1) - 2f(n)$
 
 The function $S(n)$ is defined as $\sum\_{i=1}^{n}f(i)$.
 
@@ -8322,8 +8124,8 @@ Find $S(3^{37})$. Give the last $9$ digits of your answer.
 
 The **Möbius function**, denoted $\mu(n)$, is defined as:
 
-  - $\mu(n) = (-1)^{\omega(n)}$ if $n$ is squarefree (where $\omega(n)$ is the number of distinct prime factors of $n$)
-  - $\mu(n) = 0$ if $n$ is not squarefree.
+- $\mu(n) = (-1)^{\omega(n)}$ if $n$ is squarefree (where $\omega(n)$ is the number of distinct prime factors of $n$)
+- $\mu(n) = 0$ if $n$ is not squarefree.
 
 Let $P(a, b)$ be the number of integers $n$ in the interval $\[a, b\]$ such that $\mu(n) = 1$.  
 Let $N(a, b)$ be the number of integers $n$ in the interval $\[a, b\]$ such that $\mu(n) = -1$.  
@@ -8331,23 +8133,23 @@ For example, $P(2,10) = 2$ and $N(2,10) = 4$.
 
 Let $C(n)$ be the number of integer pairs $(a, b)$ such that:
 
-  - $1\le a \le b \le n$,
-  - $99 \cdot N(a, b) \le 100 \cdot P(a, b)$, and
-  - $99 \cdot P(a, b) \le 100 \cdot N(a, b)$.
+- $1\le a \le b \le n$,
+- $99 \cdot N(a, b) \le 100 \cdot P(a, b)$, and
+- $99 \cdot P(a, b) \le 100 \cdot N(a, b)$.
 
-For example, $C(10) = 13$, $C(500) = 16676$ and $C(10\,000) = 20155319$.
+For example, $C(10) = 13$, $C(500) = 16676$ and $C(10\000) = 20155319$.
 
-Find $C(20\,000\,000)$.
+Find $C(20\000\000)$.
 
 # Problem 465
 
-The <span class="dfn">kernel</span> of a polygon is defined by the set of points from which the entire polygon's boundary is visible. We define a <span class="dfn">polar polygon</span> as a polygon for which the origin is <span class="underline">strictly</span> contained inside its kernel.
+The <span class="dfn">kernel</span> of a polygon is defined by the set of points from which the entire polygon's boundary is visible. We define a <span class="dfn">polar polygon</span> as a polygon for which the origin is <u>strictly</u> contained inside its kernel.
 
 For this problem, a polygon can have collinear consecutive vertices. However, a polygon still cannot have self-intersection and cannot have zero area.
 
 For example, only the first of the following is a polar polygon (the kernels of the second, third, and fourth do not strictly contain the origin, and the fifth does not have a kernel at all):
 
-![0465\_polygons.png](resources/images/0465_polygons.png?1678992053)
+![0465_polygons.png](resources/images/0465_polygons.png?1678992053)
 
 Notice that the first polygon has three consecutive collinear vertices.
 
@@ -8355,9 +8157,9 @@ Let $P(n)$ be the number of polar polygons such that the vertices $(x, y)$ have 
 
 Note that polygons should be counted as different if they have different set of edges, even if they enclose the same area. For example, the polygon with vertices $\[(0,0),(0,3),(1,1),(3,0)\]$ is distinct from the polygon with vertices $\[(0,0),(0,3),(1,1),(3,0),(1,0)\]$.
 
-For example, $P(1) = 131$, $P(2) = 1648531$, $P(3) = 1099461296175$ and $P(343) \bmod 1\,000\,000\,007 = 937293740$.
+For example, $P(1) = 131$, $P(2) = 1648531$, $P(3) = 1099461296175$ and $P(343) \bmod 1\000\000\007 = 937293740$.
 
-Find $P(7^{13}) \bmod 1\,000\,000\,007$.
+Find $P(7^{13}) \bmod 1\000\000\007$.
 
 # Problem 466
 
@@ -8365,13 +8167,13 @@ Let $P(m,n)$ be the number of *distinct* terms in an $m\times n$ multiplication 
 
 For example, a $3\times 4$ multiplication table looks like this:
 
-| $\times$ | 1 | 2 | 3 | 4  |
-| --------- | - | - | - | -- |
-| 1         | 1 | 2 | 3 | 4  |
-| 2         | 2 | 4 | 6 | 8  |
-| 3         | 3 | 6 | 9 | 12 |
+| $\times$ | 1   | 2   | 3   | 4   |
+|------------|-----|-----|-----|-----|
+| 1          | 1   | 2   | 3   | 4   |
+| 2          | 2   | 4   | 6   | 8   |
+| 3          | 3   | 6   | 9   | 12  |
 
-There are $8$ distinct terms $\{1,2,3,4,6,8,9,12\}$, therefore $P(3,4) = 8$.
+There are $8$ distinct terms $\1,2,3,4,6,8,9,12\$, therefore $P(3,4) = 8$.
 
 You are given that:  
 $P(64,64) = 1263$,  
@@ -8386,39 +8188,39 @@ An integer $s$ is called a <span class="dfn">superinteger</span> of another inte
 For example, $2718281828$ is a superinteger of $18828$, while $314159$ is not a superinteger of $151$.
 
 Let $p(n)$ be the $n$th prime number, and let $c(n)$ be the $n$th composite number. For example, $p(1) = 2$, $p(10) = 29$, $c(1)$ = 4 and $c(10) = 18$.  
-$\{p(i) : i \ge 1\} = \{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, \dots\}$  
-$\{c(i) : i \ge 1\} = \{4, 6, 8, 9, 10, 12, 14, 15, 16, 18, \dots\}$
+$\p(i) : i \ge 1\ = \2, 3, 5, 7, 11, 13, 17, 19, 23, 29, \dots\$  
+$\c(i) : i \ge 1\ = \4, 6, 8, 9, 10, 12, 14, 15, 16, 18, \dots\$
 
-Let $P^D$ be the sequence of the **digital roots** of $\{p(i)\}$ ($C^D$ is defined similarly for $\{c(i)\}$):  
-$P^D = \{2, 3, 5, 7, 2, 4, 8, 1, 5, 2, \dots\}$  
-$C^D = \{4, 6, 8, 9, 1, 3, 5, 6, 7, 9, \dots\}$
+Let $P^D$ be the sequence of the **digital roots** of $\p(i)\$ ($C^D$ is defined similarly for $\c(i)\$):  
+$P^D = \2, 3, 5, 7, 2, 4, 8, 1, 5, 2, \dots\$  
+$C^D = \4, 6, 8, 9, 1, 3, 5, 6, 7, 9, \dots\$
 
-Let $P\_n$ be the integer formed by concatenating the first $n$ elements of $P^D$ ($C\_n$ is defined similarly for $C^D$).  
+Let $P_n$ be the integer formed by concatenating the first $n$ elements of $P^D$ ($C_n$ is defined similarly for $C^D$).  
 $P\_{10} = 2357248152$  
 $C\_{10} = 4689135679$
 
-Let $f(n)$ be the smallest positive integer that is a common superinteger of $P\_n$ and $C\_n$.  
-For example, $f(10) = 2357246891352679$, and $f(100) \bmod 1\,000\,000\,007 = 771661825$.
+Let $f(n)$ be the smallest positive integer that is a common superinteger of $P_n$ and $C_n$.  
+For example, $f(10) = 2357246891352679$, and $f(100) \bmod 1\000\000\007 = 771661825$.
 
-Find $f(10\,000) \bmod 1\,000\,000\,007$.
+Find $f(10\000) \bmod 1\000\000\007$.
 
 # Problem 468
 
 An integer is called **`B`-smooth** if none of its prime factors is greater than $B$.
 
-Let $S\_B(n)$ be the largest $B$-smooth divisor of $n$.  
+Let $S_B(n)$ be the largest $B$-smooth divisor of $n$.  
 Examples:  
-$S\_1(10)=1$  
-$S\_4(2100) = 12$  
+$S_1(10)=1$  
+$S_4(2100) = 12$  
 $S\_{17}(2496144) = 5712$
 
-Define $\displaystyle F(n)=\sum\_{B=1}^n \sum\_{r=0}^n S\_B(\binom n r)$. Here, $\displaystyle \binom n r$ denotes the binomial coefficient.  
+Define $\displaystyle F(n)=\sum\_{B=1}^n \sum\_{r=0}^n S_B(\binom n r)$. Here, $\displaystyle \binom n r$ denotes the binomial coefficient.  
 Examples:  
 $F(11) = 3132$  
-$F(1111) \mod 1\,000\,000\,993 = 706036312$  
-$F(111\,111) \mod 1\,000\,000\,993 = 22156169$
+$F(1111) \mod 1\000\000\993 = 706036312$  
+$F(111\111) \mod 1\000\000\993 = 22156169$
 
-Find $F(11\,111\,111) \mod 1\,000\,000\,993$.
+Find $F(11\111\111) \mod 1\000\000\993$.
 
 # Problem 469
 
@@ -8482,7 +8284,7 @@ Note that due to rule 1, some seats will surely be left unoccupied, and the maxi
 
 Here are the possible seating arrangements for $N = 15$:
 
-![0472\_n15.png](resources/images/0472_n15.png?1678992053)
+<img src="resources/images/0472_n15.png?1678992053" class="dark_img" alt="0472_n15.png" />
 
 We see that if the first person chooses correctly, the $15$ seats can seat up to $7$ people.  
 We can also see that the first person has $9$ choices to maximize the number of people that may be seated.
@@ -8531,9 +8333,9 @@ On the second day, they form $4n$ trios, with every musician avoiding any previo
 
 Let $f(12n)$ be the number of ways to organize the trios amongst the $12n$ musicians.
 
-You are given $f(12) = 576$ and $f(24) \bmod 1\,000\,000\,007 = 509089824$.
+You are given $f(12) = 576$ and $f(24) \bmod 1\000\000\007 = 509089824$.
 
-Find $f(600) \bmod 1\,000\,000\,007$.
+Find $f(600) \bmod 1\000\000\007$.
 
 # Problem 476
 
@@ -8553,21 +8355,21 @@ Two players alternate turns. The players on their respective turns must select a
 
 A player's own score is (determined by) the sum of all the numbers that player has taken. Each player attempts to maximize their own sum.
 
-If $N = 4$ and $S = \{1, 2, 10, 3\}$, then each player maximizes their own score as follows:
+If $N = 4$ and $S = \1, 2, 10, 3\$, then each player maximizes their own score as follows:
 
-  - Player 1: removes the first number ($1$)
-  - Player 2: removes the last number from the remaining sequence ($3$)
-  - Player 1: removes the last number from the remaining sequence ($10$)
-  - Player 2: removes the remaining number ($2$)
+- Player 1: removes the first number ($1$)
+- Player 2: removes the last number from the remaining sequence ($3$)
+- Player 1: removes the last number from the remaining sequence ($10$)
+- Player 2: removes the remaining number ($2$)
 
 Player 1 score is $1 + 10 = 11$.
 
-Let $F(N)$ be the score of player 1 if both players follow the optimal strategy for the sequence $S = \{s\_1, s\_2, \dots, s\_N\}$ defined as:
+Let $F(N)$ be the score of player 1 if both players follow the optimal strategy for the sequence $S = \s_1, s_2, \dots, s_N\$ defined as:
 
-  - $s\_1 = 0$
-  - $s\_{i + 1} = (s\_i^2 + 45)$ modulo $1\,000\,000\,007$
+- $s_1 = 0$
+- $s\_{i + 1} = (s_i^2 + 45)$ modulo $1\000\000\007$
 
-The sequence begins with $S=\{0, 45, 2070, 4284945, 753524550, 478107844, 894218625, \dots\}$.
+The sequence begins with $S=\0, 45, 2070, 4284945, 753524550, 478107844, 894218625, \dots\$.
 
 You are given $F(2)=45$, $F(4)=4284990$, $F(100)=26365463243$, $F(10^4)=2495838522951$.
 
@@ -8575,13 +8377,13 @@ Find $F(10^8)$.
 
 # Problem 478
 
-Let us consider **mixtures** of three substances: **A**, **B** and **C**. A mixture can be described by a ratio of the amounts of **A**, **B**, and **C** in it, i.e., $(a : b : c)$. For example, a mixture described by the ratio $(2 : 3 : 5)$ contains $20\%$ **A**, $30\%$ **B** and $50\%$ **C**.
+Let us consider **mixtures** of three substances: **A**, **B** and **C**. A mixture can be described by a ratio of the amounts of **A**, **B**, and **C** in it, i.e., $(a : b : c)$. For example, a mixture described by the ratio $(2 : 3 : 5)$ contains $20\$ **A**, $30\$ **B** and $50\$ **C**.
 
 For the purposes of this problem, we cannot separate the individual components from a mixture. However, we can combine different amounts of different mixtures to form mixtures with new ratios.
 
 For example, say we have three mixtures with ratios $(3 : 0 : 2)$, $(3: 6 : 11)$ and $(3 : 3 : 4)$. By mixing $10$ units of the first, $20$ units of the second and $30$ units of the third, we get a new mixture with ratio $(6 : 5 : 9)$, since:  
 $(10 \cdot \tfrac 3 5$ + $20 \cdot \tfrac 3 {20} + 30 \cdot \tfrac 3 {10} : 10 \cdot \tfrac 0 5 + 20 \cdot \tfrac 6 {20} + 30 \cdot \tfrac 3 {10} : 10 \cdot \tfrac 2 5 + 20 \cdot \tfrac {11} {20} + 30 \cdot \tfrac 4 {10})
-\= (18 : 15 : 27) = (6 : 5 : 9)$
+= (18 : 15 : 27) = (6 : 5 : 9)$
 
 However, with the same three mixtures, it is impossible to form the ratio $(3 : 2 : 1)$, since the amount of **B** is always less than the amount of **C**.
 
@@ -8589,29 +8391,29 @@ Let $n$ be a positive integer. Suppose that for every triple of integers $(a, b,
 
 For example, $M(2)$ contains the $19$ mixtures with the following ratios:
 
-\begin{align}
-\{&(0 : 0 : 1), (0 : 1 : 0), (0 : 1 : 1), (0 : 1 : 2), (0 : 2 : 1),\\
-&(1 : 0 : 0), (1 : 0 : 1), (1 : 0 : 2), (1 : 1 : 0), (1 : 1 : 1),\\
-&(1 : 1 : 2), (1 : 2 : 0), (1 : 2 : 1), (1 : 2 : 2), (2 : 0 : 1),\\
-&(2 : 1 : 0), (2 : 1 : 1), (2 : 1 : 2), (2 : 2 : 1)\}.
-\end{align}
+$$\begin{align}
+\&(0 : 0 : 1), (0 : 1 : 0), (0 : 1 : 1), (0 : 1 : 2), (0 : 2 : 1),\
+&(1 : 0 : 0), (1 : 0 : 1), (1 : 0 : 2), (1 : 1 : 0), (1 : 1 : 1),\
+&(1 : 1 : 2), (1 : 2 : 0), (1 : 2 : 1), (1 : 2 : 2), (2 : 0 : 1),\
+&(2 : 1 : 0), (2 : 1 : 1), (2 : 1 : 2), (2 : 2 : 1)\.
+\end{align}$$
 
 Let $E(n)$ be the number of subsets of $M(n)$ which can produce the mixture with ratio $(1 : 1 : 1)$, i.e., the mixture with equal parts **A**, **B** and **C**.  
 We can verify that $E(1) = 103$, $E(2) = 520447$, $E(10) \bmod 11^8 = 82608406$ and $E(500) \bmod 11^8 = 13801403$.  
-Find $E(10\,000\,000) \bmod 11^8$.
+Find $E(10\000\000) \bmod 11^8$.
 
 # Problem 479
 
-Let $a\_k$, $b\_k$, and $c\_k$ represent the three solutions (real or complex numbers) to the equation
+Let $a_k$, $b_k$, and $c_k$ represent the three solutions (real or complex numbers) to the equation
 $\frac 1 x = (\frac k x)^2(k+x^2)-k x$.
 
-For instance, for $k=5$, we see that $\{a\_5, b\_5, c\_5 \}$ is approximately $\{5.727244, -0.363622+2.057397i, -0.363622-2.057397i\}$.
+For instance, for $k=5$, we see that $\a_5, b_5, c_5 \$ is approximately $\5.727244, -0.363622+2.057397i, -0.363622-2.057397i\$.
 
-Let $\displaystyle S(n) = \sum\_{p=1}^n\sum\_{k=1}^n(a\_k+b\_k)^p(b\_k+c\_k)^p(c\_k+a\_k)^p$.
+Let $\displaystyle S(n) = \sum\_{p=1}^n\sum\_{k=1}^n(a_k+b_k)^p(b_k+c_k)^p(c_k+a_k)^p$.
 
 Interestingly, $S(n)$ is always an integer. For example, $S(4) = 51160$.
 
-Find $S(10^6)$ modulo $1\,000\,000\,007$.
+Find $S(10^6)$ modulo $1\000\000\007$.
 
 # Problem 480
 
@@ -8626,33 +8428,33 @@ Consider all the words which can be formed by selecting letters, in any order, f
 Suppose those with 15 letters or less are listed in **alphabetical order** and numbered sequentially starting at 1.  
 The list would include:
 
-  - 1 : a
-  - 2 : aa
-  - 3 : aaa
-  - 4 : aaaa
-  - 5 : aaaaa
-  - 6 : aaaaaa
-  - 7 : aaaaaac
-  - 8 : aaaaaacd
-  - 9 : aaaaaacde
-  - 10 : aaaaaacdee
-  - 11 : aaaaaacdeee
-  - 12 : aaaaaacdeeee
-  - 13 : aaaaaacdeeeee
-  - 14 : aaaaaacdeeeeee
-  - 15 : aaaaaacdeeeeeef
-  - 16 : aaaaaacdeeeeeeg
-  - 17 : aaaaaacdeeeeeeh
-  - ...
-  - 28 : aaaaaacdeeeeeey
-  - 29 : aaaaaacdeeeeef
-  - 30 : aaaaaacdeeeeefe
-  - ...
-  - 115246685191495242: euleoywuttttsss
-  - 115246685191495243: euler
-  - 115246685191495244: eulera
-  - ...
-  - 525069350231428029: ywuuttttssssrrr
+- 1 : a
+- 2 : aa
+- 3 : aaa
+- 4 : aaaa
+- 5 : aaaaa
+- 6 : aaaaaa
+- 7 : aaaaaac
+- 8 : aaaaaacd
+- 9 : aaaaaacde
+- 10 : aaaaaacdee
+- 11 : aaaaaacdeee
+- 12 : aaaaaacdeeee
+- 13 : aaaaaacdeeeee
+- 14 : aaaaaacdeeeeee
+- 15 : aaaaaacdeeeeeef
+- 16 : aaaaaacdeeeeeeg
+- 17 : aaaaaacdeeeeeeh
+- ...
+- 28 : aaaaaacdeeeeeey
+- 29 : aaaaaacdeeeeef
+- 30 : aaaaaacdeeeeefe
+- ...
+- 115246685191495242: euleoywuttttsss
+- 115246685191495243: euler
+- 115246685191495244: eulera
+- ...
+- 525069350231428029: ywuuttttssssrrr
 
 Define `P`(`w`) as the position of the word `w`.  
 Define `W`(`p`) as the word in position `p`.  
@@ -8660,10 +8462,10 @@ We can see that `P`(`w`) and `W`(`p`) are inverses: `P`(`W`(`p`)) = `p` and `W`(
 
 Examples:
 
-  - `W`(10) = aaaaaacdee
-  - `P`(aaaaaacdee) = 10
-  - `W`(115246685191495243) = euler
-  - `P`(euler) = 115246685191495243
+- `W`(10) = aaaaaacdee
+- `P`(aaaaaacdee) = 10
+- `W`(115246685191495243) = euler
+- `P`(euler) = 115246685191495243
 
 Find `W`(`P`(legionary) + `P`(calorimeters) - `P`(annihilate) + `P`(orchestrated) - `P`(fluttering)).  
 Give your answer using lowercase characters (no punctuation or space).
@@ -8674,9 +8476,9 @@ A group of chefs (numbered \#$1$, \#$2$, etc) participate in a turn-based strate
 
 The game always begins with chef \#$1$, with the turn order iterating sequentially over the rest of the chefs still in play. Then the cycle repeats from the lowest-numbered chef. All chefs aim to optimize their chances of winning within the rules as stated, assuming that the other chefs behave in the same manner. In the event that a chef has more than one equally-optimal elimination choice, assume that the chosen chef is always the one with the next-closest turn.
 
-Define $W\_n(k)$ as the probability that chef \#$k$ wins in a competition with $n$ chefs. If we have $S(1) = 0.25$, $S(2) = 0.5$, and $S(3) = 1$, then $W\_3(1) = 0.29375$.
+Define $W_n(k)$ as the probability that chef \#$k$ wins in a competition with $n$ chefs. If we have $S(1) = 0.25$, $S(2) = 0.5$, and $S(3) = 1$, then $W_3(1) = 0.29375$.
 
-Going forward, we assign $S(k) = F\_k/F\_{n+1}$ over all $1 \le k \le n$, where $F\_k$ is a Fibonacci number: $F\_k = F\_{k-1} + F\_{k-2}$ with base cases $F\_1 = F\_2 = 1$. Then, for example, when considering a competition with $n = 7$ chefs, we have $W\_7(1) = 0.08965042$, $W\_7(2) = 0.20775702$, $W\_7(3) = 0.15291406$, $W\_7(4) = 0.14554098$, $W\_7(5) = 0.15905291$, $W\_7(6) = 0.10261412$, and $W\_7(7) = 0.14247050$, rounded to $8$ decimal places each.
+Going forward, we assign $S(k) = F_k/F\_{n+1}$ over all $1 \le k \le n$, where $F_k$ is a Fibonacci number: $F_k = F\_{k-1} + F\_{k-2}$ with base cases $F_1 = F_2 = 1$. Then, for example, when considering a competition with $n = 7$ chefs, we have $W_7(1) = 0.08965042$, $W_7(2) = 0.20775702$, $W_7(3) = 0.15291406$, $W_7(4) = 0.14554098$, $W_7(5) = 0.15905291$, $W_7(6) = 0.10261412$, and $W_7(7) = 0.14247050$, rounded to $8$ decimal places each.
 
 Let $E(n)$ represent the expected number of dishes cooked in a competition with $n$ chefs. For instance, $E(7) = 42.28176050$.
 
@@ -8687,7 +8489,7 @@ Find $E(14)$ rounded to $8$ decimal places.
 $ABC$ is an integer sided triangle with incenter $I$ and perimeter $p$.  
 The segments $IA$, $IB$ and $IC$ have integral length as well.
 
-Let $L = p + |IA| + |IB| + |IC|$.
+Let $L = p + \|IA\| + \|IB\| + \|IC\|$.
 
 Let $S(P) = \sum L$ for all such triangles where $p \le P$. For example, $S(10^3) = 3619$.
 
@@ -8695,29 +8497,29 @@ Find $S(10^7)$.
 
 # Problem 483
 
-We define a <span class="dfn">permutation</span> as an operation that rearranges the order of the elements $\{1, 2, 3, ..., n\}$.
+We define a <span class="dfn">permutation</span> as an operation that rearranges the order of the elements $\1, 2, 3, ..., n\$.
 There are $n!$ such permutations, one of which leaves the elements in their initial order.
 For $n = 3$ we have $3! = 6$ permutations:
 
-  - $P\_1 =$ keep the initial order
-  - $P\_2 =$ exchange the 1<sup>st</sup> and 2<sup>nd</sup> elements
-  - $P\_3 =$ exchange the 1<sup>st</sup> and 3<sup>rd</sup> elements
-  - $P\_4 =$ exchange the 2<sup>nd</sup> and 3<sup>rd</sup> elements
-  - $P\_5 =$ rotate the elements to the right
-  - $P\_6 =$ rotate the elements to the left
+- $P_1 =$ keep the initial order
+- $P_2 =$ exchange the 1<sup>st</sup> and 2<sup>nd</sup> elements
+- $P_3 =$ exchange the 1<sup>st</sup> and 3<sup>rd</sup> elements
+- $P_4 =$ exchange the 2<sup>nd</sup> and 3<sup>rd</sup> elements
+- $P_5 =$ rotate the elements to the right
+- $P_6 =$ rotate the elements to the left
 
-If we select one of these permutations, and we re-apply the <span class="underline">same</span> permutation repeatedly, we eventually restore the initial order.  
-For a permutation $P\_i$, let $f(P\_i)$ be the number of steps required to restore the initial order by applying the permutation $P\_i$ repeatedly.  
+If we select one of these permutations, and we re-apply the <u>same</u> permutation repeatedly, we eventually restore the initial order.  
+For a permutation $P_i$, let $f(P_i)$ be the number of steps required to restore the initial order by applying the permutation $P_i$ repeatedly.  
 For $n = 3$, we obtain:
 
-  - $f(P\_1) = 1$ : $(1,2,3) \to (1,2,3)$
-  - $f(P\_2) = 2$ : $(1,2,3) \to (2,1,3) \to (1,2,3)$
-  - $f(P\_3) = 2$ : $(1,2,3) \to (3,2,1) \to (1,2,3)$
-  - $f(P\_4) = 2$ : $(1,2,3) \to (1,3,2) \to (1,2,3)$
-  - $f(P\_5) = 3$ : $(1,2,3) \to (3,1,2) \to (2,3,1) \to (1,2,3)$
-  - $f(P\_6) = 3$ : $(1,2,3) \to (2,3,1) \to (3,1,2) \to (1,2,3)$
+- $f(P_1) = 1$ : $(1,2,3) \to (1,2,3)$
+- $f(P_2) = 2$ : $(1,2,3) \to (2,1,3) \to (1,2,3)$
+- $f(P_3) = 2$ : $(1,2,3) \to (3,2,1) \to (1,2,3)$
+- $f(P_4) = 2$ : $(1,2,3) \to (1,3,2) \to (1,2,3)$
+- $f(P_5) = 3$ : $(1,2,3) \to (3,1,2) \to (2,3,1) \to (1,2,3)$
+- $f(P_6) = 3$ : $(1,2,3) \to (2,3,1) \to (3,1,2) \to (1,2,3)$
 
-Let $g(n)$ be the average value of $f^2(P\_i)$ over all permutations $P\_i$ of length $n$.  
+Let $g(n)$ be the average value of $f^2(P_i)$ over all permutations $P_i$ of length $n$.  
 $g(3) = (1^2 + 2^2 + 2^2 + 2^2 + 3^2 + 3^2)/3! = 31/6 \approx 5.166666667\mathrm e0$  
 $g(5) = 2081/120 \approx 1.734166667\mathrm e1$  
 $g(20) = 12422728886023769167301/2432902008176640000 \approx 5.106136147\mathrm e3$
@@ -8728,8 +8530,8 @@ Find $g(350)$ and write the answer in scientific notation rounded to $10$ signif
 
 The **arithmetic derivative** is defined by
 
-  - $p^\prime = 1$ for any prime $p$
-  - $(ab)^\prime = a^\prime b + ab^\prime$ for all integers $a, b$ (Leibniz rule)
+- $p^\prime = 1$ for any prime $p$
+- $(ab)^\prime = a^\prime b + ab^\prime$ for all integers $a, b$ (Leibniz rule)
 
 For example, $20^\prime = 24$.
 
@@ -8745,20 +8547,20 @@ Let $S(u,k)$ be the sum of $M(n,k)$ for $1 \le n \le u-k+1$.
 
 You are given that $S(1000,10)=17176$.
 
-Find $S(100\,000\,000, 100\,000)$.
+Find $S(100\000\000, 100\000)$.
 
 # Problem 486
 
-Let $F\_5(n)$ be the number of strings $s$ such that:
+Let $F_5(n)$ be the number of strings $s$ such that:
 
-  - $s$ consists only of '0's and '1's,
-  - $s$ has length at most $n$, and
-  - $s$ contains a palindromic substring of length at least $5$.
+- $s$ consists only of '0's and '1's,
+- $s$ has length at most $n$, and
+- $s$ contains a palindromic substring of length at least $5$.
 
-For example, $F\_5(4) = 0$, $F\_5(5) = 8$,
-$F\_5(6) = 42$ and $F\_5(11) = 3844$.
+For example, $F_5(4) = 0$, $F_5(5) = 8$,
+$F_5(6) = 42$ and $F_5(11) = 3844$.
 
-Let $D(L)$ be the number of integers $n$ such that $5 \le n \le L$ and $F\_5(n)$ is divisible by $87654321$.
+Let $D(L)$ be the number of integers $n$ such that $5 \le n \le L$ and $F_5(n)$ is divisible by $87654321$.
 
 For example, $D(10^7) = 0$ and $D(5 \cdot 10^9) = 51$.
 
@@ -8766,11 +8568,11 @@ Find $D(10^{18})$.
 
 # Problem 487
 
-Let $f\_k(n)$ be the sum of the $k$<sup>th</sup> powers of the first $n$ positive integers.
+Let $f_k(n)$ be the sum of the $k$<sup>th</sup> powers of the first $n$ positive integers.
 
-For example, $f\_2(10) = 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 + 8^2 + 9^2 + 10^2 = 385$.
+For example, $f_2(10) = 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 + 8^2 + 9^2 + 10^2 = 385$.
 
-Let $S\_k(n)$ be the sum of $f\_k(i)$ for $1 \le i \le n$. For example, $S\_4(100) = 35375333830$.
+Let $S_k(n)$ be the sum of $f_k(i)$ for $1 \le i \le n$. For example, $S_4(100) = 35375333830$.
 
 What is $\sum (S\_{10000}(10^{12}) \bmod p)$ over all primes $p$ between $2 \cdot 10^9$ and $2 \cdot 10^9 + 2000$?
 
@@ -8785,10 +8587,10 @@ The triple $(a, b, c)$ indicates the size of three heaps.
 Under this extra rule, $(2,4,5)$ is one of the losing positions for the next player.
 
 To illustrate:  
-\- Alice moves to $(2,4,3)$  
-\- Bob moves to $(0,4,3)$  
-\- Alice moves to $(0,2,3)$  
-\- Bob moves to $(0,2,1)$
+- Alice moves to $(2,4,3)$  
+- Bob moves to $(0,4,3)$  
+- Alice moves to $(0,2,3)$  
+- Bob moves to $(0,2,1)$
 
 Unlike ordinary three-heap Nim, $(0,1,2)$ and its permutations are the end states of this game.
 
@@ -8812,7 +8614,7 @@ Find $H(18, 1900)$.
 
 There are $n$ stones in a pond, numbered $1$ to $n$. Consecutive stones are spaced one unit apart.
 
-A frog sits on stone $1$. He wishes to visit each stone exactly once, stopping on stone $n$. However, he can only jump from one stone to another if they are at most $3$ units apart. In other words, from stone $i$, he can reach a stone $j$ if $1 \le j \le n$ and $j$ is in the set $\{i-3, i-2, i-1, i+1, i+2, i+3\}$.
+A frog sits on stone $1$. He wishes to visit each stone exactly once, stopping on stone $n$. However, he can only jump from one stone to another if they are at most $3$ units apart. In other words, from stone $i$, he can reach a stone $j$ if $1 \le j \le n$ and $j$ is in the set $\i-3, i-2, i-1, i+1, i+2, i+3\$.
 
 Let $f(n)$ be the number of ways he can do this. For example, $f(6) = 14$, as shown below:  
 $1 \to 2 \to 3 \to 4 \to 5 \to 6$  
@@ -8836,8 +8638,8 @@ Let $S(L) = \sum f(n)^3$ for $1 \le n \le L$.
 Examples:  
 $S(10) = 18230635$  
 $S(20) = 104207881192114219$  
-$S(1\,000) \bmod 10^9 = 225031475$  
-$S(1\,000\,000) \bmod 10^9 = 363486179$
+$S(1\000) \bmod 10^9 = 225031475$  
+$S(1\000\000) \bmod 10^9 = 363486179$
 
 Find $S(10^{14}) \bmod 10^9$.
 
@@ -8849,18 +8651,18 @@ How many double pandigital numbers are divisible by $11$?
 
 # Problem 492
 
-Define the sequence $a\_1, a\_2, a\_3, \dots$ as:
+Define the sequence $a_1, a_2, a_3, \dots$ as:
 
-  - $a\_1 = 1$
-  - $a\_{n+1} = 6a\_n^2 + 10a\_n + 3$ for $n \ge 1$.
+- $a_1 = 1$
+- $a\_{n+1} = 6a_n^2 + 10a_n + 3$ for $n \ge 1$.
 
 Examples:  
-$a\_3 = 2359$  
-$a\_6 = 269221280981320216750489044576319$  
-$a\_6 \bmod 1\,000\,000\,007 = 203064689$  
-$a\_{100} \bmod 1\,000\,000\,007 = 456482974$
+$a_3 = 2359$  
+$a_6 = 269221280981320216750489044576319$  
+$a_6 \bmod 1\000\000\007 = 203064689$  
+$a\_{100} \bmod 1\000\000\007 = 456482974$
 
-Define $B(x,y,n)$ as $\sum (a\_n \bmod p)$ for every prime $p$ such that $x \le p \le x+y$.
+Define $B(x,y,n)$ as $\sum (a_n \bmod p)$ for every prime $p$ such that $x \le p \le x+y$.
 
 Examples:  
 $B(10^9, 10^3, 10^3) = 23674718882$  
@@ -8879,18 +8681,18 @@ Give your answer with nine digits after the decimal point (a.bcdefghij).
 # Problem 494
 
 The Collatz sequence is defined as:
-$a\_{i+1} = \left\{ \large{\frac {a\_i} 2 \atop 3 a\_i+1} {\text{if }a\_i\text{ is even} \atop \text{if }a\_i\text{ is odd}} \right.$.
+$a\_{i+1} = \left\ \large{\frac {a_i} 2 \atop 3 a_i+1} {\text{if }a_i\text{ is even} \atop \text{if }a_i\text{ is odd}} \right.$.
 
 The Collatz conjecture states that starting from any positive integer, the sequence eventually reaches the cycle $1,4,2,1, \dots$.  
-We shall define the sequence prefix $p(n)$ for the Collatz sequence starting with $a\_1 = n$ as the sub-sequence of all numbers not a power of $2$ ($2^0=1$ is considered a power of $2$ for this problem). For example:  
-$p(13) = \{13, 40, 20, 10, 5\}$  
-$p(8) = \{\}$  
+We shall define the sequence prefix $p(n)$ for the Collatz sequence starting with $a_1 = n$ as the sub-sequence of all numbers not a power of $2$ ($2^0=1$ is considered a power of $2$ for this problem). For example:  
+$p(13) = \13, 40, 20, 10, 5\$  
+$p(8) = \\$  
 Any number invalidating the conjecture would have an infinite length sequence prefix.
 
-Let $S\_m$ be the set of all sequence prefixes of length $m$. Two sequences $\{a\_1, a\_2, \dots, a\_m\}$ and $\{b\_1, b\_2, \dots, b\_m\}$ in $S\_m$ are said to belong to the same prefix family if $a\_i \lt a\_j$ if and only if $b\_i \lt b\_j$ for all $1 \le i,j \le m$.
+Let $S_m$ be the set of all sequence prefixes of length $m$. Two sequences $\a_1, a_2, \dots, a_m\$ and $\b_1, b_2, \dots, b_m\$ in $S_m$ are said to belong to the same prefix family if $a_i \lt a_j$ if and only if $b_i \lt b_j$ for all $1 \le i,j \le m$.
 
-For example, in $S\_4$, $\{6, 3, 10, 5\}$ is in the same family as $\{454, 227, 682, 341\}$, but not $\{113, 340, 170, 85\}$.  
-Let $f(m)$ be the number of distinct prefix families in $S\_m$.  
+For example, in $S_4$, $\6, 3, 10, 5\$ is in the same family as $\454, 227, 682, 341\$, but not $\113, 340, 170, 85\$.  
+Let $f(m)$ be the number of distinct prefix families in $S_m$.  
 You are given $f(5) = 5$, $f(10) = 55$, $f(20) = 6771$.
 
 Find $f(90)$.
@@ -8901,19 +8703,19 @@ Let $W(n,k)$ be the number of ways in which $n$ can be written as the product of
 
 For example, $W(144,4) = 7$. There are $7$ ways in which $144$ can be written as a product of $4$ distinct positive integers:
 
-  - $144 = 1 \times 2 \times 4 \times 18$
-  - $144 = 1 \times 2 \times 8 \times 9$
-  - $144 = 1 \times 2 \times 3 \times 24$
-  - $144 = 1 \times 2 \times 6 \times 12$
-  - $144 = 1 \times 3 \times 4 \times 12$
-  - $144 = 1 \times 3 \times 6 \times 8$
-  - $144 = 2 \times 3 \times 4 \times 6$
+- $144 = 1 \times 2 \times 4 \times 18$
+- $144 = 1 \times 2 \times 8 \times 9$
+- $144 = 1 \times 2 \times 3 \times 24$
+- $144 = 1 \times 2 \times 6 \times 12$
+- $144 = 1 \times 3 \times 4 \times 12$
+- $144 = 1 \times 3 \times 6 \times 8$
+- $144 = 2 \times 3 \times 4 \times 6$
 
 Note that permutations of the integers themselves are not considered distinct.
 
-Furthermore, $W(100!,10)$ modulo $1\,000\,000\,007 = 287549200$.
+Furthermore, $W(100!,10)$ modulo $1\000\000\007 = 287549200$.
 
-Find $W(10000!,30)$ modulo $1\,000\,000\,007$.
+Find $W(10000!,30)$ modulo $1\000\000\007$.
 
 # Problem 496
 
@@ -8943,7 +8745,7 @@ Unfortunately, Bob is also drunk. On a given move, Bob will either stumble one s
 
 The following animation depicts a side-view of a sample game for $n = 3$, $k = 7$, $a = 2$, $b = 4$, and $c = 6$:
 
-![0497\_hanoi.gif](resources/images/0497_hanoi.gif?1678992057)
+![0497_hanoi.gif](resources/images/0497_hanoi.gif?1678992057)
 
 Let $E(n, k, a, b, c)$ be the expected number of squares that Bob travels during a single optimally-played game. A game is played optimally if the number of disk-pickups is minimized.
 
@@ -8953,8 +8755,8 @@ Find the last nine digits of $\sum\_{1\le n \le 10000} E(n,10^n,3^n,6^n,9^n)$.
 
 # Problem 498
 
-For positive integers $n$ and $m$, we define two polynomials $F\_n(x) = x^n$ and $G\_m(x) = (x-1)^m$.  
-We also define a polynomial $R\_{n,m}(x)$ as the remainder of the division of $F\_n(x)$ by $G\_m(x)$.  
+For positive integers $n$ and $m$, we define two polynomials $F_n(x) = x^n$ and $G_m(x) = (x-1)^m$.  
+We also define a polynomial $R\_{n,m}(x)$ as the remainder of the division of $F_n(x)$ by $G_m(x)$.  
 For example, $R\_{6,3}(x) = 15x^2 - 24x + 10$.
 
 Let $C(n, m, d)$ be the absolute value of the coefficient of the $d$-th degree term of $R\_{n,m}(x)$.  
@@ -8968,8 +8770,8 @@ A gambler decides to participate in a special lottery. In this lottery the gambl
 Each game costs $m$ pounds to play and starts with an initial pot of $1$ pound. The gambler flips an unbiased coin. Every time a head appears, the pot is doubled and the gambler continues. When a tail appears, the game ends and the gambler collects the current value of the pot. The gambler is certain to win at least $1$ pound, the starting value of the pot, at the cost of $m$ pounds, the initial fee.
 
 The game ends if the gambler's fortune falls below $m$ pounds.
-Let $p\_m(s)$ denote the probability that the gambler will never run out of money in this lottery given an initial fortune $s$ and the cost per game $m$.  
-For example $p\_2(2) \approx 0.2522$, $p\_2(5) \approx 0.6873$ and $p\_6(10\,000) \approx 0.9952$ (note: $p\_m(s) = 0$ for $s \lt m$).
+Let $p_m(s)$ denote the probability that the gambler will never run out of money in this lottery given an initial fortune $s$ and the cost per game $m$.  
+For example $p_2(2) \approx 0.2522$, $p_2(5) \approx 0.6873$ and $p_6(10\000) \approx 0.9952$ (note: $p_m(s) = 0$ for $s \lt m$).
 
 Find $p\_{15}(10^9)$ and give your answer rounded to $7$ decimal places behind the decimal point in the form 0.abcdefg.
 
@@ -9004,13 +8806,13 @@ Given a game grid that is $w$ units wide and $h$ units tall, a castle is generat
 
 The following is a sample castle for $w=8$ and $h=5$:
 
-![0502\_castles.png](resources/images/0502_castles.png?1678992053)
+![0502_castles.png](resources/images/0502_castles.png?1678992053)
 
 Let $F(w,h)$ represent the number of valid castles, given grid parameters $w$ and $h$.
 
-For example, $F(4,2) = 10$, $F(13,10) = 3729050610636$, $F(10,13) = 37959702514$, and $F(100,100) \bmod 1\,000\,000\,007 = 841913936$.
+For example, $F(4,2) = 10$, $F(13,10) = 3729050610636$, $F(10,13) = 37959702514$, and $F(100,100) \bmod 1\000\000\007 = 841913936$.
 
-Find $(F(10^{12},100) + F(10000,10000) + F(100,10^{12})) \bmod 1\,000\,000\,007$.
+Find $(F(10^{12},100) + F(10000,10000) + F(100,10^{12})) \bmod 1\000\000\007$.
 
 # Problem 503
 
@@ -9035,7 +8837,7 @@ Let $ABCD$ be a quadrilateral whose vertices are lattice points lying on the coo
 
 $A(a, 0)$, $B(0, b)$, $C(-c, 0)$, $D(0, -d)$, where $1 \le a, b, c, d \le m$ and $a, b, c, d, m$ are integers.
 
-It can be shown that for $m = 4$ there are exactly $256$ valid ways to construct $ABCD$. Of these $256$ quadrilaterals, $42$ of them <span class="underline">strictly</span> contain a square number of lattice points.
+It can be shown that for $m = 4$ there are exactly $256$ valid ways to construct $ABCD$. Of these $256$ quadrilaterals, $42$ of them <u>strictly</u> contain a square number of lattice points.
 
 How many quadrilaterals $ABCD$ strictly contain a square number of lattice points for $m = 100$?
 
@@ -9043,11 +8845,11 @@ How many quadrilaterals $ABCD$ strictly contain a square number of lattice point
 
 Let:
 
-$\begin{array}{ll} x(0)&=0 \\ x(1)&=1 \\ x(2k)&=(3x(k)+2x(\lfloor \frac k 2 \rfloor)) \text{ mod } 2^{60} \text{ for } k \ge 1 \text {, where } \lfloor \text { } \rfloor \text { is the floor function} \\ x(2k+1)&=(2x(k)+3x(\lfloor \frac k 2 \rfloor)) \text{ mod } 2^{60} \text{ for } k \ge 1 \\ y\_n(k)&=\left\{{\begin{array}{lc} x(k) && \text{if } k \ge n \\ 2^{60} - 1 - max(y\_n(2k),y\_n(2k+1)) && \text{if } k \< n \end{array}} \right. \\ A(n)&=y\_n(1) \end{array}$
+$\begin{array}{ll} x(0)&=0 \ x(1)&=1 \ x(2k)&=(3x(k)+2x(\lfloor \frac k 2 \rfloor)) \text{ mod } 2^{60} \text{ for } k \ge 1 \text {, where } \lfloor \text { } \rfloor \text { is the floor function} \ x(2k+1)&=(2x(k)+3x(\lfloor \frac k 2 \rfloor)) \text{ mod } 2^{60} \text{ for } k \ge 1 \ y_n(k)&=\left\{\begin{array}{lc} x(k) && \text{if } k \ge n \ 2^{60} - 1 - max(y_n(2k),y_n(2k+1)) && \text{if } k \< n \end{array}} \right. \ A(n)&=y_n(1) \end{array}$
 
 You are given:
 
-$\begin{array}{ll} x(2)&=3 \\ x(3)&=2 \\ x(4)&=11 \\ y\_4(4)&=11 \\ y\_4(3)&=2^{60}-9\\ y\_4(2)&=2^{60}-12 \\ y\_4(1)&=A(4)=8 \\ A(10)&=2^{60}-34\\ A(10^3)&=101881 \end{array}$
+$\begin{array}{ll} x(2)&=3 \ x(3)&=2 \ x(4)&=11 \ y_4(4)&=11 \ y_4(3)&=2^{60}-9\ y_4(2)&=2^{60}-12 \ y_4(1)&=A(4)=8 \ A(10)&=2^{60}-34\ A(10^3)&=101881 \end{array}$
 
 Find $A(10^{12})$.
 
@@ -9061,23 +8863,23 @@ Amazingly, you can break this sequence of digits into a sequence of integers suc
 The sequence goes as follows:  
 1, 2, 3, 4, 32, 123, 43, 2123, 432, 1234, 32123, ...
 
-Let $v\_n$ be the $n$-th value in this sequence. For example, $v\_2=2$, $v\_5=32$ and $v\_{11}=32123$.
+Let $v_n$ be the $n$-th value in this sequence. For example, $v_2=2$, $v_5=32$ and $v\_{11}=32123$.
 
-Let $S(n)$ be $v\_1+v\_2+\cdots+v\_n$. For example, $S(11)=36120$, and $S(1000)\bmod 123454321=18232686$.
+Let $S(n)$ be $v_1+v_2+\cdots+v_n$. For example, $S(11)=36120$, and $S(1000)\bmod 123454321=18232686$.
 
 Find $S(10^{14})\bmod 123454321$.
 
 # Problem 507
 
-Let $t\_n$ be the **tribonacci numbers** defined as:  
-$t\_0 = t\_1 = 0$;  
-$t\_2 = 1$;  
-$t\_n = t\_{n-1} + t\_{n-2} + t\_{n-3}$ for $n \ge 3$  
-and let $r\_n = t\_n \text{ mod } 10^7$.
+Let $t_n$ be the **tribonacci numbers** defined as:  
+$t_0 = t_1 = 0$;  
+$t_2 = 1$;  
+$t_n = t\_{n-1} + t\_{n-2} + t\_{n-3}$ for $n \ge 3$  
+and let $r_n = t_n \text{ mod } 10^7$.
 
-For each pair of Vectors $V\_n=(v\_1,v\_2,v\_3)$ and $W\_n=(w\_1,w\_2,w\_3)$ with $v\_1=r\_{12n-11}-r\_{12n-10}, v\_2=r\_{12n-9}+r\_{12n-8}, v\_3=r\_{12n-7} \cdot r\_{12n-6}$ and  
-$w\_1=r\_{12n-5}-r\_{12n-4}, w\_2=r\_{12n-3}+r\_{12n-2}, w\_3=r\_{12n-1} \cdot r\_{12n}$  
-we define $S(n)$ as the minimal value of the manhattan length of the vector $D=k \cdot V\_n+l \cdot W\_n$ measured as $|k \cdot v\_1+l \cdot w\_1|+|k \cdot v\_2+l \cdot w\_2|+|k \cdot v\_3+l \cdot w\_3|$
+For each pair of Vectors $V_n=(v_1,v_2,v_3)$ and $W_n=(w_1,w_2,w_3)$ with $v_1=r\_{12n-11}-r\_{12n-10}, v_2=r\_{12n-9}+r\_{12n-8}, v_3=r\_{12n-7} \cdot r\_{12n-6}$ and  
+$w_1=r\_{12n-5}-r\_{12n-4}, w_2=r\_{12n-3}+r\_{12n-2}, w_3=r\_{12n-1} \cdot r\_{12n}$  
+we define $S(n)$ as the minimal value of the manhattan length of the vector $D=k \cdot V_n+l \cdot W_n$ measured as $\|k \cdot v_1+l \cdot w_1\|+\|k \cdot v_2+l \cdot w_2\|+\|k \cdot v_3+l \cdot w_3\|$
 for any integers $k$ and $l$ with $(k,l)\neq (0,0)$.
 
 The first vector pair is $(-1, 3, 28)$, $(-11, 125, 40826)$.  
@@ -9087,11 +8889,11 @@ Find $\sum\_{n=1}^{20000000} S(n)$.
 
 # Problem 508
 
-Consider the Gaussian integer $i-1$. A **base $i-1$ representation** of a Gaussian integer $a+bi$ is a finite sequence of digits $d\_{n - 1}d\_{n - 2}\cdots d\_1 d\_0$ such that:
+Consider the Gaussian integer $i-1$. A **base $i-1$ representation** of a Gaussian integer $a+bi$ is a finite sequence of digits $d\_{n - 1}d\_{n - 2}\cdots d_1 d_0$ such that:
 
-  - $a+bi = d\_{n - 1}(i - 1)^{n - 1} + d\_{n - 2}(i - 1)^{n - 2} + \cdots + d\_1(i - 1) + d\_0$
-  - Each $d\_k$ is in $\{0,1\}$
-  - There are no leading zeroes, i.e. $d\_{n-1} \ne 0$, unless $a+bi$ is itself $0$
+- $a+bi = d\_{n - 1}(i - 1)^{n - 1} + d\_{n - 2}(i - 1)^{n - 2} + \cdots + d_1(i - 1) + d_0$
+- Each $d_k$ is in $\0,1\$
+- There are no leading zeroes, i.e. $d\_{n-1} \ne 0$, unless $a+bi$ is itself $0$
 
 Here are base $i-1$ representations of a few Gaussian integers:  
   
@@ -9105,9 +8907,9 @@ Remarkably, every Gaussian integer has a unique base $i-1$ representation!
 
 Define $f(a + bi)$ as the number of $1$s in the unique base $i-1$ representation of $a + bi$. For example, $f(11+24i) = 9$ and $f(24-11i) = 7$.
 
-Define $B(L)$ as the sum of $f(a + bi)$ for all integers $a, b$ such that $|a| \le L$ and $|b| \le L$. For example, $B(500) = 10795060$.
+Define $B(L)$ as the sum of $f(a + bi)$ for all integers $a, b$ such that $\|a\| \le L$ and $\|b\| \le L$. For example, $B(500) = 10795060$.
 
-Find $B(10^{15}) \bmod 1\,000\,000\,007$.
+Find $B(10^{15}) \bmod 1\000\000\007$.
 
 # Problem 509
 
@@ -9129,44 +8931,44 @@ Find $S(123456787654321)$ modulo $1234567890$.
 
 Circles $A$ and $B$ are tangent to each other and to line $L$ at three distinct points.  
 Circle $C$ is inside the space between $A$, $B$ and $L$, and tangent to all three.  
-Let $r\_A$, $r\_B$ and $r\_C$ be the radii of $A$, $B$ and $C$ respectively.  
+Let $r_A$, $r_B$ and $r_C$ be the radii of $A$, $B$ and $C$ respectively.  
 
-<div data-align="center">
+<div align="center">
 
-![0510\_tangent\_circles.png](resources/images/0510_tangent_circles.png?1678992053)
+![0510_tangent_circles.png](resources/images/0510_tangent_circles.png?1678992053)
 
 </div>
 
-Let $S(n) = \sum r\_A + r\_B + r\_C$, for $0 \lt r\_A \le r\_B \le n$ where $r\_A$, $r\_B$ and $r\_C$ are integers.
-The only solution for $0 \lt r\_A \le r\_B \le 5$ is $r\_A = 4$, $r\_B = 4$ and $r\_C = 1$, so $S(5) = 4 + 4 + 1 = 9$.
+Let $S(n) = \sum r_A + r_B + r_C$, for $0 \lt r_A \le r_B \le n$ where $r_A$, $r_B$ and $r_C$ are integers.
+The only solution for $0 \lt r_A \le r_B \le 5$ is $r_A = 4$, $r_B = 4$ and $r_C = 1$, so $S(5) = 4 + 4 + 1 = 9$.
 You are also given $S(100) = 3072$.
 
 Find $S(10^9)$.
 
 # Problem 511
 
-Let $Seq(n,k)$ be the number of positive-integer sequences $\{a\_i\}\_{1 \le i \le n}$ of length $n$ such that:
+Let $Seq(n,k)$ be the number of positive-integer sequences $\a_i\\_{1 \le i \le n}$ of length $n$ such that:
 
-  - $n$ is divisible by $a\_i$ for $1 \le i \le n$, and
-  - $n + a\_1 + a\_2 + \cdots + a\_n$ is divisible by $k$.
+- $n$ is divisible by $a_i$ for $1 \le i \le n$, and
+- $n + a_1 + a_2 + \cdots + a_n$ is divisible by $k$.
 
 Examples:
 
 $Seq(3,4) = 4$, and the $4$ sequences are:  
-$\{1, 1, 3\}$  
-$\{1, 3, 1\}$  
-$\{3, 1, 1\}$  
-$\{3, 3, 3\}$
+$\1, 1, 3\$  
+$\1, 3, 1\$  
+$\3, 1, 1\$  
+$\3, 3, 3\$
 
 $Seq(4,11) = 8$, and the $8$ sequences are:  
-$\{1, 1, 1, 4\}$  
-$\{1, 1, 4, 1\}$  
-$\{1, 4, 1, 1\}$  
-$\{4, 1, 1, 1\}$  
-$\{2, 2, 2, 1\}$  
-$\{2, 2, 1, 2\}$  
-$\{2, 1, 2, 2\}$  
-$\{1, 2, 2, 2\}$
+$\1, 1, 1, 4\$  
+$\1, 1, 4, 1\$  
+$\1, 4, 1, 1\$  
+$\4, 1, 1, 1\$  
+$\2, 2, 2, 1\$  
+$\2, 2, 1, 2\$  
+$\2, 1, 2, 2\$  
+$\1, 2, 2, 2\$
 
 The last nine digits of $Seq(1111,24)$ are $840643584$.
 
@@ -9187,8 +8989,8 @@ Find $g(5 \times 10^8)$.
 # Problem 513
 
 $ABC$ is an integral sided triangle with sides $a \le b \le c$.  
-$m\_C$ is the median connecting $C$ and the midpoint of $AB$.  
-$F(n)$ is the number of such triangles with $c \le n$ for which $m\_C$ has integral length as well.  
+$m_C$ is the median connecting $C$ and the midpoint of $AB$.  
+$F(n)$ is the number of such triangles with $c \le n$ for which $m_C$ has integral length as well.  
 $F(10)=3$ and $F(50)=165$.
 
 Find $F(100000)$.
@@ -9201,9 +9003,9 @@ John begins with a pinless geoboard. Each position on the board is a hole that c
 
 After John is finished generating numbers for all $(N+1)^2$ holes and placing any/all corresponding pins, he wraps a tight rubberband around the entire group of pins protruding from the board. Let $S$ represent the shape that is formed. $S$ can also be defined as the smallest convex shape that contains all the pins.
 
-<div data-align="center">
+<div align="center">
 
-![0514\_geoboard.png](resources/images/0514_geoboard.png?1678992053)
+![0514_geoboard.png](resources/images/0514_geoboard.png?1678992053)
 
 </div>
 
@@ -9221,9 +9023,9 @@ Let $D(a, b, k) = \sum (d(p, p-1, k) \bmod p)$ for all primes $a \le p \lt a + b
 
 You are given:
 
-  - $D(101,1,10) = 45$
-  - $D(10^3,10^2,10^2) = 8334$
-  - $D(10^6,10^3,10^3) = 38162302$
+- $D(101,1,10) = 45$
+- $D(10^3,10^2,10^2) = 8334$
+- $D(10^6,10^3,10^3) = 38162302$
 
 Find $D(10^9,10^5,10^5)$.
 
@@ -9238,9 +9040,9 @@ Find $S(10^{12})$. Give your answer modulo $2^{32}$.
 
 # Problem 517
 
-For every real number $a \gt 1$ is given the sequence $g\_a$ by:  
+For every real number $a \gt 1$ is given the sequence $g_a$ by:  
 $g\_{a}(x)=1$ for $x \lt a$  
-$g\_{a}(x)=g\_{a}(x-1)+g\_a(x-a)$ for $x \ge a$  
+$g\_{a}(x)=g\_{a}(x-1)+g_a(x-a)$ for $x \ge a$  
 $G(n)=g\_{\sqrt {n}}(n)$  
 $G(90)=7564511$.
 
@@ -9251,9 +9053,9 @@ Give your answer modulo $1000000007$.
 
 Let $S(n) = \sum a + b + c$ over all triples $(a, b, c)$ such that:
 
-  - $a$, $b$ and $c$ are prime numbers.
-  - $a \lt b \lt c \lt n$.
-  - $a+1$, $b+1$, and $c+1$ form a **geometric sequence**.
+- $a$, $b$ and $c$ are prime numbers.
+- $a \lt b \lt c \lt n$.
+- $a+1$, $b+1$, and $c+1$ form a **geometric sequence**.
 
 For example, $S(100) = 1035$ with the following triples:
 
@@ -9265,9 +9067,9 @@ Find $S(10^8)$.
 
 An arrangement of coins in one or more rows with the bottom row being a block without gaps and every coin in a higher row touching exactly two coins in the row below is called a <span class="dfn">fountain</span> of coins. Let $f(n)$ be the number of possible fountains with $n$ coins. For $4$ coins there are three possible arrangements:
 
-<div data-align="center">
+<div align="center">
 
-![0519\_coin\_fountain.png](resources/images/0519_coin_fountain.png?1678992053)
+![0519_coin_fountain.png](resources/images/0519_coin_fountain.png?1678992053)
 
 </div>
 
@@ -9275,9 +9077,9 @@ Therefore $f(4) = 3$ while $f(10) = 78$.
 
 Let $T(n)$ be the number of all possible colourings with three colours for all $f(n)$ different fountains with $n$ coins, given the condition that no two touching coins have the same colour. Below you see the possible colourings for one of the three valid fountains for $4$ coins:
 
-<div data-align="center">
+<div align="center">
 
-![0519\_tricolored\_coin\_fountain.png](resources/images/0519_tricolored_coin_fountain.png?1678992053)
+![0519_tricolored_coin_fountain.png](resources/images/0519_tricolored_coin_fountain.png?1678992053)
 
 </div>
 
@@ -9293,9 +9095,9 @@ For example, $141221242$ is a $9$-digit simber because it has three $1$'s, four 
 
 Let $Q(n)$ be the count of all simbers with at most $n$ digits.
 
-You are given $Q(7) = 287975$ and $Q(100) \bmod 1\,000\,000\,123 = 123864868$.
+You are given $Q(7) = 287975$ and $Q(100) \bmod 1\000\000\123 = 123864868$.
 
-Find $(\sum\_{1 \le u \le 39} Q(2^u)) \bmod 1\,000\,000\,123$.
+Find $(\sum\_{1 \le u \le 39} Q(2^u)) \bmod 1\000\000\123$.
 
 # Problem 521
 
@@ -9316,7 +9118,7 @@ Unfortunately, the contractors misinterpreted the schematics when they built the
 
 For example, consider a sample flow diagram for a three-story hotel:
 
-![0522\_hilberts\_blackout.png](resources/images/0522_hilberts_blackout.png?1678992053)
+![0522_hilberts_blackout.png](resources/images/0522_hilberts_blackout.png?1678992053)
 
 If the generator were placed on the first floor, then every floor would receive power. But if it were placed on the second or third floors instead, then there would be a blackout on the first floor. Note that while a given floor can *receive* power from many other floors at once, it can only *send* power to one other floor.
 
@@ -9330,24 +9132,24 @@ Find $F(12344321) \bmod 135707531$.
 
 Consider the following algorithm for sorting a list:
 
-  - 1\. Starting from the beginning of the list, check each pair of adjacent elements in turn.
-  - 2\. If the elements are out of order:
-      - a. Move the smallest element of the pair at the beginning of the list.
-      - b. Restart the process from step 1.
-  - 3\. If all pairs are in order, stop.
+- 1\. Starting from the beginning of the list, check each pair of adjacent elements in turn.
+- 2\. If the elements are out of order:
+  - a\. Move the smallest element of the pair at the beginning of the list.
+  - b\. Restart the process from step 1.
+- 3\. If all pairs are in order, stop.
 
-For example, the list $\{\,4\,1\,3\,2\,\}$ is sorted as follows:
+For example, the list $\\4\1\3\2\\$ is sorted as follows:
 
-  - $\underline{4\,1}\,3\,2$ ($4$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,\underline{4\,3}\,2$ ($4$ and $3$ are out of order so move $3$ to the front of the list)
-  - $\underline{3\,1}\,4\,2$ ($3$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,3\,\underline{4\,2}$ ($4$ and $2$ are out of order so move $2$ to the front of the list)
-  - $\underline{2\,1}\,3\,4$ ($2$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,2\,3\,4$ (The list is now sorted)
+- $\underline{4\1}\3\2$ ($4$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\\underline{4\3}\2$ ($4$ and $3$ are out of order so move $3$ to the front of the list)
+- $\underline{3\1}\4\2$ ($3$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\3\\underline{4\2}$ ($4$ and $2$ are out of order so move $2$ to the front of the list)
+- $\underline{2\1}\3\4$ ($2$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\2\3\4$ (The list is now sorted)
 
-Let $F(L)$ be the number of times step 2a is executed to sort list $L$. For example, $F(\{\,4\,1\,3\,2\,\}) = 5$.
+Let $F(L)$ be the number of times step 2a is executed to sort list $L$. For example, $F(\\4\1\3\2\\) = 5$.
 
-Let $E(n)$ be the **expected value** of $F(P)$ over all permutations $P$ of the integers $\{1, 2, \dots, n\}$.  
+Let $E(n)$ be the **expected value** of $F(P)$ over all permutations $P$ of the integers $\1, 2, \dots, n\$.  
 You are given $E(4) = 3.25$ and $E(10) = 115.725$.
 
 Find $E(30)$. Give your answer rounded to two digits after the decimal point.
@@ -9356,31 +9158,31 @@ Find $E(30)$. Give your answer rounded to two digits after the decimal point.
 
 Consider the following algorithm for sorting a list:
 
-  - 1\. Starting from the beginning of the list, check each pair of adjacent elements in turn.
-  - 2\. If the elements are out of order:
-      - a. Move the smallest element of the pair at the beginning of the list.
-      - b. Restart the process from step 1.
-  - 3\. If all pairs are in order, stop.
+- 1\. Starting from the beginning of the list, check each pair of adjacent elements in turn.
+- 2\. If the elements are out of order:
+  - a\. Move the smallest element of the pair at the beginning of the list.
+  - b\. Restart the process from step 1.
+- 3\. If all pairs are in order, stop.
 
-For example, the list $\{\,4\,1\,3\,2\,\}$ is sorted as follows:
+For example, the list $\\4\1\3\2\\$ is sorted as follows:
 
-  - $\underline{4\,1}\,3\,2$ ($4$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,\underline{4\,3}\,2$ ($4$ and $3$ are out of order so move $3$ to the front of the list)
-  - $\underline{3\,1}\,4\,2$ ($3$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,3\,\underline{4\,2}$ ($4$ and $2$ are out of order so move $2$ to the front of the list)
-  - $\underline{2\,1}\,3\,4$ ($2$ and $1$ are out of order so move $1$ to the front of the list)
-  - $1\,2\,3\,4$ (The list is now sorted)
+- $\underline{4\1}\3\2$ ($4$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\\underline{4\3}\2$ ($4$ and $3$ are out of order so move $3$ to the front of the list)
+- $\underline{3\1}\4\2$ ($3$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\3\\underline{4\2}$ ($4$ and $2$ are out of order so move $2$ to the front of the list)
+- $\underline{2\1}\3\4$ ($2$ and $1$ are out of order so move $1$ to the front of the list)
+- $1\2\3\4$ (The list is now sorted)
 
-Let $F(L)$ be the number of times step 2a is executed to sort list $L$. For example, $F(\{\,4\,1\,3\,2\,\}) = 5$.
+Let $F(L)$ be the number of times step 2a is executed to sort list $L$. For example, $F(\\4\1\3\2\\) = 5$.
 
-We can list all permutations $P$ of the integers $\{1, 2, \dots, n\}$ in **lexicographical order**, and assign to each permutation an index $I\_n(P)$ from $1$ to $n!$ corresponding to its position in the list.
+We can list all permutations $P$ of the integers $\1, 2, \dots, n\$ in **lexicographical order**, and assign to each permutation an index $I_n(P)$ from $1$ to $n!$ corresponding to its position in the list.
 
-Let $Q(n, k) = \min(I\_n(P))$ for $F(P) = k$, the index of the first permutation requiring exactly $k$ steps to sort with First Sort. If there is no permutation for which $F(P) = k$, then $Q(n, k)$ is undefined.
+Let $Q(n, k) = \min(I_n(P))$ for $F(P) = k$, the index of the first permutation requiring exactly $k$ steps to sort with First Sort. If there is no permutation for which $F(P) = k$, then $Q(n, k)$ is undefined.
 
 For $n = 4$ we have:
 
 | `P`          | `I`<sub>4</sub>(`P`) | `F`(`P`) |              |
-| ------------ | -------------------- | -------- | ------------ |
+|--------------|----------------------|----------|--------------|
 | {1, 2, 3, 4} | 1                    | 0        | Q(4, 0) = 1  |
 | {1, 2, 4, 3} | 2                    | 4        | Q(4, 4) = 2  |
 | {1, 3, 2, 4} | 3                    | 2        | Q(4, 2) = 3  |
@@ -9418,7 +9220,7 @@ $\frac {x^2} {a^2} + \frac {(y - b)^2} {b^2} = 1$
 The ellipse rolls without slipping along the $x$ axis for one complete turn. Interestingly, the length of the curve generated by a focus is independent from the size of the minor axis:  
 $F(a,b) = 2 \pi \max(a,b)$
 
-<div data-align="center">
+<div align="center">
 
 ![0525-rolling-ellipse-1.gif](resources/images/0525-rolling-ellipse-1.gif?1678992057)
 
@@ -9426,7 +9228,7 @@ $F(a,b) = 2 \pi \max(a,b)$
 
 This is not true for the curve generated by the ellipse center. Let $C(a, b)$ be the length of the curve generated by the center of the ellipse as it rolls without slipping for one turn.
 
-<div data-align="center">
+<div align="center">
 
 ![0525-rolling-ellipse-2.gif](resources/images/0525-rolling-ellipse-2.gif?1678992057)
 
@@ -9446,11 +9248,11 @@ Let $h(n)$ be the maximum value of $g(k)$ for $2 \le k \le n$.
 
 You are given:
 
-  - $f(100) = 5$
-  - $f(101) = 101$
-  - $g(100) = 409$
-  - $h(100) = 417$
-  - $h(10^9) = 4896292593$
+- $f(100) = 5$
+- $f(101) = 101$
+- $g(100) = 409$
+- $h(100) = 417$
+- $h(10^9) = 4896292593$
 
 Find $h(10^{16})$.
 
@@ -9470,27 +9272,27 @@ Find $R(10^{10}) - B(10^{10})$ rounded to $8$ decimal places.
 
 # Problem 528
 
-Let $S(n, k, b)$ represent the number of valid solutions to $x\_1 + x\_2 + \cdots + x\_k \le n$, where $0 \le x\_m \le b^m$ for all $1 \le m \le k$.
+Let $S(n, k, b)$ represent the number of valid solutions to $x_1 + x_2 + \cdots + x_k \le n$, where $0 \le x_m \le b^m$ for all $1 \le m \le k$.
 
-For example, $S(14,3,2) = 135$, $S(200,5,3) = 12949440$, and $S(1000,10,5) \bmod 1\,000\,000\,007 = 624839075$.
+For example, $S(14,3,2) = 135$, $S(200,5,3) = 12949440$, and $S(1000,10,5) \bmod 1\000\000\007 = 624839075$.
 
-Find $(\sum\_{10 \le k \le 15} S(10^k, k, k)) \bmod 1\,000\,000\,007$.
+Find $(\sum\_{10 \le k \le 15} S(10^k, k, k)) \bmod 1\000\000\007$.
 
 # Problem 529
 
 A <span class="dfn">$10$-substring</span> of a number is a substring of its digits that sum to $10$. For example, the $10$-substrings of the number $3523014$ are:
 
-  - **<span class="underline">352</span>**3014
-  - 3**<span class="underline">523</span>**014
-  - 3**<span class="underline">5230</span>**14
-  - 35**<span class="underline">23014</span>**
+- **<u>352</u>**3014
+- 3**<u>523</u>**014
+- 3**<u>5230</u>**14
+- 35**<u>23014</u>**
 
 A number is called <span class="dfn">$10$-substring-friendly</span> if every one of its digits belongs to a $10$-substring. For example, $3523014$ is $10$-substring-friendly, but $28546$ is not.
 
 Let $T(n)$ be the number of $10$-substring-friendly numbers from $1$ to $10^n$ (inclusive).  
 For example $T(2) = 9$ and $T(5) = 3492$.
 
-Find $T(10^{18}) \bmod 1\,000\,000\,007$.
+Find $T(10^{18}) \bmod 1\000\000\007$.
 
 # Problem 530
 
@@ -9531,7 +9333,7 @@ Now Bob places $n$ bots on the ball (with radius $1$) equidistantly on a small c
 
 Using three bots, Bob finds that every bot will draw a line of length $2.84$, resulting in a total length of $8.52$ for all three bots, each time rounded to two decimal places. The coloured ball looks like this:
 
-<div data-align="center">
+<div align="center">
 
 ![0532-nanobots.jpg](resources/images/0532-nanobots.jpg?1678992054)
 
@@ -9545,9 +9347,9 @@ The **Carmichael function** $\lambda(n)$ is defined as the smallest positive int
 For example $\lambda(8) = 2$ and $\lambda(240) = 4$.
 
 Define $L(n)$ as the smallest positive integer $m$ such that $\lambda(k) \ge n$ for all $k \ge m$.  
-For example, $L(6) = 241$ and $L(100) = 20\,174\,525\,281$.
+For example, $L(6) = 241$ and $L(100) = 20\174\525\281$.
 
-Find $L(20\,000\,000)$. Give the last $9$ digits of your answer.
+Find $L(20\000\000)$. Give the last $9$ digits of your answer.
 
 # Problem 534
 
@@ -9573,9 +9375,9 @@ $S = \enclose{circle}1, 1, \enclose{circle}2, 1, \enclose{circle}3, 2, \enclose{
 
 The sequence is characterized by the following properties:
 
-  - The circled numbers are consecutive integers starting with $1$.
-  - Immediately preceding each non-circled numbers $a\_i$, there are exactly $\lfloor \sqrt{a\_i} \rfloor$ adjacent circled numbers, where $\lfloor\,\rfloor$ is the floor function.
-  - If we remove all circled numbers, the remaining numbers form a sequence identical to $S$, so $S$ is a **fractal sequence**.
+- The circled numbers are consecutive integers starting with $1$.
+- Immediately preceding each non-circled numbers $a_i$, there are exactly $\lfloor \sqrt{a_i} \rfloor$ adjacent circled numbers, where $\lfloor\\rfloor$ is the floor function.
+- If we remove all circled numbers, the remaining numbers form a sequence identical to $S$, so $S$ is a **fractal sequence**.
 
 Let $T(n)$ be the sum of the first $n$ elements of the sequence.  
 You are given $T(1) = 1$, $T(20) = 86$, $T(10^3) = 364089$ and $T(10^9) = 498676527978348241$.
@@ -9597,43 +9399,43 @@ Find $S(10^{12})$.
 Let $\pi(x)$ be the prime counting function, i.e. the number of prime numbers less than or equal to $x$.  
 For example,$\pi(1)=0$, $\pi(2)=1$, $\pi(100)=25$.
 
-Let $T(n, k)$ be the number of $k$-tuples $(x\_1, \dots, x\_k)$ which satisfy:  
-1\. every $x\_i$ is a positive integer;  
-2\. $\displaystyle \sum\_{i=1}^k \pi(x\_i)=n$
+Let $T(n, k)$ be the number of $k$-tuples $(x_1, \dots, x_k)$ which satisfy:  
+1. every $x_i$ is a positive integer;  
+2. $\displaystyle \sum\_{i=1}^k \pi(x_i)=n$
 
 For example $T(3,3)=19$.  
 The $19$ tuples are $(1,1,5)$, $(1,5,1)$, $(5,1,1)$, $(1,1,6)$, $(1,6,1)$, $(6,1,1)$, $(1,2,3)$, $(1,3,2)$, $(2,1,3)$, $(2,3,1)$, $(3,1,2)$, $(3,2,1)$, $(1,2,4)$, $(1,4,2)$, $(2,1,4)$, $(2,4,1)$, $(4,1,2)$, $(4,2,1)$, $(2,2,2)$.
 
-You are given $T(10, 10) = 869\,985$ and $T(10^3,10^3) \equiv 578\,270\,566 \pmod{1\,004\,535\,809}$.
+You are given $T(10, 10) = 869\985$ and $T(10^3,10^3) \equiv 578\270\566 \pmod{1\004\535\809}$.
 
-Find $T(20\,000, 20\,000) \pmod{1\,004\,535\,809}$.
+Find $T(20\000, 20\000) \pmod{1\004\535\809}$.
 
 # Problem 538
 
-Consider a positive integer sequence $S = (s\_1, s\_2, \dots, s\_n)$.
+Consider a positive integer sequence $S = (s_1, s_2, \dots, s_n)$.
 
-Let $f(S)$ be the perimeter of the maximum-area quadrilateral whose side lengths are $4$ elements $(s\_i, s\_j, s\_k, s\_l)$ of $S$ (all $i, j, k, l$ distinct). If there are many quadrilaterals with the same maximum area, then choose the one with the largest perimeter.
+Let $f(S)$ be the perimeter of the maximum-area quadrilateral whose side lengths are $4$ elements $(s_i, s_j, s_k, s_l)$ of $S$ (all $i, j, k, l$ distinct). If there are many quadrilaterals with the same maximum area, then choose the one with the largest perimeter.
 
 For example, if $S = (8, 9, 14, 9, 27)$, then we can take the elements $(9, 14, 9, 27)$ and form an **isosceles trapezium<span class="tooltiptext">An isosceles trapezium (US: trapezoid) is a quadrilateral where one pair of opposite sides are parallel and of different lengths, and the other pair has the same length.</span>** with parallel side lengths $14$ and $27$ and both leg lengths $9$. The area of this quadrilateral is $127.611470879\cdots$ It can be shown that this is the largest area for any quadrilateral that can be formed using side lengths from $S$. Therefore, $f(S) = 9 + 14 + 9 + 27 = 59$.
 
-Let $u\_n = 2^{B(3n)} + 3^{B(2n)} + B(n + 1)$, where $B(k)$ is the number of $1$ bits of $k$ in base $2$.  
-For example, $B(6) = 2$, $B(10) = 2$ and $B(15) = 4$, and $u\_5 = 2^4 + 3^2 + 2 = 27$.
+Let $u_n = 2^{B(3n)} + 3^{B(2n)} + B(n + 1)$, where $B(k)$ is the number of $1$ bits of $k$ in base $2$.  
+For example, $B(6) = 2$, $B(10) = 2$ and $B(15) = 4$, and $u_5 = 2^4 + 3^2 + 2 = 27$.
 
-Also, let $U\_n$ be the sequence $(u\_1, u\_2, \dots, u\_n)$.  
+Also, let $U_n$ be the sequence $(u_1, u_2, \dots, u_n)$.  
 For example, $U\_{10} = (8, 9, 14, 9, 27, 16, 36, 9, 27, 28)$.
 
-It can be shown that $f(U\_5) = 59$, $f(U\_{10}) = 118$, $f(U\_{150}) = 3223$.  
-It can also be shown that $\sum f(U\_n) = 234761$ for $4 \le n \le 150$.  
-Find $\sum f(U\_n)$ for $4 \le n \le 3\,000\,000$.
+It can be shown that $f(U_5) = 59$, $f(U\_{10}) = 118$, $f(U\_{150}) = 3223$.  
+It can also be shown that $\sum f(U_n) = 234761$ for $4 \le n \le 150$.  
+Find $\sum f(U_n)$ for $4 \le n \le 3\000\000$.
 
 # Problem 539
 
 Start from an ordered list of all integers from $1$ to $n$. Going from left to right, remove the first number and every other number afterward until the end of the list. Repeat the procedure from right to left, removing the right most number and every other number from the numbers left. Continue removing every other numbers, alternating left to right and right to left, until a single number remains.
 
 Starting with $n = 9$, we have:  
-$\underline 1\,2\,\underline 3\,4\,\underline 5\,6\,\underline 7\,8\,\underline 9$  
-$2\,\underline 4\,6\,\underline 8$  
-$\underline 2\,6$  
+$\underline 1\2\\underline 3\4\\underline 5\6\\underline 7\8\\underline 9$  
+$2\\underline 4\6\\underline 8$  
+$\underline 2\6$  
 $6$
 
 Let $P(n)$ be the last number left starting with a list of length $n$.  
@@ -9654,10 +9456,10 @@ Find $P(3141592653589793)$.
 
 # Problem 541
 
-The $n$<sup>th</sup> **harmonic number** $H\_n$ is defined as the sum of the multiplicative inverses of the first $n$ positive integers, and can be written as a **reduced fraction** $a\_n/b\_n$.  
-$H\_n = \displaystyle \sum\_{k=1}^n \frac 1 k = \frac {a\_n} {b\_n}$, with $\gcd(a\_n, b\_n)=1$.
+The $n$<sup>th</sup> **harmonic number** $H_n$ is defined as the sum of the multiplicative inverses of the first $n$ positive integers, and can be written as a **reduced fraction** $a_n/b_n$.  
+$H_n = \displaystyle \sum\_{k=1}^n \frac 1 k = \frac {a_n} {b_n}$, with $\gcd(a_n, b_n)=1$.
 
-Let $M(p)$ be the largest value of $n$ such that $b\_n$ is not divisible by $p$.
+Let $M(p)$ be the largest value of $n$ such that $b_n$ is not divisible by $p$.
 
 For example, $M(3) = 68$ because $H\_{68} = \frac {a\_{68}} {b\_{68}} = \frac {14094018321907827923954201611} {2933773379069966367528193600}$, $b\_{68}=2933773379069966367528193600$ is not divisible by $3$, but all larger harmonic numbers have denominators divisible by $3$.
 
@@ -9669,9 +9471,9 @@ Find $M(137)$.
 
 Let $S(k)$ be the sum of three or more distinct positive integers having the following properties:
 
-  - No value exceeds $k$.
-  - The values form a **geometric progression**.
-  - The sum is maximal.
+- No value exceeds $k$.
+- The values form a **geometric progression**.
+- The sum is maximal.
 
 $S(4) = 4 + 2 + 1 = 7$  
 $S(10) = 9 + 6 + 4 = 19$  
@@ -9713,23 +9515,23 @@ Find $S(9,10,1112131415) \bmod 10^9+7$.
 
 The sum of the $k$<sup>th</sup> powers of the first $n$ positive integers can be expressed as a polynomial of degree $k+1$ with rational coefficients, the **Faulhaber's Formulas**:  
 $1^k + 2^k + ... + n^k = \sum\_{i=1}^n i^k = \sum\_{i=1}^{k+1} a\_{i} n^i = a\_{1} n + a\_{2} n^2 + ... + a\_{k} n^k + a\_{k+1} n^{k + 1}$,  
-where $a\_i$'s are rational coefficients that can be written as reduced fractions $p\_i/q\_i$ (if $a\_i = 0$, we shall consider $q\_i = 1$).
+where $a_i$'s are rational coefficients that can be written as reduced fractions $p_i/q_i$ (if $a_i = 0$, we shall consider $q_i = 1$).
 
 For example, $1^4 + 2^4 + ... + n^4 = -\frac 1 {30} n + \frac 1 3 n^3 + \frac 1 2 n^4 + \frac 1 5 n^5.$
 
-Define $D(k)$ as the value of $q\_1$ for the sum of $k$<sup>th</sup> powers (i.e. the denominator of the reduced fraction $a\_1$).  
+Define $D(k)$ as the value of $q_1$ for the sum of $k$<sup>th</sup> powers (i.e. the denominator of the reduced fraction $a_1$).  
 Define $F(m)$ as the $m$<sup>th</sup> value of $k \ge 1$ for which $D(k) = 20010$.  
-You are given $D(4) = 30$ (since $a\_1 = -1/30$), $D(308) = 20010$, $F(1) = 308$, $F(10) = 96404$.
+You are given $D(4) = 30$ (since $a_1 = -1/30$), $D(308) = 20010$, $F(1) = 308$, $F(10) = 96404$.
 
 Find $F(10^5)$.
 
 # Problem 546
 
-Define $f\_k(n) = \sum\_{i=0}^n f\_k(\lfloor\frac i k \rfloor)$ where $f\_k(0) = 1$ and $\lfloor x \rfloor$ denotes the floor function.
+Define $f_k(n) = \sum\_{i=0}^n f_k(\lfloor\frac i k \rfloor)$ where $f_k(0) = 1$ and $\lfloor x \rfloor$ denotes the floor function.
 
-For example, $f\_5(10) = 18$, $f\_7(100) = 1003$, and $f\_2(10^3) = 264830889564$.
+For example, $f_5(10) = 18$, $f_7(100) = 1003$, and $f_2(10^3) = 264830889564$.
 
-Find $(\sum\_{k=2}^{10} f\_k(10^{14})) \bmod (10^9+7)$.
+Find $(\sum\_{k=2}^{10} f_k(10^{14})) \bmod (10^9+7)$.
 
 # Problem 547
 
@@ -9755,9 +9557,9 @@ Find $S(40)$ rounded to four digits after the decimal point.
 
 # Problem 548
 
-A **gozinta chain**for $n$ is a sequence $\{1,a,b,\dots,n\}$ where each element properly divides the next.  
+A **gozinta chain** for $n$ is a sequence $\1,a,b,\dots,n\$ where each element properly divides the next.  
 There are eight gozinta chains for $12$:  
-$\{1,12\}$, $\{1,2,12\}$, $\{1,2,4,12\}$, $\{1,2,6,12\}$, $\{1,3,12\}$, $\{1,3,6,12\}$, $\{1,4,12\}$ and $\{1,6,12\}$.  
+$\1,12\$, $\1,2,12\$, $\1,2,4,12\$, $\1,2,6,12\$, $\1,3,12\$, $\1,3,6,12\$, $\1,4,12\$ and $\1,6,12\$.  
 Let $g(n)$ be the number of gozinta chains for $n$, so $g(12)=8$.  
 $g(48)=48$ and $g(120)=132$.
 
@@ -9780,8 +9582,8 @@ Find $S(10^8)$.
 Two players are playing a game, alternating turns. There are $k$ piles of stones.
 On each turn, a player has to choose a pile and replace it with two piles of stones under the following two conditions:
 
-  - Both new piles must have a number of stones more than one and less than the number of stones of the original pile.
-  - The number of stones of each of the new piles must be a divisor of the number of stones of the original pile.
+- Both new piles must have a number of stones more than one and less than the number of stones of the original pile.
+- The number of stones of each of the new piles must be a divisor of the number of stones of the original pile.
 
 The first player unable to make a valid move loses.  
 Let $f(n,k)$ be the number of winning positions for the first player, assuming perfect play, when the game is played with $k$ piles each having between $2$ and $n$ stones (inclusively).  
@@ -9792,10 +9594,10 @@ Give your answer modulo $987654321$.
 
 # Problem 551
 
-Let $a\_0, a\_1, \dots$ be an integer sequence defined by:
+Let $a_0, a_1, \dots$ be an integer sequence defined by:
 
-  - $a\_0 = 1$;
-  - for $n \ge 1$, $a\_n$ is the sum of the digits of all preceding terms.
+- $a_0 = 1$;
+- for $n \ge 1$, $a_n$ is the sum of the digits of all preceding terms.
 
 The sequence starts with $1, 1, 2, 4, 8, 16, 23, 28, 38, 49, \dots$  
 You are given $a\_{10^6} = 31054319$.
@@ -9804,41 +9606,41 @@ Find $a\_{10^{15}}$.
 
 # Problem 552
 
-Let $A\_n$ be the smallest positive integer satisfying $A\_n \bmod p\_i = i$ for all $1 \le i \le n$, where $p\_i$ is the
+Let $A_n$ be the smallest positive integer satisfying $A_n \bmod p_i = i$ for all $1 \le i \le n$, where $p_i$ is the
 $i$-th prime.  
-For example $A\_2 = 5$, since this is the smallest positive solution of the system of equations
+For example $A_2 = 5$, since this is the smallest positive solution of the system of equations
 
-  - $A\_2 \bmod 2 = 1$
-  - $A\_2 \bmod 3 = 2$
+- $A_2 \bmod 2 = 1$
+- $A_2 \bmod 3 = 2$
 
-The system of equations for $A\_3$ adds another constraint. That is, $A\_3$ is the smallest positive solution of
+The system of equations for $A_3$ adds another constraint. That is, $A_3$ is the smallest positive solution of
 
-  - $A\_3 \bmod 2 = 1$
-  - $A\_3 \bmod 3 = 2$
-  - $A\_3 \bmod 5 = 3$
+- $A_3 \bmod 2 = 1$
+- $A_3 \bmod 3 = 2$
+- $A_3 \bmod 5 = 3$
 
-and hence $A\_3 = 23$. Similarly, one gets $A\_4 = 53$ and $A\_5 = 1523$.
+and hence $A_3 = 23$. Similarly, one gets $A_4 = 53$ and $A_5 = 1523$.
 
 Let $S(n)$ be the sum of all primes up to $n$ that divide at least one element in the sequence $A$.  
-For example, $S(50) = 69 = 5 + 23 + 41$, since $5$ divides $A\_2$, $23$ divides $A\_3$ and $41$ divides $A\_{10} = 5765999453$. No other prime number up to $50$ divides an element in $A$.
+For example, $S(50) = 69 = 5 + 23 + 41$, since $5$ divides $A_2$, $23$ divides $A_3$ and $41$ divides $A\_{10} = 5765999453$. No other prime number up to $50$ divides an element in $A$.
 
 Find $S(300000)$.
 
 # Problem 553
 
-Let $P(n)$ be the set of the first $n$ positive integers $\{1, 2, \dots, n\}$.  
+Let $P(n)$ be the set of the first $n$ positive integers $\1, 2, \dots, n\$.  
 Let $Q(n)$ be the set of all the non-empty subsets of $P(n)$.  
 Let $R(n)$ be the set of all the non-empty subsets of $Q(n)$.
 
 An element $X \in R(n)$ is a non-empty subset of $Q(n)$, so it is itself a set.  
 From $X$ we can construct a graph as follows:
 
-  - Each element $Y \in X$ corresponds to a vertex and labeled with $Y$;
-  - Two vertices $Y\_1$ and $Y\_2$ are connected if $Y\_1 \cap Y\_2 \ne \emptyset$.
+- Each element $Y \in X$ corresponds to a vertex and labeled with $Y$;
+- Two vertices $Y_1$ and $Y_2$ are connected if $Y_1 \cap Y_2 \ne \emptyset$.
 
-For example, $X = \{\{1\},\{1,2,3\},\{3\},\{5,6\},\{6,7\}\}$ results in the following graph:
+For example, $X = \\1\,\1,2,3\,\3\,\5,6\,\6,7\\$ results in the following graph:
 
-<div data-align="center">
+<div align="center">
 
 ![0553-power-sets.gif](resources/images/0553-power-sets.gif?1678992057)
 
@@ -9847,15 +9649,15 @@ For example, $X = \{\{1\},\{1,2,3\},\{3\},\{5,6\},\{6,7\}\}$ results in the foll
 This graph has two **connected components**.
 
 Let $C(n, k)$ be the number of elements of $R(n)$ that have exactly $k$ connected components in their graph.  
-You are given $C(2, 1) = 6$, $C(3, 1) = 111$, $C(4, 2) = 486$, $C(100, 10) \bmod 1\,000\,000\,007 = 728209718$.
+You are given $C(2, 1) = 6$, $C(3, 1) = 111$, $C(4, 2) = 486$, $C(100, 10) \bmod 1\000\000\007 = 728209718$.
 
-Find $C(10^4, 10) \bmod 1\,000\,000\,007$.
+Find $C(10^4, 10) \bmod 1\000\000\007$.
 
 # Problem 554
 
 On a chess board, a centaur moves like a king or a knight. The diagram below shows the valid moves of a centaur (represented by an inverted king) on an $8 \times 8$ board.
 
-<div data-align="center">
+<div align="center">
 
 ![0554-centaurs.png](resources/images/0554-centaurs.png?1678992053)
 
@@ -9865,9 +9667,9 @@ It can be shown that at most $n^2$ non-attacking centaurs can be placed on a boa
 Let $C(n)$ be the number of ways to place $n^2$ centaurs on a $2n \times 2n$ board so that no centaur attacks another directly.  
 For example $C(1) = 4$, $C(2) = 25$, $C(10) = 1477721$.
 
-Let $F\_i$ be the $i$<sup>th</sup> Fibonacci number defined as $F\_1 = F\_2 = 1$ and $F\_i = F\_{i - 1} + F\_{i - 2}$ for $i \gt 2$.
+Let $F_i$ be the $i$<sup>th</sup> Fibonacci number defined as $F_1 = F_2 = 1$ and $F_i = F\_{i - 1} + F\_{i - 2}$ for $i \gt 2$.
 
-Find $\displaystyle \left( \sum\_{i=2}^{90} C(F\_i) \right) \bmod (10^8+7)$.
+Find $\displaystyle \left( \sum\_{i=2}^{90} C(F_i) \right) \bmod (10^8+7)$.
 
 # Problem 555
 
@@ -9875,7 +9677,7 @@ The McCarthy 91 function is defined as follows:
 $$
 M\_{91}(n) =
 \begin{cases}
-n - 10 & \text{if } n \> 100 \\
+n - 10 & \text{if } n \> 100 \
 M\_{91}(M\_{91}(n+11)) & \text{if } 0 \leq n \leq 100
 \end{cases}
 $$
@@ -9884,7 +9686,7 @@ We can generalize this definition by abstracting away the constants into new var
 $$
 M\_{m,k,s}(n) =
 \begin{cases}
-n - s & \text{if } n \> m \\
+n - s & \text{if } n \> m \
 M\_{m,k,s}(M\_{m,k,s}(n+k)) & \text{if } 0 \leq n \leq m
 \end{cases}
 $$
@@ -9892,9 +9694,9 @@ $$
 This way, we have $M\_{91} = M\_{100,11,10}$.
 
 Let $F\_{m,k,s}$ be the set of fixed points of $M\_{m,k,s}$. That is,
-$$F\_{m,k,s}= \left\{ n \in \mathbb{N} \, | \, M\_{m,k,s}(n) = n \right\}$$
+$$F\_{m,k,s}= \left\ n \in \mathbb{N} \ \| \ M\_{m,k,s}(n) = n \right\$$
 
-For example, the only fixed point of $M\_{91}$ is $n = 91$. In other words, $F\_{100,11,10}= \{91\}$.
+For example, the only fixed point of $M\_{91}$ is $n = 91$. In other words, $F\_{100,11,10}= \91\$.
 
 Now, define $SF(m,k,s)$ as the sum of the elements in $F\_{m,k,s}$ and let $S(p,m) = \displaystyle \sum\_{1 \leq s \< k \leq p}{SF(m,k,s)}$.
 
@@ -9910,9 +9712,9 @@ Gaussian integers are a subset of the complex numbers, and the integers are the 
 A Gaussian integer **unit** is one for which $a^2 + b^2 = 1$, i.e. one of $1, i, -1, -i$.  
 Let's define a <span class="dfn">proper</span> Gaussian integer as one for which $a \gt 0$ and $b \ge 0$.
 
-A Gaussian integer $z\_1 = a\_1 + b\_1 i$ is said to be divisible by $z\_2 = a\_2 + b\_2 i$ if $z\_3 = a\_3 + b\_3 i = z\_1 / z\_2$ is a Gaussian integer.  
-$\frac {z\_1} {z\_2} = \frac {a\_1 + b\_1 i} {a\_2 + b\_2 i} = \frac {(a\_1 + b\_1 i)(a\_2 - b\_2 i)} {(a\_2 + b\_2 i)(a\_2 - b\_2 i)} = \frac {a\_1 a\_2 + b\_1 b\_2} {a\_2^2 + b\_2^2} + \frac {a\_2 b\_1 - a\_1 b\_2} {a\_2^2 + b\_2^2}i = a\_3 + b\_3 i$  
-So, $z\_1$ is divisible by $z\_2$ if $\frac {a\_1 a\_2 + b\_1 b\_2} {a\_2^2 + b\_2^2}$ and $\frac {a\_2 b\_1 - a\_1 b\_2} {a\_2^2 + b\_2^2}$ are integers.  
+A Gaussian integer $z_1 = a_1 + b_1 i$ is said to be divisible by $z_2 = a_2 + b_2 i$ if $z_3 = a_3 + b_3 i = z_1 / z_2$ is a Gaussian integer.  
+$\frac {z_1} {z_2} = \frac {a_1 + b_1 i} {a_2 + b_2 i} = \frac {(a_1 + b_1 i)(a_2 - b_2 i)} {(a_2 + b_2 i)(a_2 - b_2 i)} = \frac {a_1 a_2 + b_1 b_2} {a_2^2 + b_2^2} + \frac {a_2 b_1 - a_1 b_2} {a_2^2 + b_2^2}i = a_3 + b_3 i$  
+So, $z_1$ is divisible by $z_2$ if $\frac {a_1 a_2 + b_1 b_2} {a_2^2 + b_2^2}$ and $\frac {a_2 b_1 - a_1 b_2} {a_2^2 + b_2^2}$ are integers.  
 For example, $2$ is divisible by $1 + i$ because $2/(1 + i) = 1 - i$ is a Gaussian integer.
 
 A **Gaussian prime** is a Gaussian integer that is divisible only by a unit, itself or itself times a unit.  
@@ -9935,7 +9737,7 @@ Find $f(10^{14})$.
 
 A triangle is cut into four pieces by two straight lines, each starting at one vertex and ending on the opposite edge. This results in forming three smaller triangular pieces, and one quadrilateral. If the original triangle has an integral area, it is often possible to choose cuts such that all of the four pieces also have integral area. For example, the diagram below shows a triangle of area $55$ that has been cut in this way.
 
-<div data-align="center">
+<div align="center">
 
 ![0557-triangle.gif](resources/images/0557-triangle.gif?1678992057)
 
@@ -9961,16 +9763,16 @@ Interestingly, the relation holds for the complex roots of the equation.
 Let $w(n)$ be the number of terms in this unique representation of $n$. Thus $w(3) = 4$ and $w(10) = 3$.
 
 More formally, for all positive integers $n$, we have:  
-$n = \displaystyle \sum\_{k=-\infty}^\infty b\_k r^k$  
+$n = \displaystyle \sum\_{k=-\infty}^\infty b_k r^k$  
 under the conditions that:  
-$b\_k$ is $0$ or $1$ for all $k$;  
-$b\_k + b\_{k + 1} + b\_{k + 2} \le 1$ for all $k$;  
-$w(n) = \displaystyle \sum\_{k=-\infty}^\infty b\_k$ is finite.
+$b_k$ is $0$ or $1$ for all $k$;  
+$b_k + b\_{k + 1} + b\_{k + 2} \le 1$ for all $k$;  
+$w(n) = \displaystyle \sum\_{k=-\infty}^\infty b_k$ is finite.
 
 Let $S(m) = \displaystyle \sum\_{j=1}^m w(j^2)$.  
 You are given $S(10) = 61$ and $S(1000) = 19403$.
 
-Find $S(5\,000\,000)$.
+Find $S(5\000\000)$.
 
 # Problem 559
 
@@ -9978,8 +9780,8 @@ An <span class="dfn">ascent</span> of a column $j$ in a matrix occurs if the val
 
 Let $P(k, r, n)$ be the number of $r \times n$ matrices with the following properties:
 
-  - The rows are permutations of $\{1, 2, 3, \dots, n\}$.
-  - Numbering the first column as $1$, a column ascent occurs at column $j \lt n$ **if and only if** $j$ is not a multiple of $k$.
+- The rows are permutations of $\1, 2, 3, \dots, n\$.
+- Numbering the first column as $1$, a column ascent occurs at column $j \lt n$ **if and only if** $j$ is not a multiple of $k$.
 
 For example, $P(1, 2, 3) = 19$, $P(2, 4, 6) = 65508751$ and $P(7, 5, 30) \bmod 1000000123 = 161858102$.
 
@@ -9995,16 +9797,16 @@ Coprime Nim is just like ordinary normal play Nim, but the players may only remo
 Let $L(n, k)$ be the number of **losing** starting positions for the first player, assuming perfect play, when the game is played with $k$ piles, each having between $1$ and $n - 1$ stones inclusively.
 
 For example, $L(5, 2) = 6$ since the losing initial positions are $(1, 1)$, $(2, 2)$, $(2, 4)$, $(3, 3)$, $(4, 2)$ and $(4, 4)$.  
-You are also given $L(10, 5) = 9964$, $L(10, 10) = 472400303$, $L(10^3, 10^3) \bmod 1\,000\,000\,007 = 954021836$.
+You are also given $L(10, 5) = 9964$, $L(10, 10) = 472400303$, $L(10^3, 10^3) \bmod 1\000\000\007 = 954021836$.
 
-Find $L(10^7, 10^7)\bmod 1\,000\,000\,007$.
+Find $L(10^7, 10^7)\bmod 1\000\000\007$.
 
 # Problem 561
 
 Let $S(n)$ be the number of pairs $(a,b)$ of distinct divisors of $n$ such that $a$ divides $b$.  
 For $n=6$ we get the following pairs: $(1,2), (1,3), (1,6),( 2,6)$ and $(3,6)$. So $S(6)=5$.  
-Let $p\_m\\#$ be the product of the first $m$ prime numbers, so $p\_2\\# = 2\*3 = 6$.  
-Let $E(m, n)$ be the highest integer $k$ such that $2^k$ divides $S((p\_m\\#)^n)$.  
+Let $p_m\$ be the product of the first $m$ prime numbers, so $p_2\ = 2\*3 = 6$.  
+Let $E(m, n)$ be the highest integer $k$ such that $2^k$ divides $S((p_m\)^n)$.  
 $E(2,1) = 0$ since $2^0$ is the highest power of 2 that divides S(6)=5.  
 Let $Q(n)=\sum\_{i=1}^{n} E(904961, i)$  
 $Q(8)=2714886$.
@@ -10015,9 +9817,9 @@ Evaluate $Q(10^{12})$.
 
 Construct triangle $ABC$ such that:
 
-  - Vertices $A$, $B$ and $C$ are lattice points inside or on the circle of radius $r$ centered at the origin;
-  - the triangle contains no other lattice point inside or on its edges;
-  - the perimeter is maximum.
+- Vertices $A$, $B$ and $C$ are lattice points inside or on the circle of radius $r$ centered at the origin;
+- the triangle contains no other lattice point inside or on its edges;
+- the perimeter is maximum.
 
 Let $R$ be the circumradius of triangle $ABC$ and $T(r) = R/r$.  
 For $r = 5$, one possible triangle has vertices $(-4,-3)$, $(4,2)$ and $(1,0)$ with perimeter $\sqrt{13}+\sqrt{34}+\sqrt{89}$ and circumradius $R = \sqrt {\frac {19669} 2 }$, so $T(5) = \sqrt {\frac {19669} {50} }$.  
@@ -10031,9 +9833,9 @@ A company specialises in producing large rectangular metal sheets, starting from
 
 For example, the first robot could be programmed to weld together $11$ raw unit square plates to make a $11 \times 1$ strip. The next could take $10$ of these $11 \times 1$ strips, and weld them either to make a longer $110 \times 1$ strip, or a $11 \times 10$ rectangle. Many, but not all, possible dimensions of metal sheets can be constructed in this way.
 
-One regular customer has a particularly unusual order: The finished product should have an exact area, and the long side must not be more than $10\%$ larger than the short side. If these requirements can be met in more than one way, in terms of the exact dimensions of the two sides, then the customer will demand that all variants be produced. For example, if the order calls for a metal sheet of area $889200$, then there are three final dimensions that can be produced: $900 \times 988$, $912 \times 975$ and $936 \times 950$. The target area of $889200$ is the smallest area which can be manufactured in three different variants, within the limitations of the robot welders.
+One regular customer has a particularly unusual order: The finished product should have an exact area, and the long side must not be more than $10\$ larger than the short side. If these requirements can be met in more than one way, in terms of the exact dimensions of the two sides, then the customer will demand that all variants be produced. For example, if the order calls for a metal sheet of area $889200$, then there are three final dimensions that can be produced: $900 \times 988$, $912 \times 975$ and $936 \times 950$. The target area of $889200$ is the smallest area which can be manufactured in three different variants, within the limitations of the robot welders.
 
-Let $M(n)$ be the minimal area that can be manufactured in <span class="underline">exactly</span> $n$ variants with the longer edge not greater than $10\%$ bigger than the shorter edge. Hence $M(3) = 889200$.
+Let $M(n)$ be the minimal area that can be manufactured in <u>exactly</u> $n$ variants with the longer edge not greater than $10\$ bigger than the shorter edge. Hence $M(3) = 889200$.
 
 Find $\sum\_{n=2}^{100} M(n)$.
 
@@ -10076,7 +9878,7 @@ Amazingly, this works for any piece size, even if the cutting angle is an irrati
 
 Now, Adam tries something different: he alternates cutting pieces of size $x=\frac{360}{9}$ degrees, $y=\frac{360}{10}$ degrees and $z=\frac{360 }{\sqrt{11}}$ degrees. The first piece he cuts has size $x$ and he flips it. The second has size $y$ and he flips it. The third has size $z$ and he flips it. He repeats this with pieces of size $x$, $y$ and $z$ in that order until all the icing is back on top, and discovers he needs $60$ flips altogether.
 
-<div data-align="center">
+<div align="center">
 
 ![0566-cakeicingpuzzle.gif](resources/images/0566-cakeicingpuzzle.gif?1678992057)
 
@@ -10097,11 +9899,11 @@ Tom has built a random generator that is connected to a row of $n$ light bulbs. 
 While discussing with his friend Jerry how to use his generator, they invent two different games, they call the <span class="dfn">reciprocal games</span>:  
 Both games consist of $n$ turns. Each turn is started by choosing a number $k$ randomly between (and including) $1$ and $n$, with equal probability of $\frac 1 n$ for each number, while the possible win for that turn is the reciprocal of $k$, that is $\frac 1 k$.
 
-In game A, Tom activates his random generator once in each turn. If the number of lights turned on is the same as the previously chosen number $k$, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing for that turn. Jerry's expected win after playing the total game A consisting of $n$ turns is called $J\_A(n)$. For example $J\_A(6)=0.39505208$, rounded to $8$ decimal places.
+In game A, Tom activates his random generator once in each turn. If the number of lights turned on is the same as the previously chosen number $k$, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing for that turn. Jerry's expected win after playing the total game A consisting of $n$ turns is called $J_A(n)$. For example $J_A(6)=0.39505208$, rounded to $8$ decimal places.
 
-For each turn in game B, after $k$ has been randomly selected, Tom keeps reactivating his random generator until exactly $k$ lights are turned on. After that Jerry takes over and reactivates the random generator until he, too, has generated a pattern with exactly $k$ lights turned on. If this pattern is identical to Tom's last pattern, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing. Jerry's expected win after the total game B consisting of $n$ turns is called $J\_B(n)$. For example $J\_B(6)=0.43333333$, rounded to $8$ decimal places.
+For each turn in game B, after $k$ has been randomly selected, Tom keeps reactivating his random generator until exactly $k$ lights are turned on. After that Jerry takes over and reactivates the random generator until he, too, has generated a pattern with exactly $k$ lights turned on. If this pattern is identical to Tom's last pattern, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing. Jerry's expected win after the total game B consisting of $n$ turns is called $J_B(n)$. For example $J_B(6)=0.43333333$, rounded to $8$ decimal places.
 
-Let $\displaystyle S(m)=\sum\_{n=1}^m (J\_A(n)+J\_B(n))$. For example $S(6)=7.58932292$, rounded to $8$ decimal places.
+Let $\displaystyle S(m)=\sum\_{n=1}^m (J_A(n)+J_B(n))$. For example $S(6)=7.58932292$, rounded to $8$ decimal places.
 
 Find $S(123456789)$, rounded to $8$ decimal places.
 
@@ -10112,18 +9914,18 @@ Tom has built a random generator that is connected to a row of $n$ light bulbs. 
 While discussing with his friend Jerry how to use his generator, they invent two different games, they call the <span class="dfn">reciprocal games</span>:  
 Both games consist of $n$ turns. Each turn is started by choosing a number $k$ randomly between (and including) $1$ and $n$, with equal probability of $\frac 1 n$ for each number, while the possible win for that turn is the reciprocal of $k$, that is $\frac 1 k$.
 
-In game A, Tom activates his random generator once in each turn. If the number of lights turned on is the same as the previously chosen number $k$, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing for that turn. Jerry's expected win after playing the total game A consisting of $n$ turns is called $J\_A(n)$. For example $J\_A(6)=0.39505208$, rounded to $8$ decimal places.
+In game A, Tom activates his random generator once in each turn. If the number of lights turned on is the same as the previously chosen number $k$, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing for that turn. Jerry's expected win after playing the total game A consisting of $n$ turns is called $J_A(n)$. For example $J_A(6)=0.39505208$, rounded to $8$ decimal places.
 
-For each turn in game B, after $k$ has been randomly selected, Tom keeps reactivating his random generator until exactly $k$ lights are turned on. After that Jerry takes over and reactivates the random generator until he, too, has generated a pattern with exactly $k$ lights turned on. If this pattern is identical to Tom's last pattern, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing. Jerry's expected win after the total game B consisting of $n$ turns is called $J\_B(n)$. For example $J\_B(6)=0.43333333$, rounded to $8$ decimal places.
+For each turn in game B, after $k$ has been randomly selected, Tom keeps reactivating his random generator until exactly $k$ lights are turned on. After that Jerry takes over and reactivates the random generator until he, too, has generated a pattern with exactly $k$ lights turned on. If this pattern is identical to Tom's last pattern, Jerry wins and gets $\frac 1 k$, otherwise he will receive nothing. Jerry's expected win after the total game B consisting of $n$ turns is called $J_B(n)$. For example $J_B(6)=0.43333333$, rounded to $8$ decimal places.
 
-Let $D(n)=J\_B(n)−J\_A(n)$. For example, $D(6) = 0.03828125$.
+Let $D(n)=J_B(n)−J_A(n)$. For example, $D(6) = 0.03828125$.
 
 Find the $7$ most significant digits of $D(123456789)$ after removing all leading zeros.  
 (If, for example, we had asked for the $7$ most significant digits of $D(6)$, the answer would have been 3828125.)
 
 # Problem 569
 
-A <span class="dfn">mountain range</span> consists of a line of mountains with slopes of exactly $45^\circ$, and heights governed by the prime numbers, $p\_n$. The up-slope of the $k$<sup>th</sup> mountain is of height $p\_{2k - 1}$, and the downslope is $p\_{2k}$. The first few foot-hills of this range are illustrated below.
+A <span class="dfn">mountain range</span> consists of a line of mountains with slopes of exactly $45^\circ$, and heights governed by the prime numbers, $p_n$. The up-slope of the $k$<sup>th</sup> mountain is of height $p\_{2k - 1}$, and the downslope is $p\_{2k}$. The first few foot-hills of this range are illustrated below.
 
 <div class="center">
 
@@ -10164,7 +9966,7 @@ Find $\displaystyle \sum\_{n=3}^{10^7}G(n)$.
 A positive number is **pandigital** in base $b$ if it contains all digits from $0$ to $b - 1$ at least once when written in base $b$.
 
 An <span class="dfn">$n$-super-pandigital</span> number is a number that is simultaneously pandigital in all bases from $2$ to $n$ inclusively.  
-For example $978 = 1111010010\_2 = 1100020\_3 = 33102\_4 = 12403\_5$ is the smallest $5$-super-pandigital number.  
+For example $978 = 1111010010_2 = 1100020_3 = 33102_4 = 12403_5$ is the smallest $5$-super-pandigital number.  
 Similarly, $1093265784$ is the smallest $10$-super-pandigital number.  
 The sum of the $10$ smallest $10$-super-pandigital numbers is $20319792309$.
 
@@ -10175,9 +9977,9 @@ What is the sum of the $10$ smallest $12$-super-pandigital numbers?
 A matrix $M$ is called idempotent if $M^2 = M$.  
 Let $M$ be a three by three matrix :
 $M=\begin{pmatrix}
-a & b & c\\
-d & e & f\\
-g \&h \&i\\
+a & b & c\
+d & e & f\
+g &h &i\
 \end{pmatrix}$.  
 Let $C(n)$ be the number of idempotent three by three matrices $M$ with integer elements such that  
 $ -n \le a,b,c,d,e,f,g,h,i \le n$.
@@ -10188,14 +9990,14 @@ Find $C(200)$.
 
 # Problem 573
 
-$n$ runners in very different training states want to compete in a race. Each one of them is given a different starting number $k$ $(1\leq k \leq n)$ according to the runner's (constant) individual racing speed being $v\_k=\frac{k}{n}$.  
+$n$ runners in very different training states want to compete in a race. Each one of them is given a different starting number $k$ $(1\leq k \leq n)$ according to the runner's (constant) individual racing speed being $v_k=\frac{k}{n}$.  
 In order to give the slower runners a chance to win the race, $n$ different starting positions are chosen randomly (with uniform distribution) and independently from each other within the racing track of length $1$. After this, the starting position nearest to the goal is assigned to runner $1$, the next nearest starting position to runner $2$ and so on, until finally the starting position furthest away from the goal is assigned to runner $n$. The winner of the race is the runner who reaches the goal first.
 
 Interestingly, the expected running time for the winner is $\frac{1}{2}$, independently of the number of runners. Moreover, while it can be shown that all runners will have the same expected running time of $\frac{n}{n+1}$, the race is still unfair, since the winning chances may differ significantly for different starting numbers:
 
-Let $P\_{n,k}$ be the probability for runner $k$ to win a race with $n$ runners and $E\_n = \sum\_{k=1}^n k P\_{n,k}$ be the expected starting number of the winner in that race. It can be shown that, for example,
-$P\_{3,1}=\frac{4}{9}$, $P\_{3,2}=\frac{2}{9}$, $P\_{3,3}=\frac{1}{3}$ and $E\_3=\frac{17}{9}$ for a race with $3$ runners.  
-You are given that $E\_4=2.21875$, $E\_5=2.5104$ and $E\_{10}=3.66021568$.
+Let $P\_{n,k}$ be the probability for runner $k$ to win a race with $n$ runners and $E_n = \sum\_{k=1}^n k P\_{n,k}$ be the expected starting number of the winner in that race. It can be shown that, for example,
+$P\_{3,1}=\frac{4}{9}$, $P\_{3,2}=\frac{2}{9}$, $P\_{3,3}=\frac{1}{3}$ and $E_3=\frac{17}{9}$ for a race with $3$ runners.  
+You are given that $E_4=2.21875$, $E_5=2.5104$ and $E\_{10}=3.66021568$.
 
 Find $E\_{1000000}$ rounded to $4$ digits after the decimal point.
 
@@ -10203,8 +10005,8 @@ Find $E\_{1000000}$ rounded to $4$ digits after the decimal point.
 
 Let $q$ be a prime and $A \ge B \>0$ be two integers with the following properties:
 
-  - $A$ and $B$ have no prime factor in common, that is $\gcd(A,B)=1$.
-  - The product $AB$ is divisible by every prime less than q.
+- $A$ and $B$ have no prime factor in common, that is $\gcd(A,B)=1$.
+- The product $AB$ is divisible by every prime less than q.
 
 It can be shown that, given these conditions, any sum $A+B\<q^2$ and any difference $1\<A-B\<q^2$ has to be a prime number. Thus you can verify that a number $p$ is prime by showing that either $p=A+B\<q^2$ or $p=A-B\<q^2$ for some $A,B,q$ fulfilling the conditions listed above.
 
@@ -10225,7 +10027,7 @@ She claims that Eulertopia is almost older than time itself. Its mission was to 
 
 <div class="center">
 
-![p575\_wandering\_robot\_1\_5x5.png](project/images/p575_wandering_robot_1_5x5.png)
+![0575_wandering_robot_1_5x5.png](resources/images/0575_wandering_robot_1_5x5.png?1678992053)
 
 </div>
 
@@ -10235,20 +10037,20 @@ Katharina further explains that the designers of Leonhard were given instruction
 
 <div class="center">
 
-![p575\_wandering\_robot\_2\_fixed.png](project/images/p575_wandering_robot_2_fixed.png)  
+![0575_wandering_robot_2_fixed.png](resources/images/0575_wandering_robot_2_fixed.png?1678992053)  
 
 <div style="font-style:italic;">
 
-(i) Probability of remaining related to number of exits
+\(i\) Probability of remaining related to number of exits
 
 </div>
 
   
-![p575\_wandering\_robot\_3\_dynamic.png](project/images/p575_wandering_robot_3_dynamic.png)  
+![0575_wandering_robot_3_dynamic.png](resources/images/0575_wandering_robot_3_dynamic.png?1678992053)  
 
 <div style="font-style:italic;">
 
-(ii) Fixed 50% probability of remaining
+\(ii\) Fixed 50% probability of remaining
 
 </div>
 
@@ -10286,7 +10088,7 @@ Let $H(n)$ be the number of all regular hexagons that can be found by connecting
 
 <div class="center">
 
-![0577\_counting\_hexagons.png](resources/images/0577_counting_hexagons.png?1678992053)
+![0577_counting_hexagons.png](resources/images/0577_counting_hexagons.png?1678992053)
 
 </div>
 
@@ -10296,10 +10098,10 @@ Find $\displaystyle \sum\_{n=3}^{12345} H(n)$.
 
 # Problem 578
 
-Any positive integer can be written as a product of prime powers: $p\_1^{a\_1} \times p\_2^{a\_2} \times \cdots \times p\_k^{a\_k}$,  
-where $p\_i$ are distinct prime integers, $a\_i \gt 0$ and $p\_i \lt p\_j$ if $i \lt j$.
+Any positive integer can be written as a product of prime powers: $p_1^{a_1} \times p_2^{a_2} \times \cdots \times p_k^{a_k}$,  
+where $p_i$ are distinct prime integers, $a_i \gt 0$ and $p_i \lt p_j$ if $i \lt j$.
 
-A <span class="dfn">decreasing prime power</span> positive integer is one for which $a\_i \ge a\_j$ if $i \lt j$.  
+A <span class="dfn">decreasing prime power</span> positive integer is one for which $a_i \ge a_j$ if $i \lt j$.  
 For example, $1$, $2$, $15=3 \times 5$, $360=2^3 \times 3^2 \times 5$ and $1000=2^3 \times 5^3$ are decreasing prime power integers.
 
 Let $C(n)$ be the count of decreasing prime power positive integers not exceeding $n$.  
@@ -10353,7 +10155,7 @@ A standard envelope shape is a convex figure consisting of an isosceles triangle
 
 <div class="center">
 
-![0583\_heron\_envelope.gif](resources/images/0583_heron_envelope.gif?1678992057)
+![0583_heron_envelope.gif](resources/images/0583_heron_envelope.gif?1678992057)
 
 </div>
 
@@ -10396,8 +10198,8 @@ $\small \sqrt{28+\sqrt{160}+\sqrt{108}}=\sqrt{15}+\sqrt{6}+\sqrt{5}-\sqrt{2}$
 As you can see the integers used in the denested expression may also be perfect squares resulting in further simplification.
 
 Let F($n$) be the number of different terms $\small \sqrt{x+\sqrt{y}+\sqrt{z}}$, that can be denested into the sum and/or difference of a finite number of square roots, given the additional condition that $0\<x \le n$. That is,  
-$\small \displaystyle \sqrt{x+\sqrt{y}+\sqrt{z}}=\sum\_{i=1}^k s\_i\sqrt{a\_i}$  
-with $k$, $x$, $y$, $z$ and all $a\_i$ being positive integers, all $s\_i =\pm 1$ and $x\le n$.  
+$\small \displaystyle \sqrt{x+\sqrt{y}+\sqrt{z}}=\sum\_{i=1}^k s_i\sqrt{a_i}$  
+with $k$, $x$, $y$, $z$ and all $a_i$ being positive integers, all $s_i =\pm 1$ and $x\le n$.  
 Furthermore $y$ and $z$ are not allowed to be perfect squares.
 
 Nested roots with the same value are not considered different, for example $\small \sqrt{7+\sqrt{3}+\sqrt{27}}$, $\small \sqrt{7+\sqrt{12}+\sqrt{12}}$ and $\small \sqrt{7+\sqrt{27}+\sqrt{3}}$, that can all three be denested into $\small 2+\sqrt{3}$, would only be counted once.
@@ -10427,7 +10229,7 @@ We shall call the orange shaded region a <span class="dfn">concave triangle</spa
 
 <div class="center">
 
-![0587\_concave\_triangle\_1.png](resources/images/0587_concave_triangle_1.png?1678992053)
+<img src="resources/images/0587_concave_triangle_1.png?1678992053" class="dark_img" alt="0587_concave_triangle_1.png" />
 
 </div>
 
@@ -10437,7 +10239,7 @@ Two circles are placed next to each other horizontally, a rectangle is drawn aro
 
 <div class="center">
 
-![0587\_concave\_triangle\_2.png](resources/images/0587_concave_triangle_2.png?1678992053)
+<img src="resources/images/0587_concave_triangle_2.png?1678992053" class="dark_img" alt="0587_concave_triangle_2.png" />
 
 </div>
 
@@ -10483,7 +10285,7 @@ Find $S(100)$ and give your answer rounded to 2 decimal places.
 Let $H(n)$ denote the number of sets of positive integers such that the **least common multiple** of the integers in the set equals $n$.  
 E.g.:  
 The integers in the following ten sets all have a least common multiple of $6$:  
-$\{2,3\}$, $\{1,2,3\}$, $\{6\}$, $\{1,6\}$, $\{2,6\}$, $\{1,2,6\}$, $\{3,6\}$, $\{1,3,6\}$, $\{2,3,6\}$ and $\{1,2,3,6\}$.  
+$\2,3\$, $\1,2,3\$, $\6\$, $\1,6\$, $\2,6\$, $\1,2,6\$, $\3,6\$, $\1,3,6\$, $\2,3,6\$ and $\1,2,3,6\$.  
 Thus $H(6)=10$.
 
 Let $L(n)$ denote the least common multiple of the numbers $1$ through $n$.  
@@ -10498,17 +10300,17 @@ Find $HL(50000)$. Give your answer modulo $10^9$.
 
 Given a non-square integer $d$, any real $x$ can be approximated arbitrarily close by **quadratic integers** $a+b\sqrt{d}$, where $a,b$ are integers. For example, the following inequalities approximate $\pi$ with precision $10^{-13}$:  
 $$4375636191520\sqrt{2}-6188084046055 \< \pi \< 721133315582\sqrt{2}-1019836515172 $$  
-We call $BQA\_d(x,n)$ the quadratic integer closest to $x$ with the absolute values of $a,b$ not exceeding $n$.  
-We also define the integral part of a quadratic integer as $I\_d(a+b\sqrt{d}) = a$.
+We call $BQA_d(x,n)$ the quadratic integer closest to $x$ with the absolute values of $a,b$ not exceeding $n$.  
+We also define the integral part of a quadratic integer as $I_d(a+b\sqrt{d}) = a$.
 
 You are given that:
 
-  - $BQA\_2(\pi,10) = 6 - 2\sqrt{2}$
-  - $BQA\_5(\pi,100)=26\sqrt{5}-55$
-  - $BQA\_7(\pi,10^6)=560323 - 211781\sqrt{7}$
-  - $I\_2(BQA\_2(\pi,10^{13}))=-6188084046055$
+- $BQA_2(\pi,10) = 6 - 2\sqrt{2}$
+- $BQA_5(\pi,100)=26\sqrt{5}-55$
+- $BQA_7(\pi,10^6)=560323 - 211781\sqrt{7}$
+- $I_2(BQA_2(\pi,10^{13}))=-6188084046055$
 
-Find the sum of $|I\_d(BQA\_d(\pi,10^{13}))|$ for all non-square positive integers less than 100.
+Find the sum of $\|I_d(BQA_d(\pi,10^{13}))\|$ for all non-square positive integers less than 100.
 
 # Problem 592
 
@@ -10521,13 +10323,13 @@ Find $f(20!)$. Give your answer as twelve hexadecimal digits, using uppercase fo
 
 # Problem 593
 
-We define two sequences $S = \{S(1), S(2), ..., S(n)\}$ and $S\_2 = \{S\_2(1), S\_2(2), ..., S\_2(n)\}$:
+We define two sequences $S = \S(1), S(2), ..., S(n)\$ and $S_2 = \S_2(1), S_2(2), ..., S_2(n)\$:
 
-$S(k) = (p\_k)^k \bmod 10007$ where $p\_k$ is the $k$th prime number.
+$S(k) = (p_k)^k \bmod 10007$ where $p_k$ is the $k$th prime number.
 
-$S\_2(k) = S(k) + S(\lfloor\frac{k}{10000}\rfloor + 1)$ where $\lfloor \cdot \rfloor$ denotes the floor function.
+$S_2(k) = S(k) + S(\lfloor\frac{k}{10000}\rfloor + 1)$ where $\lfloor \cdot \rfloor$ denotes the floor function.
 
-Then let $M(i, j)$ be the median of elements $S\_2(i)$ through $S\_2(j)$, inclusive. For example, $M(1, 10) = 2021.5$ and $M(10^2, 10^3) = 4715.0$.
+Then let $M(i, j)$ be the median of elements $S_2(i)$ through $S_2(j)$, inclusive. For example, $M(1, 10) = 2021.5$ and $M(10^2, 10^3) = 4715.0$.
 
 Let $F(n, k) = \sum\_{i=1}^{n-k+1} M(i, i + k - 1)$. For example, $F(100, 10) = 463628.5$ and $F(10^5, 10^4) = 675348207.5$.
 
@@ -10541,7 +10343,7 @@ For example, if $O$ is a regular octagon with edge length 1, then $t(O) = 8$. As
 
 <div class="center">
 
-![p594\_octagon\_tilings\_1.png](project/images/p594_octagon_tilings_1.png)
+![0594_octagon_tilings_1.png](resources/images/0594_octagon_tilings_1.png?1678992053)
 
 </div>
 
@@ -10550,7 +10352,7 @@ For example, here is $O\_{2,1}$, with one of its tilings:
 
 <div class="center">
 
-![p594\_octagon\_tilings\_2.png](project/images/p594_octagon_tilings_2.png)
+![0594_octagon_tilings_2.png](resources/images/0594_octagon_tilings_2.png?1678992053)
 
 </div>
 
@@ -10566,11 +10368,11 @@ The cards are to be sorted into ascending order using the following technique:
 
 1.  Look at the initial sequence of cards. If it is already sorted, then there is no need for further action. Otherwise, if any subsequences of cards happen to be in the correct place relative to one another (ascending with no gaps), then those subsequences are fixed by attaching the cards together. For example, with $7$ cards initially in the order 4123756, the cards labelled 1, 2 and 3 would be attached together, as would 5 and 6.
 
-<!-- end list -->
+<!-- -->
 
 2.  The cards are 'shuffled' by being thrown into the air, but note that any correctly sequenced cards remain attached, so their orders are maintained. The cards (or bundles of attached cards) are then picked up randomly. You should assume that this randomisation is unbiased, despite the fact that some cards are single, and others are grouped together.
 
-<!-- end list -->
+<!-- -->
 
 3.  Repeat steps 1 and 2 until the cards are sorted.
 
@@ -10590,33 +10392,33 @@ Find $T(10^8) \bmod 1000000007$.
 
 The Torpids are rowing races held annually in Oxford, following some curious rules:
 
-  - A division consists of $n$ boats (typically 13), placed in order based on past performance.
-  - All boats within a division start at 40 metre intervals along the river, in order with the highest-placed boat starting furthest upstream.
-  - The boats all start rowing simultaneously, upstream, trying to catch the boat in front while avoiding being caught by boats behind.
-  - Each boat continues rowing until *either* it reaches the finish line *or* it catches up with ("bumps") a boat in front.
-  - The finish line is a distance $L$ metres (the course length, in reality about 1800 metres) upstream from the starting position of the lowest-placed boat. (Because of the staggered starting positions, higher-placed boats row a slightly shorter course than lower-placed boats.)
-  - When a "bump" occurs, the "bumping" boat takes no further part in the race. The "bumped" boat must continue, however, and may even be "bumped" again by boats that started two or more places behind it.
-  - After the race, boats are assigned new places within the division, based on the bumps that occurred. Specifically, for any boat $A$ that started in a lower place than $B$, then $A$ will be placed higher than $B$ in the new order if and only if one of the following occurred:
-    1.  $A$ bumped $B$ directly
-    2.  $A$ bumped another boat that went on to bump $B$
-    3.  $A$ bumped another boat, that bumped yet another boat, that bumped $B$
-    4.  etc
+- A division consists of $n$ boats (typically 13), placed in order based on past performance.
+- All boats within a division start at 40 metre intervals along the river, in order with the highest-placed boat starting furthest upstream.
+- The boats all start rowing simultaneously, upstream, trying to catch the boat in front while avoiding being caught by boats behind.
+- Each boat continues rowing until *either* it reaches the finish line *or* it catches up with ("bumps") a boat in front.
+- The finish line is a distance $L$ metres (the course length, in reality about 1800 metres) upstream from the starting position of the lowest-placed boat. (Because of the staggered starting positions, higher-placed boats row a slightly shorter course than lower-placed boats.)
+- When a "bump" occurs, the "bumping" boat takes no further part in the race. The "bumped" boat must continue, however, and may even be "bumped" again by boats that started two or more places behind it.
+- After the race, boats are assigned new places within the division, based on the bumps that occurred. Specifically, for any boat $A$ that started in a lower place than $B$, then $A$ will be placed higher than $B$ in the new order if and only if one of the following occurred:
+  1.  $A$ bumped $B$ directly
+  2.  $A$ bumped another boat that went on to bump $B$
+  3.  $A$ bumped another boat, that bumped yet another boat, that bumped $B$
+  4.  etc
 
 **NOTE**: For the purposes of this problem you may disregard the boats' lengths, and assume that a bump occurs precisely when the two boats draw level. (In reality, a bump is awarded as soon as physical contact is made, which usually occurs when there is much less than a full boat length's overlap.)
 
-Suppose that, in a particular race, each boat $B\_j$ rows at a steady speed $v\_j = -$log$X\_j$ metres per second, where the $X\_j$ are chosen randomly (with uniform distribution) between 0 and 1, independently from one another. These speeds are relative to the riverbank: you may disregard the flow of the river.
+Suppose that, in a particular race, each boat $B_j$ rows at a steady speed $v_j = -$log$X_j$ metres per second, where the $X_j$ are chosen randomly (with uniform distribution) between 0 and 1, independently from one another. These speeds are relative to the riverbank: you may disregard the flow of the river.
 
 Let $p(n,L)$ be the probability that the new order is an **even permutation** of the starting order, when there are $n$ boats in the division and $L$ is the course length.
 
 For example, with $n=3$ and $L=160$, labelling the boats as $A$,$B$,$C$ in starting order with $C$ highest, the different possible outcomes of the race are as follows:
 
-| Bumps occurring                   | New order     | Permutation | Probability |
-| --------------------------------- | ------------- | ----------- | ----------- |
-| none                              | $A$, $B$, $C$ | even        | $4/15$      |
-| $B$ bumps $C$                     | $A$, $C$, $B$ | odd         | $8/45$      |
-| $A$ bumps $B$                     | $B$, $A$, $C$ | odd         | $1/3$       |
-| $B$ bumps $C$, then $A$ bumps $C$ | $C$, $A$, $B$ | even        | $4/27$      |
-| $A$ bumps $B$, then $B$ bumps $C$ | $C$, $B$, $A$ | odd         | $2/27$      |
+| Bumps occurring                                   | New order           | Permutation | Probability |
+|---------------------------------------------------|---------------------|-------------|-------------|
+| none                                              | $A$, $B$, $C$ | even        | $4/15$    |
+| $B$ bumps $C$                                 | $A$, $C$, $B$ | odd         | $8/45$    |
+| $A$ bumps $B$                                 | $B$, $A$, $C$ | odd         | $1/3$     |
+|     $B$ bumps $C$, then $A$ bumps $C$     | $C$, $A$, $B$ | even        | $4/27$    |
+|     $A$ bumps $B$, then $B$ bumps $C$     | $C$, $B$, $A$ | odd         | $2/27$    |
 
 Therefore, $p(3,160) = 4/15 + 4/27 = 56/135$.
 
@@ -10645,7 +10447,7 @@ The well-known **Rubik's Cube** puzzle has many fascinating mathematical propert
 
 Suppose that we wish to apply new stickers to a 2×2×2 Rubik's cube in a non-standard colouring. Specifically, we have $n$ different colours available (with an unlimited supply of stickers of each colour), and we place one sticker on each of the 24 faces in any arrangement that we please. We are not required to use all the colours, and if desired the same colour may appear in more than one face of a single cubelet.
 
-We say that two such colourings $c\_1,c\_2$ are *essentially distinct* if a cube coloured according to $c\_1$ cannot be made to match a cube coloured according to $c\_2$ by performing mechanically possible Rubik's Cube moves.
+We say that two such colourings $c_1,c_2$ are *essentially distinct* if a cube coloured according to $c_1$ cannot be made to match a cube coloured according to $c_2$ by performing mechanically possible Rubik's Cube moves.
 
 For example, with two colours available, there are 183 essentially distinct colourings.
 
@@ -10661,7 +10463,7 @@ Find $H(55106)$.
 
 <div class="center">
 
-![p600-equiangular-hexagons.png](resources/images/0600_equiangular_hexagons.png?1678992054)
+<img src="resources/images/0600_equiangular_hexagons.png?1678992054" data-border="5" alt="p600-equiangular-hexagons.png" />
 
 *Equiangular hexagons with perimeter not exceeding $12$*
 
@@ -10724,7 +10526,7 @@ Below is the graph of a function reaching the maximum $3$ for $N=3$:
 
 <div class="center">
 
-![0604\_convex3.png](resources/images/0604_convex3.png?1678992054)
+![0604_convex3.png](resources/images/0604_convex3.png?1678992054)
 
 </div>
 
@@ -10738,17 +10540,17 @@ In other words, during round $r$, player $((r-1) \bmod n) + 1$ faces off against
 
 During each round, a fair coin is tossed to decide which of the two players wins that round. If any given player wins both rounds $r$ and $r+1$, then that player wins the entire game.
 
-Let $P\_n(k)$ be the probability that player $k$ wins in an $n$-player game, in the form of a reduced fraction. For example, $P\_3(1) = 12/49$ and $P\_6(2) = 368/1323$.
+Let $P_n(k)$ be the probability that player $k$ wins in an $n$-player game, in the form of a reduced fraction. For example, $P_3(1) = 12/49$ and $P_6(2) = 368/1323$.
 
-Let $M\_n(k)$ be the product of the reduced numerator and denominator of $P\_n(k)$. For example, $M\_3(1) = 588$ and $M\_6(2) = 486864$.
+Let $M_n(k)$ be the product of the reduced numerator and denominator of $P_n(k)$. For example, $M_3(1) = 588$ and $M_6(2) = 486864$.
 
 Find the last $8$ digits of $M\_{10^8+7}(10^4+7)$.
 
 # Problem 606
 
-A **gozinta chain** for $n$ is a sequence $\{1,a,b,\dots,n\}$ where each element properly divides the next.  
+A **gozinta chain** for $n$ is a sequence $\1,a,b,\dots,n\$ where each element properly divides the next.  
 For example, there are eight distinct gozinta chains for $12$:  
-$\{1,12\}$, $\{1,2,12\}$, $\{1,2,4,12\}$, $\{1,2,6,12\}$, $\{1,3,12\}$, $\{1,3,6,12\}$, $\{1,4,12\}$ and $\{1,6,12\}$.
+$\1,12\$, $\1,2,12\$, $\1,2,4,12\$, $\1,2,6,12\$, $\1,3,12\$, $\1,3,6,12\$, $\1,4,12\$ and $\1,6,12\$.
 
 Let $S(n)$ be the sum of all numbers, $k$, not exceeding $n$, which have $252$ distinct gozinta chains.  
 You are given $S(10^6)=8462952$ and $S(10^{12})=623291998881978$.
@@ -10761,7 +10563,7 @@ Frodo and Sam need to travel 100 leagues due East from point A to point B. On no
 
 <div class="center">
 
-![p607\_marsh.png](project/images/p607_marsh.png)
+![0607_marsh.png](resources/images/0607_marsh.png?1678992054)
 
 </div>
 
@@ -10773,7 +10575,7 @@ Find the shortest possible time required to travel from point A to B, and give y
 
 # Problem 608
 
-Let $D(m,n)=\displaystyle\sum\_{d\mid m}\sum\_{k=1}^n\sigma\_0(kd)$ where $d$ runs through all divisors of $m$ and $\sigma\_0(n)$ is the number of divisors of $n$.  
+Let $D(m,n)=\displaystyle\sum\_{d\mid m}\sum\_{k=1}^n\sigma_0(kd)$ where $d$ runs through all divisors of $m$ and $\sigma_0(n)$ is the number of divisors of $n$.  
 You are given $D(3!,10^2)=3398$ and $D(4!,10^6)=268882292$.
 
 Find $D(200!,10^{12}) \bmod (10^9 + 7)$.
@@ -10784,16 +10586,16 @@ For every $n \ge 1$ the **prime-counting** function $\pi(n)$ is equal to the num
 not exceeding $n$.  
 E.g. $\pi(6)=3$ and $\pi(100)=25$.
 
-We say that a sequence of integers $u = (u\_0,\cdots,u\_m)$ is a <span class="dfn">$\pi$ sequence</span> if
+We say that a sequence of integers $u = (u_0,\cdots,u_m)$ is a <span class="dfn">$\pi$ sequence</span> if
 
-  - $u\_n \ge 1$ for every $n$
-  - $u\_{n+1}= \pi(u\_n)$
-  - $u$ has two or more elements
+- $u_n \ge 1$ for every $n$
+- $u\_{n+1}= \pi(u_n)$
+- $u$ has two or more elements
 
-For $u\_0=10$ there are three distinct $\pi$ sequences: $(10,4)$, $(10,4,2)$ and $(10,4,2,1)$.
+For $u_0=10$ there are three distinct $\pi$ sequences: $(10,4)$, $(10,4,2)$ and $(10,4,2,1)$.
 
 Let $c(u)$ be the number of elements of $u$ that are not prime.  
-Let $p(n,k)$ be the number of $\pi$ sequences $u$ for which $u\_0\le n$ and $c(u)=k$.  
+Let $p(n,k)$ be the number of $\pi$ sequences $u$ for which $u_0\le n$ and $c(u)=k$.  
 Let $P(n)$ be the product of all $p(n,k)$ that are larger than $0$.  
 You are given: $P(10)=3 \times 8 \times 9 \times 3=648$ and $P(100)=31038676032$.
 
@@ -10801,11 +10603,11 @@ Find $P(10^8)$. Give your answer modulo $1000000007$.
 
 # Problem 610
 
-A random generator produces a sequence of symbols drawn from the set {<span style="font-family:&#39;courier new&#39;, monospace;">I</span>, <span style="font-family:&#39;courier new&#39;, monospace;">V</span>, <span style="font-family:&#39;courier new&#39;, monospace;">X</span>, <span style="font-family:&#39;courier new&#39;, monospace;">L</span>, <span style="font-family:&#39;courier new&#39;, monospace;">C</span>, <span style="font-family:&#39;courier new&#39;, monospace;">D</span>, <span style="font-family:&#39;courier new&#39;, monospace;">M</span>, <span style="font-family:&#39;courier new&#39;, monospace;">\#</span>}. Each item in the sequence is determined by selecting one of these symbols at random, independently of the other items in the sequence. At each step, the seven letters are equally likely to be selected, with probability 14% each, but the <span style="font-family:&#39;courier new&#39;, monospace;">\#</span> symbol only has a 2% chance of selection.
+A random generator produces a sequence of symbols drawn from the set {<span style="font-family:'courier new', monospace;">I</span>, <span style="font-family:'courier new', monospace;">V</span>, <span style="font-family:'courier new', monospace;">X</span>, <span style="font-family:'courier new', monospace;">L</span>, <span style="font-family:'courier new', monospace;">C</span>, <span style="font-family:'courier new', monospace;">D</span>, <span style="font-family:'courier new', monospace;">M</span>, <span style="font-family:'courier new', monospace;">\#</span>}. Each item in the sequence is determined by selecting one of these symbols at random, independently of the other items in the sequence. At each step, the seven letters are equally likely to be selected, with probability 14% each, but the <span style="font-family:'courier new', monospace;">\#</span> symbol only has a 2% chance of selection.
 
-We write down the sequence of letters from left to right as they are generated, and we stop at the first occurrence of the <span style="font-family:&#39;courier new&#39;, monospace;">\#</span> symbol (without writing it). However, we stipulate that what we have written down must always (when non-empty) be a valid Roman numeral representation in minimal form. If appending the next letter would contravene this then we simply skip it and try again with the next symbol generated.
+We write down the sequence of letters from left to right as they are generated, and we stop at the first occurrence of the <span style="font-family:'courier new', monospace;">\#</span> symbol (without writing it). However, we stipulate that what we have written down must always (when non-empty) be a valid Roman numeral representation in minimal form. If appending the next letter would contravene this then we simply skip it and try again with the next symbol generated.
 
-Please take careful note of [About... Roman Numerals](about=roman_numerals) for the definitive rules for this problem on what constitutes a "valid Roman numeral representation" and "minimal form". For example, the (only) sequence that represents 49 is <span style="font-family:&#39;courier new&#39;, monospace;">XLIX</span>. The subtractive combination <span style="font-family:&#39;courier new&#39;, monospace;">IL</span> is invalid because of rule (ii), while <span style="font-family:&#39;courier new&#39;, monospace;">XXXXIX</span> is valid but not minimal. The rules do not place any restriction on the number of occurrences of <span style="font-family:&#39;courier new&#39;, monospace;">M</span>, so all positive integers have a valid representation. These are the same rules as were used in [Problem 89](problem=89), and members are invited to solve that problem first.
+Please take careful note of [About... Roman Numerals](about=roman_numerals) for the definitive rules for this problem on what constitutes a "valid Roman numeral representation" and "minimal form". For example, the (only) sequence that represents 49 is <span style="font-family:'courier new', monospace;">XLIX</span>. The subtractive combination <span style="font-family:'courier new', monospace;">IL</span> is invalid because of rule (ii), while <span style="font-family:'courier new', monospace;">XXXXIX</span> is valid but not minimal. The rules do not place any restriction on the number of occurrences of <span style="font-family:'courier new', monospace;">M</span>, so all positive integers have a valid representation. These are the same rules as were used in [Problem 89](problem=89), and members are invited to solve that problem first.
 
 Find the expected value of the number represented by what we have written down when we stop. (If nothing is written down then count that as zero.) Give your answer rounded to 8 places after the decimal point.
 
@@ -10813,10 +10615,10 @@ Find the expected value of the number represented by what we have written down w
 
 Peter moves in a hallway with $N + 1$ doors consecutively numbered from $0$ through $N$. All doors are initially closed. Peter starts in front of door $0$, and repeatedly performs the following steps:
 
-  - First, he walks a positive square number of doors away from his position.
-  - Then he walks another, larger square number of doors away from his new position.
-  - He toggles the door he faces (opens it if closed, closes it if open).
-  - And finally returns to door $0$.
+- First, he walks a positive square number of doors away from his position.
+- Then he walks another, larger square number of doors away from his new position.
+- He toggles the door he faces (opens it if closed, closes it if open).
+- And finally returns to door $0$.
 
 We call an action any sequence of those steps. Peter never performs the exact same action twice, and makes sure to perform all possible actions that don't bring him past the last door.
 
@@ -10847,7 +10649,7 @@ Give your answer rounded to 10 digits after the decimal point.
 An **integer partition** of a number $n$ is a way of writing $n$ as a sum of positive integers. Partitions that differ only by the order of their summands are considered the same.
 
 We call an integer partition <span class="dfn">special</span> if 1) all its summands are distinct, and 2) all its even summands are also divisible by $4$.  
-For example, the special partitions of $10$ are: \\[10 = 1+4+5=3+7=1+9\\]
+For example, the special partitions of $10$ are: $$10 = 1+4+5=3+7=1+9$$
 The number $10$ admits many more integer partitions (a total of $42$), but only those three are special.
 
 Let be $P(n)$ the number of special integer partitions of $n$. You are given that $P(1) = 1$, $P(2) = 0$, $P(3) = 1$, $P(6) = 1$, $P(10)=3$, $P(100) = 37076$ and $P(1000)=3699177285485660336$.
@@ -10859,13 +10661,13 @@ Find $\displaystyle \sum\_{i=1}^{10^7} P(i)$. Give the result modulo $10^9+7$.
 Consider the natural numbers having at least $5$ prime factors, which don't have to be distinct.  
 Sorting these numbers by size gives a list which starts with:
 
-  - $32=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
-  - $48=2 \cdot 2 \cdot 2 \cdot 2 \cdot 3$
-  - $64=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
-  - $72=2 \cdot 2 \cdot 2 \cdot 3 \cdot 3$
-  - $80=2 \cdot 2 \cdot 2 \cdot 2 \cdot 5$
-  - $96=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3$
-  - $\cdots$
+- $32=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
+- $48=2 \cdot 2 \cdot 2 \cdot 2 \cdot 3$
+- $64=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
+- $72=2 \cdot 2 \cdot 2 \cdot 3 \cdot 3$
+- $80=2 \cdot 2 \cdot 2 \cdot 2 \cdot 5$
+- $96=2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3$
+- $\cdots$
 
 So, for example, the fifth number with at least $5$ prime factors is $80$.
 
@@ -10876,23 +10678,23 @@ Give your answer modulo $123454321$.
 
 Alice plays the following game, she starts with a list of integers $L$ and on each step she can either:
 
-  - remove two elements $a$ and $b$ from $L$ and add $a^b$ to $L$
-  - or conversely remove an element $c$ from $L$ that can be written as $a^b$, with $a$ and $b$ being two integers such that $a, b \> 1$, and add both $a$ and $b$ to $L$
+- remove two elements $a$ and $b$ from $L$ and add $a^b$ to $L$
+- or conversely remove an element $c$ from $L$ that can be written as $a^b$, with $a$ and $b$ being two integers such that $a, b \> 1$, and add both $a$ and $b$ to $L$
 
-For example starting from the list $L=\{8\}$, Alice can remove $8$ and add $2$ and $3$ resulting in $L=\{2,3\}$ in a first step. Then she can obtain $L=\{9\}$ in a second step.
+For example starting from the list $L=\8\$, Alice can remove $8$ and add $2$ and $3$ resulting in $L=\2,3\$ in a first step. Then she can obtain $L=\9\$ in a second step.
 
 Note that the same integer is allowed to appear multiple times in the list.
 
-An integer $n\>1$ is said to be <span class="dfn">creative</span> if for any integer $m \gt 1$ Alice can obtain a list that contains $m$ starting from $L=\{n\}$.
+An integer $n\>1$ is said to be <span class="dfn">creative</span> if for any integer $m \gt 1$ Alice can obtain a list that contains $m$ starting from $L=\n\$.
 
 Find the sum of all creative integers less than or equal to $10^{12}$.
 
 # Problem 617
 
-For two integers $n,e \gt 1$, we define an <span class="dfn">$(n,e)$-MPS (Mirror Power Sequence)</span> to be an infinite sequence of integers $(a\_i)\_{i\ge 0}$ such that for all $i\ge 0$, $a\_{i+1} = \min(a\_i^e,n-a\_i^e)$ and $a\_i \gt 1$.  
+For two integers $n,e \gt 1$, we define an <span class="dfn">$(n,e)$-MPS (Mirror Power Sequence)</span> to be an infinite sequence of integers $(a_i)\_{i\ge 0}$ such that for all $i\ge 0$, $a\_{i+1} = \min(a_i^e,n-a_i^e)$ and $a_i \gt 1$.  
 Examples of such sequences are the two $(18,2)$-MPS sequences made of alternating $2$ and $4$.
 
-Note that even though such a sequence is uniquely determined by $n,e$ and $a\_0$, for most values such a sequence does not exist. For example, no $(n,e)$-MPS exists for $n \lt 6$.
+Note that even though such a sequence is uniquely determined by $n,e$ and $a_0$, for most values such a sequence does not exist. For example, no $(n,e)$-MPS exists for $n \lt 6$.
 
 Define $C(n)$ to be the number of $(n,e)$-MPS for some $e$, and $\displaystyle D(N) = \sum\_{n=2}^N C(n)$.  
 You are given that $D(10) = 2$, $D(100) = 21$, $D(1000) = 69$, $D(10^6) = 1303$ and $D(10^{12}) = 1014800$.
@@ -10911,14 +10713,14 @@ We define $S(k)$ to be the sum of all numbers $n$ where the sum of the prime fac
 Hence $S(8) = 15+16+18 = 49$.  
 Other examples: $S(1) = 0$, $S(2) = 2$, $S(3) = 3$, $S(5) = 5 + 6 = 11$.
 
-The Fibonacci sequence is $F\_1 = 1$, $F\_2 = 1$, $F\_3 = 2$, $F\_4 = 3$, $F\_5 = 5$, ....  
-Find the last nine digits of $\displaystyle\sum\_{k=2}^{24}S(F\_k)$.
+The Fibonacci sequence is $F_1 = 1$, $F_2 = 1$, $F_3 = 2$, $F_4 = 3$, $F_5 = 5$, ....  
+Find the last nine digits of $\displaystyle\sum\_{k=2}^{24}S(F_k)$.
 
 # Problem 619
 
-For a set of positive integers $\{a, a+1, a+2, \dots , b\}$, let $C(a,b)$ be the number of non-empty subsets in which the product of all elements is a perfect square.
+For a set of positive integers $\a, a+1, a+2, \dots , b\$, let $C(a,b)$ be the number of non-empty subsets in which the product of all elements is a perfect square.
 
-For example $C(5,10)=3$, since the products of all elements of $\{5, 8, 10\}$, $\{5, 8, 9, 10\}$ and $\{9\}$ are perfect squares, and no other subsets of $\{5, 6, 7, 8, 9, 10\}$ have this property.
+For example $C(5,10)=3$, since the products of all elements of $\5, 8, 10\$, $\5, 8, 9, 10\$ and $\9\$ are perfect squares, and no other subsets of $\5, 6, 7, 8, 9, 10\$ have this property.
 
 You are given that $C(40,55) =15$, and $C(1000,1234) \bmod 1000000007=975523611$.
 
@@ -10936,9 +10738,9 @@ Define $g(c,s,p,q)$ to be the number of such gear arrangements for given values 
 
 Here is one such arrangement:
 
-<div data-align="center">
+<div align="center">
 
-![Example arrangement](project/images/p620_planetary_gears.png)
+![Example arrangement](resources/images/0620_planetary_gears.png?1678992054)
 
 </div>
 
@@ -10971,9 +10773,9 @@ Find the sum of all values of n that satisfy $s(n) = 60$.
 
 The **lambda-calculus** is a universal model of computation at the core of functional programming languages. It is based on **lambda-terms**, a minimal programming language featuring only function definitions, function calls and variables. Lambda-terms are built according to the following rules:
 
-  - Any **variable** $x$ (single letter, from some infinite alphabet) is a lambda-term.
-  - If $M$ and $N$ are lambda-terms, then $(M N)$ is a lambda-term, called the **application** of $M$ to $N$.
-  - If $x$ is a variable and $M$ is a term, then $(\lambda x. M)$ is a lambda-term, called an **abstraction**. An abstraction defines an anonymous function, taking $x$ as parameter and sending back $M$.
+- Any **variable** $x$ (single letter, from some infinite alphabet) is a lambda-term.
+- If $M$ and $N$ are lambda-terms, then $(M N)$ is a lambda-term, called the **application** of $M$ to $N$.
+- If $x$ is a variable and $M$ is a term, then $(\lambda x. M)$ is a lambda-term, called an **abstraction**. An abstraction defines an anonymous function, taking $x$ as parameter and sending back $M$.
 
 A lambda-term $T$ is said to be **closed** if for all variables $x$, all occurrences of $x$ within $T$ are contained within some abstraction $(\lambda x. M)$ in $T$. The smallest such abstraction is said to **bind** the occurrence of the variable $x$. In other words, a lambda-term is closed if all its variables are bound to parameters of enclosing functions definitions. For example, the term $(\lambda x. x)$ is closed, while the term $(\lambda x. (x y))$ is not because $y$ is not bound.
 
@@ -10981,23 +10783,23 @@ Also, we can rename variables as long as no binding abstraction changes. This me
 
 The following table regroups the lambda-terms that can be written with at most $15$ symbols, symbols being parenthesis, $\lambda$, dot and variables.
 
-\\[\begin{array}{|c|c|c|c|}
+$$\begin{array}{\|c\|c\|c\|c\|}
 \hline
-(\lambda x.x) & (\lambda x.(x x)) & (\lambda x.(\lambda y.x)) & (\lambda x.(\lambda y.y)) \\
+(\lambda x.x) & (\lambda x.(x x)) & (\lambda x.(\lambda y.x)) & (\lambda x.(\lambda y.y)) \
 \hline
-(\lambda x.(x (x x))) & (\lambda x.((x x) x)) & (\lambda x.(\lambda y.(x x))) & (\lambda x.(\lambda y.(x y))) \\
+(\lambda x.(x (x x))) & (\lambda x.((x x) x)) & (\lambda x.(\lambda y.(x x))) & (\lambda x.(\lambda y.(x y))) \
 \hline
-(\lambda x.(\lambda y.(y x))) & (\lambda x.(\lambda y.(y y))) & (\lambda x.(x (\lambda y.x))) & (\lambda x.(x (\lambda y.y))) \\
+(\lambda x.(\lambda y.(y x))) & (\lambda x.(\lambda y.(y y))) & (\lambda x.(x (\lambda y.x))) & (\lambda x.(x (\lambda y.y))) \
 \hline
-(\lambda x.((\lambda y.x) x)) & (\lambda x.((\lambda y.y) x)) & ((\lambda x.x) (\lambda x.x)) & (\lambda x.(x (x (x x)))) \\
+(\lambda x.((\lambda y.x) x)) & (\lambda x.((\lambda y.y) x)) & ((\lambda x.x) (\lambda x.x)) & (\lambda x.(x (x (x x)))) \
 \hline
-(\lambda x.(x ((x x) x))) & (\lambda x.((x x) (x x))) & (\lambda x.((x (x x)) x)) & (\lambda x.(((x x) x) x)) \\
+(\lambda x.(x ((x x) x))) & (\lambda x.((x x) (x x))) & (\lambda x.((x (x x)) x)) & (\lambda x.(((x x) x) x)) \
 \hline
-\end{array}\\]
+\end{array}$$
 
 Let be $\Lambda(n)$ the number of distinct closed lambda-terms that can be written using at most $n$ symbols, where terms that are $\alpha$-equivalent to one another should be counted only once. You are given that $\Lambda(6) = 1$, $\Lambda(9) = 2$, $\Lambda(15) = 20$ and $\Lambda(35) = 3166438$.
 
-Find $\Lambda(2000)$. Give the answer modulo $1\,000\,000\,007$.
+Find $\Lambda(2000)$. Give the answer modulo $1\000\000\007$.
 
 # Problem 624
 
@@ -11010,7 +10812,7 @@ For a prime $p$ and a fully reduced fraction $\frac a b$, define $Q(\frac a b,p)
 For example $Q(P(2), 109) = Q(\frac 3 5, 109) = 66$, because $5 \cdot 66 = 330 \equiv 3 \pmod{109}$ and $66$ is the smallest positive such number.  
 Similarly $Q(P(3),109) = 46$.
 
-Find $Q(P(10^{18}),1\,000\,000\,009)$.
+Find $Q(P(10^{18}),1\000\000\009)$.
 
 # Problem 625
 
@@ -11023,37 +10825,37 @@ Find $G(10^{11})$. Give your answer modulo $998244353$.
 
 A binary matrix is a matrix consisting entirely of $0$s and $1$s. Consider the following transformations that can be performed on a binary matrix:
 
-  - Swap any two rows
-  - Swap any two columns
-  - Flip all elements in a single row ($1$s become $0$s, $0$s become $1$s)
-  - Flip all elements in a single column
+- Swap any two rows
+- Swap any two columns
+- Flip all elements in a single row ($1$s become $0$s, $0$s become $1$s)
+- Flip all elements in a single column
 
 Two binary matrices $A$ and $B$ will be considered <span class="dfn">equivalent</span> if there is a sequence of such transformations that when applied to $A$ yields $B$. For example, the following two matrices are equivalent:
 
 $A=\begin{pmatrix}
-1 & 0 & 1 \\
-0 & 0 & 1 \\
-0 & 0 & 0 \\
+1 & 0 & 1 \
+0 & 0 & 1 \
+0 & 0 & 0 \
 \end{pmatrix} \quad B=\begin{pmatrix}
-0 & 0 & 0 \\
-1 & 0 & 0 \\
-0 & 0 & 1 \\
+0 & 0 & 0 \
+1 & 0 & 0 \
+0 & 0 & 1 \
 \end{pmatrix}$
 
 via the sequence of two transformations "Flip all elements in column 3" followed by "Swap rows 1 and 2".
 
 Define $c(n)$ to be the maximum number of $n\times n$ binary matrices that can be found such that no two are equivalent. For example, $c(3)=3$. You are also given that $c(5)=39$ and $c(8)=656108$.
 
-Find $c(20)$, and give your answer modulo $1\,001\,001\,011$.
+Find $c(20)$, and give your answer modulo $1\001\001\011$.
 
 # Problem 627
 
 Consider the set $S$ of all possible products of $n$ positive integers not exceeding $m$, that is  
-$S=\{ x\_1x\_2\cdots x\_n \mid 1 \le x\_1, x\_2, \dots, x\_n \le m \}$.  
+$S=\ x_1x_2\cdots x_n \mid 1 \le x_1, x_2, \dots, x_n \le m \$.  
 Let $F(m,n)$ be the number of the distinct elements of the set $S$.  
 For example, $F(9, 2) = 36$ and $F(30,2)=308$.
 
-Find $F(30, 10001) \bmod 1\,000\,000\,007$.
+Find $F(30, 10001) \bmod 1\000\000\007$.
 
 # Problem 628
 
@@ -11065,25 +10867,25 @@ We call such a position an <span class="dfn">open</span> position, if a rook, st
 Let $f(n)$ be the number of open positions for a $n \times n$ chessboard.  
 For example, $f(3)=2$, illustrated by the two open positions for a $3 \times 3$ chessboard below.
 
-|                                                                 |  |                                                                 |
-| --------------------------------------------------------------- |  | --------------------------------------------------------------- |
-| ![Open position 1](resources/images/0628_chess4.png?1678992054) |  | ![Open position 2](resources/images/0628_chess5.png?1678992054) |
+|                                                                 |     |                                                                 |
+|-----------------------------------------------------------------|-----|-----------------------------------------------------------------|
+| ![Open position 1](resources/images/0628_chess4.png?1678992054) |     | ![Open position 2](resources/images/0628_chess5.png?1678992054) |
 
 You are also given $f(5)=70$.
 
-Find $f(10^8)$ modulo $1\,008\,691\,207$.
+Find $f(10^8)$ modulo $1\008\691\207$.
 
 # Problem 629
 
 Alice and Bob are playing a modified game of Nim called Scatterstone Nim, with Alice going first, alternating turns with Bob. The game begins with an arbitrary set of stone piles with a total number of stones equal to $n$.
 
-During a player's turn, he/she must pick a pile having at least $2$ stones and perform a split operation, dividing the pile into an arbitrary set of $p$ non-empty, arbitrarily-sized piles where $2 \leq p \leq k$ for some fixed constant $k$. For example, a pile of size $4$ can be split into $\{1, 3\}$ or $\{2, 2\}$, or $\{1, 1, 2\}$ if $k = 3$ and in addition $\{1, 1, 1, 1\}$ if $k = 4$.
+During a player's turn, he/she must pick a pile having at least $2$ stones and perform a split operation, dividing the pile into an arbitrary set of $p$ non-empty, arbitrarily-sized piles where $2 \leq p \leq k$ for some fixed constant $k$. For example, a pile of size $4$ can be split into $\1, 3\$ or $\2, 2\$, or $\1, 1, 2\$ if $k = 3$ and in addition $\1, 1, 1, 1\$ if $k = 4$.
 
 If no valid move is possible on a given turn, then the other player wins the game.
 
 A winning position is defined as a set of stone piles where a player can ultimately ensure victory no matter what the other player does.
 
-Let $f(n,k)$ be the number of winning positions for Alice on her first turn, given parameters $n$ and $k$. For example, $f(5, 2) = 3$ with winning positions $\{1, 1, 1, 2\}, \{1, 4\}, \{2, 3\}$. In contrast, $f(5, 3) = 5$ with winning positions $\{1, 1, 1, 2\}, \{1, 1, 3\}, \{1, 4\}, \{2, 3\}, \{5\}$.
+Let $f(n,k)$ be the number of winning positions for Alice on her first turn, given parameters $n$ and $k$. For example, $f(5, 2) = 3$ with winning positions $\1, 1, 1, 2\, \1, 4\, \2, 3\$. In contrast, $f(5, 3) = 5$ with winning positions $\1, 1, 1, 2\, \1, 1, 3\, \1, 4\, \2, 3\, \5\$.
 
 Let $g(n)$ be the sum of $f(n,k)$ over all $2 \leq k \leq n$. For example, $g(7)=66$ and $g(10)=291$.
 
@@ -11093,7 +10895,7 @@ Find $g(200) \bmod (10^9 + 7)$.
 
 Given a set, $L$, of unique lines, let $M(L)$ be the number of lines in the set and let $S(L)$ be the sum over every line of the number of times that line is crossed by another line in the set. For example, two sets of three lines are shown below:
 
-<div data-align="center">
+<div align="center">
 
 ![crossed lines](resources/images/0630_threelines.png?1678992054)
 
@@ -11103,93 +10905,93 @@ In both cases $M(L)$ is $3$ and $S(L)$ is $6$: each of the three lines is crosse
 
 Consider points $(T\_{2k-1}, T\_{2k})$, for integer $k \ge 1$, generated in the following way:
 
-$S\_0 = 290797$  
-$S\_{n+1} = S\_n^2 \bmod 50515093$  
-$T\_n = (S\_n \bmod 2000) - 1000$
+$S_0 = 290797$  
+$S\_{n+1} = S_n^2 \bmod 50515093$  
+$T_n = (S_n \bmod 2000) - 1000$
 
-For example, the first three points are: $(527, 144)$, $(-488, 732)$, $(-454, -947)$. Given the first $n$ points generated in this manner, let $L\_n$ be the set of **unique** lines that can be formed by joining each point with every other point, the lines being extended indefinitely in both directions. We can then define $M(L\_n)$ and $S(L\_n)$ as described above.
+For example, the first three points are: $(527, 144)$, $(-488, 732)$, $(-454, -947)$. Given the first $n$ points generated in this manner, let $L_n$ be the set of **unique** lines that can be formed by joining each point with every other point, the lines being extended indefinitely in both directions. We can then define $M(L_n)$ and $S(L_n)$ as described above.
 
-For example, $M(L\_3) = 3$ and $S(L\_3) = 6$. Also $M(L\_{100}) = 4948$ and $S(L\_{100}) = 24477690$.
+For example, $M(L_3) = 3$ and $S(L_3) = 6$. Also $M(L\_{100}) = 4948$ and $S(L\_{100}) = 24477690$.
 
 Find $S(L\_{2500})$.
 
 # Problem 631
 
-Let $(p\_1 p\_2 \ldots p\_k)$ denote the permutation of the set ${1, ..., k}$ that maps $p\_i\mapsto i$. Define the length of the permutation to be $k$; note that the empty permutation $()$ has length zero.
+Let $(p_1 p_2 \ldots p_k)$ denote the permutation of the set ${1, ..., k}$ that maps $p_i\mapsto i$. Define the length of the permutation to be $k$; note that the empty permutation $()$ has length zero.
 
-Define an <span class="dfn">occurrence</span> of a permutation $p=(p\_1 p\_2 \cdots p\_k)$ in a permutation $P=(P\_1 P\_2 \cdots P\_n)$ to be a sequence $1\leq t\_1 \lt t\_2 \lt \cdots \lt t\_k \leq n$ such that $p\_i \lt p\_j$ if and only if $P\_{t\_i} \lt P\_{t\_j}$ for all $i,j \in \{1, \dots, k\}$.
+Define an <span class="dfn">occurrence</span> of a permutation $p=(p_1 p_2 \cdots p_k)$ in a permutation $P=(P_1 P_2 \cdots P_n)$ to be a sequence $1\leq t_1 \lt t_2 \lt \cdots \lt t_k \leq n$ such that $p_i \lt p_j$ if and only if $P\_{t_i} \lt P\_{t_j}$ for all $i,j \in \1, \dots, k\$.
 
-For example, $(1243)$ occurs twice in the permutation $(314625)$: once as the 1st, 3rd, 4th and 6th elements $(3\,\,46\,\,5)$, and once as the 2nd, 3rd, 4th and 6th elements $(\,\,146\,\,5)$.
+For example, $(1243)$ occurs twice in the permutation $(314625)$: once as the 1st, 3rd, 4th and 6th elements $(3\\46\\5)$, and once as the 2nd, 3rd, 4th and 6th elements $(\\146\\5)$.
 
 Let $f(n, m)$ be the number of permutations $P$ of length at most $n$ such that there is no occurrence of the permutation $1243$ in $P$ and there are at most $m$ occurrences of the permutation $21$ in $P$.
 
 For example, $f(2,0) = 3$, with the permutations $()$, $(1)$, $(1,2)$ but not $(2,1)$.
 
-You are also given that $f(4, 5) = 32$ and $f(10, 25) = 294\,400$.
+You are also given that $f(4, 5) = 32$ and $f(10, 25) = 294\400$.
 
-Find $f(10^{18}, 40)$ modulo $1\,000\,000\,007$.
+Find $f(10^{18}, 40)$ modulo $1\000\000\007$.
 
 # Problem 632
 
 For an integer $n$, we define the <span class="dfn">square prime factors</span> of $n$ to be the primes whose square divides $n$. For example, the square prime factors of $1500=2^2 \times 3 \times 5^3$ are $2$ and $5$.
 
-Let $C\_k(N)$ be the number of integers between $1$ and $N$ inclusive with exactly $k$ square prime factors. You are given some values of $C\_k(N)$ in the table below.
+Let $C_k(N)$ be the number of integers between $1$ and $N$ inclusive with exactly $k$ square prime factors. You are given some values of $C_k(N)$ in the table below.
 
-\\[\begin{array}{|c|c|c|c|c|c|c|}
+$$\begin{array}{\|c\|c\|c\|c\|c\|c\|c\|}
 \hline
-& k = 0 & k = 1 & k = 2 & k = 3 & k = 4 & k = 5 \\
+& k = 0 & k = 1 & k = 2 & k = 3 & k = 4 & k = 5 \
 \hline
-N=10 & 7 & 3 & 0 & 0 & 0 & 0 \\
+N=10 & 7 & 3 & 0 & 0 & 0 & 0 \
 \hline
-N=10^2 & 61 & 36 & 3 & 0 & 0 & 0 \\
+N=10^2 & 61 & 36 & 3 & 0 & 0 & 0 \
 \hline
-N=10^3 & 608 & 343 & 48 & 1 & 0 & 0 \\
+N=10^3 & 608 & 343 & 48 & 1 & 0 & 0 \
 \hline
-N=10^4 & 6083 & 3363 & 533 & 21 & 0 & 0 \\
+N=10^4 & 6083 & 3363 & 533 & 21 & 0 & 0 \
 \hline
-N=10^5 & 60794 & 33562 & 5345 & 297 & 2 & 0 \\
+N=10^5 & 60794 & 33562 & 5345 & 297 & 2 & 0 \
 \hline
-N=10^6 & 607926 & 335438 & 53358 & 3218 & 60 & 0 \\
+N=10^6 & 607926 & 335438 & 53358 & 3218 & 60 & 0 \
 \hline
-N=10^7 & 6079291 & 3353956 & 533140 & 32777 & 834 & 2 \\
+N=10^7 & 6079291 & 3353956 & 533140 & 32777 & 834 & 2 \
 \hline
-N=10^8 & 60792694 & 33539196 & 5329747 & 329028 & 9257 & 78 \\
+N=10^8 & 60792694 & 33539196 & 5329747 & 329028 & 9257 & 78 \
 \hline
-\end{array}\\]
+\end{array}$$
 
-Find the product of all non-zero $C\_k(10^{16})$. Give the result reduced modulo $1\,000\,000\,007$.
+Find the product of all non-zero $C_k(10^{16})$. Give the result reduced modulo $1\000\000\007$.
 
 # Problem 633
 
 For an integer $n$, we define the <span class="dfn">square prime factors</span> of $n$ to be the primes whose square divides $n$. For example, the square prime factors of $1500=2^2 \times 3 \times 5^3$ are $2$ and $5$.
 
-Let $C\_k(N)$ be the number of integers between $1$ and $N$ inclusive with exactly $k$ square prime factors. It can be shown that with growing $N$ the ratio $\frac{C\_k(N)}{N}$ gets arbitrarily close to a constant $c\_{k}^{\infty}$, as suggested by the table below.
+Let $C_k(N)$ be the number of integers between $1$ and $N$ inclusive with exactly $k$ square prime factors. It can be shown that with growing $N$ the ratio $\frac{C_k(N)}{N}$ gets arbitrarily close to a constant $c\_{k}^{\infty}$, as suggested by the table below.
 
-\\[\begin{array}{|c|c|c|c|c|c|}
+$$\begin{array}{\|c\|c\|c\|c\|c\|c\|}
 \hline
-& k = 0 & k = 1 & k = 2 & k = 3 & k = 4 \\
+& k = 0 & k = 1 & k = 2 & k = 3 & k = 4 \
 \hline
-C\_k(10) & 7 & 3 & 0 & 0 & 0 \\
+C_k(10) & 7 & 3 & 0 & 0 & 0 \
 \hline
-C\_k(10^2) & 61 & 36 & 3 & 0 & 0 \\
+C_k(10^2) & 61 & 36 & 3 & 0 & 0 \
 \hline
-C\_k(10^3) & 608 & 343 & 48 & 1 & 0 \\
+C_k(10^3) & 608 & 343 & 48 & 1 & 0 \
 \hline
-C\_k(10^4) & 6083 & 3363 & 533 & 21 & 0 \\
+C_k(10^4) & 6083 & 3363 & 533 & 21 & 0 \
 \hline
-C\_k(10^5) & 60794 & 33562 & 5345 & 297 & 2 \\
+C_k(10^5) & 60794 & 33562 & 5345 & 297 & 2 \
 \hline
-C\_k(10^6) & 607926 & 335438 & 53358 & 3218 & 60 \\
+C_k(10^6) & 607926 & 335438 & 53358 & 3218 & 60 \
 \hline
-C\_k(10^7) & 6079291 & 3353956 & 533140 & 32777 & 834 \\
+C_k(10^7) & 6079291 & 3353956 & 533140 & 32777 & 834 \
 \hline
-C\_k(10^8) & 60792694 & 33539196 & 5329747 & 329028 & 9257 \\
+C_k(10^8) & 60792694 & 33539196 & 5329747 & 329028 & 9257 \
 \hline
-C\_k(10^9) & 607927124 & 335389706 & 53294365 & 3291791 & 95821 \\
+C_k(10^9) & 607927124 & 335389706 & 53294365 & 3291791 & 95821 \
 \hline
-c\_k^{\infty} & \frac{6}{\pi^2} & 3.3539\times 10^{-1} & 5.3293\times 10^{-2} & 3.2921\times 10^{-3} & 9.7046\times 10^{-5}\\
+c_k^{\infty} & \frac{6}{\pi^2} & 3.3539\times 10^{-1} & 5.3293\times 10^{-2} & 3.2921\times 10^{-3} & 9.7046\times 10^{-5}\
 \hline
-\end{array}\\]
+\end{array}$$
 Find $c\_{7}^{\infty}$. Give the result in scientific notation rounded to $5$ significant digits, using a $e$ to separate mantissa and exponent. E.g. if the answer were $0.000123456789$, then the answer format would be $1.2346\mathrm e{-4}$.
 
 # Problem 634
@@ -11204,17 +11006,17 @@ Find $F(9\times 10^{18})$.
 
 # Problem 635
 
-Let $A\_q(n)$ be the number of subsets, $B$, of the set $\{1, 2, ..., q \cdot n\}$ that satisfy two conditions:  
-1\) $B$ has exactly $n$ elements;  
-2\) the sum of the elements of $B$ is divisible by $n$.
+Let $A_q(n)$ be the number of subsets, $B$, of the set $\1, 2, ..., q \cdot n\$ that satisfy two conditions:  
+1) $B$ has exactly $n$ elements;  
+2) the sum of the elements of $B$ is divisible by $n$.
 
-E.g. $A\_2(5)=52$ and $A\_3(5)=603$.
+E.g. $A_2(5)=52$ and $A_3(5)=603$.
 
-Let $S\_q(L)$ be $\sum A\_q(p)$ where the sum is taken over all primes $p \le L$.  
-E.g. $S\_2(10)=554$, $S\_2(100)$ mod $1\,000\,000\,009=100433628$ and  
-$S\_3(100)$ mod $1\,000\,000\,009=855618282$.
+Let $S_q(L)$ be $\sum A_q(p)$ where the sum is taken over all primes $p \le L$.  
+E.g. $S_2(10)=554$, $S_2(100)$ mod $1\000\000\009=100433628$ and  
+$S_3(100)$ mod $1\000\000\009=855618282$.
 
-Find $S\_2(10^8)+S\_3(10^8)$. Give your answer modulo $1\,000\,000\,009$.
+Find $S_2(10^8)+S_3(10^8)$. Give your answer modulo $1\000\000\009$.
 
 # Problem 636
 
@@ -11229,10 +11031,10 @@ Similarly, $10!$ can be written as a product of one natural number, two squares 
 
 Let $F(n)$ denote the number of ways in which $n$ can be written as a product of one natural number, two squares, three cubes and four fourth powers.
 
-You are given that $F(25!)=4933$, $F(100!) \bmod 1\,000\,000\,007=693\,952\,493$,  
-and $F(1\,000!) \bmod 1\,000\,000\,007=6\,364\,496$.
+You are given that $F(25!)=4933$, $F(100!) \bmod 1\000\000\007=693\952\493$,  
+and $F(1\000!) \bmod 1\000\000\007=6\364\496$.
 
-Find $F(1\,000\,000!) \bmod 1\,000\,000\,007$.
+Find $F(1\000\000!) \bmod 1\000\000\007$.
 
 # Problem 637
 
@@ -11242,7 +11044,7 @@ For example, from $n=123\_{10}$ ($n$ in base $10$) we can construct the four bas
 
 Let $f(n,B)$ be the smallest number of steps needed to arrive at a single-digit number in base $B$. For example, $f(7,10)=0$ and $f(123,10)=1$.
 
-Let $g(n,B\_1,B\_2)$ be the sum of the positive integers $i$ not exceeding $n$ such that $f(i,B\_1)=f(i,B\_2)$.
+Let $g(n,B_1,B_2)$ be the sum of the positive integers $i$ not exceeding $n$ such that $f(i,B_1)=f(i,B_2)$.
 
 You are given $g(100,10,3)=3302$.
 
@@ -11252,8 +11054,8 @@ Find $g(10^7,10,3)$.
 
 Let $P\_{a,b}$ denote a path in a $a\times b$ lattice grid with following properties:
 
-  - The path begins at $(0,0)$ and ends at $(a,b)$.
-  - The path consists only of unit moves upwards or to the right; that is the coordinates are increasing with every move.
+- The path begins at $(0,0)$ and ends at $(a,b)$.
+- The path consists only of unit moves upwards or to the right; that is the coordinates are increasing with every move.
 
 Denote $A(P\_{a,b})$ to be the area under the path. For the example of a $P\_{4,3}$ path given below, the area equals $6$.
 
@@ -11267,25 +11069,25 @@ Define $G(P\_{a,b},k)=k^{A(P\_{a,b})}$. Let $C(a,b,k)$ equal the sum of $G(P\_{a
 
 You are given that
 
-  - $C(2,2,1)=6$
-  - $C(2,2,2)=35$
-  - $C(10,10,1)=184\,756$
-  - $C(15,10,3) \equiv 880\,419\,838 \mod 1\,000\,000\,007$
-  - $C(10\,000,10\,000,4) \equiv 395\,913\,804 \mod 1\,000\,000\,007$
+- $C(2,2,1)=6$
+- $C(2,2,2)=35$
+- $C(10,10,1)=184\756$
+- $C(15,10,3) \equiv 880\419\838 \mod 1\000\000\007$
+- $C(10\000,10\000,4) \equiv 395\913\804 \mod 1\000\000\007$
 
-Calculate $\displaystyle\sum\_{k=1}^7 C(10^k+k, 10^k+k,k)$. Give your answer modulo $1\,000\,000\,007$
+Calculate $\displaystyle\sum\_{k=1}^7 C(10^k+k, 10^k+k,k)$. Give your answer modulo $1\000\000\007$
 
 # Problem 639
 
 A **multiplicative function** $f(x)$ is a function over positive integers satisfying $f(1)=1$ and $f(a b)=f(a) f(b)$ for any two coprime positive integers $a$ and $b$.
 
-For integer $k$ let $f\_k(n)$ be a multiplicative function additionally satisfying $f\_k(p^e)=p^k$ for any prime $p$ and any integer $e\>0$.  
-For example, $f\_1(2)=2$, $f\_1(4)=2$, $f\_1(18)=6$ and $f\_2(18)=36$.
+For integer $k$ let $f_k(n)$ be a multiplicative function additionally satisfying $f_k(p^e)=p^k$ for any prime $p$ and any integer $e\>0$.  
+For example, $f_1(2)=2$, $f_1(4)=2$, $f_1(18)=6$ and $f_2(18)=36$.
 
-Let $\displaystyle S\_k(n)=\sum\_{i=1}^{n} f\_k(i)$.
-For example, $S\_1(10)=41$, $S\_1(100)=3512$, $S\_2(100)=208090$, $S\_1(10000)=35252550$ and $\displaystyle \sum\_{k=1}^{3} S\_k(10^{8}) \equiv 338787512 \pmod{ 1\,000\,000\,007}$.
+Let $\displaystyle S_k(n)=\sum\_{i=1}^{n} f_k(i)$.
+For example, $S_1(10)=41$, $S_1(100)=3512$, $S_2(100)=208090$, $S_1(10000)=35252550$ and $\displaystyle \sum\_{k=1}^{3} S_k(10^{8}) \equiv 338787512 \pmod{ 1\000\000\007}$.
 
-Find $\displaystyle \sum\_{k=1}^{50} S\_k(10^{12}) \bmod 1\,000\,000\,007$.
+Find $\displaystyle \sum\_{k=1}^{50} S_k(10^{12}) \bmod 1\000\000\007$.
 
 # Problem 640
 
@@ -11320,9 +11122,9 @@ Find $F(201820182018)$. Give your answer modulus $10^9$.
 
 Two positive integers $a$ and $b$ are <span class="dfn">$2$-friendly</span> when $\gcd(a,b) = 2^t, t \gt 0$. For example, $24$ and $40$ are $2$-friendly because $\gcd(24,40) = 8 = 2^3$ while $24$ and $36$ are not because $\gcd(24,36) = 12 = 2^2\cdot 3$ not a power of $2$.
 
-Let $f(n)$ be the number of pairs, $(p,q)$, of positive integers with $1\le p\lt q\le n$ such that $p$ and $q$ are $2$-friendly. You are given $f(10^2) = 1031$ and $f(10^6) = 321418433$ modulo $1\,000\,000\,007$.
+Let $f(n)$ be the number of pairs, $(p,q)$, of positive integers with $1\le p\lt q\le n$ such that $p$ and $q$ are $2$-friendly. You are given $f(10^2) = 1031$ and $f(10^6) = 321418433$ modulo $1\000\000\007$.
 
-Find $f(10^{11})$ modulo $1\,000\,000\,007$.
+Find $f(10^{11})$ modulo $1\000\000\007$.
 
 # Problem 644
 
@@ -11333,7 +11135,7 @@ The player who is able to place the last unit square onto the line segment wins.
 
 <div class="center">
 
-![0644\_squareline.png](resources/images/0644_squareline.png?1678992054)
+![0644_squareline.png](resources/images/0644_squareline.png?1678992054)
 
 </div>
 
@@ -11365,30 +11167,30 @@ Find $E(10000)$. Give your answer rounded to 4 digits after the decimal point.
 
 # Problem 646
 
-Let $n$ be a natural number and $p\_1^{\alpha\_1}\cdot p\_2^{\alpha\_2}\cdots p\_k^{\alpha\_k}$ its prime factorisation.  
-Define the **Liouville function** $\lambda(n)$ as $\lambda(n) = (-1)^{\sum\limits\_{i=1}^{k}\alpha\_i}$.  
-(i.e. $-1$ if the sum of the exponents $\alpha\_i$ is odd and $1$ if the sum of the exponents is even. )  
+Let $n$ be a natural number and $p_1^{\alpha_1}\cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ its prime factorisation.  
+Define the **Liouville function** $\lambda(n)$ as $\lambda(n) = (-1)^{\sum\limits\_{i=1}^{k}\alpha_i}$.  
+(i.e. $-1$ if the sum of the exponents $\alpha_i$ is odd and $1$ if the sum of the exponents is even. )  
 Let $S(n,L,H)$ be the sum $\lambda(d) \cdot d$ over all divisors $d$ of $n$ for which $L \leq d \leq H$.
 
 You are given:
 
-  - $S(10! , 100, 1000) = 1457$
-  - $S(15!, 10^3, 10^5) = -107974$
-  - $S(30!,10^8, 10^{12}) = 9766732243224$.
+- $S(10! , 100, 1000) = 1457$
+- $S(15!, 10^3, 10^5) = -107974$
+- $S(30!,10^8, 10^{12}) = 9766732243224$.
 
-Find $S(70!,10^{20}, 10^{60})$ and give your answer modulo $1\,000\,000\,007$.
+Find $S(70!,10^{20}, 10^{60})$ and give your answer modulo $1\000\000\007$.
 
 # Problem 647
 
-It is possible to find positive integers $A$ and $B$ such that given any triangular number, $T\_n$, then $AT\_n +B$ is always a triangular number. We define $F\_3(N)$ to be the sum of $(A+B)$ over all such possible pairs $(A,B)$ with $\max(A,B)\le N$. For example $F\_3(100) = 184$.
+It is possible to find positive integers $A$ and $B$ such that given any triangular number, $T_n$, then $AT_n +B$ is always a triangular number. We define $F_3(N)$ to be the sum of $(A+B)$ over all such possible pairs $(A,B)$ with $\max(A,B)\le N$. For example $F_3(100) = 184$.
 
 Polygonal numbers are generalisations of triangular numbers. Polygonal numbers with parameter $k$ we call $k$-gonal numbers. The formula for the $n$th $k$-gonal number is $\frac 12n\big(n(k-2)+4-k\big)$ where $n \ge 1$. For example when $k = 3$ we get $\frac 12n(n+1)$ the formula for triangular numbers.
 
-The statement above is true for pentagonal, heptagonal and in fact any $k$-gonal number with $k$ odd. For example when $k=5$ we get the pentagonal numbers and we can find positive integers $A$ and $B$ such that given any pentagonal number, $P\_n$, then $AP\_n+B$ is always a pentagonal number. We define $F\_5(N)$ to be the sum of $(A+B)$ over all such possible pairs $(A,B)$ with $\max(A,B)\le N$.
+The statement above is true for pentagonal, heptagonal and in fact any $k$-gonal number with $k$ odd. For example when $k=5$ we get the pentagonal numbers and we can find positive integers $A$ and $B$ such that given any pentagonal number, $P_n$, then $AP_n+B$ is always a pentagonal number. We define $F_5(N)$ to be the sum of $(A+B)$ over all such possible pairs $(A,B)$ with $\max(A,B)\le N$.
 
-Similarly we define $F\_k(N)$ for odd $k$. You are given $\sum\_{k} F\_k(10^3) = 14993$ where the sum is over all odd $k = 3,5,7,\ldots$.
+Similarly we define $F_k(N)$ for odd $k$. You are given $\sum\_{k} F_k(10^3) = 14993$ where the sum is over all odd $k = 3,5,7,\ldots$.
 
-Find $\sum\_{k} F\_k(10^{12})$ where the sum is over all odd $k = 3,5,7,\ldots$
+Find $\sum\_{k} F_k(10^{12})$ where the sum is over all odd $k = 3,5,7,\ldots$
 
 # Problem 648
 
@@ -11398,9 +11200,9 @@ The process ends when either $s$ is a perfect square or $s$ exceeds $10^{18}$, w
 
 Let $f(\rho)$ be the expected number of perfect squares skipped over when the process finishes.
 
-It can be shown that the power series for $f(\rho)$ is $\sum\_{k=0}^\infty a\_k \rho^k$ for a suitable (unique) choice of coefficients $a\_k$. Some of the first few coefficients are $a\_0=1$, $a\_1=0$, $a\_5=-18$, $a\_{10}=45176$.
+It can be shown that the power series for $f(\rho)$ is $\sum\_{k=0}^\infty a_k \rho^k$ for a suitable (unique) choice of coefficients $a_k$. Some of the first few coefficients are $a_0=1$, $a_1=0$, $a_5=-18$, $a\_{10}=45176$.
 
-Let $F(n) = \sum\_{k=0}^n a\_k$. You are given that $F(10) = 53964$ and $F(50) \equiv 842418857 \pmod{10^9}$.
+Let $F(n) = \sum\_{k=0}^n a_k$. You are given that $F(10) = 53964$ and $F(50) \equiv 842418857 \pmod{10^9}$.
 
 Find $F(1000)$, and give your answer modulo $10^9$.
 
@@ -11418,21 +11220,21 @@ Assuming that Alice goes first and that both players are playing optimally, let 
 
 For example, $M(3, 1) = 4$, $M(3, 2) = 40$, and $M(9, 3) = 450304$.
 
-What are the last $9$ digits of $M(10\,000\,019, 100)$?
+What are the last $9$ digits of $M(10\000\019, 100)$?
 
 # Problem 650
 
 Let $B(n) = \displaystyle \prod\_{k=0}^n {n \choose k}$, a product of binomial coefficients.  
 For example, $B(5) = {5 \choose 0} \times {5 \choose 1} \times {5 \choose 2} \times {5 \choose 3} \times {5 \choose 4} \times {5 \choose 5} = 1 \times 5 \times 10 \times 10 \times 5 \times 1 = 2500$.
 
-Let $D(n) = \displaystyle \sum\_{d|B(n)} d$, the sum of the divisors of $B(n)$.  
+Let $D(n) = \displaystyle \sum\_{d\|B(n)} d$, the sum of the divisors of $B(n)$.  
 For example, the divisors of B(5) are 1, 2, 4, 5, 10, 20, 25, 50, 100, 125, 250, 500, 625, 1250 and 2500,  
 so D(5) = 1 + 2 + 4 + 5 + 10 + 20 + 25 + 50 + 100 + 125 + 250 + 500 + 625 + 1250 + 2500 = 5467.
 
 Let $S(n) = \displaystyle \sum\_{k=1}^n D(k)$.  
-You are given $S(5) = 5736$, $S(10) = 141740594713218418$ and $S(100)$ mod $1\,000\,000\,007 = 332792866$.
+You are given $S(5) = 5736$, $S(10) = 141740594713218418$ and $S(100)$ mod $1\000\000\007 = 332792866$.
 
-Find $S(20\,000)$ mod $1\,000\,000\,007$.
+Find $S(20\000)$ mod $1\000\000\007$.
 
 # Problem 651
 
@@ -11443,25 +11245,25 @@ Let $a\>0$ and suppose that the colouring is periodic along the cylinder, with t
 Let $f(m, a, b)$ be the number of different such periodic patterns that use *exactly* $m$ distinct colours of stickers. Translations along the axis, reflections in any plane, rotations in any axis, (or combinations of such operations) applied to a pattern are to be counted as the same as the original pattern.
 
 You are given that $f(2, 2, 3) = 11$, $f(3, 2, 3) = 56$, and $f(2, 3, 4) = 156$.
-Furthermore, $f(8, 13, 21) \equiv 49718354 \pmod{1\,000\,000\,007}$,
-and $f(13, 144, 233) \equiv 907081451 \pmod{1\,000\,000\,007}$.
+Furthermore, $f(8, 13, 21) \equiv 49718354 \pmod{1\000\000\007}$,
+and $f(13, 144, 233) \equiv 907081451 \pmod{1\000\000\007}$.
 
-Find $\sum\_{i=4}^{40} f(i, F\_{i-1}, F\_i) \bmod 1\,000\,000\,007$, where $F\_i$ are the Fibonacci numbers starting at $F\_0=0$, $F\_1=1$.
+Find $\sum\_{i=4}^{40} f(i, F\_{i-1}, F_i) \bmod 1\000\000\007$, where $F_i$ are the Fibonacci numbers starting at $F_0=0$, $F_1=1$.
 
 # Problem 652
 
-Consider the values of $\log\_2(8)$, $\log\_4(64)$ and $\log\_3(27)$. All three are equal to $3$.
+Consider the values of $\log_2(8)$, $\log_4(64)$ and $\log_3(27)$. All three are equal to $3$.
 
-Generally, the function $f(m,n)=\log\_m(n)$ over integers $m,n \ge 2$ has the property that  
-$f(m\_1,n\_1)=f(m\_2,n\_2)$ if
+Generally, the function $f(m,n)=\log_m(n)$ over integers $m,n \ge 2$ has the property that  
+$f(m_1,n_1)=f(m_2,n_2)$ if
 
-1.  $\, m\_1=a^e, n\_1=a^f, m\_2=b^e,n\_2=b^f \,$ for some integers $a,b,e,f \, \,$ or
-2.  $ \, m\_1=a^e, n\_1=b^e, m\_2=a^f,n\_2=b^f \,$ for some integers $a,b,e,f \,$
+1.  $\ m_1=a^e, n_1=a^f, m_2=b^e,n_2=b^f \$ for some integers $a,b,e,f \ \$ or
+2.  $ \ m_1=a^e, n_1=b^e, m_2=a^f,n_2=b^f \$ for some integers $a,b,e,f \$
 
 We call a function $g(m,n)$ over integers $m,n \ge 2$ <span class="dfn">proto-logarithmic</span> if
 
-  - $\quad \, \, \, \, g(m\_1,n\_1)=g(m\_2,n\_2)$ if any integers $a,b,e,f$ fulfilling 1. or 2. can be found
-  - **and** $\, g(m\_1,n\_1) \ne g(m\_2,n\_2)$ if no integers $a,b,e,f$ fulfilling 1. or 2. can be found.
+- $\quad \ \ \ \ g(m_1,n_1)=g(m_2,n_2)$ if any integers $a,b,e,f$ fulfilling 1. or 2. can be found
+- **and** $\ g(m_1,n_1) \ne g(m_2,n_2)$ if no integers $a,b,e,f$ fulfilling 1. or 2. can be found.
 
 Let $D(N)$ be the number of distinct values that any proto-logarithmic function $g(m,n)$ attains over $2\le m, n\le N$.  
 For example, $D(5)=13$, $D(10)=69$, $D(100)=9607$ and $D(10000)=99959605$.
@@ -11469,8 +11271,8 @@ For example, $D(5)=13$, $D(10)=69$, $D(100)=9607$ and $D(10000)=99959605$.
 Find $D(10^{18})$, and give the last $9$ digits as answer.
 
   
-**Note:** According to the **four exponentials conjecture** the function $\log\_m(n)$ is <span class="dfn">proto-logarithmic</span>.  
-While this conjecture is yet unproven in general, $\log\_m(n)$ can be used to calculate $D(N)$ for small values of $N$.
+**Note:** According to the **four exponentials conjecture** the function $\log_m(n)$ is <span class="dfn">proto-logarithmic</span>.  
+While this conjecture is yet unproven in general, $\log_m(n)$ can be used to calculate $D(N)$ for small values of $N$.
 
 # Problem 653
 
@@ -11478,19 +11280,19 @@ Consider a horizontal frictionless tube with length $L$ millimetres, and a diame
 
 Since there are marbles moving in opposite directions, there are bound to be some collisions. We assume that the collisions are perfectly elastic, so both marbles involved instantly change direction and continue with speed $v$ away from the collision site. Similarly, if the west-most marble collides with the sealed end of the tube, it instantly changes direction and continues eastward at speed $v$. On the other hand, once a marble reaches the unsealed east end, it exits the tube and has no further interaction with the remaining marbles.
 
-To obtain the starting positions and initial directions, we use the pseudo-random sequence $r\_j$ defined by:  
-$r\_1 = 6\,563\,116$  
-$r\_{j+1} = r\_j^2 \bmod 32\,745\,673$  
-The west-most marble is initially positioned with a gap of $(r\_1 \bmod 1000) + 1$ millimetres between it and the sealed end of the tube, measured from the west-most point of the surface of the marble. Then, for $2\le j\le N$, counting from the west, the gap between the $(j-1)$th and $j$th marbles, as measured from their closest points, is given by $(r\_j \bmod 1000) + 1$ millimetres.
-Furthermore, the $j$th marble is initially moving eastward if $r\_j \le 10\,000\,000$, and westward if $r\_j \> 10\,000\,000$.
+To obtain the starting positions and initial directions, we use the pseudo-random sequence $r_j$ defined by:  
+$r_1 = 6\563\116$  
+$r\_{j+1} = r_j^2 \bmod 32\745\673$  
+The west-most marble is initially positioned with a gap of $(r_1 \bmod 1000) + 1$ millimetres between it and the sealed end of the tube, measured from the west-most point of the surface of the marble. Then, for $2\le j\le N$, counting from the west, the gap between the $(j-1)$th and $j$th marbles, as measured from their closest points, is given by $(r_j \bmod 1000) + 1$ millimetres.
+Furthermore, the $j$th marble is initially moving eastward if $r_j \le 10\000\000$, and westward if $r_j \> 10\000\000$.
 
 For example, with $N=3$, the sequence specifies gaps of 117, 432, and 173 millimetres. The marbles' *centres* are therefore 127, 579, and 772 millimetres from the sealed west end of the tube. The west-most marble initially moves eastward, while the other two initially move westward.
 
 Under this setup, and with a five metre tube ($L=5000$), it turns out that the middle (second) marble travels 5519 millimetres before its centre reaches the east-most end of the tube.
 
-Let $d(L, N, j)$ be the distance in millimetres that the $j$th marble travels before its centre reaches the eastern end of the tube. So $d(5000, 3, 2) = 5519$. You are also given that $d(10\,000, 11, 6) = 11\,780$ and $d(100\,000, 101, 51) = 114\,101$.
+Let $d(L, N, j)$ be the distance in millimetres that the $j$th marble travels before its centre reaches the eastern end of the tube. So $d(5000, 3, 2) = 5519$. You are also given that $d(10\000, 11, 6) = 11\780$ and $d(100\000, 101, 51) = 114\101$.
 
-Find $d(1\,000\,000\,000, 1\,000\,001, 500\,001)$.
+Find $d(1\000\000\000, 1\000\001, 500\001)$.
 
 # Problem 654
 
@@ -11506,56 +11308,56 @@ $(2, 1, 1, 1)$
 $(2, 1, 1, 2)$  
 $(2, 1, 2, 1)$  
 
-You are also given that $T(5, 5)=246$, $T(10, 10^{2}) \equiv 862820094 \pmod{1\,000\,000\,007}$ and $T(10^2, 10) \equiv 782136797 \pmod{1\,000\,000\,007}$.
+You are also given that $T(5, 5)=246$, $T(10, 10^{2}) \equiv 862820094 \pmod{1\000\000\007}$ and $T(10^2, 10) \equiv 782136797 \pmod{1\000\000\007}$.
 
-Find $T(5000, 10^{12}) \bmod 1\,000\,000\,007$.
+Find $T(5000, 10^{12}) \bmod 1\000\000\007$.
 
 # Problem 655
 
-The numbers $545$, $5\,995$ and $15\,151$ are the three smallest **palindromes** divisible by $109$. There are nine palindromes less than $100\,000$ which are divisible by $109$.
+The numbers $545$, $5\995$ and $15\151$ are the three smallest **palindromes** divisible by $109$. There are nine palindromes less than $100\000$ which are divisible by $109$.
 
-How many palindromes less than $10^{32}$ are divisible by $10\,000\,019\,$ ?
+How many palindromes less than $10^{32}$ are divisible by $10\000\019\$ ?
 
 # Problem 656
 
 Given an irrational number $\alpha$, let $S\_\alpha(n)$ be the sequence $S\_\alpha(n)=\lfloor {\alpha \cdot n} \rfloor - \lfloor {\alpha \cdot (n-1)} \rfloor$ for $n \ge 1$.  
 ($\lfloor \cdots \rfloor$ is the floor-function.)
 
-It can be proven that for any irrational $\alpha$ there exist infinitely many values of $n$ such that the subsequence $ \{S\_\alpha(1),S\_\alpha(2)...S\_\alpha(n) \} $ is palindromic.
+It can be proven that for any irrational $\alpha$ there exist infinitely many values of $n$ such that the subsequence $ \S\_\alpha(1),S\_\alpha(2)...S\_\alpha(n) \ $ is palindromic.
 
 The first $20$ values of $n$ that give a palindromic subsequence for $\alpha = \sqrt{31}$ are:
 $1$, $3$, $5$, $7$, $44$, $81$, $118$, $273$, $3158$, $9201$, $15244$, $21287$, $133765$, $246243$, $358721$, $829920$, $9600319$, $27971037$, $46341755$, $64712473$.
 
-Let $H\_g(\alpha)$ be the sum of the first $g$ values of $n$ for which the corresponding subsequence is palindromic.  
+Let $H_g(\alpha)$ be the sum of the first $g$ values of $n$ for which the corresponding subsequence is palindromic.  
 So $H\_{20}(\sqrt{31})=150243655$.
 
-Let $T=\{2,3,5,6,7,8,10,\dots,1000\}$ be the set of positive integers, not exceeding $1000$, excluding perfect squares.  
+Let $T=\2,3,5,6,7,8,10,\dots,1000\$ be the set of positive integers, not exceeding $1000$, excluding perfect squares.  
 Calculate the sum of $H\_{100}(\sqrt \beta)$ for $\beta \in T$. Give the last $15$ digits of your answer.
 
 # Problem 657
 
 In the context of **formal languages**, any finite sequence of letters of a given **alphabet** $\Sigma$ is called a **word** over $\Sigma$. We call a word <span class="dfn">incomplete</span> if it does not contain every letter of $\Sigma$.
 
-For example, using the alphabet $\Sigma=\{ a, b, c\}$, '$ab$', '$abab$' and '$\,$' (the empty word) are incomplete words over $\Sigma$, while '$abac$' is a complete word over $\Sigma$.
+For example, using the alphabet $\Sigma=\ a, b, c\$, '$ab$', '$abab$' and '$\$' (the empty word) are incomplete words over $\Sigma$, while '$abac$' is a complete word over $\Sigma$.
 
 Given an alphabet $\Sigma$ of $\alpha$ letters, we define $I(\alpha,n)$ to be the number of incomplete words over $\Sigma$ with a length not exceeding $n$.  
 For example, $I(3,0)=1$, $I(3,2)=13$ and $I(3,4)=79$.
 
-Find $I(10^7,10^{12})$. Give your answer modulo $1\,000\,000\,007$.
+Find $I(10^7,10^{12})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 658
 
 In the context of **formal languages**, any finite sequence of letters of a given **alphabet** $\Sigma$ is called a **word** over $\Sigma$. We call a word <span class="dfn">incomplete</span> if it does not contain every letter of $\Sigma$.
 
-For example, using the alphabet $\Sigma=\{ a, b, c\}$, '$ab$', '$abab$' and '$\,$' (the empty word) are incomplete words over $\Sigma$, while '$abac$' is a complete word over $\Sigma$.
+For example, using the alphabet $\Sigma=\ a, b, c\$, '$ab$', '$abab$' and '$\$' (the empty word) are incomplete words over $\Sigma$, while '$abac$' is a complete word over $\Sigma$.
 
 Given an alphabet $\Sigma$ of $\alpha$ letters, we define $I(\alpha,n)$ to be the number of incomplete words over $\Sigma$ with a length not exceeding $n$.  
 For example, $I(3,0)=1$, $I(3,2)=13$ and $I(3,4)=79$.
 
 Let $\displaystyle S(k,n)=\sum\_{\alpha=1}^k I(\alpha,n)$.  
-For example, $S(4,4)=406$, $S(8,8)=27902680$ and $S (10,100) \equiv 983602076 \bmod 1\,000\,000\,007$.
+For example, $S(4,4)=406$, $S(8,8)=27902680$ and $S (10,100) \equiv 983602076 \bmod 1\000\000\007$.
 
-Find $S(10^7,10^{12})$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(10^7,10^{12})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 659
 
@@ -11567,13 +11369,13 @@ In fact $13$ is the largest prime dividing any two successive terms of this sequ
 
 Let $P(k)$ be the largest prime that divides any two successive terms of the sequence $n^2+k^2$.
 
-Find the last $18$ digits of $\displaystyle \sum\_{k=1}^{10\,000\,000} P(k)$.
+Find the last $18$ digits of $\displaystyle \sum\_{k=1}^{10\000\000} P(k)$.
 
 # Problem 660
 
 We call an integer sided triangle <span class="dfn">$n$-pandigital</span> if it contains one angle of $120$ degrees and, when the sides of the triangle are written in base $n$, together they use all $n$ digits of that base exactly once.
 
-For example, the triangle $(217, 248, 403)$ is $9$-pandigital because it contains one angle of $120$ degrees and the sides written in base $9$ are $261\_9, 305\_9, 487\_9$ using each of the $9$ digits of that base once.
+For example, the triangle $(217, 248, 403)$ is $9$-pandigital because it contains one angle of $120$ degrees and the sides written in base $9$ are $261_9, 305_9, 487_9$ using each of the $9$ digits of that base once.
 
 Find the sum of the largest sides of all $n$-pandigital triangles with $9 \le n \le 18$.
 
@@ -11583,7 +11385,7 @@ Two friends $A$ and $B$ are great fans of Chess. They both enjoy playing the gam
 
 So they come up with a plan. After every game, they would toss a (biased) coin with probability $p$ of Heads (and hence probability $1-p$ of Tails). If they get Tails, they will continue with the next game. Otherwise they end the match. Also, after every game the players make a note of who is leading in the match.
 
-Let $p\_A$ denote the probability of $A$ winning a game and $p\_B$ the probability of $B$ winning a game. Accordingly $1-p\_A-p\_B$ is the probability that a game ends in a draw. Let $\mathbb{E}\_A(p\_A,p\_B,p)$ denote the expected number of times $A$ was leading in the match.  
+Let $p_A$ denote the probability of $A$ winning a game and $p_B$ the probability of $B$ winning a game. Accordingly $1-p_A-p_B$ is the probability that a game ends in a draw. Let $\mathbb{E}\_A(p_A,p_B,p)$ denote the expected number of times $A$ was leading in the match.  
 For example, $\mathbb{E}\_A(0.25,0.25,0.5)\approx 0.585786$ and $\mathbb{E}\_A(0.47,0.48,0.001)\approx 377.471736$, both rounded to six places after the decimal point.
 
 Let $\displaystyle H(n)=\sum\_{k=3}^n \mathbb{E}\_A\left(\frac 1 {\sqrt{k+3}},\frac 1 {\sqrt{k+3}}+\frac 1 {k^2},\frac 1 {k^3}\right)$  
@@ -11593,41 +11395,41 @@ Find $H(50)$, rounded to 4 digits after the decimal point.
 
 # Problem 662
 
-Alice walks on a lattice grid. She can step from one lattice point $A (a,b)$ to another $B (a+x,b+y)$ providing distance $AB = \sqrt{x^2+y^2}$ is a Fibonacci number $\{1,2,3,5,8,13,\ldots\}$ and $x\ge 0,$ $y\ge 0$.
+Alice walks on a lattice grid. She can step from one lattice point $A (a,b)$ to another $B (a+x,b+y)$ providing distance $AB = \sqrt{x^2+y^2}$ is a Fibonacci number $\1,2,3,5,8,13,\ldots\$ and $x\ge 0,$ $y\ge 0$.
 
 In the lattice grid below Alice can step from the blue point to any of the red points.  
 
-![p662\_fibonacciwalks.png](project/images/p662_fibonacciwalks.png)
+![0662_fibonacciwalks.png](resources/images/0662_fibonacciwalks.png?1678992054)
 
 Let $F(W,H)$ be the number of paths Alice can take from $(0,0)$ to $(W,H)$.  
 You are given $F(3,4) = 278$ and $F(10,10) = 215846462$.
 
-Find $F(10\,000,10\,000) \bmod 1\,000\,000\,007$.
+Find $F(10\000,10\000) \bmod 1\000\000\007$.
 
 # Problem 663
 
-Let $t\_k$ be the **tribonacci numbers** defined as:  
-$\quad t\_0 = t\_1 = 0$;  
-$\quad t\_2 = 1$;  
-$\quad t\_k = t\_{k-1} + t\_{k-2} + t\_{k-3} \quad \text{ for } k \ge 3$.
+Let $t_k$ be the **tribonacci numbers** defined as:  
+$\quad t_0 = t_1 = 0$;  
+$\quad t_2 = 1$;  
+$\quad t_k = t\_{k-1} + t\_{k-2} + t\_{k-3} \quad \text{ for } k \ge 3$.
 
-For a given integer $n$, let $A\_n$ be an array of length $n$ (indexed from $0$ to $n-1$), that is initially filled with zeros.  
-The array is changed iteratively by replacing $A\_n\[(t\_{2 i-2} \bmod n)\]$ with $A\_n\[(t\_{2 i-2} \bmod n)\]+2 (t\_{2 i-1} \bmod n)-n+1$ in each step $i$.  
-After each step $i$, define $M\_n(i)$ to be $\displaystyle \max\{\sum\_{j=p}^q A\_n\[j\]: 0\le p\le q \lt n\}$, the maximal sum of any contiguous subarray of $A\_n$.
+For a given integer $n$, let $A_n$ be an array of length $n$ (indexed from $0$ to $n-1$), that is initially filled with zeros.  
+The array is changed iteratively by replacing $A_n\[(t\_{2 i-2} \bmod n)\]$ with $A_n\[(t\_{2 i-2} \bmod n)\]+2 (t\_{2 i-1} \bmod n)-n+1$ in each step $i$.  
+After each step $i$, define $M_n(i)$ to be $\displaystyle \max\\sum\_{j=p}^q A_n\[j\]: 0\le p\le q \lt n\$, the maximal sum of any contiguous subarray of $A_n$.
 
 The first 6 steps for $n=5$ are illustrated below:  
-Initial state: $\, A\_5=\{0,0,0,0,0\}$  
-Step 1: $\quad \Rightarrow A\_5=\{-4,0,0,0,0\}$, $M\_5(1)=0$  
-Step 2: $\quad \Rightarrow A\_5=\{-4, -2, 0, 0, 0\}$, $M\_5(2)=0$  
-Step 3: $\quad \Rightarrow A\_5=\{-4, -2, 4, 0, 0\}$, $M\_5(3)=4$  
-Step 4: $\quad \Rightarrow A\_5=\{-4, -2, 6, 0, 0\}$, $M\_5(4)=6$  
-Step 5: $\quad \Rightarrow A\_5=\{-4, -2, 6, 0, 4\}$, $M\_5(5)=10$  
-Step 6: $\quad \Rightarrow A\_5=\{-4, 2, 6, 0, 4\}$, $M\_5(6)=12$  
+Initial state: $\ A_5=\0,0,0,0,0\$  
+Step 1: $\quad \Rightarrow A_5=\-4,0,0,0,0\$, $M_5(1)=0$  
+Step 2: $\quad \Rightarrow A_5=\-4, -2, 0, 0, 0\$, $M_5(2)=0$  
+Step 3: $\quad \Rightarrow A_5=\-4, -2, 4, 0, 0\$, $M_5(3)=4$  
+Step 4: $\quad \Rightarrow A_5=\-4, -2, 6, 0, 0\$, $M_5(4)=6$  
+Step 5: $\quad \Rightarrow A_5=\-4, -2, 6, 0, 4\$, $M_5(5)=10$  
+Step 6: $\quad \Rightarrow A_5=\-4, 2, 6, 0, 4\$, $M_5(6)=12$  
 
-Let $\displaystyle S(n,l)=\sum\_{i=1}^l M\_n(i)$. Thus $S(5,6)=32$.  
+Let $\displaystyle S(n,l)=\sum\_{i=1}^l M_n(i)$. Thus $S(5,6)=32$.  
 You are given $S(5,100)=2416$, $S(14,100)=3881$ and $S(107,1000)=1618572$.
 
-Find $S(10\,000\,003,10\,200\,000)-S(10\,000\,003,10\,000\,000)$.
+Find $S(10\000\003,10\200\000)-S(10\000\003,10\000\000)$.
 
 # Problem 664
 
@@ -11674,9 +11476,9 @@ Two players play a game with two piles of stones, alternating turns.
 
 On each turn, the corresponding player chooses a positive integer $n$ and does one of the following:
 
-  - removes $n$ stones from one pile;
-  - removes $n$ stones from both piles; or
-  - removes $n$ stones from one pile and $2n$ stones from the other pile.
+- removes $n$ stones from one pile;
+- removes $n$ stones from both piles; or
+- removes $n$ stones from one pile and $2n$ stones from the other pile.
 
 The player who removes the last stone wins.
 
@@ -11697,32 +11499,32 @@ Find $f(10^7)$.
 
 Members of a species of bacteria occur in two different types: $\alpha$ and $\beta$. Individual bacteria are capable of multiplying and mutating between the types according to the following rules:
 
-  - Every minute, each individual will simultaneously undergo some kind of transformation.
-  - Each individual $A$ of type $\alpha$ will, independently, do one of the following (at random with equal probability):
-      - clone itself, resulting in a new bacterium of type $\alpha$ (alongside $A$ who remains)
-      - split into 3 new bacteria of type $\beta$ (replacing $A$)
-  - Each individual $B$ of type $\beta$ will, independently, do one of the following (at random with equal probability):
-      - spawn a new bacterium of type $\alpha$ (alongside $B$ who remains)
-      - die
+- Every minute, each individual will simultaneously undergo some kind of transformation.
+- Each individual $A$ of type $\alpha$ will, independently, do one of the following (at random with equal probability):
+  - clone itself, resulting in a new bacterium of type $\alpha$ (alongside $A$ who remains)
+  - split into 3 new bacteria of type $\beta$ (replacing $A$)
+- Each individual $B$ of type $\beta$ will, independently, do one of the following (at random with equal probability):
+  - spawn a new bacterium of type $\alpha$ (alongside $B$ who remains)
+  - die
 
 If a population starts with a single bacterium of type $\alpha$, then it can be shown that there is a 0.07243802 probability that the population will eventually die out, and a 0.92756198 probability that the population will last forever. These probabilities are given rounded to 8 decimal places.
 
-Now consider another species of bacteria, $S\_{k,m}$ (where $k$ and $m$ are positive integers), which occurs in $k$ different types $\alpha\_i$ for $0\le i\< k$. The rules governing this species' lifecycle involve the sequence $r\_n$ defined by:
+Now consider another species of bacteria, $S\_{k,m}$ (where $k$ and $m$ are positive integers), which occurs in $k$ different types $\alpha_i$ for $0\le i\< k$. The rules governing this species' lifecycle involve the sequence $r_n$ defined by:
 
-  - $r\_0 = 306$
-  - $r\_{n+1} = r\_n^2 \bmod 10\,007$
+- $r_0 = 306$
+- $r\_{n+1} = r_n^2 \bmod 10\007$
 
-Every minute, for each $i$, each bacterium $A$ of type $\alpha\_i$ will independently choose an integer $j$ uniformly at random in the range $0\le j\<m$. What it then does depends on $q = r\_{im+j} \bmod 5$:
+Every minute, for each $i$, each bacterium $A$ of type $\alpha_i$ will independently choose an integer $j$ uniformly at random in the range $0\le j\<m$. What it then does depends on $q = r\_{im+j} \bmod 5$:
 
-  - If $q=0$, $A$ dies.
-  - If $q=1$, $A$ clones itself, resulting in a new bacterium of type $\alpha\_i$ (alongside $A$ who remains).
-  - If $q=2$, $A$ mutates, changing into type $\alpha\_{(2i) \bmod k}$.
-  - If $q=3$, $A$ splits into 3 new bacteria of type $\alpha\_{(i^2+1) \bmod k}$ (replacing $A$).
-  - If $q=4$, $A$ spawns a new bacterium of type $\alpha\_{(i+1) \bmod k}$ (alongside $A$ who remains).
+- If $q=0$, $A$ dies.
+- If $q=1$, $A$ clones itself, resulting in a new bacterium of type $\alpha_i$ (alongside $A$ who remains).
+- If $q=2$, $A$ mutates, changing into type $\alpha\_{(2i) \bmod k}$.
+- If $q=3$, $A$ splits into 3 new bacteria of type $\alpha\_{(i^2+1) \bmod k}$ (replacing $A$).
+- If $q=4$, $A$ spawns a new bacterium of type $\alpha\_{(i+1) \bmod k}$ (alongside $A$ who remains).
 
-In fact, our original species was none other than $S\_{2,2}$, with $\alpha=\alpha\_0$ and $\beta=\alpha\_1$.
+In fact, our original species was none other than $S\_{2,2}$, with $\alpha=\alpha_0$ and $\beta=\alpha_1$.
 
-Let $P\_{k,m}$ be the probability that a population of species $S\_{k,m}$, starting with a single bacterium of type $\alpha\_0$, will eventually die out. So $P\_{2,2} = 0.07243802$. You are also given that $P\_{4,3} = 0.18554021$ and $P\_{10,5} = 0.53466253$, all rounded to 8 decimal places.
+Let $P\_{k,m}$ be the probability that a population of species $S\_{k,m}$, starting with a single bacterium of type $\alpha_0$, will eventually die out. So $P\_{2,2} = 0.07243802$. You are also given that $P\_{4,3} = 0.18554021$ and $P\_{10,5} = 0.53466253$, all rounded to 8 decimal places.
 
 Find $P\_{500,10}$, and give your answer rounded to 8 decimal places.
 
@@ -11732,7 +11534,7 @@ After buying a *Gerver Sofa* from the *Moving Sofa Company*, Jack wants to buy a
 Unfortunately, the simple square model offered to him is too small for him, so he asks for a bigger model.  
 He is offered the new pentagonal model illustrated below:
 
-![p667.png](project/images/p667_MovingPentagon.png)
+![p667.png](resources/images/0667_MovingPentagon.png?1678992054)
 
 Note, while the shape and size can be ordered individually, due to the production process, **all edges of the pentagonal table have to have the same length.**
 
@@ -11745,7 +11547,7 @@ Give your answer rounded to 10 digits after the decimal point (if Jack had choos
 A positive integer is called <span class="dfn">square root smooth</span> if all of its prime factors are strictly less than its square root.  
 Including the number $1$, there are $29$ square root smooth numbers not exceeding $100$.
 
-How many square root smooth numbers are there not exceeding $10\,000\,000\,000$?
+How many square root smooth numbers are there not exceeding $10\000\000\000$?
 
 # Problem 669
 
@@ -11767,9 +11569,9 @@ Notice that the sums $4+1$, $1+7$, $7+6$, $6+2$, $2+3$, and $3+5$ are all Fibona
 
 Later, several new knights are appointed to the Order, giving $34$ knights and chairs in addition to the king's throne. The knights eventually determine that there is a unique seating arrangement for $n=34$ satisfying the above rules, and this time knight number $30$ is sitting in the 3rd chair from the king's left.
 
-Now suppose there are $n=99\,194\,853\,094\,755\,497$ knights and the same number of chairs at the roundtable (not including the king’s throne). After great trials and tribulations, they are finally able to find the unique seating arrangement for this value of $n$ that satisfies the above rules.
+Now suppose there are $n=99\194\853\094\755\497$ knights and the same number of chairs at the roundtable (not including the king’s throne). After great trials and tribulations, they are finally able to find the unique seating arrangement for this value of $n$ that satisfies the above rules.
 
-Find the number of the knight sitting in the $10\,000\,000\,000\,000\,000$th chair from the king’s left.
+Find the number of the knight sitting in the $10\000\000\000\000\000$th chair from the king’s left.
 
 # Problem 670
 
@@ -11777,9 +11579,9 @@ A certain type of tile comes in three different sizes - $1 \times 1$, $1 \times 
 
 These are used to tile a $2\times n$ rectangle, where $n$ is a positive integer, subject to the following conditions:
 
-  - The rectangle must be fully covered by non-overlapping tiles.
-  - It is *not* permitted for four tiles to have their corners meeting at a single point.
-  - Adjacent tiles must be of different colours.
+- The rectangle must be fully covered by non-overlapping tiles.
+- It is *not* permitted for four tiles to have their corners meeting at a single point.
+- Adjacent tiles must be of different colours.
 
 For example, the following is an acceptable tiling of a $2\times 12$ rectangle:
 
@@ -11799,9 +11601,9 @@ but the following is not an acceptable tiling, because it violates the "no four 
 
 Let $F(n)$ be the number of ways the $2\times n$ rectangle can be tiled subject to these rules. Where reflecting horizontally or vertically would give a different tiling, these tilings are to be counted separately.
 
-For example, $F(2) = 120$, $F(5) = 45876$, and $F(100)\equiv 53275818 \pmod{1\,000\,004\,321}$.
+For example, $F(2) = 120$, $F(5) = 45876$, and $F(100)\equiv 53275818 \pmod{1\000\004\321}$.
 
-Find $F(10^{16}) \bmod 1\,000\,004\,321$.
+Find $F(10^{16}) \bmod 1\000\004\321$.
 
 # Problem 671
 
@@ -11809,9 +11611,9 @@ A certain type of flexible tile comes in three different sizes - $1 \times 1$, $
 
 These are used to tile a closed loop of width $2$ and length (circumference) $n$, where $n$ is a positive integer, subject to the following conditions:
 
-  - The loop must be fully covered by non-overlapping tiles.
-  - It is *not* permitted for four tiles to have their corners meeting at a single point.
-  - Adjacent tiles must be of different colours.
+- The loop must be fully covered by non-overlapping tiles.
+- It is *not* permitted for four tiles to have their corners meeting at a single point.
+- Adjacent tiles must be of different colours.
 
 For example, the following is an acceptable tiling of a $2\times 23$ loop with $k=4$ (blue, green, red and yellow):
 
@@ -11829,19 +11631,19 @@ but the following is not an acceptable tiling, because it violates the "no four 
 
 </div>
 
-Let $F\_k(n)$ be the number of ways the $2\times n$ loop can be tiled subject to these rules when $k$ colours are available. (Not all $k$ colours have to be used.) Where reflecting horizontally or vertically would give a different tiling, these tilings are to be counted separately.
+Let $F_k(n)$ be the number of ways the $2\times n$ loop can be tiled subject to these rules when $k$ colours are available. (Not all $k$ colours have to be used.) Where reflecting horizontally or vertically would give a different tiling, these tilings are to be counted separately.
 
-For example, $F\_4(3) = 104$, $F\_5(7) = 3327300$, and $F\_6(101)\equiv 75309980 \pmod{1\,000\,004\,321}$.
+For example, $F_4(3) = 104$, $F_5(7) = 3327300$, and $F_6(101)\equiv 75309980 \pmod{1\000\004\321}$.
 
-Find $F\_{10}(10\,004\,003\,002\,001) \bmod 1\,000\,004\,321$.
+Find $F\_{10}(10\004\003\002\001) \bmod 1\000\004\321$.
 
 # Problem 672
 
 Consider the following process that can be applied recursively to any positive integer $n$:
 
-  - if $n = 1$ do nothing and the process stops,
-  - if $n$ is divisible by $7$ divide it by $7$,
-  - otherwise add $1$.
+- if $n = 1$ do nothing and the process stops,
+- if $n$ is divisible by $7$ divide it by $7$,
+- otherwise add $1$.
 
 Define $g(n)$ to be the number of $1$'s that must be added before the process ends. For example:
 
@@ -11851,7 +11653,7 @@ Eight $1$'s are added so $g(125) = 8$. Similarly $g(1000) = 9$ and $g(10000) = 2
 
 Define $S(N) = \sum\_{n=1}^N g(n)$ and $H(K) = S\left(\frac{7^K-1}{11}\right)$. You are given $H(10) = 690409338$.
 
-Find $H(10^9)$ modulo $1\,117\,117\,717$.
+Find $H(10^9)$ modulo $1\117\117\717$.
 
 # Problem 673
 
@@ -11883,21 +11685,21 @@ The downloadable text files [beds.txt](resources/documents/0673_beds.txt) and [d
     1,3
     2,4
 
-With these pairings, find the number of permutations that satisfy the students' conditions. Give your answer modulo $999\,999\,937$.
+With these pairings, find the number of permutations that satisfy the students' conditions. Give your answer modulo $999\999\937$.
 
 # Problem 674
 
 We define the $\mathcal{I}$ operator as the function
-\\[\mathcal{I}(x,y) = (1+x+y)^2+y-x\\]
+$$\mathcal{I}(x,y) = (1+x+y)^2+y-x$$
 and $\mathcal{I}$-expressions as arithmetic expressions built only from variable names and applications of $\mathcal{I}$. A variable name may consist of one or more letters. For example, the three expressions $x$, $\mathcal{I}(x,y)$, and $\mathcal{I}(\mathcal{I}(x,ab),x)$ are all $\mathcal{I}$-expressions.
 
-For two $\mathcal{I}$-expressions $e\_1$ and $e\_2$ such that the equation $e\_1=e\_2$ has a solution in non-negative integers, we define the least simultaneous value of $e\_1$ and $e\_2$ to be the minimum value taken by $e\_1$ and $e\_2$ on such a solution. If the equation $e\_1=e\_2$ has no solution in non-negative integers, we define the least simultaneous value of $e\_1$ and $e\_2$ to be $0$. For example, consider the following three $\mathcal{I}$-expressions:
-\\[\begin{array}{l}A = \mathcal{I}(x,\mathcal{I}(z,t))\\
-B = \mathcal{I}(\mathcal{I}(y,z),y)\\
-C = \mathcal{I}(\mathcal{I}(x,z),y)\end{array}\\]
-The least simultaneous value of $A$ and $B$ is $23$, attained for $x=3,y=1,z=t=0$. On the other hand, $A=C$ has no solutions in non-negative integers, so the least simultaneous value of $A$ and $C$ is $0$. The total sum of least simultaneous pairs made of $\mathcal{I}$-expressions from $\{A,B,C\}$ is $26$.
+For two $\mathcal{I}$-expressions $e_1$ and $e_2$ such that the equation $e_1=e_2$ has a solution in non-negative integers, we define the least simultaneous value of $e_1$ and $e_2$ to be the minimum value taken by $e_1$ and $e_2$ on such a solution. If the equation $e_1=e_2$ has no solution in non-negative integers, we define the least simultaneous value of $e_1$ and $e_2$ to be $0$. For example, consider the following three $\mathcal{I}$-expressions:
+$$\begin{array}{l}A = \mathcal{I}(x,\mathcal{I}(z,t))\
+B = \mathcal{I}(\mathcal{I}(y,z),y)\
+C = \mathcal{I}(\mathcal{I}(x,z),y)\end{array}$$
+The least simultaneous value of $A$ and $B$ is $23$, attained for $x=3,y=1,z=t=0$. On the other hand, $A=C$ has no solutions in non-negative integers, so the least simultaneous value of $A$ and $C$ is $0$. The total sum of least simultaneous pairs made of $\mathcal{I}$-expressions from $\A,B,C\$ is $26$.
 
-Find the sum of least simultaneous values of all $\mathcal{I}$-expressions pairs made of distinct expressions from file [I-expressions.txt](project/resources/p674_i_expressions.txt) (pairs $(e\_1,e\_2)$ and $(e\_2,e\_1)$ are considered to be identical). Give the last nine digits of the result as the answer.
+Find the sum of least simultaneous values of all $\mathcal{I}$-expressions pairs made of distinct expressions from file [I-expressions.txt](resources/documents/0674_i_expressions.txt) (pairs $(e_1,e_2)$ and $(e_2,e_1)$ are considered to be identical). Give the last nine digits of the result as the answer.
 
 # Problem 675
 
@@ -11910,15 +11712,15 @@ E.g. $S(6) = 2^{\omega(1)}+2^{\omega(2)}+2^{\omega(3)}+2^{\omega(6)} = 2^0+2^1+2
 Let $F(n)=\sum\_{i=2}^n S(i!)$.
 $F(10)=4821.$
 
-Find $F(10\,000\,000)$. Give your answer modulo $1\,000\,000\,087$.
+Find $F(10\000\000)$. Give your answer modulo $1\000\000\087$.
 
 # Problem 676
 
-Let $d(i,b)$ be the **digit sum** of the number $i$ in base $b$. For example $d(9,2)=2$, since $9=1001\_2$.
+Let $d(i,b)$ be the **digit sum** of the number $i$ in base $b$. For example $d(9,2)=2$, since $9=1001_2$.
 When using different bases, the respective digit sums most of the time deviate from each other, for example $d(9,4)=3 \ne d(9,2)$.
 
 However, for some numbers $i$ there will be a match, like $d(17,4)=d(17,2)=2$.
-Let $ M(n,b\_1,b\_2)$ be the sum of all natural numbers $i \le n$ for which $d(i,b\_1)=d(i,b\_2)$.
+Let $ M(n,b_1,b_2)$ be the sum of all natural numbers $i \le n$ for which $d(i,b_1)=d(i,b_2)$.
 For example, $M(10,8,2)=18$, $M(100,8,2)=292$ and $M(10^6,8,2)=19173952$.
 
 Find $\displaystyle \sum\_{k=3}^6 \sum\_{l=1}^{k-2}M(10^{16},2^k,2^l)$, giving the last $16$ digits as the answer.
@@ -11927,16 +11729,16 @@ Find $\displaystyle \sum\_{k=3}^6 \sum\_{l=1}^{k-2}M(10^{16},2^k,2^l)$, giving t
 
 Let $g(n)$ be the number of **undirected graphs** with $n$ nodes satisfying the following properties:
 
-  - The graph is connected and has no cycles or multiple edges.
-  - Each node is either red, blue, or yellow.
-  - A red node may have no more than 4 edges connected to it.
-  - A blue or yellow node may have no more than 3 edges connected to it.
-  - An edge may not directly connect a yellow node to a yellow node.
+- The graph is connected and has no cycles or multiple edges.
+- Each node is either red, blue, or yellow.
+- A red node may have no more than 4 edges connected to it.
+- A blue or yellow node may have no more than 3 edges connected to it.
+- An edge may not directly connect a yellow node to a yellow node.
 
 For example, $g(2)=5$, $g(3)=15$, and $g(4) = 57$.  
-You are also given that $g(10) = 710249$ and $g(100) \equiv 919747298 \pmod{1\,000\,000\,007}$.
+You are also given that $g(10) = 710249$ and $g(100) \equiv 919747298 \pmod{1\000\000\007}$.
 
-Find $g(10\,000) \bmod 1\,000\,000\,007$.
+Find $g(10\000) \bmod 1\000\000\007$.
 
 # Problem 678
 
@@ -11948,7 +11750,7 @@ Find $F(10^{18})$.
 
 # Problem 679
 
-Let $S$ be the set consisting of the four letters $\{\texttt{\`A'},\texttt{\`E'},\texttt{\`F'},\texttt{\`R'}\}$.  
+Let $S$ be the set consisting of the four letters $\\texttt{\`A'},\texttt{\`E'},\texttt{\`F'},\texttt{\`R'}\$.  
 For $n\ge 0$, let $S^\*(n)$ denote the set of words of length $n$ consisting of letters belonging to $S$.  
 We designate the words $\texttt{FREE}, \texttt{FARE}, \texttt{AREA}, \texttt{REEF}$ as *keywords*.
 
@@ -11965,11 +11767,11 @@ Find $f(30)$.
 
 Let $N$ and $K$ be two positive integers.
 
-$F\_n$ is the $n$-th Fibonacci number: $F\_1 = F\_2 = 1$, $F\_n = F\_{n - 1} + F\_{n - 2}$ for all $n \geq 3$.  
-Let $s\_n = F\_{2n - 1} \bmod N$ and let $t\_n = F\_{2n} \bmod N$.
+$F_n$ is the $n$-th Fibonacci number: $F_1 = F_2 = 1$, $F_n = F\_{n - 1} + F\_{n - 2}$ for all $n \geq 3$.  
+Let $s_n = F\_{2n - 1} \bmod N$ and let $t_n = F\_{2n} \bmod N$.
 
 Start with an array of integers $A = (A\[0\], \cdots, A\[N - 1\])$ where initially every $A\text{\[}i\]$ is equal to $i$.
-Now perform $K$ successive operations on $A$, where the $j$-th operation consists of reversing the order of those elements in $A$ with indices between $s\_j$ and $t\_j$ (both ends inclusive).
+Now perform $K$ successive operations on $A$, where the $j$-th operation consists of reversing the order of those elements in $A$ with indices between $s_j$ and $t_j$ (both ends inclusive).
 
 Define $R(N,K)$ to be $\sum\_{i = 0}^{N - 1}i \times A\text {\[}i\]$ after $K$ operations.
 
@@ -11994,7 +11796,7 @@ For example, $M(2,2,3,3)=6$, attained e.g. by a $2\times 3$ rectangle.
 Let $SP(n)$ be the sum of $a+b+c+d$ over all choices $a \le b \le c \le d$ for which $M(a,b,c,d)$ is a positive integer not exceeding $n$.  
 $SP(10)=186$ and $SP(100)=23238$.
 
-Find $SP(1\,000\,000)$.
+Find $SP(1\000\000)$.
 
 # Problem 682
 
@@ -12008,7 +11810,7 @@ For example, $\Omega(300) = 5$ and $s(300) = 2+2+3+5+5 = 17$.
 Let $f(n)$ be the number of pairs, $(p,q)$, of Hamming numbers such that $\Omega(p)=\Omega(q)$ and $s(p)+s(q)=n$.  
 You are given $f(10)=4$ (the pairs are $(4,9),(5,5),(6,6),(9,4)$) and $f(10^2)=3629$.
 
-Find $f(10^7) \bmod 1\,000\,000\,007$.
+Find $f(10^7) \bmod 1\000\000\007$.
 
 # Problem 683
 
@@ -12029,9 +11831,9 @@ Find $G(500)$, giving your answer in scientific notation rounded to 9 significan
 Define $s(n)$ to be the smallest number that has a digit sum of $n$. For example $s(10) = 19$.  
 Let $\displaystyle S(k) = \sum\_{n=1}^k s(n)$. You are given $S(20) = 1074$.
 
-Further let $f\_i$ be the Fibonacci sequence defined by $f\_0=0, f\_1=1$ and $f\_i=f\_{i-2}+f\_{i-1}$ for all $i \ge 2$.
+Further let $f_i$ be the Fibonacci sequence defined by $f_0=0, f_1=1$ and $f_i=f\_{i-2}+f\_{i-1}$ for all $i \ge 2$.
 
-Find $\displaystyle \sum\_{i=2}^{90} S(f\_i)$. Give your answer modulo $1\,000\,000\,007$.
+Find $\displaystyle \sum\_{i=2}^{90} S(f_i)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 685
 
@@ -12040,9 +11842,9 @@ $19, 28, 37, 46,55,64,73,82,91,109, 118,\dots$
 
 Let $f(n,m)$ be the $m^{\text{th}}$ occurrence of the digit sum $n$. For example, $f(10,1)=19$, $f(10,10)=109$ and $f(10,100)=1423$.
 
-Let $\displaystyle S(k)=\sum\_{n=1}^k f(n^3,n^4)$. For example $S(3)=7128$ and $S(10)\equiv 32287064 \mod 1\,000\,000\,007$.
+Let $\displaystyle S(k)=\sum\_{n=1}^k f(n^3,n^4)$. For example $S(3)=7128$ and $S(10)\equiv 32287064 \mod 1\000\000\007$.
 
-Find $S(10\,000)$ modulo $1\,000\,000\,007$.
+Find $S(10\000)$ modulo $1\000\000\007$.
 
 # Problem 686
 
@@ -12072,14 +11874,14 @@ Define $F(n)$ to be the sum of $f(n,k)$ for all possible pile sizes $k\ge 1$. Fo
 
 Further define $S(N) = \displaystyle\sum\_{n=1}^N F(n)$. You are given $S(100) = 12656$.
 
-Find $S(10^{16})$ giving your answer modulo $1\,000\,000\,007$.
+Find $S(10^{16})$ giving your answer modulo $1\000\000\007$.
 
 # Problem 689
 
-For $0 \le x \lt 1$, define $d\_i(x)$ to be the $i$th digit after the binary point of the binary representation of $x$.  
-For example $d\_2(0.25) = 1$, $d\_i(0.25) = 0$ for $i \ne 2$.
+For $0 \le x \lt 1$, define $d_i(x)$ to be the $i$th digit after the binary point of the binary representation of $x$.  
+For example $d_2(0.25) = 1$, $d_i(0.25) = 0$ for $i \ne 2$.
 
-Let $f(x) = \displaystyle{\sum\_{i=1}^{\infty}\frac{d\_i(x)}{i^2}}$.
+Let $f(x) = \displaystyle{\sum\_{i=1}^{\infty}\frac{d_i(x)}{i^2}}$.
 
 Let $p(a)$ be probability that $f(x) \gt a$, given that $x$ is uniformly distributed between $0$ and $1$.
 
@@ -12110,30 +11912,30 @@ Let $T(n)$ be the number of different Tom graphs with $n$ vertices. Two graphs a
 
 We have $T(3) = 3$, $T(7) = 37$, $T(10) = 328$ and $T(20) = 1416269$.
 
-Find $T(2019)$ giving your answer modulo $1\,000\,000\,007$.
+Find $T(2019)$ giving your answer modulo $1\000\000\007$.
 
 # Problem 691
 
 Given a character string $s$, we define $L(k,s)$ to be the length of the longest substring of $s$ which appears at least $k$ times in $s$, or $0$ if such a substring does not exist. For example, $L(3,\text{“bbabcabcabcacba”})=4$ because of the three occurrences of the substring $\text{“abca”}$, and $L(2,\text{“bbabcabcabcacba”})=7$ because of the repeated substring $\text{“abcabca”}$. Note that the occurrences can overlap.
 
-Let $a\_n$, $b\_n$ and $c\_n$ be the $0/1$ sequences defined by:
+Let $a_n$, $b_n$ and $c_n$ be the $0/1$ sequences defined by:
 
-  - $a\_0 = 0$
-  - $a\_{2n} = a\_{n}$
-  - $a\_{2n+1} = 1-a\_{n}$
-  - $b\_n = \lfloor\frac{n+1}{\varphi}\rfloor - \lfloor\frac{n}{\varphi}\rfloor$ (where $\varphi$ is the golden ratio)
-  - $c\_n = a\_n + b\_n - 2a\_nb\_n$
+- $a_0 = 0$
+- $a\_{2n} = a\_{n}$
+- $a\_{2n+1} = 1-a\_{n}$
+- $b_n = \lfloor\frac{n+1}{\varphi}\rfloor - \lfloor\frac{n}{\varphi}\rfloor$ (where $\varphi$ is the golden ratio)
+- $c_n = a_n + b_n - 2a_nb_n$
 
-and $S\_n$ the character string $c\_0\ldots c\_{n-1}$. You are given that $L(2,S\_{10})=5$, $L(3,S\_{10})=2$, $L(2,S\_{100})=14$, $L(4,S\_{100})=6$, $L(2,S\_{1000})=86$, $L(3,S\_{1000}) = 45$, $L(5,S\_{1000}) = 31$, and that the sum of non-zero $L(k,S\_{1000})$ for $k\ge 1$ is $2460$.
+and $S_n$ the character string $c_0\ldots c\_{n-1}$. You are given that $L(2,S\_{10})=5$, $L(3,S\_{10})=2$, $L(2,S\_{100})=14$, $L(4,S\_{100})=6$, $L(2,S\_{1000})=86$, $L(3,S\_{1000}) = 45$, $L(5,S\_{1000}) = 31$, and that the sum of non-zero $L(k,S\_{1000})$ for $k\ge 1$ is $2460$.
 
 Find the sum of non-zero $L(k,S\_{5000000})$ for $k\ge 1$.
 
 # Problem 692
 
 Siegbert and Jo take turns playing a game with a heap of $N$ pebbles:  
-1\. Siegbert is the first to take some pebbles. He can take as many pebbles as he wants. (Between 1 and $N$ inclusive.)  
-2\. In each of the following turns the current player must take at least one pebble and at most twice the amount of pebbles taken by the previous player.  
-3\. The player who takes the last pebble wins.  
+1. Siegbert is the first to take some pebbles. He can take as many pebbles as he wants. (Between 1 and $N$ inclusive.)  
+2. In each of the following turns the current player must take at least one pebble and at most twice the amount of pebbles taken by the previous player.  
+3. The player who takes the last pebble wins.  
 
 Although Siegbert can always win by taking all the pebbles on his first turn, to make the game more interesting he chooses to take the smallest number of pebbles that guarantees he will still win (assuming both Siegbert and Jo play optimally for the rest of the game).
 
@@ -12149,21 +11951,21 @@ Find $G(23416728348467685)$.
 
 Two positive integers $x$ and $y$ ($x \> y$) can generate a sequence in the following manner:
 
-  - $a\_x = y$ is the first term,
-  - $a\_{z+1} = a\_z^2 \bmod z$ for $z = x, x+1,x+2,\ldots$ and
-  - the generation stops when a term becomes $0$ or $1$.
+- $a_x = y$ is the first term,
+- $a\_{z+1} = a_z^2 \bmod z$ for $z = x, x+1,x+2,\ldots$ and
+- the generation stops when a term becomes $0$ or $1$.
 
 The number of terms in this sequence is denoted $l(x,y)$.
 
-For example, with $x = 5$ and $y = 3$, we get $a\_5 = 3$, $a\_6 = 3^2 \bmod 5 = 4$, $a\_7 = 4^2\bmod 6 = 4$, etc. Giving the sequence of 29 terms:  
+For example, with $x = 5$ and $y = 3$, we get $a_5 = 3$, $a_6 = 3^2 \bmod 5 = 4$, $a_7 = 4^2\bmod 6 = 4$, etc. Giving the sequence of 29 terms:  
 $ 3,4,4,2,4,7,9,4,4,3,9,6,4,16,4,16,16,4,16,3,9,6,10,19,25,16,16,8,0 $  
 Hence $l(5,3) = 29$.
 
 $g(x)$ is defined to be the maximum value of $l(x,y)$ for $y \lt x$. For example, $g(5) = 29$.
 
-Further, define $f(n)$ to be the maximum value of $g(x)$ for $x \le n$. For example, $f(100) = 145$ and $f(10\,000) = 8824$.
+Further, define $f(n)$ to be the maximum value of $g(x)$ for $x \le n$. For example, $f(100) = 145$ and $f(10\000) = 8824$.
 
-Find $f(3\,000\,000)$.
+Find $f(3\000\000)$.
 
 # Problem 694
 
@@ -12179,15 +11981,15 @@ Find $S(10^{18})$.
 
 # Problem 695
 
-Three points, $P\_1$, $P\_2$ and $P\_3$, are randomly selected within a unit square. Consider the three rectangles with sides parallel to the sides of the unit square and a diagonal that is one of the three line segments $\overline{P\_1P\_2}$, $\overline{P\_1P\_3}$ or $\overline{P\_2P\_3}$ (see picture below).
+Three points, $P_1$, $P_2$ and $P_3$, are randomly selected within a unit square. Consider the three rectangles with sides parallel to the sides of the unit square and a diagonal that is one of the three line segments $\overline{P_1P_2}$, $\overline{P_1P_3}$ or $\overline{P_2P_3}$ (see picture below).
 
 <div class="center">
 
-![3 random rectangles](project/images/p695_randrect.png)
+![3 random rectangles](resources/images/0695_randrect.png?1678992054)
 
 </div>
 
-We are interested in the rectangle with the second biggest area. In the example above that happens to be the green rectangle defined with the diagonal $\overline{P\_2P\_3}$.
+We are interested in the rectangle with the second biggest area. In the example above that happens to be the green rectangle defined with the diagonal $\overline{P_2P_3}$.
 
 Find the expected value of the area of the second biggest of the three rectangles. Give your answer rounded to 10 digits after the decimal point.
 
@@ -12197,10 +11999,10 @@ The game of Mahjong is played with tiles belonging to $s$ <span class="dfn">suit
 
 A <span class="dfn">winning hand</span> is a collection of $3t+2$ Tiles (where $t$ is a fixed integer) that can be arranged as $t$ <span class="dfn">Triples</span> and one <span class="dfn">Pair</span>, where:
 
-  - A <span class="dfn">Triple</span> is either a <span class="dfn">Chow</span> or a <span class="dfn">Pung</span>
-  - A <span class="dfn">Chow</span> is three tiles of the same suit and consecutive numbers
-  - A <span class="dfn">Pung</span> is three identical tiles (same suit and same number)
-  - A <span class="dfn">Pair</span> is two identical tiles (same suit and same number)
+- A <span class="dfn">Triple</span> is either a <span class="dfn">Chow</span> or a <span class="dfn">Pung</span>
+- A <span class="dfn">Chow</span> is three tiles of the same suit and consecutive numbers
+- A <span class="dfn">Pung</span> is three identical tiles (same suit and same number)
+- A <span class="dfn">Pair</span> is two identical tiles (same suit and same number)
 
 For example, here is a winning hand with $n=9$, $s=3$, $t=4$, consisting in this case of two Chows, two Pungs, and one Pair:
 
@@ -12220,20 +12022,20 @@ Note that sometimes the same collection of tiles can be represented as $t$ Tripl
 
 Let $w(n, s, t)$ be the number of distinct winning hands formed of $t$ Triples and one Pair, where there are $s$ suits available and tiles are numbered up to $n$.
 
-For example, with a single suit and tiles numbered up to $4$, we have $w(4, 1, 1) = 20$: there are $12$ winning hands consisting of a Pung and a Pair, and another $8$ containing a Chow and a Pair. You are also given that $w(9, 1, 4) = 13259$, $w(9, 3, 4) = 5237550$, and $w(1000, 1000, 5) \equiv 107662178 \pmod{1\,000\,000\,007}$.
+For example, with a single suit and tiles numbered up to $4$, we have $w(4, 1, 1) = 20$: there are $12$ winning hands consisting of a Pung and a Pair, and another $8$ containing a Chow and a Pair. You are also given that $w(9, 1, 4) = 13259$, $w(9, 3, 4) = 5237550$, and $w(1000, 1000, 5) \equiv 107662178 \pmod{1\000\000\007}$.
 
-Find $w(10^8, 10^8, 30)$. Give your answer modulo $1\,000\,000\,007$.
+Find $w(10^8, 10^8, 30)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 697
 
-Given a fixed real number $c$, define a random sequence $(X\_n)\_{n\ge 0}$ by the following random process:
+Given a fixed real number $c$, define a random sequence $(X_n)\_{n\ge 0}$ by the following random process:
 
-  - $X\_0 = c$ (with probability 1).
-  - For $n\>0$, $X\_n = U\_n X\_{n-1}$ where $U\_n$ is a real number chosen at random between zero and one, uniformly, and independently of all previous choices $(U\_m)\_{m\<n}$.
+- $X_0 = c$ (with probability 1).
+- For $n\>0$, $X_n = U_n X\_{n-1}$ where $U_n$ is a real number chosen at random between zero and one, uniformly, and independently of all previous choices $(U_m)\_{m\<n}$.
 
 If we desire there to be precisely a 25% probability that $X\_{100}\<1$, then this can be arranged by fixing $c$ such that $\log\_{10} c \approx 46.27$.
 
-Suppose now that $c$ is set to a different value, so that there is precisely a 25% probability that $X\_{10\,000\,000}\<1$.
+Suppose now that $c$ is set to a different value, so that there is precisely a 25% probability that $X\_{10\000\000}\<1$.
 
 Find $\log\_{10} c$ and give your answer rounded to two places after the decimal point.
 
@@ -12241,8 +12043,8 @@ Find $\log\_{10} c$ and give your answer rounded to two places after the decimal
 
 We define *123-numbers* as follows:
 
-  - 1 is the smallest 123-number.
-  - When written in base 10 the only digits that can be present are "1", "2" and "3" and if present the number of times they each occur is also a 123-number.
+- 1 is the smallest 123-number.
+- When written in base 10 the only digits that can be present are "1", "2" and "3" and if present the number of times they each occur is also a 123-number.
 
 So 2 is a 123-number, since it consists of one digit "2" and 1 is a 123-number. Therefore, 33 is a 123-number as well since it consists of two digits "3" and 2 is a 123-number.  
 On the other hand, 1111 is not a 123-number, since it contains 4 digits "1" and 4 is not a 123-number.
@@ -12252,7 +12054,7 @@ $1, 2, 3, 11, 12, 13, 21, 22, 23, 31, 32, 33, 111, 112, 113, 121, 122, 123, 131,
 
 Let $F(n)$ be the $n$-th 123-number. For example $F(4)=11$, $F(10)=31$, $F(40)=1112$, $F(1000)=1223321$ and $F(6000)= 2333333333323$.
 
-Find $F(111\,111\,111\,111\,222\,333)$. Give your answer modulo $123\,123\,123$.
+Find $F(111\111\111\111\222\333)$. Give your answer modulo $123\123\123$.
 
 # Problem 699
 
@@ -12304,7 +12106,7 @@ A regular hexagon table of side length $N$ is divided into equilateral triangles
 
 <div class="center">
 
-![hexagonal table](project/images/p702_jumping_flea.png)
+![hexagonal table](resources/images/0702_jumping_flea.png?1678992054)
 
 </div>
 
@@ -12322,21 +12124,21 @@ Find $S(123456789)$.
 
 # Problem 703
 
-Given an integer $n$, $n \geq 3$, let $B=\{\mathrm{false},\mathrm{true}\}$ and let $B^n$ be the set of sequences of $n$ values from $B$. The function $f$ from $B^n$ to $B^n$ is defined by $f(b\_1 \dots b\_n) = c\_1 \dots c\_n$ where:
+Given an integer $n$, $n \geq 3$, let $B=\\mathrm{false},\mathrm{true}\$ and let $B^n$ be the set of sequences of $n$ values from $B$. The function $f$ from $B^n$ to $B^n$ is defined by $f(b_1 \dots b_n) = c_1 \dots c_n$ where:
 
-  - $c\_i = b\_{i+1}$ for $1 \leq i \< n$.
-  - $c\_n = b\_1 \;\mathrm{AND}\; (b\_2 \;\mathrm{XOR}\; b\_3)$, where $\mathrm{AND}$ and $\mathrm{XOR}$ are the logical $\mathrm{AND}$ and exclusive $\mathrm{OR}$ operations.
+- $c_i = b\_{i+1}$ for $1 \leq i \< n$.
+- $c_n = b_1 \\mathrm{AND}\ (b_2 \\mathrm{XOR}\ b_3)$, where $\mathrm{AND}$ and $\mathrm{XOR}$ are the logical $\mathrm{AND}$ and exclusive $\mathrm{OR}$ operations.
 
-Let $S(n)$ be the number of functions $T$ from $B^n$ to $B$ such that for all $x$ in $B^n$, $T(x) \~\mathrm{AND}\~ T(f(x)) = \mathrm{false}$.
+Let $S(n)$ be the number of functions $T$ from $B^n$ to $B$ such that for all $x$ in $B^n$, $T(x) ~\mathrm{AND}~ T(f(x)) = \mathrm{false}$.
 You are given that $S(3) = 35$ and $S(4) = 2118$.
 
-Find $S(20)$. Give your answer modulo $1\,001\,001\,011$.
+Find $S(20)$. Give your answer modulo $1\001\001\011$.
 
 # Problem 704
 
 Define $g(n, m)$ to be the largest integer $k$ such that $2^k$ divides $\binom{n}m$.
 For example, $\binom{12}5 = 792 = 2^3 \cdot 3^2 \cdot 11$, hence $g(12, 5) = 3$.
-Then define $F(n) = \max \{ g(n, m) : 0 \le m \le n \}$. $F(10) = 3$ and $F(100) = 6$.
+Then define $F(n) = \max \ g(n, m) : 0 \le m \le n \$. $F(10) = 3$ and $F(100) = 6$.
 
 Let $S(N)$ = $\displaystyle\sum\_{n=1}^N{F(n)}$. You are given that $S(100) = 389$ and $S(10^7) = 203222840$.
 
@@ -12349,7 +12151,7 @@ For example, $34214$ has inversion count of $5$:
 $34214 \to 32414 \to 23414 \to 23144 \to 21344 \to12344$.
 
 If each digit of a sequence is replaced by one of its divisors a <span class="dfn">divided sequence</span> is obtained.  
-For example, the sequence $332$ has $8$ divided sequences: $\{332,331,312,311,132,131,112,111\}$.
+For example, the sequence $332$ has $8$ divided sequences: $\332,331,312,311,132,131,112,111\$.
 
 Define $G(N)$ to be the concatenation of all primes less than $N$, ignoring any zero digit.  
 For example, $G(20) = 235711131719$.
@@ -12357,7 +12159,7 @@ For example, $G(20) = 235711131719$.
 Define $F(N)$ to be the sum of the inversion count for all possible divided sequences from the master sequence $G(N)$.  
 You are given $F(20) = 3312$ and $F(50) = 338079744$.
 
-Find $F(10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $F(10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 706
 
@@ -12367,7 +12169,7 @@ If $f(n)$ is divisible by $3$ then we say that $n$ is <span class="dfn">$3$-like
 
 Define $F(d)$ to be how many $d$ digit numbers are $3$-like. For example, $F(2) = 30$ and $F(6) = 290898$.
 
-Find $F(10^5)$. Give your answer modulo $1\,000\,000\,007$.
+Find $F(10^5)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 707
 
@@ -12375,20 +12177,20 @@ Consider a $w\times h$ grid. A cell is either ON or OFF. When a cell is selected
 
 <div class="center">
 
-![LightsOut](project/images/p707_LightsOutPic.jpg)
+![LightsOut](resources/images/0707_LightsOutPic.jpg?1678992054)
 
 </div>
 
 The goal is to get every cell to be off simultaneously. This is not possible for all starting states. A state is solvable if, by a process of selecting cells, the goal can be achieved.
 
 Let $F(w,h)$ be the number of solvable states for a $w\times h$ grid.
-You are given $F(1,2)=2$, $F(3,3) = 512$, $F(4,4) = 4096$ and $F(7,11) \equiv 270016253 \pmod{1\,000\,000\,007}$.
+You are given $F(1,2)=2$, $F(3,3) = 512$, $F(4,4) = 4096$ and $F(7,11) \equiv 270016253 \pmod{1\000\000\007}$.
 
-Let $f\_1=f\_2 = 1$ and $f\_n=f\_{n-1}+f\_{n-2}, n \ge 3$ be the Fibonacci sequence and define
-$$ S(w,n) = \sum\_{k=1}^n F(w,f\_k)$$
-You are given $S(3,3) = 32$, $S(4,5) = 1052960$ and $S(5,7) \equiv 346547294 \pmod{1\,000\,000\,007}$.
+Let $f_1=f_2 = 1$ and $f_n=f\_{n-1}+f\_{n-2}, n \ge 3$ be the Fibonacci sequence and define
+$$ S(w,n) = \sum\_{k=1}^n F(w,f_k)$$
+You are given $S(3,3) = 32$, $S(4,5) = 1052960$ and $S(5,7) \equiv 346547294 \pmod{1\000\000\007}$.
 
-Find $S(199,199)$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(199,199)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 708
 
@@ -12406,17 +12208,17 @@ Every day for the past $n$ days Even Stevens brings home his groceries in a plas
 
 After 4 days there are 5 possible packings and if the bags are numbered 1 (oldest), 2, 3, 4, they are:
 
-  - Four empty bags,
-  - 1 and 2 inside 3, 4 empty,
-  - 1 and 3 inside 4, 2 empty,
-  - 1 and 2 inside 4, 3 empty,
-  - 2 and 3 inside 4, 1 empty.
+- Four empty bags,
+- 1 and 2 inside 3, 4 empty,
+- 1 and 3 inside 4, 2 empty,
+- 1 and 2 inside 4, 3 empty,
+- 2 and 3 inside 4, 1 empty.
 
 Note that 1, 2, 3 inside 4 is invalid because every bag must contain an even number of bags.
 
-Define $f(n)$ to be the number of possible packings of $n$ bags. Hence $f(4)=5$. You are also given $f(8)=1\,385$.
+Define $f(n)$ to be the number of possible packings of $n$ bags. Hence $f(4)=5$. You are also given $f(8)=1\385$.
 
-Find $f(24\,680)$ giving your answer modulo $1\,020\,202\,009$.
+Find $f(24\680)$ giving your answer modulo $1\020\202\009$.
 
 # Problem 710
 
@@ -12447,19 +12249,19 @@ The game ends when there are no valid moves left. Oscar wins if the number of $1
 Let $S(N)$ be the sum of all $n \le 2^N$ for which Eric can guarantee winning, assuming optimal play.
 
 For example, the first few values of $n$ for which Eric can guarantee winning are $1,3,4,7,15,16$. Hence $S(4)=46$.  
-You are also given that $S(12) = 54532$ and $S(1234) \equiv 690421393 \pmod{1\,000\,000\,007}$.
+You are also given that $S(12) = 54532$ and $S(1234) \equiv 690421393 \pmod{1\000\000\007}$.
 
-Find $S(12\,345\,678)$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(12\345\678)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 712
 
-For any integer $n\>0$ and prime number $p,$ define $\nu\_p(n)$ as the greatest integer $r$ such that $p^r$ divides $n$.
+For any integer $n\>0$ and prime number $p,$ define $\nu_p(n)$ as the greatest integer $r$ such that $p^r$ divides $n$.
 
-Define $$D(n, m) = \sum\_{p \text{ prime}} \left| \nu\_p(n) - \nu\_p(m)\right|.$$ For example, $D(14,24) = 4$.
+Define $$D(n, m) = \sum\_{p \text{ prime}} \left\| \nu_p(n) - \nu_p(m)\right\|.$$ For example, $D(14,24) = 4$.
 
 Furthermore, define $$S(N) = \sum\_{1 \le n, m \le N} D(n, m).$$ You are given $S(10) = 210$ and $S(10^2) = 37018$.
 
-Find $S(10^{12})$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(10^{12})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 713
 
@@ -12481,23 +12283,23 @@ We call a natural number a <span class="dfn">duodigit</span> if its decimal repr
 For example, $12$, $110$ and $33333$ are duodigits, while $102$ is not.  
 It can be shown that every natural number has duodigit multiples. Let $d(n)$ be the smallest (positive) multiple of the number $n$ that happens to be a duodigit. For example, $d(12)=12$, $d(102)=1122$, $d(103)=515$, $d(290)=11011010$ and $d(317)=211122$.
 
-Let $\displaystyle D(k)=\sum\_{n=1}^k d(n)$. You are given $D(110)=11\,047$, $D(150)=53\,312$ and $D(500)=29\,570\,988$.
+Let $\displaystyle D(k)=\sum\_{n=1}^k d(n)$. You are given $D(110)=11\047$, $D(150)=53\312$ and $D(500)=29\570\988$.
 
-Find $D(50\,000)$. Give your answer in scientific notation rounded to $13$ significant digits ($12$ after the decimal point). If, for example, we had asked for $D(500)$ instead, the answer format would have been 2.957098800000e7.
+Find $D(50\000)$. Give your answer in scientific notation rounded to $13$ significant digits ($12$ after the decimal point). If, for example, we had asked for $D(500)$ instead, the answer format would have been 2.957098800000e7.
 
 # Problem 715
 
-Let $f(n)$ be the number of $6$-tuples $(x\_1,x\_2,x\_3,x\_4,x\_5,x\_6)$ such that:
+Let $f(n)$ be the number of $6$-tuples $(x_1,x_2,x_3,x_4,x_5,x_6)$ such that:
 
-  - All $x\_i$ are integers with $0 \leq x\_i \< n$
-  - $\gcd(x\_1^2+x\_2^2+x\_3^2+x\_4^2+x\_5^2+x\_6^2,\ n^2)=1$
+- All $x_i$ are integers with $0 \leq x_i \< n$
+- $\gcd(x_1^2+x_2^2+x_3^2+x_4^2+x_5^2+x_6^2,\ n^2)=1$
 
 Let $\displaystyle G(n)=\displaystyle\sum\_{k=1}^n \frac{f(k)}{k^2\varphi(k)}$  
 where $\varphi(n)$ is Euler's totient function.
 
-For example, $G(10)=3053$ and $G(10^5) \equiv 157612967 \pmod{1\,000\,000\,007}$.
+For example, $G(10)=3053$ and $G(10^5) \equiv 157612967 \pmod{1\000\000\007}$.
 
-Find $G(10^{12})\bmod 1\,000\,000\,007$.
+Find $G(10^{12})\bmod 1\000\000\007$.
 
 # Problem 716
 
@@ -12509,8 +12311,8 @@ Two nodes, $A$ and $B$ in a directed graph, are **strongly connected** if there 
 
 A **strongly connected component** in a directed graph is a non-empty set $M$ of nodes satisfying the following two properties:
 
-  - All nodes in $M$ are strongly connected to each other.
-  - $M$ is maximal, in the sense that no node in $M$ is strongly connected to any node outside of $M$.
+- All nodes in $M$ are strongly connected to each other.
+- $M$ is maximal, in the sense that no node in $M$ is strongly connected to any node outside of $M$.
 
 There are $2^H\times 2^W$ ways of drawing the directed lines. Each way gives a directed graph $\mathcal{G}$. We define $S(\mathcal{G})$ to be the number of strongly connected components in $\mathcal{G}$.
 
@@ -12518,13 +12320,13 @@ The illustration below shows a directed graph with $H=3$ and $W=4$ that consists
 
 <div class="center">
 
-![](resources/images/0716_gridgraphics.jpg?1678992054)
+<img src="resources/images/0716_gridgraphics.jpg?1678992054" class="dark_img" />
 
 </div>
 
-Define $C(H,W)$ to be the sum of $S(\mathcal{G})$ for all possible graphs on a grid of $H\times W$. You are given $C(3,3) = 408$, $C(3,6) = 4696$ and $C(10,20) \equiv 988971143 \pmod{1\,000\,000\,007}$.
+Define $C(H,W)$ to be the sum of $S(\mathcal{G})$ for all possible graphs on a grid of $H\times W$. You are given $C(3,3) = 408$, $C(3,6) = 4696$ and $C(10,20) \equiv 988971143 \pmod{1\000\000\007}$.
 
-Find $C(10\,000,20\,000)$ giving your answer modulo $1\,000\,000\,007$.
+Find $C(10\000,20\000)$ giving your answer modulo $1\000\000\007$.
 
 # Problem 717
 
@@ -12548,7 +12350,7 @@ For a given $p$ there are some values of $n \> 0$ for which the equation cannot 
 
 Define $G(p)$ to be the sum of all unreachable values of $n$ for the given value of $p$. For example $G(1) = 8253$ and $G(2)= 60258000$.
 
-Find $G(6)$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(6)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 719
 
@@ -12565,19 +12367,19 @@ Find $T(10^{12})$.
 
 # Problem 720
 
-Consider all permutations of $\{1, 2, \ldots N\}$, listed in lexicographic order.  
+Consider all permutations of $\1, 2, \ldots N\$, listed in lexicographic order.  
 For example, for $N=4$, the list starts as follows:
 
 <div>
 
 $$\displaylines{
-(1, 2, 3, 4) \\
-(1, 2, 4, 3) \\
-(1, 3, 2, 4) \\
-(1, 3, 4, 2) \\
-(1, 4, 2, 3) \\
-(1, 4, 3, 2) \\
-(2, 1, 3, 4) \\
+(1, 2, 3, 4) \
+(1, 2, 4, 3) \
+(1, 3, 2, 4) \
+(1, 3, 4, 2) \
+(1, 4, 2, 3) \
+(1, 4, 3, 2) \
+(2, 1, 3, 4) \
 \vdots
 }$$
 
@@ -12589,9 +12391,9 @@ For example, $P=(3, 4, 2, 1)$ is *not* unpredictable because $P(1), P(3), P(4)$ 
 Let $S(N)$ be the position within the list of the first unpredictable permutation.
 
 For example, given $N = 4$, the first unpredictable permutation is $(1, 3, 2, 4)$ so $S(4) = 3$.  
-You are also given that $S(8) = 2295$ and $S(32) \equiv 641839205 \pmod{1\,000\,000\,007}$.
+You are also given that $S(8) = 2295$ and $S(32) \equiv 641839205 \pmod{1\000\000\007}$.
 
-Find $S(2^{25})$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(2^{25})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 721
 
@@ -12600,23 +12402,23 @@ $\lfloor \cdot \rfloor$ denotes the floor function and $\lceil \cdot \rceil$ den
 $f(5,2)=27$ and $f(5,5)=3935$.
 
 $G(n) = \displaystyle \sum\_{a=1}^n f(a, a^2).$  
-$G(1000) \bmod 999\,999\,937=163861845. $  
-Find $G(5\,000\,000).$ Give your answer modulo $999\,999\,937$.
+$G(1000) \bmod 999\999\937=163861845. $  
+Find $G(5\000\000).$ Give your answer modulo $999\999\937$.
 
 # Problem 722
 
 For a non-negative integer $k$, define
-\\[
-E\_k(q) = \sum\limits\_{n = 1}^\infty \sigma\_k(n)q^n
-\\]
-where $\sigma\_k(n) = \sum\_{d \mid n} d^k$ is the sum of the $k$-th powers of the positive divisors of $n$.
+$$
+E_k(q) = \sum\limits\_{n = 1}^\infty \sigma_k(n)q^n
+$$
+where $\sigma_k(n) = \sum\_{d \mid n} d^k$ is the sum of the $k$-th powers of the positive divisors of $n$.
 
-It can be shown that, for every $k$, the series $E\_k(q)$ converges for any $0 \< q \< 1$.
+It can be shown that, for every $k$, the series $E_k(q)$ converges for any $0 \< q \< 1$.
 
 For example,  
-$E\_1(1 - \frac{1}{2^4}) = 3.872155809243\mathrm e2$  
-$E\_3(1 - \frac{1}{2^8}) = 2.767385314772\mathrm e10$  
-$E\_7(1 - \frac{1}{2^{15}}) = 6.725803486744\mathrm e39$  
+$E_1(1 - \frac{1}{2^4}) = 3.872155809243\mathrm e2$  
+$E_3(1 - \frac{1}{2^8}) = 2.767385314772\mathrm e10$  
+$E_7(1 - \frac{1}{2^{15}}) = 6.725803486744\mathrm e39$  
 All the above values are given in scientific notation rounded to twelve digits after the decimal point.
 
 Find the value of $E\_{15}(1 - \frac{1}{2^{25}})$.  
@@ -12625,9 +12427,9 @@ Give the answer in scientific notation rounded to twelve digits after the decima
 # Problem 723
 
 A pythagorean triangle with catheti $a$ and $b$ and hypotenuse $c$ is characterized by the well-known equation $a^2+b^2=c^2$. However, this can also be formulated differently:  
-When inscribed into a circle with radius $r$, a triangle with sides $a$, $b$ and $c$ is pythagorean, if and only if $a^2+b^2+c^2=8\, r^2$.
+When inscribed into a circle with radius $r$, a triangle with sides $a$, $b$ and $c$ is pythagorean, if and only if $a^2+b^2+c^2=8\ r^2$.
 
-Analogously, we call a quadrilateral $ABCD$ with sides $a$, $b$, $c$ and $d$, inscribed in a circle with radius $r$, a *pythagorean quadrilateral*, if $a^2+b^2+c^2+d^2=8\, r^2$.  
+Analogously, we call a quadrilateral $ABCD$ with sides $a$, $b$, $c$ and $d$, inscribed in a circle with radius $r$, a *pythagorean quadrilateral*, if $a^2+b^2+c^2+d^2=8\ r^2$.  
 We further call a pythagorean quadrilateral a <span class="dfn">pythagorean lattice grid quadrilateral</span>, if all four vertices are lattice grid points with the same distance $r$ from the origin $O$ (which then happens to be the centre of the circumcircle).
 
 Let $f(r)$ be the number of different pythagorean lattice grid quadrilaterals for which the radius of the circumcircle is $r$. For example $f(1)=1$, $f(\sqrt 2)=1$, $f(\sqrt 5)=38$ and $f(5)=167$.  
@@ -12635,7 +12437,7 @@ Two of the pythagorean lattice grid quadrilaterals with $r=\sqrt 5$ are illustra
 
 <div class="center">
 
-![PythagoreanQ\_1](resources/images/0723_1.png?1678992054)
+![PythagoreanQ_1](resources/images/0723_1.png?1678992054)
 
 </div>
 
@@ -12643,7 +12445,7 @@ Two of the pythagorean lattice grid quadrilaterals with $r=\sqrt 5$ are illustra
 
 <div class="center">
 
-![PythagoreanQ\_2](resources/images/0723_2.png?1678992054)
+![PythagoreanQ_2](resources/images/0723_2.png?1678992054)
 
 </div>
 
@@ -12657,8 +12459,8 @@ A depot uses $n$ drones to disperse packages containing essential supplies along
 Initially all drones are stationary, loaded with a supply package.  
 Every second, the depot selects a drone at random and sends it this instruction:
 
-  - If you are stationary, start moving at one centimetre per second along the road.
-  - If you are moving, increase your speed by one centimetre per second along the road without changing direction.
+- If you are stationary, start moving at one centimetre per second along the road.
+- If you are moving, increase your speed by one centimetre per second along the road without changing direction.
 
 The road is wide enough that drones can overtake one another without risk of collision.
 
@@ -12685,15 +12487,15 @@ Consider a stack of bottles of wine. There are $n$ layers in the stack with the 
 
 <div class="center">
 
-![](resources/images/0726_FallingBottles.jpg?1678992055)
+<img src="resources/images/0726_FallingBottles.jpg?1678992055" class="dark_img" />
 
 </div>
 
 The <span class="dfn">collapsing process</span> happens every time a bottle is taken. A space is created in the stack and that space is filled according to the following recursive steps:
 
-  - No bottle touching from above: nothing happens. For example, taking $F$.
-  - One bottle touching from above: that will drop down to fill the space creating another space. For example, taking $D$.
-  - Two bottles touching from above: one will drop down to fill the space creating another space. For example, taking $C$.
+- No bottle touching from above: nothing happens. For example, taking $F$.
+- One bottle touching from above: that will drop down to fill the space creating another space. For example, taking $D$.
+- Two bottles touching from above: one will drop down to fill the space creating another space. For example, taking $C$.
 
 This process happens recursively; for example, taking bottle $A$ in the diagram above. Its place can be filled with either $B$ or $C$. If it is filled with $C$ then the space that $C$ creates can be filled with $D$ or $E$. So there are 3 different collapsing processes that can happen if $A$ is taken, although the final shape (in this case) is the same.
 
@@ -12705,21 +12507,21 @@ You are given $f(1) = 1$, $f(2) = 6$ and $f(3) = 1008$.
 Also define
 $$S(n) = \sum\_{k=1}^n f(k).$$
 
-Find $S(10^4)$ and give your answer modulo $1\,000\,000\,033$.
+Find $S(10^4)$ and give your answer modulo $1\000\000\033$.
 
 # Problem 727
 
-Let $r\_a$, $r\_b$ and $r\_c$ be the radii of three circles that are mutually and externally tangent to each other. The three circles then form a <span class="dfn">triangle of circular arcs</span> between their tangency points as shown for the three blue circles in the picture below.
+Let $r_a$, $r_b$ and $r_c$ be the radii of three circles that are mutually and externally tangent to each other. The three circles then form a <span class="dfn">triangle of circular arcs</span> between their tangency points as shown for the three blue circles in the picture below.
 
 <div class="center">
 
-![CircularArcs](project/images/p727_circular_arcs.jpg)
+![CircularArcs](resources/images/0727_circular_arcs.jpg?1678992055)
 
 </div>
 
 Define the circumcircle of this triangle to be the red circle, with centre $D$, passing through their tangency points. Further define the incircle of this triangle to be the green circle, with centre $E$, that is mutually and externally tangent to all the three blue circles. Let $d=\vert DE \vert$ be the distance between the centres of the circumcircle and the incircle.
 
-Let $\mathbb{E}(d)$ be the expected value of $d$ when $r\_a$, $r\_b$ and $r\_c$ are integers chosen uniformly such that $1\leq r\_a\<r\_b\<r\_c \leq 100$ and $\text{gcd}(r\_a,r\_b,r\_c)=1$.
+Let $\mathbb{E}(d)$ be the expected value of $d$ when $r_a$, $r_b$ and $r_c$ are integers chosen uniformly such that $1\leq r_a\<r_b\<r_c \leq 100$ and $\text{gcd}(r_a,r_b,r_c)=1$.
 
 Find $\mathbb{E}(d)$, rounded to eight places after the decimal point.
 
@@ -12731,7 +12533,7 @@ Consider the example, shown below, where $n=8$ and $k=3$ and the initial state i
 
 <div class="center">
 
-![](resources/images/0728_coin_circle.jpg?1678992055)
+<img src="resources/images/0728_coin_circle.jpg?1678992055" class="dark_img" />
 
 </div>
 
@@ -12740,22 +12542,22 @@ For given values of $n$ and $k$ not all states are solvable. Let $F(n,k)$ be the
 Further define:
 $$S(N) = \sum\_{n=1}^N\sum\_{k=1}^n F(n,k).$$
 
-You are also given that $S(3) = 22$, $S(10) = 10444$ and $S(10^3) \equiv 853837042 \pmod{1\,000\,000\,007}$
+You are also given that $S(3) = 22$, $S(10) = 10444$ and $S(10^3) \equiv 853837042 \pmod{1\000\000\007}$
 
-Find $S(10^7)$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(10^7)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 729
 
-Consider the sequence of real numbers $a\_n$ defined by the starting value $a\_0$ and the recurrence
-$\displaystyle a\_{n+1}=a\_n-\frac 1 {a\_n}$ for any $n \ge 0$.
+Consider the sequence of real numbers $a_n$ defined by the starting value $a_0$ and the recurrence
+$\displaystyle a\_{n+1}=a_n-\frac 1 {a_n}$ for any $n \ge 0$.
 
-For some starting values $a\_0$ the sequence will be periodic. For example, $a\_0=\sqrt{\frac 1 2}$ yields the sequence:
+For some starting values $a_0$ the sequence will be periodic. For example, $a_0=\sqrt{\frac 1 2}$ yields the sequence:
 $\sqrt{\frac 1 2},-\sqrt{\frac 1 2},\sqrt{\frac 1 2}, \dots$
 
 We are interested in the range of such a periodic sequence which is the difference between the maximum and minimum of the sequence. For example, the range of the sequence above would be $\sqrt{\frac 1 2}-(-\sqrt{\frac 1 2})=\sqrt{ 2}$.
 
 Let $S(P)$ be the sum of the ranges of all such periodic sequences with a period not exceeding $P$.  
-For example, $S(2)=2\sqrt{2} \approx 2.8284$, being the sum of the ranges of the two sequences starting with $a\_0=\sqrt{\frac 1 2}$ and $a\_0=-\sqrt{\frac 1 2}$.  
+For example, $S(2)=2\sqrt{2} \approx 2.8284$, being the sum of the ranges of the two sequences starting with $a_0=\sqrt{\frac 1 2}$ and $a_0=-\sqrt{\frac 1 2}$.  
 You are given $S(3) \approx 14.6461$ and $S(5) \approx 124.1056$.
 
 Find $S(25)$, rounded to $4$ decimal places.
@@ -12766,11 +12568,11 @@ For a non-negative integer $k$, the triple $(p,q,r)$ of positive integers is cal
 
 $(p, q, r)$ is said to be primitive if $\gcd(p, q, r)=1$.
 
-Let $P\_k(n)$ be the number of primitive $k$-shifted Pythagorean triples such that $1 \le p \le q \le r$ and $p + q + r \le n$.  
-For example, $P\_0(10^4) = 703$ and $P\_{20}(10^4) = 1979$.
+Let $P_k(n)$ be the number of primitive $k$-shifted Pythagorean triples such that $1 \le p \le q \le r$ and $p + q + r \le n$.  
+For example, $P_0(10^4) = 703$ and $P\_{20}(10^4) = 1979$.
 
 Define
-$$\displaystyle S(m,n)=\sum\_{k=0}^{m}P\_k(n).$$
+$$\displaystyle S(m,n)=\sum\_{k=0}^{m}P_k(n).$$
 You are given that $S(10,10^4) = 10956$.
 
 Find $S(10^2,10^8)$.
@@ -12786,22 +12588,22 @@ Find $A(10^{16})$.
 
 # Problem 732
 
-$N$ trolls are in a hole that is $D\_N$ cm deep. The $n$-th troll is characterized by:
+$N$ trolls are in a hole that is $D_N$ cm deep. The $n$-th troll is characterized by:
 
-  - the distance from his feet to his shoulders in cm, $h\_n$
-  - the length of his arms in cm, $l\_n$
-  - his IQ (Irascibility Quotient), $q\_n$.
+- the distance from his feet to his shoulders in cm, $h_n$
+- the length of his arms in cm, $l_n$
+- his IQ (Irascibility Quotient), $q_n$.
 
 Trolls can pile up on top of each other, with each troll standing on the shoulders of the one below him. A troll can climb out of the hole and escape if his hands can reach to the surface. Once a troll escapes he cannot participate any further in the escaping effort.
 
 The trolls execute an optimal strategy for maximizing the total IQ of the escaping trolls, defined as $Q(N)$.
 
 Let  
-$r\_n = \left\[ \left( 5^n \bmod (10^9 + 7) \right) \bmod 101 \right\] + 50$  
-$h\_n = r\_{3n}$  
-$l\_n = r\_{3n+1}$  
-$q\_n = r\_{3n+2}$  
-$D\_N = \frac{1}{\sqrt{2}} \sum\_{n=0}^{N-1} h\_n$.
+$r_n = \left\[ \left( 5^n \bmod (10^9 + 7) \right) \bmod 101 \right\] + 50$  
+$h_n = r\_{3n}$  
+$l_n = r\_{3n+1}$  
+$q_n = r\_{3n+2}$  
+$D_N = \frac{1}{\sqrt{2}} \sum\_{n=0}^{N-1} h_n$.
 
 For example, the first troll ($n=0$) is 51cm tall to his shoulders, has 55cm long arms, and has an IQ of 75.
 
@@ -12811,8 +12613,8 @@ Find $Q(1000)$.
 
 # Problem 733
 
-Let $a\_i$ be the sequence defined by $a\_i=153^i \bmod 10\,000\,019$ for $i \ge 1$.  
-The first terms of $a\_i$ are:
+Let $a_i$ be the sequence defined by $a_i=153^i \bmod 10\000\019$ for $i \ge 1$.  
+The first terms of $a_i$ are:
 $153, 23409, 3581577, 7980255, 976697, 9434375, \dots$
 
 Consider the subsequences consisting of $4$ terms in ascending order. For the part of the sequence shown above, these are:  
@@ -12823,28 +12625,28 @@ $153, 23409, 976697, 9434375$
 $153, 3581577, 7980255, 9434375$ and  
 $23409, 3581577, 7980255, 9434375$.
 
-Define $S(n)$ to be the sum of the terms for all such subsequences within the first $n$ terms of $a\_i$. Thus $S(6)=94513710$.  
+Define $S(n)$ to be the sum of the terms for all such subsequences within the first $n$ terms of $a_i$. Thus $S(6)=94513710$.  
 You are given that $S(100)=4465488724217$.
 
-Find $S(10^6)$ modulo $1\,000\,000\,007$.
+Find $S(10^6)$ modulo $1\000\000\007$.
 
 # Problem 734
 
 The **logical-OR** of two bits is $0$ if both bits are $0$, otherwise it is $1$.  
 The **bitwise-OR** of two positive integers performs a logical-OR operation on each pair of corresponding bits in the binary expansion of its inputs.
 
-For example, the bitwise-OR of $10$ and $6$ is $14$ because $10 = 1010\_2$, $6 = 0110\_2$ and $14 = 1110\_2$.
+For example, the bitwise-OR of $10$ and $6$ is $14$ because $10 = 1010_2$, $6 = 0110_2$ and $14 = 1110_2$.
 
-Let $T(n, k)$ be the number of $k$-tuples $(x\_1, x\_2,\cdots,x\_k)$ such that
+Let $T(n, k)$ be the number of $k$-tuples $(x_1, x_2,\cdots,x_k)$ such that
 
-  - every $x\_i$ is a prime $\leq n$
-  - the bitwise-OR of the tuple is a prime $\leq n$
+- every $x_i$ is a prime $\leq n$
+- the bitwise-OR of the tuple is a prime $\leq n$
 
 For example, $T(5, 2)=5$. The five $2$-tuples are $(2, 2)$, $(2, 3)$, $(3, 2)$, $(3, 3)$ and $(5, 5)$.
 
-You are given $T(100, 3) = 3355$ and $T(1000, 10) \equiv 2071632 \pmod{1\,000\,000\,007}$.
+You are given $T(100, 3) = 3355$ and $T(1000, 10) \equiv 2071632 \pmod{1\000\000\007}$.
 
-Find $T(10^6,999983)$. Give your answer modulo $1\,000\,000\,007$.
+Find $T(10^6,999983)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 735
 
@@ -12862,14 +12664,14 @@ $r(x,y) = (x+1,2y)$
 
 $s(x,y) = (2x,y+1)$
 
-A *path to equality* of length $n$ for a pair $(a,b)$ is a sequence $\Big((a\_1,b\_1),(a\_2,b\_2),\ldots,(a\_n,b\_n)\Big)$, where:
+A *path to equality* of length $n$ for a pair $(a,b)$ is a sequence $\Big((a_1,b_1),(a_2,b_2),\ldots,(a_n,b_n)\Big)$, where:
 
-  - $(a\_1,b\_1) = (a,b)$
-  - $(a\_k,b\_k) = r(a\_{k-1},b\_{k-1})$ or $(a\_k,b\_k) = s(a\_{k-1},b\_{k-1})$ for $k \> 1$
-  - $a\_k \ne b\_k$ for $k \< n$
-  - $a\_n = b\_n$
+- $(a_1,b_1) = (a,b)$
+- $(a_k,b_k) = r(a\_{k-1},b\_{k-1})$ or $(a_k,b_k) = s(a\_{k-1},b\_{k-1})$ for $k \> 1$
+- $a_k \ne b_k$ for $k \< n$
+- $a_n = b_n$
 
-$a\_n = b\_n$ is called the *final value*.
+$a_n = b_n$ is called the *final value*.
 
 For example,
 
@@ -12894,11 +12696,11 @@ The diagram below \[not to scale\] shows a possible placement of 8 coins where p
 
 <div style="text-align:center;">
 
-![](project/images/p737_coinloop.jpg)
+<img src="resources/images/0737_coinloop.jpg?1678992055" class="dark_img" />
 
 </div>
 
-It is found that a minimum of $31$ coins are needed to form a *coin loop* around the line, i.e. if in the projection of the coins on the table the centre of the $n$th coin is rotated $\theta\_n$, about the line, from the centre of the $(n-1)$th coin then the sum of $\displaystyle\sum\_{k=2}^n \theta\_k$ is first larger than $360^\circ$ when $n=31$. In general, to loop $k$ times, $n$ is the smallest number for which the sum is greater than $360^\circ k$.
+It is found that a minimum of $31$ coins are needed to form a *coin loop* around the line, i.e. if in the projection of the coins on the table the centre of the $n$th coin is rotated $\theta_n$, about the line, from the centre of the $(n-1)$th coin then the sum of $\displaystyle\sum\_{k=2}^n \theta_k$ is first larger than $360^\circ$ when $n=31$. In general, to loop $k$ times, $n$ is the smallest number for which the sum is greater than $360^\circ k$.
 
 Also, $154$ coins are needed to loop two times around the line, and $6947$ coins to loop ten times.
 
@@ -12908,15 +12710,15 @@ Calculate the number of coins needed to loop $2020$ times around the line.
 
 Define $d(n,k)$ to be the number of ways to write $n$ as a product of $k$ ordered integers
 
-\\[
-n = x\_1\times x\_2\times x\_3\times \ldots\times x\_k\qquad 1\le x\_1\le x\_2\le\ldots\le x\_k
-\\]
+$$
+n = x_1\times x_2\times x_3\times \ldots\times x_k\qquad 1\le x_1\le x_2\le\ldots\le x_k
+$$
 
 Further define $D(N,K)$ to be the sum of $d(n,k)$ for $1\le n\le N$ and $1\le k\le K$.
 
 You are given that $D(10, 10) = 153$ and $D(100, 100) = 35384$.
 
-Find $D(10^{10},10^{10})$ giving your answer modulo $1\,000\,000\,007$.
+Find $D(10^{10},10^{10})$ giving your answer modulo $1\000\000\007$.
 
 # Problem 739
 
@@ -12926,14 +12728,14 @@ Consider the example where we start with a sequence of length 8:
 
 $
 \begin{array}{rrrrrrrr}
-1&1&1&1&1&1&1&1\\
-&1&2&3&4&5& 6 &7\\
-& &2&5&9&14&20&27\\
-& & &5&14&28&48&75\\
-& & & &14&42&90&165\\
-& & & & & 42 & 132 & 297\\
-& & & & & & 132 &429\\
-& & & & & & &429\\
+1&1&1&1&1&1&1&1\
+&1&2&3&4&5& 6 &7\
+& &2&5&9&14&20&27\
+& & &5&14&28&48&75\
+& & & &14&42&90&165\
+& & & & & 42 & 132 & 297\
+& & & & & & 132 &429\
+& & & & & & &429\
 \end{array}
 $
 
@@ -12942,9 +12744,9 @@ Then the final number is $429$, so $f(8) = 429$.
 For this problem we start with the sequence $1,3,4,7,11,18,29,47,\ldots$  
 This is the Lucas sequence where two terms are added to get the next term.  
 Applying the same process as above we get $f(8) = 2663$.  
-You are also given $f(20) = 742296999 $ modulo $1\,000\,000\,007$
+You are also given $f(20) = 742296999 $ modulo $1\000\000\007$
 
-Find $f(10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $f(10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 740
 
@@ -12964,21 +12766,21 @@ For example, $f(4)=90$, $f(7) = 3110940$ and $f(8) = 187530840$.
 Let $g(n)$ be the number of colourings in $f(n)$ that are unique up to rotations and reflections.  
 You are given $g(4)=20$, $g(7) = 390816$ and $g(8) = 23462347$ giving $g(7)+g(8) = 23853163$.
 
-Find $g(7^7) + g(8^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $g(7^7) + g(8^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 742
 
 A <span class="dfn">symmetrical convex grid polygon</span> is a polygon such that:
 
-  - All its vertices have integer coordinates.
-  - All its internal angles are strictly smaller than $180^\circ$.
-  - It has both horizontal and vertical symmetry.
+- All its vertices have integer coordinates.
+- All its internal angles are strictly smaller than $180^\circ$.
+- It has both horizontal and vertical symmetry.
 
 For example, the left polygon is a convex grid polygon which has neither horizontal nor vertical symmetry, while the right one is a valid symmetrical convex grid polygon with six vertices:
 
 <div style="text-align:center;">
 
-![](resources/images/0742_hexagons.jpg?1678992055)
+<img src="resources/images/0742_hexagons.jpg?1678992055" class="dark_img" />
 
 </div>
 
@@ -12997,7 +12799,7 @@ Let $A(k,n)$ be the total number of these matrices such that the sum of the entr
 
 You are given that $A(3,9) = 560$ and $A(4,20) = 1060870$.
 
-Find $A(10^8,10^{16})$. Give your answer modulo $1\,000\,000\,007$.
+Find $A(10^8,10^{16})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 744
 
@@ -13026,7 +12828,7 @@ $$\displaystyle S(N) = \sum\_{n=1}^N g(n)$$
 
 For example, $S(10) = 24$ and $S(100) = 767$.
 
-Find $S(10^{14})$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(10^{14})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 746
 
@@ -13034,13 +12836,13 @@ $n$ families, each with four members, a father, a mother, a son and a daughter, 
 
 Let $M(n)$ be the number of ways the families can be seated such that none of the families were seated together. A family is considered to be seated together only when all the members of a family sit next to each other.
 
-For example, $M(1)=0$, $M(2)=896$, $M(3)=890880$ and $M(10) \equiv 170717180 \pmod {1\,000\,000\,007}$.
+For example, $M(1)=0$, $M(2)=896$, $M(3)=890880$ and $M(10) \equiv 170717180 \pmod {1\000\000\007}$.
 
 Let $S(n)=\displaystyle \sum\_{k=2}^nM(k)$.
 
-For example, $S(10) \equiv 399291975 \pmod {1\,000\,000\,007}$.
+For example, $S(10) \equiv 399291975 \pmod {1\000\000\007}$.
 
-Find $S(2021)$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(2021)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 747
 
@@ -13051,7 +12853,7 @@ For example, $\psi(3)=7$.
 
 <div style="text-align:center;">
 
-![](project/images/p747_PizzaDiag.jpg)
+<img src="resources/images/0747_PizzaDiag.jpg?1678992055" class="dark_img" />
 
 </div>
 
@@ -13059,14 +12861,14 @@ Also $\psi(6)=34$, and $\psi(10)=90$.
 
 Let $\Psi(m)=\displaystyle\sum\_{n=3}^m \psi(n)$. You are given $\Psi(10)=345$ and $\Psi(1000)=172166601$.
 
-Find $\Psi(10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $\Psi(10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 748
 
 Upside Down is a modification of the famous Pythagorean equation:
-\begin{align}
+$$\begin{align}
 \frac{1}{x^2}+\frac{1}{y^2}=\frac{13}{z^2}.
-\end{align}
+\end{align}$$
 
 A solution $(x,y,z)$ to this equation with $x,y$ and $z$ positive integers is a primitive solution if $\gcd(x,y,z)=1$.
 
@@ -13092,7 +12894,7 @@ A stack of cards can be moved by dragging horizontally with the mouse to another
 
 <div style="text-align:center;">
 
-![](project/images/p750_optimal_card_stacking.png)
+<img src="resources/images/0750_optimal_card_stacking.png?1678992054" class="dark_img" />
 
 </div>
 
@@ -13110,23 +12912,23 @@ Note: $G(N)$ is not defined for all values of $N$.
 
 # Problem 751
 
-A non-decreasing sequence of integers $a\_n$ can be generated from any positive real value $\theta$ by the following procedure:
-\begin{align}
+A non-decreasing sequence of integers $a_n$ can be generated from any positive real value $\theta$ by the following procedure:
+$$\begin{align}
 \begin{split}
-b\_1 &= \theta \\
-b\_n &= \left\lfloor b\_{n-1} \right\rfloor \left(b\_{n-1} - \left\lfloor b\_{n-1} \right\rfloor + 1\right)\~\~\~\forall \~ n \geq 2 \\
-a\_n &= \left\lfloor b\_{n} \right\rfloor
+b_1 &= \theta \
+b_n &= \left\lfloor b\_{n-1} \right\rfloor \left(b\_{n-1} - \left\lfloor b\_{n-1} \right\rfloor + 1\right)\~\~~\forall ~ n \geq 2 \
+a_n &= \left\lfloor b\_{n} \right\rfloor
 \end{split}
-\end{align}
+\end{align}$$
 Where $\left\lfloor \cdot \right\rfloor$ is the floor function.
 
 For example, $\theta=2.956938891377988...$ generates the Fibonacci sequence: $2, 3, 5, 8, 13, 21, 34, 55, 89, ...$
 
-The *concatenation* of a sequence of positive integers $a\_n$ is a real value denoted $\tau$ constructed by concatenating the elements of the sequence after the decimal point, starting at $a\_1$: $a\_1.a\_2a\_3a\_4...$
+The *concatenation* of a sequence of positive integers $a_n$ is a real value denoted $\tau$ constructed by concatenating the elements of the sequence after the decimal point, starting at $a_1$: $a_1.a_2a_3a_4...$
 
 For example, the Fibonacci sequence constructed from $\theta=2.956938891377988...$ yields the concatenation $\tau=2.3581321345589...$ Clearly, $\tau \neq \theta$ for this value of $\theta$.
 
-Find the only value of $\theta$ for which the generated sequence starts at $a\_1=2$ and the concatenation of the generated sequence equals the original value: $\tau = \theta$. Give your answer rounded to $24$ places after the decimal point.
+Find the only value of $\theta$ for which the generated sequence starts at $a_1=2$ and the concatenation of the generated sequence equals the original value: $\tau = \theta$. Give your answer rounded to $24$ places after the decimal point.
 
 # Problem 752
 
@@ -13135,7 +12937,7 @@ We write $(1+\sqrt 7)^n = \alpha(n) + \beta(n)\sqrt 7$.
 
 For a given number $x$ we define $g(x)$ to be the smallest positive integer $n$ such that:
 $$\begin{align}
-\alpha(n) &\equiv 1 \pmod x\qquad \text{and }\\
+\alpha(n) &\equiv 1 \pmod x\qquad \text{and }\
 \beta(n) &\equiv 0 \pmod x\end{align}
 $$
 and $g(x) = 0$ if there is no such value of $n$. For example, $g(3) = 0$, $g(5) = 12$.
@@ -13159,7 +12961,7 @@ For a prime $p$, we define $F(p)$ as the number of integer solutions to this equ
 
 You are given $F(5) = 12$ and $F(7) = 0$.
 
-Find the sum of $F(p)$ over all primes $p$ less than $6\,000\,000$.
+Find the sum of $F(p)$ over all primes $p$ less than $6\000\000$.
 
 # Problem 754
 
@@ -13170,11 +12972,11 @@ $$\displaystyle G(n) = \prod\_{i=1}^{n}g(i)$$
 
 You are given $G(10) = 23044331520000$.
 
-Find $G(10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 755
 
-Consider the Fibonacci sequence $\{1,2,3,5,8,13,21,\ldots\}$.
+Consider the Fibonacci sequence $\1,2,3,5,8,13,21,\ldots\$.
 
 We let $f(n)$ be the number of ways of representing an integer $n\ge 0$ as the sum of different Fibonacci numbers.  
 For example, $16 = 3+13 = 1+2+13 = 3+5+8 = 1+2+5+8$ and hence $f(16) = 4$.
@@ -13191,16 +12993,16 @@ Find $\displaystyle S(10^{13})$.
 Consider a function $f(k)$ defined for all positive integers $k\>0$. Let $S$ be the sum of the first $n$ values of $f$. That is,
 $$S=f(1)+f(2)+f(3)+\cdots+f(n)=\sum\_{k=1}^n f(k).$$
 
-In this problem, we employ randomness to approximate this sum. That is, we choose a random, uniformly distributed, $m$-tuple of positive integers $(X\_1,X\_2,X\_3,\cdots,X\_m)$ such that $0=X\_0 \lt X\_1 \lt X\_2 \lt \cdots \lt X\_m \leq n$ and calculate a modified sum $S^\*$ as follows.
-$$S^\* = \sum\_{i=1}^m f(X\_i)(X\_i-X\_{i-1})$$
+In this problem, we employ randomness to approximate this sum. That is, we choose a random, uniformly distributed, $m$-tuple of positive integers $(X_1,X_2,X_3,\cdots,X_m)$ such that $0=X_0 \lt X_1 \lt X_2 \lt \cdots \lt X_m \leq n$ and calculate a modified sum $S^\*$ as follows.
+$$S^\* = \sum\_{i=1}^m f(X_i)(X_i-X\_{i-1})$$
 
 We now define the error of this approximation to be $\Delta=S-S^\*$.
 
-Let $\mathbb{E}(\Delta|f(k),n,m)$ be the expected value of the error given the function $f(k)$, the number of terms $n$ in the sum and the length of random sample $m$.
+Let $\mathbb{E}(\Delta\|f(k),n,m)$ be the expected value of the error given the function $f(k)$, the number of terms $n$ in the sum and the length of random sample $m$.
 
-For example, $\mathbb{E}(\Delta|k,100,50) = 2525/1326 \approx 1.904223$ and $\mathbb{E}(\Delta|\varphi(k),10^4,10^2)\approx 5842.849907$, where $\varphi(k)$ is Euler's totient function.
+For example, $\mathbb{E}(\Delta\|k,100,50) = 2525/1326 \approx 1.904223$ and $\mathbb{E}(\Delta\|\varphi(k),10^4,10^2)\approx 5842.849907$, where $\varphi(k)$ is Euler's totient function.
 
-Find $\mathbb{E}(\Delta|\varphi(k),12345678,12345)$ rounded to six places after the decimal point.
+Find $\mathbb{E}(\Delta\|\varphi(k),12345678,12345)$ rounded to six places after the decimal point.
 
 # Problem 757
 
@@ -13234,17 +13036,17 @@ Let $P(a,b)$ be the minimal number of pourings needed to get one litre. Thus $P(
 Also, $P(7, 31)=20$ and $P(1234, 4321)=2780$.
 
 Find the sum of $P(2^{p^5}-1, 2^{q^5}-1)$ for all pairs of prime numbers $p,q$ such that $p \< q \< 1000$.  
-Give your answer modulo $1\,000\,000\,007$.
+Give your answer modulo $1\000\000\007$.
 
 # Problem 759
 
 The function $f$ is defined for all positive integers as follows:
 
-\begin{align\*}
-f(1) &= 1\\
-f(2n) &= 2f(n)\\
+$$\begin{align\*}
+f(1) &= 1\
+f(2n) &= 2f(n)\
 f(2n+1) &= 2n+1 + 2f(n)+\tfrac 1n f(n)
-\end{align\*}
+\end{align\*}$$
 
 It can be proven that $f(n)$ is integer for all values of $n$.
 
@@ -13252,7 +13054,7 @@ The function $S(n)$ is defined as $S(n) = \displaystyle \sum\_{i=1}^n f(i) ^2$.
 
 For example, $S(10)=1530$ and $S(10^2)=4798445$.
 
-Find $S(10^{16})$. Give your answer modulo $1\,000\,000\,007$.
+Find $S(10^{16})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 760
 
@@ -13265,7 +13067,7 @@ $$\displaystyle G(N) = \sum\_{n=0}^N\sum\_{k=0}^n g(k,n-k)$$
 
 For example, $G(10) = 754$ and $G(10^2) = 583766$.
 
-Find $G(10^{18})$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(10^{18})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 761
 
@@ -13291,7 +13093,8 @@ The following diagrams show two cases of an amoeba placed in square **A** of eac
 
 <div style="text-align:center;">
 
-![](project/images/p762_table_a.png)![](project/images/p762_table_b.png)
+<img src="resources/images/0762_table_a.png?1678992054" class="dark_img" />
+<img src="resources/images/0762_table_b.png?1678992054" class="dark_img" />
 
 </div>
 
@@ -13299,7 +13102,7 @@ Originally there is only one amoeba in the square $(0, 0)$. After $N$ divisions 
 
 For example, $C(2) = 2$, $C(10) = 1301$, $C(20)=5895236$ and the last nine digits of $C(100)$ are $125923036$.
 
-Find $C(100\,000)$, enter the last nine digits as your answer.
+Find $C(100\000)$, enter the last nine digits as your answer.
 
 # Problem 763
 
@@ -13309,7 +13112,7 @@ Originally there is only one amoeba in the cube $(0, 0, 0)$. After $N$ divisions
 
 For example, $D(2) = 3$, $D(10) = 44499$, $D(20)=9204559704$ and the last nine digits of $D(100)$ are $780166455$.
 
-Find $D(10\,000)$, enter the last nine digits as your answer.
+Find $D(10\000)$, enter the last nine digits as your answer.
 
 # Problem 764
 
@@ -13343,7 +13146,7 @@ Two configurations are identical if the same shape pieces occupy the same positi
 
 <div style="text-align:center;">
 
-![](resources/images/0766_SlidingBlock1.jpg?1678992055)
+<img src="resources/images/0766_SlidingBlock1.jpg?1678992055" class="dark_img" style="height:130px;" />
 
 </div>
 
@@ -13351,7 +13154,7 @@ Find the number of reachable configurations for the puzzle below. Note that the 
 
 <div style="text-align:center;">
 
-![](resources/images/0766_SlidingBlock2.jpg?1678992055)
+<img src="resources/images/0766_SlidingBlock2.jpg?1678992055" class="dark_img" style="height:216px;" />
 
 </div>
 
@@ -13362,9 +13165,9 @@ A window into a matrix is a contiguous sub matrix.
 Consider a $16\times n$ matrix where every entry is either 0 or 1.
 Let $B(k,n)$ be the total number of these matrices such that the sum of the entries in every $2\times k$ window is $k$.
 
-You are given that $B(2,4) = 65550$ and $B(3,9) \equiv 87273560 \pmod{1\,000\,000\,007}$.
+You are given that $B(2,4) = 65550$ and $B(3,9) \equiv 87273560 \pmod{1\000\000\007}$.
 
-Find $B(10^5,10^{16})$. Give your answer modulo $1\,000\,000\,007$.
+Find $B(10^5,10^{16})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 768
 
@@ -13407,9 +13210,9 @@ Find $C(10^{14})$.
 A and B play a game. A has originally $1$ gram of gold and B has an unlimited amount.
 Each round goes as follows:
 
-  - A chooses and displays, $x$, a nonnegative real number no larger than the amount of gold that A has.
-  - Either B chooses to TAKE. Then A gives B $x$ grams of gold.
-  - Or B chooses to GIVE. Then B gives A $x$ grams of gold.
+- A chooses and displays, $x$, a nonnegative real number no larger than the amount of gold that A has.
+- Either B chooses to TAKE. Then A gives B $x$ grams of gold.
+- Or B chooses to GIVE. Then B gives A $x$ grams of gold.
 
 B TAKEs $n$ times and GIVEs $n$ times after which the game finishes.
 
@@ -13419,11 +13222,11 @@ Find $g(1.9999)$.
 
 # Problem 771
 
-We define a <span class="dfn">pseudo-geometric sequence</span> to be a finite sequence $a\_0, a\_1, \dotsc, a\_n$ of positive integers, satisfying the following conditions:
+We define a <span class="dfn">pseudo-geometric sequence</span> to be a finite sequence $a_0, a_1, \dotsc, a_n$ of positive integers, satisfying the following conditions:
 
-  - $n \geq 4$, i.e. the sequence has at least $5$ terms.
-  - $0 \lt a\_0 \lt a\_1 \lt \cdots \lt a\_n$, i.e. the sequence is strictly increasing.
-  - $| a\_i^2 - a\_{i - 1}a\_{i + 1} | \le 2$ for $1 \le i \le n-1$.
+- $n \geq 4$, i.e. the sequence has at least $5$ terms.
+- $0 \lt a_0 \lt a_1 \lt \cdots \lt a_n$, i.e. the sequence is strictly increasing.
+- $\| a_i^2 - a\_{i - 1}a\_{i + 1} \| \le 2$ for $1 \le i \le n-1$.
 
 Let $G(N)$ be the number of different pseudo-geometric sequences whose terms do not exceed $N$.  
 For example, $G(6) = 4$, as the following $4$ sequences give a complete list:
@@ -13432,7 +13235,7 @@ $1, 2, 3, 4, 5 \qquad 1, 2, 3, 4, 6 \qquad 2, 3, 4, 5, 6 \qquad 1, 2, 3, 4, 5, 6
 
 Also, $G(10) = 26$, $G(100) = 4710$ and $G(1000) = 496805$.
 
-Find $G(10^{18})$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(10^{18})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 772
 
@@ -13442,26 +13245,26 @@ A balanceable partition is a partition that can be further divided into two part
 
 For example, $3 + 2 + 2 + 2 + 2 + 1$ is a balanceable $3$-bounded partition of $12$ since $3 + 2 + 1 = 2 + 2 + 2$. Conversely, $3 + 3 + 3 + 1$ is a $3$-bounded partition of $10$ which is not balanceable.
 
-Let $f(k)$ be the smallest positive integer $N$ all of whose $k$-bounded partitions are balanceable. For example, $f(3) = 12$ and $f(30) \equiv 179092994 \pmod {1\,000\,000\,007}$.
+Let $f(k)$ be the smallest positive integer $N$ all of whose $k$-bounded partitions are balanceable. For example, $f(3) = 12$ and $f(30) \equiv 179092994 \pmod {1\000\000\007}$.
 
-Find $f(10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $f(10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 773
 
-Let $S\_k$ be the set containing $2$ and $5$ and the first $k$ primes that end in $7$. For example, $S\_3 = \{2,5,7,17,37\}$.
+Let $S_k$ be the set containing $2$ and $5$ and the first $k$ primes that end in $7$. For example, $S_3 = \2,5,7,17,37\$.
 
-Define a <span class="dfn">$k$-Ruff</span> number to be one that is not divisible by any element in $S\_k$.
+Define a <span class="dfn">$k$-Ruff</span> number to be one that is not divisible by any element in $S_k$.
 
-If $N\_k$ is the product of the numbers in $S\_k$ then define $F(k)$ to be the sum of all $k$-Ruff numbers less than $N\_k$ that have last digit $7$. You are given $F(3) = 76101452$.
+If $N_k$ is the product of the numbers in $S_k$ then define $F(k)$ to be the sum of all $k$-Ruff numbers less than $N_k$ that have last digit $7$. You are given $F(3) = 76101452$.
 
-Find $F(97)$, give your answer modulo $1\,000\,000\,007$.
+Find $F(97)$, give your answer modulo $1\000\000\007$.
 
 # Problem 774
 
-Let '$\&$' denote the bitwise AND operation.  
-For example, $10\,\&\, 12 = 1010\_2\,\&\, 1100\_2 = 1000\_2 = 8$.
+Let '$\$' denote the bitwise AND operation.  
+For example, $10\\\ 12 = 1010_2\\\ 1100_2 = 1000_2 = 8$.
 
-We shall call a finite sequence of non-negative integers $(a\_1, a\_2, \ldots, a\_n)$ <span class="dfn">conjunctive</span> if $a\_i\,\&\, a\_{i+1} \neq 0$ for all $i=1\ldots n-1$.
+We shall call a finite sequence of non-negative integers $(a_1, a_2, \ldots, a_n)$ <span class="dfn">conjunctive</span> if $a_i\\\ a\_{i+1} \neq 0$ for all $i=1\ldots n-1$.
 
 Define $c(n,b)$ to be the number of conjunctive sequences of length $n$ in which all terms are $\le b$.
 
@@ -13475,7 +13278,7 @@ When wrapping several cubes in paper, it is more efficient to wrap them all toge
 
 <div style="text-align:center;">
 
-![](project/images/p775_wrapping_cubes.png)
+<img src="resources/images/0775_wrapping_cubes.png?1678992054" class="dark_img" />
 
 </div>
 
@@ -13485,9 +13288,9 @@ With 10 cubes, the arrangement illustrated above is optimal, so $g(10)=60-30=30$
 
 Define
 $$G(N) = \sum\_{n=1}^N g(n)$$
-You are given that $G(18) = 530$, and $G(10^6) \equiv 951640919 \pmod {1\,000\,000\,007}$.
+You are given that $G(18) = 530$, and $G(10^6) \equiv 951640919 \pmod {1\000\000\007}$.
 
-Find $G(10^{16})$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(10^{16})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 776
 
@@ -13502,19 +13305,19 @@ Find $F(1234567890123456789)$. Write your answer in scientific notation rounded 
 # Problem 777
 
 For coprime positive integers $a$ and $b$, let $C\_{a,b}$ be the curve defined by:
-\\[
+$$
 \begin{align}
-x &= \cos \left(at\right) \\
+x &= \cos \left(at\right) \
 y &= \cos \left(b\left(t-\frac{\pi}{10}\right)\right)
 \end{align}
-\\]
+$$
 where $t$ varies between 0 and $2\pi$.
 
 For example, the images below show $C\_{2,5}$ (left) and $C\_{7,4}$ (right):
 
 <div style="text-align:center;">
 
-![](project/images/p777_lissajous-pair-25-74.png)
+<img src="resources/images/0777_lissajous-pair-25-74.png?1678992054" class="dark_img" height="300" />
 
 </div>
 
@@ -13529,27 +13332,27 @@ Find $s(10^6)$. Give your answer in scientific notation rounded to 10 significan
 
 # Problem 778
 
-If $a,b$ are two nonnegative integers with decimal representations $a=(\dots a\_2a\_1a\_0)$ and $b=(\dots b\_2b\_1b\_0)$ respectively, then the *freshman's product* of $a$ and $b$, denoted $a\boxtimes b$, is the integer $c$ with decimal representation $c=(\dots c\_2c\_1c\_0)$ such that $c\_i$ is the last digit of $a\_i\cdot b\_i$.  
+If $a,b$ are two nonnegative integers with decimal representations $a=(\dots a_2a_1a_0)$ and $b=(\dots b_2b_1b_0)$ respectively, then the *freshman's product* of $a$ and $b$, denoted $a\boxtimes b$, is the integer $c$ with decimal representation $c=(\dots c_2c_1c_0)$ such that $c_i$ is the last digit of $a_i\cdot b_i$.  
 For example, $234 \boxtimes 765 = 480$.
 
-Let $F(R,M)$ be the sum of $x\_1 \boxtimes \dots \boxtimes x\_R$ for all sequences of integers $(x\_1,\dots,x\_R)$ with $0\leq x\_i \leq M$.  
-For example, $F(2, 7) = 204$, and $F(23, 76) \equiv 5870548 \pmod{ 1\,000\,000\,009}$.
+Let $F(R,M)$ be the sum of $x_1 \boxtimes \dots \boxtimes x_R$ for all sequences of integers $(x_1,\dots,x_R)$ with $0\leq x_i \leq M$.  
+For example, $F(2, 7) = 204$, and $F(23, 76) \equiv 5870548 \pmod{ 1\000\000\009}$.
 
-Find $F(234567,765432)$, give your answer modulo $1\,000\,000\,009$.
+Find $F(234567,765432)$, give your answer modulo $1\000\000\009$.
 
 # Problem 779
 
 For a positive integer $n \gt 1$, let $p(n)$ be the smallest prime dividing $n$, and let $\alpha(n)$ be its **$p$-adic order**, i.e. the largest integer such that $p(n)^{\alpha(n)}$ divides $n$.
 
-For a positive integer $K$, define the function $f\_K(n)$ by:
-$$f\_K(n)=\frac{\alpha(n)-1}{(p(n))^K}.$$
+For a positive integer $K$, define the function $f_K(n)$ by:
+$$f_K(n)=\frac{\alpha(n)-1}{(p(n))^K}.$$
 
-Also define $\overline{f\_K}$ by:
-$$\overline{f\_K}=\lim\_{N \to \infty} \frac{1}{N}\sum\_{n=2}^{N} f\_K(n).$$
+Also define $\overline{f_K}$ by:
+$$\overline{f_K}=\lim\_{N \to \infty} \frac{1}{N}\sum\_{n=2}^{N} f_K(n).$$
 
-It can be verified that $\overline{f\_1} \approx 0.282419756159$.
+It can be verified that $\overline{f_1} \approx 0.282419756159$.
 
-Find $\displaystyle \sum\_{K=1}^{\infty}\overline{f\_K}$. Give your answer rounded to $12$ digits after the decimal point.
+Find $\displaystyle \sum\_{K=1}^{\infty}\overline{f_K}$. Give your answer rounded to $12$ digits after the decimal point.
 
 # Problem 780
 
@@ -13559,9 +13362,9 @@ A *tiling* of a torus is a way to dissect it into equilateral triangles of edge 
 
 <div style="text-align:center;">
 
-![](resources/images/0780_sample-small-1.png?1678992054)
-![](resources/images/0780_sample-small-2.png?1678992054)
-![](resources/images/0780_sample-small-3.png?1678992054)
+<img src="resources/images/0780_sample-small-1.png?1678992054" class="dark_img" height="160" />
+<img src="resources/images/0780_sample-small-2.png?1678992054" class="dark_img" height="160" />
+<img src="resources/images/0780_sample-small-3.png?1678992054" class="dark_img" height="160" />
 
 </div>
 
@@ -13569,7 +13372,7 @@ Two tilings of an $a\times b$ torus are called <span class="dfn">equivalent</spa
 
 <div style="text-align:center;">
 
-![](resources/images/0780_animation.gif?1678992057)
+<img src="resources/images/0780_animation.gif?1678992057" class="dark_img" height="160" />
 
 </div>
 
@@ -13577,32 +13380,32 @@ Let $F(n)$ be the total number of non-equivalent tilings of all possible tori wi
 
 <div style="text-align:center;">
 
-![](resources/images/0780_t6-all.png?1678992054)
+<img src="resources/images/0780_t6-all.png?1678992054" class="dark_img" height="300" />
 
 </div>
 
-Let $G(N)=\sum\_{n=1}^N F(n)$. You are given that $G(6)=14$, $G(100)=8090$, and $G(10^5)\equiv 645124048 \pmod{1\,000\,000\,007}$.
+Let $G(N)=\sum\_{n=1}^N F(n)$. You are given that $G(6)=14$, $G(100)=8090$, and $G(10^5)\equiv 645124048 \pmod{1\000\000\007}$.
 
-Find $G(10^9)$. Give your answer modulo $1\,000\,000\,007$.
+Find $G(10^9)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 781
 
 Let $F(n)$ be the number of connected graphs with blue edges (directed) and red edges (undirected) containing:
 
-  - two vertices of degree 1, one with a single outgoing blue edge and the other with a single incoming blue edge.
-  - $n$ vertices of degree 3, each of which has an incoming blue edge, a **different** outgoing blue edge and a red edge.
+- two vertices of degree 1, one with a single outgoing blue edge and the other with a single incoming blue edge.
+- $n$ vertices of degree 3, each of which has an incoming blue edge, a **different** outgoing blue edge and a red edge.
 
 For example, $F(4)=5$ because there are 5 graphs with these properties:
 
 <div style="text-align:center;">
 
-![](project/images/p781_feynman_diagrams.jpg)
+<img src="resources/images/0781_feynman_diagrams.jpg?1678992055" class="dark_img" height="320" />
 
 </div>
 
 You are also given $F(8)=319$.
 
-Find $F(50\,000)$. Give your answer modulo $1\,000\,000\,007$.
+Find $F(50\000)$. Give your answer modulo $1\000\000\007$.
 
 NOTE: Feynman diagrams are a way of visualising the forces between elementary particles. Vertices represent interactions. The blue edges in our diagrams represent matter particles (e.g. electrons or positrons) with the arrow representing the flow of charge. The red edges (normally wavy lines) represent the force particles (e.g. photons). Feynman diagrams are used to predict the strength of particle interactions.
 
@@ -13611,10 +13414,10 @@ NOTE: Feynman diagrams are a way of visualising the forces between elementary pa
 The <span class="dfn">complexity</span> of an $n\times n$ binary matrix is the number of distinct rows and columns.
 
 For example, consider the $3\times 3$ matrices
-$$ \mathbf{A} = \begin{pmatrix} 1&0&1\\0&0&0\\1&0&1\end{pmatrix} \quad
-\mathbf{B} = \begin{pmatrix} 0&0&0\\0&0&0\\1&1&1\end{pmatrix} $$
-$\mathbf{A}$ has complexity $2$ because the set of rows and columns is $\{000,101\}$.
-$\mathbf{B}$ has complexity $3$ because the set of rows and columns is $\{000,001,111\}$.
+$$ \mathbf{A} = \begin{pmatrix} 1&0&1\0&0&0\1&0&1\end{pmatrix} \quad
+\mathbf{B} = \begin{pmatrix} 0&0&0\0&0&0\1&1&1\end{pmatrix} $$
+$\mathbf{A}$ has complexity $2$ because the set of rows and columns is $\000,101\$.
+$\mathbf{B}$ has complexity $3$ because the set of rows and columns is $\000,001,111\$.
 
 For $0 \le k \le n^2$, let $c(n, k)$ be the **minimum** complexity of an $n\times n$ binary matrix with exactly $k$ ones.
 
@@ -13629,9 +13432,9 @@ Find $C(10^4)$.
 
 Given $n$ and $k$ two positive integers we begin with an urn that contains $kn$ white balls. We then proceed through $n$ turns where on each turn $k$ black balls are added to the urn and then $2k$ random balls are removed from the urn.
 
-We let $B\_t(n,k)$ be the number of black balls that are removed on turn $t$.
+We let $B_t(n,k)$ be the number of black balls that are removed on turn $t$.
 
-Further define $E(n,k)$ as the expectation of $\displaystyle \sum\_{t=1}^n B\_t(n,k)^2$.
+Further define $E(n,k)$ as the expectation of $\displaystyle \sum\_{t=1}^n B_t(n,k)^2$.
 
 You are given $E(2,2) = 9.6$.
 
@@ -13668,7 +13471,7 @@ The four angles $A, B, C, D$ are $120^\circ, 90^\circ, 60^\circ, 90^\circ$ respe
 
 <div style="text-align:center;">
 
-![](project/images/p786_billiard_shape.jpg)
+<img src="resources/images/0786_billiard_shape.jpg?1678992055" class="dark_img" height="160" />
 
 </div>
 
@@ -13676,7 +13479,7 @@ The diagram on the left shows the trace of an infinitesimally small billiard bal
 
 <div style="text-align:center;">
 
-![](project/images/p786_billiard_traces.jpg)
+<img src="resources/images/0786_billiard_traces.jpg?1678992055" class="dark_img" height="160" />
 
 </div>
 
@@ -13710,7 +13513,7 @@ For example, $2022$ is a dominating number because three of its four digits are 
 Let $D(N)$ be how many dominating numbers are less than $10^N$.
 For example, $D(4) = 603$ and $D(10) = 21893256$.
 
-Find $D(2022)$. Give your answer modulo $1\,000\,000\,007$.
+Find $D(2022)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 789
 
@@ -13722,24 +13525,24 @@ For example, if $p = 5$, then there is a unique optimal pairing: $(1, 2), (3, 4)
 
 The <span class="dfn">cost product</span> of a pairing is the product of the costs of its pairs. For example, the cost product of the optimal pairing for $p = 5$ is $2 \cdot 2 = 4$.
 
-It turns out that all optimal pairings for $p = 2\,000\,000\,011$ have the same cost product.
+It turns out that all optimal pairings for $p = 2\000\000\011$ have the same cost product.
 
 Find the value of this product.
 
 # Problem 790
 
-There is a grid of length and width 50515093 points. A clock is placed on each grid point. The clocks are all analogue showing a single hour hand initially pointing at 12.
+There is a grid of length and width $50515093$ points. A clock is placed on each grid point. The clocks are all analogue showing a single hour hand initially pointing at $12$.
 
-A sequence $S\_t$ is created where:
+A sequence $S_t$ is created where:
 $$
 \begin{align}
-S\_0 &= 290797\\
-S\_t &= S\_{t-1}^2 \bmod 50515093 \&t\>0
+S_0 &= 290797\
+S_t &= S\_{t-1}^2 \bmod 50515093 &t\>0
 \end{align}
 $$
-The four numbers $N\_t = (S\_{4t-4}, S\_{4t-3}, S\_{4t-2}, S\_{4t-1})$ represent a range within the grid, with the first pair of numbers representing the x-bounds and the second pair representing the y-bounds. For example, if $N\_t = (3,9,47,20)$, the range would be $3\le x\le 9$ and $20\le y\le47$, and would include 196 clocks.
+The four numbers $N_t = (S\_{4t-4}, S\_{4t-3}, S\_{4t-2}, S\_{4t-1})$ represent a range within the grid, with the first pair of numbers representing the x-bounds and the second pair representing the y-bounds. For example, if $N_t = (3,9,47,20)$, the range would be $3\le x\le 9$ and $20\le y\le47$, and would include $196$ clocks.
 
-For each $t$ $(t\>0)$, the clocks within the range represented by $N\_t$ are moved to the next hour $12\rightarrow 1\rightarrow 2\rightarrow \cdots $.
+For each $t$ $(t\>0)$, the clocks within the range represented by $N_t$ are moved to the next hour $12\rightarrow 1\rightarrow 2\rightarrow \cdots $.
 
 We define $C(t)$ to be the sum of the hours that the clock hands are pointing to after timestep $t$.  
 You are given $C(0) = 30621295449583788$, $C(1) = 30613048345941659$, $C(10) = 21808930308198471$ and $C(100) = 16190667393984172$.
@@ -13748,7 +13551,7 @@ Find $C(10^5)$.
 
 # Problem 791
 
-Denote the average of $k$ numbers $x\_1, ..., x\_k$ by $\bar{x} = \frac{1}{k} \sum\_i x\_i$. Their variance is defined as $\frac{1}{k} \sum\_i \left( x\_i - \bar{x} \right) ^ 2$.
+Denote the average of $k$ numbers $x_1, ..., x_k$ by $\bar{x} = \frac{1}{k} \sum_i x_i$. Their variance is defined as $\frac{1}{k} \sum_i \left( x_i - \bar{x} \right) ^ 2$.
 
 Let $S(n)$ be the sum of all quadruples of integers $(a,b,c,d)$ satisfying $1 \leq a \leq b \leq c \leq d \leq n$ such that their average is exactly twice their variance.
 
@@ -13760,9 +13563,9 @@ Find $S(10^8)$. Give your answer modulo $433494437$.
 
 # Problem 792
 
-We define $\nu\_2(n)$ to be the largest integer $r$ such that $2^r$ divides $n$. For example, $\nu\_2(24) = 3$.
+We define $\nu_2(n)$ to be the largest integer $r$ such that $2^r$ divides $n$. For example, $\nu_2(24) = 3$.
 
-Define $\displaystyle S(n) = \sum\_{k = 1}^n (-2)^k\binom{2k}k$ and $u(n) = \nu\_2\Big(3S(n)+4\Big)$.
+Define $\displaystyle S(n) = \sum\_{k = 1}^n (-2)^k\binom{2k}k$ and $u(n) = \nu_2\Big(3S(n)+4\Big)$.
 
 For example, when $n = 4$ then $S(4) = 980$ and $3S(4) + 4 = 2944 = 2^7 \cdot 23$, hence $u(4) = 7$.  
 You are also given $u(20) = 24$.
@@ -13773,26 +13576,26 @@ Find $U(10^4)$.
 
 # Problem 793
 
-Let $S\_i$ be an integer sequence produced with the following pseudo-random number generator:
+Let $S_i$ be an integer sequence produced with the following pseudo-random number generator:
 
-  - $S\_0 = 290797$
-  - $S\_{i+1} = S\_i ^2 \bmod 50515093$
+- $S_0 = 290797$
+- $S\_{i+1} = S_i ^2 \bmod 50515093$
 
-Let $M(n)$ be the median of the pairwise products $ S\_i S\_j $ for $0 \le i \lt j \lt n$.
+Let $M(n)$ be the median of the pairwise products $ S_i S_j $ for $0 \le i \lt j \lt n$.
 
 You are given $M(3) = 3878983057768$ and $M(103) = 492700616748525$.
 
-Find $M(1\,000\,003)$.
+Find $M(1\000\003)$.
 
 # Problem 794
 
 This problem uses half open interval notation where $\[a,b)$ represents $a \le x \< b$.
 
-A real number, $x\_1$, is chosen in the interval $\[0,1)$.  
-A second real number, $x\_2$, is chosen such that each of $\[0,\frac{1}{2})$ and $\[\frac{1}{2},1)$ contains exactly one of $(x\_1, x\_2)$.  
-Continue such that on the $n$-th step a real number, $x\_n$, is chosen so that each of the intervals $\[\frac{k-1}{n}, \frac{k}{n})$ for $k \in \{1, ..., n\}$ contains exactly one of $(x\_1, x\_2, ..., x\_n)$.
+A real number, $x_1$, is chosen in the interval $\[0,1)$.  
+A second real number, $x_2$, is chosen such that each of $\[0,\frac{1}{2})$ and $\[\frac{1}{2},1)$ contains exactly one of $(x_1, x_2)$.  
+Continue such that on the $n$-th step a real number, $x_n$, is chosen so that each of the intervals $\[\frac{k-1}{n}, \frac{k}{n})$ for $k \in \1, \dots, n\$ contains exactly one of $(x_1, x_2, \dots, x_n)$.
 
-Define $F(n)$ to be the minimal value of the sum $x\_1 + x\_2 + ... + x\_n$ of a tuple $(x\_1, x\_2, ..., x\_n)$ chosen by such a procedure. For example, $F(4) = 1.5$ obtained with $(x\_1, x\_2, x\_3, x\_4) = (0, 0.75, 0.5, 0.25)$.
+Define $F(n)$ to be the minimal value of the sum $x_1 + x_2 + \cdots + x_n$ of a tuple $(x_1, x_2, \dots, x_n)$ chosen by such a procedure. For example, $F(4) = 1.5$ obtained with $(x_1, x_2, x_3, x_4) = (0, 0.75, 0.5, 0.25)$.
 
 Surprisingly, no more than $17$ points can be chosen by this procedure.
 
@@ -13825,25 +13628,25 @@ A **monic polynomial** is a single-variable polynomial in which the coefficient 
 
 Define $\mathcal{F}$ to be the set of all monic polynomials with integer coefficients (including the constant polynomial $p(x)=1$). A polynomial $p(x)\in\mathcal{F}$ is <span class="dfn">cyclogenic</span> if there exists $q(x)\in\mathcal{F}$ and a positive integer $n$ such that $p(x)q(x)=x^n-1$. If $n$ is the smallest such positive integer then $p(x)$ is <span class="dfn">$n$-cyclogenic</span>.
 
-Define $P\_n(x)$ to be the sum of all $n$-cyclogenic polynomials. For example, there exist ten 6-cyclogenic polynomials (which divide $x^6-1$ and no smaller $x^k-1$):
+Define $P_n(x)$ to be the sum of all $n$-cyclogenic polynomials. For example, there exist ten 6-cyclogenic polynomials (which divide $x^6-1$ and no smaller $x^k-1$):
 
 $$\begin{align\*}
-\&x^6-1&\&x^4+x^3-x-1&\&x^3+2x^2+2x+1&\&x^2-x+1\\
-\&x^5+x^4+x^3+x^2+x+1&\&x^4-x^3+x-1&\&x^3-2x^2+2x-1\\
-\&x^5-x^4+x^3-x^2+x-1&\&x^4+x^2+1&\&x^3+1\end{align\*}$$
+&x^6-1&&x^4+x^3-x-1&&x^3+2x^2+2x+1&&x^2-x+1\
+&x^5+x^4+x^3+x^2+x+1&&x^4-x^3+x-1&&x^3-2x^2+2x-1\
+&x^5-x^4+x^3-x^2+x-1&&x^4+x^2+1&&x^3+1\end{align\*}$$
 
 giving
 
-$$P\_6(x)=x^6+2x^5+3x^4+5x^3+2x^2+5x$$
+$$P_6(x)=x^6+2x^5+3x^4+5x^3+2x^2+5x$$
 
 Also define
 
-$$Q\_N(x)=\sum\_{n=1}^N P\_n(x)$$
+$$Q_N(x)=\sum\_{n=1}^N P_n(x)$$
 
 It's given that
 $Q\_{10}(x)=x^{10}+3x^9+3x^8+7x^7+8x^6+14x^5+11x^4+18x^3+12x^2+23x$ and $Q\_{10}(2) = 5598$.
 
-Find $Q\_{10^7}(2)$. Give your answer modulo $1\,000\,000\,007$.
+Find $Q\_{10^7}(2)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 798
 
@@ -13854,34 +13657,34 @@ Before the game starts, a set of cards (which may be empty) is picked from the d
 The players then make moves in turn.  
 A move consists of choosing a card X from the rest of the deck and placing it face-up on top of a visible card Y, subject to the following restrictions:
 
-  - X and Y must be the same suit;
-  - the value of X must be larger than the value of Y.
+- X and Y must be the same suit;
+- the value of X must be larger than the value of Y.
 
 The card X then covers the card Y and replaces Y as a visible card.  
 The player unable to make a valid move loses and play stops.
 
 Let $C(n, s)$ be the number of different initial sets of cards for which the first player will lose given best play for both players.
 
-For example, $C(3, 2) = 26$ and $C(13, 4) \equiv 540318329 \pmod {1\,000\,000\,007}$.
+For example, $C(3, 2) = 26$ and $C(13, 4) \equiv 540318329 \pmod {1\000\000\007}$.
 
-Find $C(10^7, 10^7)$. Give your answer modulo $1\,000\,000\,007$.
+Find $C(10^7, 10^7)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 799
 
-Pentagonal numbers are generated by the formula: $P\_n = \tfrac 12n(3n-1)$ giving the sequence:
+Pentagonal numbers are generated by the formula: $P_n = \tfrac 12n(3n-1)$ giving the sequence:
 
 $$1,5,12,22,35, 51,70,92,\ldots $$
 
 Some pentagonal numbers can be expressed as the sum of two other pentagonal numbers.  
 For example:
 
-$$P\_8 = 92 = 22 + 70 = P\_4 + P\_7$$
+$$P_8 = 92 = 22 + 70 = P_4 + P_7$$
 
 3577 is the smallest pentagonal number that can be expressed as the sum of two pentagonal numbers in two different ways
 
 $$
 \begin{align}
-P\_{49} = 3577 & = 3432 + 145 = P\_{48} + P\_{10} \\
+P\_{49} = 3577 & = 3432 + 145 = P\_{48} + P\_{10} \
 & = 3290 + 287 = P\_{47}+P\_{14}
 \end{align}
 $$
@@ -13923,27 +13726,27 @@ Consider the function $f$ from $\Bbb R^2$ to $\Bbb R^2$ defined by $f(x, y) = (x
 Let $P(n)$ denote the sum of $x$-coordinates of all points having period not exceeding $n$.
 Interestingly, $P(n)$ is always an integer. For example, $P(1) = 2$, $P(2) = 2$, $P(3) = 4$.
 
-Find $P(10^7)$ and give your answer modulo $1\,020\,340\,567$.
+Find $P(10^7)$ and give your answer modulo $1\020\340\567$.
 
 # Problem 803
 
-**Rand48** is a pseudorandom number generator used by some programming languages. It generates a sequence from any given integer $0 \le a\_0 \< 2^{48}$ using the rule $a\_n = (25214903917 \cdot a\_{n - 1} + 11) \bmod 2^{48}$.
+**Rand48** is a pseudorandom number generator used by some programming languages. It generates a sequence from any given integer $0 \le a_0 \< 2^{48}$ using the rule $a_n = (25214903917 \cdot a\_{n - 1} + 11) \bmod 2^{48}$.
 
-Let $b\_n = \lfloor a\_n / 2^{16} \rfloor \bmod 52$.
-The sequence $b\_0, b\_1, \dots$ is translated to an infinite string $c = c\_0c\_1\dots$ via the rule:  
+Let $b_n = \lfloor a_n / 2^{16} \rfloor \bmod 52$.
+The sequence $b_0, b_1, \dots$ is translated to an infinite string $c = c_0c_1\dots$ via the rule:  
 $0 \rightarrow$ a, $1\rightarrow$ b, $\dots$, $25 \rightarrow$ z, $26 \rightarrow$ A, $27 \rightarrow$ B, $\dots$, $51 \rightarrow$ Z.
 
-For example, if we choose $a\_0 = 123456$, then the string $c$ starts with: "bQYicNGCY$\dots$".  
+For example, if we choose $a_0 = 123456$, then the string $c$ starts with: "bQYicNGCY$\dots$".  
 Moreover, starting from index $100$, we encounter the substring "RxqLBfWzv" for the first time.
 
-Alternatively, if $c$ starts with "EULERcats$\dots$", then $a\_0$ must be $78580612777175$.
+Alternatively, if $c$ starts with "EULERcats$\dots$", then $a_0$ must be $78580612777175$.
 
 Now suppose that the string $c$ starts with "PuzzleOne$\dots$".  
 Find the starting index of the first occurrence of the substring "LuckyText" in $c$.
 
 # Problem 804
 
-Let $g(n)$ denote the number of ways a positive integer $n$ can be represented in the form: $$x^2+xy+41y^2$$ where $x$ and $y$ are integers. For example, $g(53)=4$ due to $(x,y) \in \{(-4,1),(-3,-1),(3,1),(4,-1)\}$.
+Let $g(n)$ denote the number of ways a positive integer $n$ can be represented in the form: $$x^2+xy+41y^2$$ where $x$ and $y$ are integers. For example, $g(53)=4$ due to $(x,y) \in \(-4,1),(-3,-1),(3,1),(4,-1)\$.
 
 Define $\displaystyle T(N)=\sum\_{n=1}^{N}g(n)$. You are given $T(10^3)=474$ and $T(10^6)=492128$.
 
@@ -13959,9 +13762,9 @@ If no such integer exists, then $N(r)$ is defined as zero.
 For example, $N(3)=142857$, $N(\tfrac 1{10})=10$ and $N(2) = 0$.
 
 Let $T(M)$ be the sum of $N(u^3/v^3)$ where $(u,v)$ ranges over all ordered pairs of coprime positive integers not exceeding $M$.  
-For example, $T(3)\equiv 262429173 \pmod {1\,000\,000\,007}$.
+For example, $T(3)\equiv 262429173 \pmod {1\000\000\007}$.
 
-Find $T(200)$. Give your answer modulo $1\,000\,000\,007$.
+Find $T(200)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 806
 
@@ -13977,15 +13780,15 @@ For $n=4$, the indices of losing positions in the shortest solution are 3,6,9 an
 
 You are given that $f(10) = 67518$.
 
-Find $f(10^5)$. Give your answer modulo $1\,000\,000\,007$.
+Find $f(10^5)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 807
 
 Given a circle $C$ and an integer $n \> 1$, we perform the following operations.
 
-In step $0$, we choose two uniformly random points $R\_0$ and $B\_0$ on $C$.  
-In step $i$ ($1 \leq i \< n$), we first choose a uniformly random point $R\_i$ on $C$ and connect the points $R\_{i - 1}$ and $R\_i$ with a red rope; then choose a uniformly random point $B\_i$ on $C$ and connect the points $B\_{i - 1}$ and $B\_i$ with a blue rope.  
-In step $n$, we first connect the points $R\_{n - 1}$ and $R\_0$ with a red rope; then connect the points $B\_{n - 1}$ and $B\_0$ with a blue rope.  
+In step $0$, we choose two uniformly random points $R_0$ and $B_0$ on $C$.  
+In step $i$ ($1 \leq i \< n$), we first choose a uniformly random point $R_i$ on $C$ and connect the points $R\_{i - 1}$ and $R_i$ with a red rope; then choose a uniformly random point $B_i$ on $C$ and connect the points $B\_{i - 1}$ and $B_i$ with a blue rope.  
+In step $n$, we first connect the points $R\_{n - 1}$ and $R_0$ with a red rope; then connect the points $B\_{n - 1}$ and $B_0$ with a blue rope.  
 Each rope is straight between its two end points, and lies above all previous ropes.
 
 After step $n$, we get a loop of red ropes, and a loop of blue ropes.  
@@ -13993,7 +13796,7 @@ Sometimes the two loops can be separated, as in the left figure below; sometimes
 
 <div style="text-align:center;">
 
-![](project/images/p807.jpg)
+<img src="resources/images/0807.jpg?1678992055" class="dark_img" />
 
 </div>
 
@@ -14020,8 +13823,8 @@ Find the sum of the first $50$ reversible prime squares.
 
 The following is a function defined for all positive rational values of $x$.
 
-$$ f(x)=\begin{cases} x \&x\text{ is integral}\\
-f(\frac 1{1-x}) \&x \lt 1\\
+$$ f(x)=\begin{cases} x &x\text{ is integral}\
+f(\frac 1{1-x}) &x \lt 1\
 f\Big(\frac 1{\lceil x\rceil -x}-1+f(x-1)\Big) &\text{otherwise}\end{cases} $$
 
 For example, $f(3/2)=3$, $f(1/6) = 65533$ and $f(13/10) = 7625597484985$.
@@ -14034,41 +13837,41 @@ We use $x\oplus y$ for the bitwise XOR of $x$ and $y$.
 
 Define the <span class="dfn">XOR-product</span> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.
 
-For example, $7 \otimes 3 = 9$, or in base $2$, $111\_2 \otimes 11\_2 = 1001\_2$:
+For example, $7 \otimes 3 = 9$, or in base $2$, $111_2 \otimes 11_2 = 1001_2$:
 
 $$
 \begin{align\*}
-\phantom{\otimes 111} 111\_2 \\
-\otimes \phantom{1111} 11\_2 \\
+\phantom{\otimes 111} 111_2 \
+\otimes \phantom{1111} 11_2 \
 \hline
-\phantom{\otimes 111} 111\_2 \\
-\oplus \phantom{11} 111\_2 \phantom{9} \\
+\phantom{\otimes 111} 111_2 \
+\oplus \phantom{11} 111_2 \phantom{9} \
 \hline
-\phantom{\otimes 11} 1001\_2 \\
+\phantom{\otimes 11} 1001_2 \
 \end{align\*}
 $$
 
 An <span class="dfn">XOR-prime</span> is an integer $n$ greater than $1$ that is not an XOR-product of two integers greater than $1$. The above example shows that $9$ is not an XOR-prime. Similarly, $5 = 3 \otimes 3$ is not an XOR-prime. The first few XOR-primes are $2, 3, 7, 11, 13, ...$ and the 10th XOR-prime is $41$.
 
-Find the $5\,000\,000$th XOR-prime.
+Find the $5\000\000$th XOR-prime.
 
 # Problem 811
 
 Let $b(n)$ be the largest power of 2 that divides $n$. For example $b(24) = 8$.
 
 Define the recursive function:
-\begin{align\*}
+$$\begin{align\*}
 \begin{split}
-A(0) &= 1\\
-A(2n) &= 3A(n) + 5A\big(2n - b(n)\big) \qquad n \gt 0\\
+A(0) &= 1\
+A(2n) &= 3A(n) + 5A\big(2n - b(n)\big) \qquad n \gt 0\
 A(2n+1) &= A(n)
 \end{split}
-\end{align\*}
+\end{align\*}$$
 and let $H(t,r) = A\big((2^t+1)^r\big)$.
 
 You are given $H(3,2) = A(81) = 636056$.
 
-Find $H(10^{14}+31,62)$. Give your answer modulo $1\,000\,062\,031$.
+Find $H(10^{14}+31,62)$. Give your answer modulo $1\000\062\031$.
 
 # Problem 812
 
@@ -14083,7 +13886,7 @@ $$ x^2-4x+4 \quad,\quad x^2-x-2 \quad,\quad x^2-4 \quad,\quad x^2-1 \quad,\quad 
 
 Also, $S(5)=58$ and $S(20)=122087$.
 
-Find $S(10\,000)$. Give your answer modulo $998244353$.
+Find $S(10\000)$. Give your answer modulo $998244353$.
 
 # Problem 813
 
@@ -14091,18 +13894,18 @@ We use $x\oplus y$ to be the bitwise XOR of $x$ and $y$.
 
 Define the <span class="dfn">XOR-product</span> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.
 
-For example, $11 \otimes 11 = 69$, or in base $2$, $1011\_2 \otimes 1011\_2 = 1000101\_2$:
+For example, $11 \otimes 11 = 69$, or in base $2$, $1011_2 \otimes 1011_2 = 1000101_2$:
 
 $$
 \begin{align\*}
-\phantom{\otimes 1111} 1011\_2 \\
-\otimes \phantom{1111} 1011\_2 \\
+\phantom{\otimes 1111} 1011_2 \
+\otimes \phantom{1111} 1011_2 \
 \hline
-\phantom{\otimes 1111} 1011\_2 \\
-\phantom{\otimes 111} 1011\_2 \phantom{9} \\
-\oplus \phantom{1} 1011\_2 \phantom{999} \\
+\phantom{\otimes 1111} 1011_2 \
+\phantom{\otimes 111} 1011_2 \phantom{9} \
+\oplus \phantom{1} 1011_2 \phantom{999} \
 \hline
-\phantom{\otimes 11} 1000101\_2 \\
+\phantom{\otimes 11} 1000101_2 \
 \end{align\*}
 $$
 Further we define $P(n) = 11^{\otimes n} = \overbrace{11\otimes 11\otimes \ldots \otimes 11}^n$. For example $P(2)=69$.
@@ -14127,13 +13930,13 @@ Find $E(60)$. Give your answer rounded to 8 digits after the decimal point.
 
 # Problem 816
 
-We create an array of points $P\_n$ in a two dimensional plane using the following random number generator:  
-$s\_0=290797$  
-$s\_{n+1}={s\_n}^2 \bmod 50515093$  
+We create an array of points $P_n$ in a two dimensional plane using the following random number generator:  
+$s_0=290797$  
+$s\_{n+1}={s_n}^2 \bmod 50515093$  
   
-$P\_n=(s\_{2n},s\_{2n+1})$
+$P_n=(s\_{2n},s\_{2n+1})$
 
-Let $d(k)$ be the shortest distance of any two (distinct) points among $P\_0, \cdots, P\_{k - 1}$.  
+Let $d(k)$ be the shortest distance of any two (distinct) points among $P_0, \cdots, P\_{k - 1}$.  
 E.g. $d(14)=546446.466846479$.
 
 Find $d(2000000)$. Give your answer rounded to $9$ places after the decimal point.
@@ -14150,7 +13953,7 @@ The SET® card game is played with a pack of $81$ distinct cards. Each card has 
 
 A *SET* consists of three different cards such that each feature is either the same on each card or different on each card.
 
-For a collection $C\_n$ of $n$ cards, let $S(C\_n)$ denote the number of *SET*s in $C\_n$. Then define $F(n) = \sum\limits\_{C\_n} S(C\_n)^4$ where $C\_n$ ranges through all collections of $n$ cards (among the $81$ cards).
+For a collection $C_n$ of $n$ cards, let $S(C_n)$ denote the number of *SET*s in $C_n$. Then define $F(n) = \sum\limits\_{C_n} S(C_n)^4$ where $C_n$ ranges through all collections of $n$ cards (among the $81$ cards).
 You are given $F(3) = 1080$ and $F(6) = 159690960$.
 
 Find $F(12)$.
@@ -14170,21 +13973,21 @@ Find $E(10^3)$. Give the answer rounded to 6 digits after the decimal place.
 
 # Problem 820
 
-Let $d\_n(x)$ be the $n$<sup>th</sup> decimal digit of the fractional part of $x$, or $0$ if the fractional part has fewer than $n$ digits.
+Let $d_n(x)$ be the $n$<sup>th</sup> decimal digit of the fractional part of $x$, or $0$ if the fractional part has fewer than $n$ digits.
 
 For example:
 
-  - $d\_7 \mathopen{}\left( 1 \right)\mathclose{} = d\_7 \mathopen{}\left( \frac 1 2 \right)\mathclose{} = d\_7 \mathopen{}\left( \frac 1 4 \right)\mathclose{} = d\_7 \mathopen{}\left( \frac 1 5 \right)\mathclose{} = 0$
-  - $d\_7 \mathopen{}\left( \frac 1 3 \right)\mathclose{} = 3$ since $\frac 1 3 =$ 0.333333<span style="color:#FF0000;font-weight:bold;">3</span>333...
-  - $d\_7 \mathopen{}\left( \frac 1 6 \right)\mathclose{} = 6$ since $\frac 1 6 =$ 0.166666<span style="color:#FF0000;font-weight:bold;">6</span>666...
-  - $d\_7 \mathopen{}\left( \frac 1 7 \right)\mathclose{} = 1$ since $\frac 1 7 =$ 0.142857<span style="color:#FF0000;font-weight:bold;">1</span>428...
+- $d_7 \mathopen{}\left( 1 \right)\mathclose{} = d_7 \mathopen{}\left( \frac 1 2 \right)\mathclose{} = d_7 \mathopen{}\left( \frac 1 4 \right)\mathclose{} = d_7 \mathopen{}\left( \frac 1 5 \right)\mathclose{} = 0$
+- $d_7 \mathopen{}\left( \frac 1 3 \right)\mathclose{} = 3$ since $\frac 1 3 =$ 0.333333<span style="color:#FF0000;font-weight:bold;">3</span>333...
+- $d_7 \mathopen{}\left( \frac 1 6 \right)\mathclose{} = 6$ since $\frac 1 6 =$ 0.166666<span style="color:#FF0000;font-weight:bold;">6</span>666...
+- $d_7 \mathopen{}\left( \frac 1 7 \right)\mathclose{} = 1$ since $\frac 1 7 =$ 0.142857<span style="color:#FF0000;font-weight:bold;">1</span>428...
 
-Let $\displaystyle S(n) = \sum\_{k=1}^n d\_n \mathopen{}\left( \frac 1 k \right)\mathclose{}$.
+Let $\displaystyle S(n) = \sum\_{k=1}^n d_n \mathopen{}\left( \frac 1 k \right)\mathclose{}$.
 
 You are given:
 
-  - $S(7) = 0 + 0 + 3 + 0 + 0 + 6 + 1 = 10$
-  - $S(100) = 418$
+- $S(7) = 0 + 0 + 3 + 0 + 0 + 6 + 1 = 10$
+- $S(100) = 418$
 
 Find $S(10^7)$.
 
@@ -14193,10 +13996,10 @@ Find $S(10^7)$.
 A set, $S$, of integers is called <span class="dfn">123-separable</span> if $S$, $2S$ and $3S$ are disjoint. Here $2S$ and $3S$ are obtained by multiplying all the elements in $S$ by $2$ and $3$ respectively.
 
 Define $F(n)$ to be the maximum number of elements of
-$$(S\cup 2S \cup 3S)\cap \{1,2,3,\ldots,n\}$$
+$$(S\cup 2S \cup 3S)\cap \1,2,3,\ldots,n\$$
 where $S$ ranges over all 123-separable sets.
 
-For example, $F(6) = 5$ can be achieved with either $S = \{1,4,5\}$ or $S = \{1,5,6\}$.  
+For example, $F(6) = 5$ can be achieved with either $S = \1,4,5\$ or $S = \1,5,6\$.  
 You are also given $F(20) = 19$.
 
 Find $F(10^{16})$.
@@ -14290,36 +14093,36 @@ Define the *score* of a solution to be the sum of the numbers used. In the above
 
 When combining numbers, the following rules must be observed:
 
-  - Each available number may be used at most once.
-  - Only the four basic arithmetic operations are permitted: $+$, $-$, $\times$, $\div$.
-  - All intermediate values must be positive integers, so for example $(3\div 2)$ is never permitted as a subexpression (even if the final answer is an integer).
+- Each available number may be used at most once.
+- Only the four basic arithmetic operations are permitted: $+$, $-$, $\times$, $\div$.
+- All intermediate values must be positive integers, so for example $(3\div 2)$ is never permitted as a subexpression (even if the final answer is an integer).
 
-The attached file [number-challenges.txt](project/resources/p828_number_challenges.txt) contains 200 problems, one per line in the format:
+The attached file [number-challenges.txt](resources/documents/0828_number_challenges.txt) contains 200 problems, one per line in the format:
 
 `211:2,3,4,6,7,25`
 
 where the number before the colon is the target and the remaining comma-separated numbers are those available to be used.
 
-Numbering the problems 1, 2, ..., 200, we let $s\_n$ be the minimum score of the solution to the $n$th problem. For example, $s\_1=40$, as the first problem in the file is the example given above. Note that not all problems have a solution; in such cases we take $s\_n=0$.
+Numbering the problems 1, 2, ..., 200, we let $s_n$ be the minimum score of the solution to the $n$th problem. For example, $s_1=40$, as the first problem in the file is the example given above. Note that not all problems have a solution; in such cases we take $s_n=0$.
 
-Find $\displaystyle\sum\_{n=1}^{200} 3^n s\_n$. Give your answer modulo $1005075251$.
+Find $\displaystyle\sum\_{n=1}^{200} 3^n s_n$. Give your answer modulo $1005075251$.
 
 # Problem 829
 
 Given any integer $n \gt 1$ a <span class="dfn">binary factor tree</span> $T(n)$ is defined to be:
 
-  - A tree with the single node $n$ when $n$ is prime.
-  - A binary tree that has root node $n$, left subtree $T(a)$ and right subtree $T(b)$, when $n$ is not prime. Here $a$ and $b$ are positive integers such that $n = ab$, $a\le b$ and $b-a$ is the smallest.
+- A tree with the single node $n$ when $n$ is prime.
+- A binary tree that has root node $n$, left subtree $T(a)$ and right subtree $T(b)$, when $n$ is not prime. Here $a$ and $b$ are positive integers such that $n = ab$, $a\le b$ and $b-a$ is the smallest.
 
 For example $T(20)$:
 
-![0829\_example1.jpg](resources/images/0829_example1.jpg?1678992055)
+![0829_example1.jpg](resources/images/0829_example1.jpg?1678992055)
 
 We define $M(n)$ to be the smallest number that has a factor tree identical in shape to the factor tree for $n!!$, the **double factorial** of $n$.
 
 For example, consider $9!! = 9\times 7\times 5\times 3\times 1 = 945$. The factor tree for $945$ is shown below together with the factor tree for $72$ which is the smallest number that has a factor tree of the same shape. Hence $M(9) = 72$.
 
-![0829\_example2.jpg](resources/images/0829_example2.jpg?1678992055)
+![0829_example2.jpg](resources/images/0829_example2.jpg?1678992055)
 
 Find $\displaystyle\sum\_{n=2}^{31} M(n)$.
 
@@ -14349,20 +14152,20 @@ Starting with blank paper repeatedly do the following:
 1.  Write down the smallest positive integer $a$ which is currently not on the paper;
 2.  Find the smallest positive integer $b$ such that neither $b$ nor $(a \oplus b)$ is currently on the paper. Then write down both $b$ and <span style="white-space:nowrap;">$(a \oplus b)$.</span>
 
-After the first round $\{1,2,3\}$ will be written on the paper. In the second round $a=4$ and because <span style="white-space:nowrap;">$(4 \oplus 5)$,</span> $(4 \oplus 6)$ and $(4 \oplus 7)$ are all already written $b$ must be <span style="white-space:nowrap;">$8$.</span>
+After the first round $\1,2,3\$ will be written on the paper. In the second round $a=4$ and because <span style="white-space:nowrap;">$(4 \oplus 5)$,</span> $(4 \oplus 6)$ and $(4 \oplus 7)$ are all already written $b$ must be <span style="white-space:nowrap;">$8$.</span>
 
 After $n$ rounds there will be $3n$ numbers on the paper. Their sum is denoted by <span style="white-space:nowrap;">$M(n)$.</span>  
 For example, $M(10) = 642$ and <span style="white-space:nowrap;">$M(1000) = 5432148$.</span>
 
-Find <span style="white-space:nowrap;">$M(10^{18})$.</span> Give your answer modulo <span style="white-space:nowrap;">$1\,000\,000\,007$.</span>
+Find <span style="white-space:nowrap;">$M(10^{18})$.</span> Give your answer modulo <span style="white-space:nowrap;">$1\000\000\007$.</span>
 
 # Problem 833
 
-Triangle numbers $T\_k$ are integers of the form $\frac{k(k+1)} 2$.  
-A few triangle numbers happen to be perfect squares like $T\_1=1$ and $T\_8=36$, but more can be found when considering the product of two triangle numbers. For example, $T\_2 \cdot T\_{24}=3 \cdot 300=30^2$.
+Triangle numbers $T_k$ are integers of the form $\frac{k(k+1)} 2$.  
+A few triangle numbers happen to be perfect squares like $T_1=1$ and $T_8=36$, but more can be found when considering the product of two triangle numbers. For example, $T_2 \cdot T\_{24}=3 \cdot 300=30^2$.
 
-Let $S(n)$ be the sum of $c$ for all integers triples $(a, b, c)$ with $0\<c \le n$, $c^2=T\_a \cdot T\_b$ and $0\<a\<b$.
-For example, $S(100)= \sqrt{T\_1 T\_8}+\sqrt{T\_2 T\_{24}}+\sqrt{T\_1 T\_{49}}+\sqrt{T\_3 T\_{48}}=6+30+35+84=155$.
+Let $S(n)$ be the sum of $c$ for all integers triples $(a, b, c)$ with $0\<c \le n$, $c^2=T_a \cdot T_b$ and $0\<a\<b$.
+For example, $S(100)= \sqrt{T_1 T_8}+\sqrt{T_2 T\_{24}}+\sqrt{T_1 T\_{49}}+\sqrt{T_3 T\_{48}}=6+30+35+84=155$.
 
 You are given $S(10^5)=1479802$ and $S(10^9)=241614948794$.
 
@@ -14374,7 +14177,7 @@ A sequence is created by starting with a positive integer $n$ and incrementing b
 If $n=10$, the resulting sequence will be $21,33,46,60,75,91,108,126,\ldots$.
 
 Let $S(n)$ be the set of indices $m$, for which the $m^{th}$ term in the sequence is divisible by $(n+m)$.  
-For example, $S(10)=\{5,8,20,35,80\}$.
+For example, $S(10)=\5,8,20,35,80\$.
 
 Define $T(n)$ to be the sum of the indices in $S(n)$. For example, $T(10) = 148$ and $T(10^2)=21828$.
 
@@ -14412,7 +14215,7 @@ For example, the following diagram depicts an Amidakuji with three objects ($A$,
 
 <div style="text-align:center;">
 
-![0837\_amidakuji.png](resources/images/0837_amidakuji.png?1678992054)
+![0837_amidakuji.png](resources/images/0837_amidakuji.png?1678992054)
 
 </div>
 
@@ -14436,9 +14239,9 @@ Find $f(10^6)$. Enter its natural logarithm rounded to six digits after the deci
 
 # Problem 839
 
-The sequence $S\_n$ is defined by $S\_0 = 290797$ and $S\_n = S\_{n - 1}^2 \bmod 50515093$ for $n \> 0$.
+The sequence $S_n$ is defined by $S_0 = 290797$ and $S_n = S\_{n - 1}^2 \bmod 50515093$ for $n \> 0$.
 
-There are $N$ bowls indexed $0,1,\dots ,N-1$. Initially there are $S\_n$ beans in bowl $n$.
+There are $N$ bowls indexed $0,1,\dots ,N-1$. Initially there are $S_n$ beans in bowl $n$.
 
 At each step, the smallest index $n$ is found such that bowl $n$ has strictly more beans than bowl $n+1$. Then one bean is moved from bowl $n$ to bowl $n+1$.
 
@@ -14451,22 +14254,22 @@ Find $B(10^7)$.
 
 A **partition** of $n$ is a set of positive integers for which the sum equals $n$.  
 The partitions of 5 are:  
-$\{5\},\{1,4\},\{2,3\},\{1,1,3\},\{1,2,2\},\{1,1,1,2\}$ and $\{1,1,1,1,1\}$.
+$\5\,\1,4\,\2,3\,\1,1,3\,\1,2,2\,\1,1,1,2\$ and $\1,1,1,1,1\$.
 
 Further we define the function $D(p)$ as:  
 $$
 \begin{align}
 \begin{split}
-D(1) &= 1 \\
-D(p) &= 1, \text{ for any prime } p \\
+D(1) &= 1 \
+D(p) &= 1, \text{ for any prime } p \
 D(pq) &= D(p)q + pD(q), \text{ for any positive integers } p,q \gt 1.
 \end{split}
 \end{align}
 $$
 
-Now let $\{a\_1, a\_2,\ldots,a\_k\}$ be a partition of $n$.  
+Now let $\a_1, a_2,\ldots,a_k\$ be a partition of $n$.  
 We assign to this particular partition the value:  
-$$P=\prod\_{j=1}^{k}D(a\_j). $$
+$$P=\prod\_{j=1}^{k}D(a_j). $$
 
 $G(n)$ is the sum of $P$ for all partitions of $n$.  
 We can verify that $G(10) = 164$.
@@ -14478,21 +14281,21 @@ Find $S(5\times 10^4) \mod 999676999$.
 
 # Problem 841
 
-The regular star polygon $\{p/q\}$, for coprime integers $p,q$ with $p \gt 2q \gt 0$, is a polygon formed from $p$ edges of equal length and equal internal angles, such that tracing the complete polygon wraps $q$ times around the centre. For example, $\{8/3\}$ is illustrated below:
+The regular star polygon $\p/q\$, for coprime integers $p,q$ with $p \gt 2q \gt 0$, is a polygon formed from $p$ edges of equal length and equal internal angles, such that tracing the complete polygon wraps $q$ times around the centre. For example, $\8/3\$ is illustrated below:
 
-<div data-align="center">
+<div align="center">
 
-![{8/3}](resources/images/0841_star_polygon_8_3.png?1680515338)
+<img src="resources/images/0841_star_polygon_8_3.png?1680515338" height="250" alt="{8/3}" />
 
 </div>
 
-The edges of a regular star polygon intersect one another, dividing the interior into several regions. Define the <span class="dfn">alternating shading</span> of a regular star polygon to be a selection of such regions to shade, such that every piece of every edge has a shaded region on one side and an unshaded region on the other, with the exterior of the polygon unshaded. For example, the above image shows the alternating shading (in green) of $\{8/3\}$.
+The edges of a regular star polygon intersect one another, dividing the interior into several regions. Define the <span class="dfn">alternating shading</span> of a regular star polygon to be a selection of such regions to shade, such that every piece of every edge has a shaded region on one side and an unshaded region on the other, with the exterior of the polygon unshaded. For example, the above image shows the alternating shading (in green) of $\8/3\$.
 
-Let $A(p, q)$ be the area of the alternating shading of $\{p/q\}$, assuming that its inradius is $1$. (The **inradius** of a regular polygon, star or otherwise, is the distance from its centre to the midpoint of any of its edges.) For example, in the diagram above, it can be shown that central shaded octagon has area $8(\sqrt{2}-1)$ and each point's shaded kite has area $2(\sqrt{2}-1)$, giving $A(8,3) = 24(\sqrt{2}-1) \approx 9.9411254970$.
+Let $A(p, q)$ be the area of the alternating shading of $\p/q\$, assuming that its inradius is $1$. (The **inradius** of a regular polygon, star or otherwise, is the distance from its centre to the midpoint of any of its edges.) For example, in the diagram above, it can be shown that central shaded octagon has area $8(\sqrt{2}-1)$ and each point's shaded kite has area $2(\sqrt{2}-1)$, giving $A(8,3) = 24(\sqrt{2}-1) \approx 9.9411254970$.
 
 You are also given that $A(130021, 50008)\approx 10.9210371479$, rounded to $10$ digits after the decimal point.
 
-Find $\sum\_{n=3}^{34} A(F\_{n+1},F\_{n-1})$, where $F\_j$ is the Fibonacci sequence with $F\_1=F\_2=1$ (so $A(F\_{5+1},F\_{5-1}) = A(8,3)$). Give your answer rounded to $10$ digits after the decimal point.
+Find $\sum\_{n=3}^{34} A(F\_{n+1},F\_{n-1})$, where $F_j$ is the Fibonacci sequence with $F_1=F_2=1$ (so $A(F\_{5+1},F\_{5-1}) = A(8,3)$). Give your answer rounded to $10$ digits after the decimal point.
 
 # Problem 842
 
@@ -14500,7 +14303,7 @@ Given $n$ equally spaced points on a circle, we define an <span class="dfn">$n$-
 
 For example, there are twelve $5$-star polygons shown below.
 
-![0842\_5-agons.jpg](resources/images/0842_5-agons.jpg?1680461480)
+![0842_5-agons.jpg](resources/images/0842_5-agons.jpg?1680461480)
 
 For an $n$-star polygon $S$, let $I(S)$ be the number of its self intersection points.  
 Let $T(n)$ be the sum of $I(S)$ over all $n$-star polygons $S$.  
@@ -14508,7 +14311,7 @@ For the example above $T(5) = 20$ because in total there are $20$ self intersect
 
 Some star polygons may have intersection points made from more than two lines. These are only counted once. For example, <span style="white-space:nowrap;">$S$,</span> shown below is one of the sixty $6$-star polygons. This one has $I(S) = 4$.
 
-![0842\_6-agon.jpg](resources/images/0842_6-agon.jpg?1680461493)
+![0842_6-agon.jpg](resources/images/0842_6-agon.jpg?1680461493)
 
 You are also given that $T(8) = 14640$.
 
@@ -14536,13 +14339,13 @@ For example, $(1,5,13)$ is a solution. We define a 3-Markov number to be any par
 
 Now we define a $k$-Markov number to be a positive integer that is part of a solution to:
 
-$\displaystyle \sum\_{i=1}^{k}x\_i^2=k\prod\_{i=1}^{k}x\_i,\quad x\_i\text{ are positive integers}$
+$\displaystyle \sum\_{i=1}^{k}x_i^2=k\prod\_{i=1}^{k}x_i,\quad x_i\text{ are positive integers}$
 
-Let $M\_k(N)$ be the sum of $k$-Markov numbers $\le N$. Hence $M\_3(10^{3})=2797$, also $M\_8(10^8) = 131493335$.
+Let $M_k(N)$ be the sum of $k$-Markov numbers $\le N$. Hence $M_3(10^{3})=2797$, also $M_8(10^8) = 131493335$.
 
-Define $\displaystyle S(K,N)=\sum\_{k=3}^{K}M\_k(N)$. You are given $S(4, 10^2)=229$ and $S(10, 10^8)=2383369980$.
+Define $\displaystyle S(K,N)=\sum\_{k=3}^{K}M_k(N)$. You are given $S(4, 10^2)=229$ and $S(10, 10^8)=2383369980$.
 
-Find $S(10^{18}, 10^{18})$. Give your answer modulo $1\,405\,695\,061$.
+Find $S(10^{18}, 10^{18})$. Give your answer modulo $1\405\695\061$.
 
 # Problem 845
 
@@ -14557,12 +14360,12 @@ A *bracelet* is made by connecting at least three numbered beads in a circle. Ea
 
 In addition a *magic bracelet* must satisfy the following two conditions:
 
-  - no two beads display the same number
-  - the product of the numbers of any two adjacent beads is of the form $x^2+1$
+- no two beads display the same number
+- the product of the numbers of any two adjacent beads is of the form $x^2+1$
 
 <div style="text-align:center;">
 
-![0846\_diagram.jpg](resources/images/0846_diagram.jpg?1684224225)
+<img src="resources/images/0846_diagram.jpg?1684224225" width="640" height="225" alt="0846_diagram.jpg" />
 
 </div>
 
@@ -14585,9 +14388,9 @@ If the three plates contain $a$, $b$ and $c$ beans respectively, we let $h(a, b,
 Let $H(N)$ be the sum of $h(a, b, c)$ over all triples of non-negative integers $a$, $b$, $c$ with $1 \leq a + b + c \leq N$.  
 You are given: $H(6) = 203$ and $H(20) = 7718$.
 
-A **repunit**, $R\_n$, is a number made up with $n$ digits all '1'. For example, $R\_3 = 111$ and $H(R\_3) = 1634144$.
+A **repunit**, $R_n$, is a number made up with $n$ digits all '1'. For example, $R_3 = 111$ and $H(R_3) = 1634144$.
 
-Find $H(R\_{19})$. Give your answer modulo $1\,000\,000\,007$.
+Find $H(R\_{19})$. Give your answer modulo $1\000\000\007$.
 
 # Problem 848
 
@@ -14612,35 +14415,35 @@ Find $F(100)$. Give your answer modulo $10^9+7$.
 
 # Problem 850
 
-Any positive real number $x$ can be decomposed into integer and fractional parts $\lfloor x \rfloor + \{x\}$, where $\lfloor x \rfloor$ (the floor function) is an integer, and $0\le \{x\} \< 1$.
+Any positive real number $x$ can be decomposed into integer and fractional parts $\lfloor x \rfloor + \x\$, where $\lfloor x \rfloor$ (the floor function) is an integer, and $0\le \x\ \< 1$.
 
 For positive integers $k$ and $n$, define the function
-\begin{align}
-f\_k(n) = \sum\_{i=1}^{n}\left\{ \frac{i^k}{n} \right\}
-\end{align}
-For example, $f\_5(10)=4.5$ and $f\_7(1234)=616.5$.
+$$\begin{align}
+f_k(n) = \sum\_{i=1}^{n}\left\ \frac{i^k}{n} \right\
+\end{align}$$
+For example, $f_5(10)=4.5$ and $f_7(1234)=616.5$.
 
 Let
-\begin{align}
-S(N) = \sum\_{\substack{k=1 \\ k\text{ odd}}}^{N} \sum\_{n=1}^{N} f\_k(n)
-\end{align}
+$$\begin{align}
+S(N) = \sum\_{\substack{k=1 \ k\text{ odd}}}^{N} \sum\_{n=1}^{N} f_k(n)
+\end{align}$$
 You are given that $S(10)=100.5$ and $S(10^3)=123687804$.
 
 Find $\lfloor S(33557799775533) \rfloor$. Give your answer modulo 977676779.
 
 # Problem 851
 
-Let $n$ be a positive integer and let $E\_n$ be the set of $n$-tuples of strictly positive integers.
+Let $n$ be a positive integer and let $E_n$ be the set of $n$-tuples of strictly positive integers.
 
-For $u = (u\_1, \cdots, u\_n)$ and $v = (v\_1, \cdots, v\_n)$ two elements of $E\_n$, we define:
+For $u = (u_1, \cdots, u_n)$ and $v = (v_1, \cdots, v_n)$ two elements of $E_n$, we define:
 
-  - the <span class="dfn">Sum Of Products</span> of $u$ and $v$, denoted by $\langle u, v\rangle$, as the sum $\displaystyle\sum\_{i = 1}^n u\_i v\_i$;
-  - the <span class="dfn">Product Of Sums</span> of $u$ and $v$, denoted by $u \star v$, as the product $\displaystyle\prod\_{i = 1}^n (u\_i + v\_i)$.
+- the <span class="dfn">Sum Of Products</span> of $u$ and $v$, denoted by $\langle u, v\rangle$, as the sum $\displaystyle\sum\_{i = 1}^n u_i v_i$;
+- the <span class="dfn">Product Of Sums</span> of $u$ and $v$, denoted by $u \star v$, as the product $\displaystyle\prod\_{i = 1}^n (u_i + v_i)$.
 
-Let $R\_n(M)$ be the sum of $u \star v$ over all ordered pairs $(u, v)$ in $E\_n$ such that $\langle u, v\rangle = M$.  
-For example: $R\_1(10) = 36$, $R\_2(100) = 1873044$, $R\_2(100!) \equiv 446575636 \bmod 10^9 + 7$.
+Let $R_n(M)$ be the sum of $u \star v$ over all ordered pairs $(u, v)$ in $E_n$ such that $\langle u, v\rangle = M$.  
+For example: $R_1(10) = 36$, $R_2(100) = 1873044$, $R_2(100!) \equiv 446575636 \bmod 10^9 + 7$.
 
-Find $R\_6(10000!)$. Give your answer modulo $10^9+7$.
+Find $R_6(10000!)$. Give your answer modulo $10^9+7$.
 
 # Problem 852
 
@@ -14665,7 +14468,7 @@ This period is called the **Pisano period** for $n$, often shortened to $\pi(n)$
 There are three values of $n$ for which
 $\pi(n)$ equals $18$: $19$, $38$ and $76$. The sum of those smaller than $50$ is $57$.
 
-Find the sum of the values of $n$ smaller than $1\,000\,000\,000$ for which $\pi(n)$ equals $120$.
+Find the sum of the values of $n$ smaller than $1\000\000\000$ for which $\pi(n)$ equals $120$.
 
 # Problem 854
 
@@ -14678,7 +14481,7 @@ For example, there are three values of $n$ for which $\pi(n)$ equals $18$: $19, 
 Let the product function $P(n)$ be: $$P(n)=\prod\_{p = 1}^{n}M(p).$$
 You are given: $P(10)=264$.
 
-Find $P(1\,000\,000)\bmod 1\,234\,567\,891$.
+Find $P(1\000\000)\bmod 1\234\567\891$.
 
 # Problem 855
 
@@ -14709,22 +14512,22 @@ Find the expected number of cards that were drawn. Give your answer rounded to e
 A graph is made up of vertices and coloured edges.
 Between every two distinct vertices there must be exactly one of the following:
 
-  - A red directed edge one way, and a blue directed edge the other way
-  - A green undirected edge
-  - A brown undirected edge
+- A red directed edge one way, and a blue directed edge the other way
+- A green undirected edge
+- A brown undirected edge
 
 Such a graph is called *beautiful* if
 
-  - A cycle of edges contains a red edge **if and only if** it also contains a blue edge
-  - No triangle of edges is made up of entirely green or entirely brown edges
+- A cycle of edges contains a red edge **if and only if** it also contains a blue edge
+- No triangle of edges is made up of entirely green or entirely brown edges
 
 Below are four distinct examples of beautiful graphs on three vertices:
 
-![0857\_GoodGraphs.jpg](resources/images/0857_GoodGraphs.jpg?1692412187)
+![0857_GoodGraphs.jpg](resources/images/0857_GoodGraphs.jpg?1692412187)
 
 Below are four examples of graphs that are not beautiful:
 
-![0857\_BadGraphs.jpg](resources/images/0857_BadGraphs.jpg?1692412205)
+![0857_BadGraphs.jpg](resources/images/0857_BadGraphs.jpg?1692412205)
 
 Let $G(n)$ be the number of beautiful graphs on the labelled vertices: $1,2,\ldots,n$.
 You are given $G(3)=24$, $G(4)=186$ and $G(15)=12472315010483328$.
@@ -14733,7 +14536,7 @@ Find $G(10^7)$. Give your answer modulo $10^9+7$.
 
 # Problem 858
 
-Define $G(N) = \sum\_S \operatorname{lcm}(S)$ where $S$ ranges through all subsets of $\{1, \dots, N\}$ and $\operatorname{lcm}$ denotes the lowest common multiple. Note that the $\operatorname{lcm}$ of the empty set is $1$.
+Define $G(N) = \sum_S \operatorname{lcm}(S)$ where $S$ ranges through all subsets of $\1, \dots, N\$ and $\operatorname{lcm}$ denotes the lowest common multiple. Note that the $\operatorname{lcm}$ of the empty set is $1$.
 
 You are given $G(5) = 528$ and $G(20) = 8463108648960$.
 
@@ -14764,7 +14567,7 @@ Define $F(n)$ to be the number of fair arrangements of $n$ stacks, all of size $
 
 <div class="center">
 
-![0860\_diag3.jpg](resources/images/0860_diag3.jpg?1696883006)
+![0860_diag3.jpg](resources/images/0860_diag3.jpg?1696883006)
 
 </div>
 
@@ -14778,13 +14581,13 @@ A *unitary divisor* of a positive integer $n$ is a divisor $d$ of $n$ such that 
 
 A *bi-unitary divisor* of $n$ is a divisor $d$ for which $1$ is the only unitary divisor of $d$ that is also a unitary divisor of $\frac{n}{d}$.
 
-For example, $2$ is a bi-unitary divisor of $8$, because the unitary divisors of $2$ are $\{1,2\}$, and the unitary divisors of $8/2$ are $\{1,4\}$, with $1$ being the only unitary divisor in common.
+For example, $2$ is a bi-unitary divisor of $8$, because the unitary divisors of $2$ are $\1,2\$, and the unitary divisors of $8/2$ are $\1,4\$, with $1$ being the only unitary divisor in common.
 
-The bi-unitary divisors of $240$ are $\{1,2,3,5,6,8,10,15,16,24,30,40,48,80,120,240\}$.
+The bi-unitary divisors of $240$ are $\1,2,3,5,6,8,10,15,16,24,30,40,48,80,120,240\$.
 
-Let $P(n)$ be the product of all bi-unitary divisors of $n$. Define $Q\_k(N)$ as the number of positive integers $1 \lt n \leq N$ such that $P(n)=n^k$. For example, $Q\_2\left(10^2\right)=51$ and $Q\_6\left(10^6\right)=6189$.
+Let $P(n)$ be the product of all bi-unitary divisors of $n$. Define $Q_k(N)$ as the number of positive integers $1 \lt n \leq N$ such that $P(n)=n^k$. For example, $Q_2\left(10^2\right)=51$ and $Q_6\left(10^6\right)=6189$.
 
-Find $\sum\_{k=2}^{10}Q\_k\left(10^{12}\right)$.
+Find $\sum\_{k=2}^{10}Q_k\left(10^{12}\right)$.
 
 # Problem 862
 
@@ -14871,7 +14674,7 @@ Give your answer modulo $987654319$.
 
 There are 5 ways to tile a regular dodecagon of side 1 with regular polygons of side 1.
 
-![0867\_DodecaDiagram.jpg](resources/images/0867_DodecaDiagram.jpg?1700512497)
+![0867_DodecaDiagram.jpg](resources/images/0867_DodecaDiagram.jpg?1700512497)
 
 Let $T(n)$ be the number of ways to tile a regular dodecagon of side $n$ with regular polygons of side 1. Then $T(1) = 5$. You are also given $T(2) = 48$.
 
@@ -14901,12 +14704,12 @@ Find $E(10^8)$. Give your answer rounded to eight digits after the decimal point
 
 Two players play a game with a single pile of stones of initial size $n$. They take stones from the pile in turn, according to the following rules which depend on a fixed real number $r \> 0$:
 
-  - In the first turn, the first player may take $k$ stones with $1 \le k \lt n$.
-  - If a player takes $m$ stones in a turn, then in the next turn the opponent may take $k$ stones with $1 \le k \le \lfloor r \cdot m \rfloor$.
+- In the first turn, the first player may take $k$ stones with $1 \le k \lt n$.
+- If a player takes $m$ stones in a turn, then in the next turn the opponent may take $k$ stones with $1 \le k \le \lfloor r \cdot m \rfloor$.
 
 Whoever cannot make a legal move loses the game.
 
-Let $L(r)$ be the set of initial pile sizes $n$ for which the second player has a winning strategy. For example, $L(0.5) = \{1\}$, $L(1) = \{1, 2, 4, 8, 16, \dots\}$, $L(2) = \{1, 2, 3, 5, 8, \dots\}$.
+Let $L(r)$ be the set of initial pile sizes $n$ for which the second player has a winning strategy. For example, $L(0.5) = \1\$, $L(1) = \1, 2, 4, 8, 16, \dots\$, $L(2) = \1, 2, 3, 5, 8, \dots\$.
 
 A real number $q \gt 0$ is a *transition value* if $L(s)$ is different from $L(t)$ for all $s \< q \< t$.  
 Let $T(i)$ be the $i$-th transition value. For example, $T(1) = 1$, $T(2) = 2$, $T(22) \approx 6.3043478261$.
@@ -14918,32 +14721,32 @@ Find $T(123456)$ and give your answer rounded to $10$ digits after the decimal p
 Let $f$ be a function from a finite set $S$ to itself. A <span class="dfn">drifting subset</span> for $f$ is a subset $A$ of $S$ such that the number of elements in the union $A \cup f(A)$ is equal to twice the number of elements of $A$.  
 We write $D(f)$ for the maximal number of elements among all drifting subsets for $f$.
 
-For a positive integer $n$, define $f\_n$ as the function from $\{0, 1, \dots, n - 1\}$ to itself sending $x$ to $x^3 + x + 1 \bmod n$.  
-You are given $D(f\_5) = 1$ and $D(f\_{10}) = 3$.
+For a positive integer $n$, define $f_n$ as the function from $\0, 1, \dots, n - 1\$ to itself sending $x$ to $x^3 + x + 1 \bmod n$.  
+You are given $D(f_5) = 1$ and $D(f\_{10}) = 3$.
 
 Find $\displaystyle\sum\_{i = 1}^{100} D(f\_{10^5 + i})$.
 
 # Problem 872
 
-A sequence of rooted trees $T\_n$ is constructed such that $T\_n$ has $n$ nodes numbered $1$ to $n$.
+A sequence of rooted trees $T_n$ is constructed such that $T_n$ has $n$ nodes numbered $1$ to $n$.
 
-The sequence starts at $T\_1$, a tree with a single node as a root with the number $1$.
+The sequence starts at $T_1$, a tree with a single node as a root with the number $1$.
 
-For $n \> 1$, $T\_n$ is constructed from $T\_{n-1}$ using the following procedure:
+For $n \> 1$, $T_n$ is constructed from $T\_{n-1}$ using the following procedure:
 
 1.  Trace a path from the root of $T\_{n-1}$ to a leaf by following the largest-numbered child at each node.
 2.  Remove all edges along the traced path, disconnecting all nodes along it from their parents.
-3.  Connect all orphaned nodes directly to a new node numbered $n$, which becomes the root of $T\_n$.
+3.  Connect all orphaned nodes directly to a new node numbered $n$, which becomes the root of $T_n$.
 
-For example, the following figure shows $T\_6$ and $T\_7$. The path traced through $T\_6$ during the construction of $T\_7$ is coloured red.
+For example, the following figure shows $T_6$ and $T_7$. The path traced through $T_6$ during the construction of $T_7$ is coloured red.
 
 <div class="center">
 
-![0872\_tree.png](resources/images/0872_tree.png?1703839264)
+![0872_tree.png](resources/images/0872_tree.png?1703839264)
 
 </div>
 
-Let $f(n, k)$ be the sum of the node numbers along the path connecting the root of $T\_n$ to the node $k$, including the root and the node $k$. For example, $f(6, 1) = 6 + 5 + 1 = 12$ and $f(10, 3) = 29$.
+Let $f(n, k)$ be the sum of the node numbers along the path connecting the root of $T_n$ to the node $k$, including the root and the node $k$. For example, $f(6, 1) = 6 + 5 + 1 = 12$ and $f(10, 3) = 29$.
 
 Find $f(10^{17}, 9^{17})$.
 
@@ -14953,16 +14756,16 @@ Let $W(p,q,r)$ be the number of words that can be formed using the letter A $p$ 
 
 You are given $W(2,2,4)=32$ and $W(4,4,44)=13908607644$.
 
-Find $W(10^6,10^7,10^8)$. Give your answer modulo $1\,000\,000\,007$.
+Find $W(10^6,10^7,10^8)$. Give your answer modulo $1\000\000\007$.
 
 # Problem 874
 
 Let $p(t)$ denote the $(t+1)$th prime number. So that $p(0) = 2$, $p(1) = 3$, etc.  
-We define the <span class="dfn">prime score</span> of a list of nonnegative integers $\[a\_1, \dots, a\_n\]$ as the sum $\sum\_{i = 1}^n p(a\_i)$.  
-Let $M(k, n)$ be the maximal prime score among all lists $\[a\_1, \dots, a\_n\]$ such that:
+We define the <span class="dfn">prime score</span> of a list of nonnegative integers $\[a_1, \dots, a_n\]$ as the sum $\sum\_{i = 1}^n p(a_i)$.  
+Let $M(k, n)$ be the maximal prime score among all lists $\[a_1, \dots, a_n\]$ such that:
 
-  - $0 \leq a\_i \< k$ for each $i$;
-  - the sum $\sum\_{i = 1}^n a\_i$ is a multiple of $k$.
+- $0 \leq a_i \< k$ for each $i$;
+- the sum $\sum\_{i = 1}^n a_i$ is a multiple of $k$.
 
 For example, $M(2, 5) = 14$ as $\[0, 1, 1, 1, 1\]$ attains a maximal prime score of $14$.
 
@@ -14972,9 +14775,9 @@ Find $M(7000, p(7000))$.
 
 For a positive integer $n$ we define $q(n)$ to be the number of solutions to:
 
-$$a\_1^2+a\_2^2+a\_3^2+a\_4^2 \equiv b\_1^2+b\_2^2+b\_3^2+b\_4^2 \pmod n$$
+$$a_1^2+a_2^2+a_3^2+a_4^2 \equiv b_1^2+b_2^2+b_3^2+b_4^2 \pmod n$$
 
-where $0 \leq a\_i, b\_i \lt n$. For example, $q(4)= 18432$.
+where $0 \leq a_i, b_i \lt n$. For example, $q(4)= 18432$.
 
 Define $\displaystyle Q(n)=\sum\_{i=1}^{n}q(i)$. You are given $Q(10)=18573381$.
 
@@ -14984,9 +14787,9 @@ Find $Q(12345678)$. Give your answer modulo $1001961001$.
 
 Starting with three numbers $a, b, c$, at each step do one of the three operations:
 
-  - change $a$ to $2(b + c) - a$;
-  - change $b$ to $2(c + a) - b$;
-  - change $c$ to $2(a + b) - c$;
+- change $a$ to $2(b + c) - a$;
+- change $b$ to $2(c + a) - b$;
+- change $c$ to $2(a + b) - c$;
 
 Define $f(a, b, c)$ to be the minimum number of steps required for one number to become zero. If this is not possible then $f(a, b, c)=0$.
 
@@ -15004,23 +14807,23 @@ Find $\displaystyle\sum\_{k=1}^{18}F(6^k,10^k)$.
 We use $x\oplus y$ for the bitwise XOR of $x$ and $y$.  
 Define the <span class="dfn">XOR-product</span> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.
 
-For example, $7 \otimes 3 = 9$, or in base $2$, $111\_2 \otimes 11\_2 = 1001\_2$:
+For example, $7 \otimes 3 = 9$, or in base $2$, $111_2 \otimes 11_2 = 1001_2$:
 
-\begin{align\*}
-\phantom{\otimes 111} 111\_2 \\
-\otimes \phantom{1111} 11\_2 \\
+$$\begin{align\*}
+\phantom{\otimes 111} 111_2 \
+\otimes \phantom{1111} 11_2 \
 \hline
-\phantom{\otimes 111} 111\_2 \\
-\oplus \phantom{11} 111\_2 \phantom{9} \\
+\phantom{\otimes 111} 111_2 \
+\oplus \phantom{11} 111_2 \phantom{9} \
 \hline
-\phantom{\otimes 11} 1001\_2 \\
-\end{align\*}
+\phantom{\otimes 11} 1001_2 \
+\end{align\*}$$
 
 We consider the equation:
 
-\begin{align}
+$$\begin{align}
 (a \otimes a) \oplus (2 \otimes a \otimes b) \oplus (b \otimes b) = 5
-\end{align}
+\end{align}$$
 
 For example, $(a, b) = (3, 6)$ is a solution.
 
@@ -15033,23 +14836,23 @@ Find $X(10^{18})$.
 
 We use $x\oplus y$ for the bitwise XOR of $x$ and $y$.  
 Define the <span class="dfn">XOR-product</span> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.  
-For example, $7 \otimes 3 = 9$, or in base $2$, $111\_2 \otimes 11\_2 = 1001\_2$:
+For example, $7 \otimes 3 = 9$, or in base $2$, $111_2 \otimes 11_2 = 1001_2$:
 
-\begin{align\*}
-\phantom{\otimes 111} 111\_2 \\
-\otimes \phantom{1111} 11\_2 \\
+$$\begin{align\*}
+\phantom{\otimes 111} 111_2 \
+\otimes \phantom{1111} 11_2 \
 \hline
-\phantom{\otimes 111} 111\_2 \\
-\oplus \phantom{11} 111\_2 \phantom{9} \\
+\phantom{\otimes 111} 111_2 \
+\oplus \phantom{11} 111_2 \phantom{9} \
 \hline
-\phantom{\otimes 11} 1001\_2 \\
-\end{align\*}
+\phantom{\otimes 11} 1001_2 \
+\end{align\*}$$
 
 We consider the equation:
 
-\begin{align}
+$$\begin{align}
 (a \otimes a) \oplus (2 \otimes a \otimes b) \oplus (b \otimes b) = k.
-\end{align}
+\end{align}$$
 
 For example, $(a, b) = (3, 6)$ is a solution to this equation for $k=5$.
 
@@ -15057,7 +14860,7 @@ Let $G(N,m)$ be the number of solutions to those equations with $k \le m$ and $0
 
 You are given $G(1000,100)=398$.
 
-Find $G(10^{17},1\,000\,000).$
+Find $G(10^{17},1\000\000).$
 
 # Problem 879
 
@@ -15084,13 +14887,13 @@ For example, both $(-4,125)$ and $(5,5324)$ are nested radical pairs:
 $$
 \begin{align\*}
 \begin{split}
-\sqrt{\sqrt\[3\]{-4}+\sqrt\[3\]{125}} &= \sqrt\[3\]{-1}+\sqrt\[3\]{2}+\sqrt\[3\]{4}\\
-\sqrt{\sqrt\[3\]{5}+\sqrt\[3\]{5324}} &= \sqrt\[3\]{-2}+\sqrt\[3\]{20}+\sqrt\[3\]{25}\\
+\sqrt{\sqrt\[3\]{-4}+\sqrt\[3\]{125}} &= \sqrt\[3\]{-1}+\sqrt\[3\]{2}+\sqrt\[3\]{4}\
+\sqrt{\sqrt\[3\]{5}+\sqrt\[3\]{5324}} &= \sqrt\[3\]{-2}+\sqrt\[3\]{20}+\sqrt\[3\]{25}\
 \end{split}
 \end{align\*}
 $$
 
-Let $H(N)$ be the sum of $|x|+|y|$ for all the nested radical pairs $(x, y)$ where $|x| \leq |y|\leq N$.  
+Let $H(N)$ be the sum of $\|x\|+\|y\|$ for all the nested radical pairs $(x, y)$ where $\|x\| \leq \|y\|\leq N$.  
 For example, $H(10^3)=2535$.
 
 Find $H(10^{15})$. Give your answer modulo $1031^3+2$.
@@ -15099,7 +14902,7 @@ Find $H(10^{15})$. Give your answer modulo $1031^3+2$.
 
 For a positive integer $n$ create a graph using its divisors as vertices. An edge is drawn between two vertices $a \lt b$ if their quotient $b/a$ is prime. The graph can be arranged into levels where vertex $n$ is at level $0$ and vertices that are a distance $k$ from $n$ are on level $k$. Define $g(n)$ to be the maximum number of vertices in a single level.
 
-![0881\_example45.jpg](resources/images/0881_example45.jpg?1707508801)
+![0881_example45.jpg](resources/images/0881_example45.jpg?1707508801)
 
 The example above shows that $g(45) = 2$. You are also given $g(5040) = 12$.
 
@@ -15132,10 +14935,10 @@ In this problem we consider triangles drawn on a **hexagonal lattice**, where ea
 
 We call a triangle *remarkable* if
 
-  - All three vertices and its **incentre** lie on lattice points
-  - At least one of its angles is $60^\circ$
+- All three vertices and its **incentre** lie on lattice points
+- At least one of its angles is $60^\circ$
 
-![0883\_diagram.png](resources/images/0883_diagram.png?1707941179)
+![0883_diagram.png](resources/images/0883_diagram.png?1707941179)
 
 Above are four examples of remarkable triangles, with $60^\circ$ angles illustrated in red. Triangles A and B have inradius $1$; C has inradius $\sqrt{3}$; D has inradius $2$.
 
@@ -15167,21 +14970,21 @@ Find $S(18)$. Give your answer modulo $1123455689$.
 
 # Problem 886
 
-A permutation of $\{2,3,\ldots,n\}$ is a rearrangement of these numbers. A *coprime permutation* is a rearrangement such that all pairs of adjacent numbers are coprime.
+A permutation of $\2,3,\ldots,n\$ is a rearrangement of these numbers. A *coprime permutation* is a rearrangement such that all pairs of adjacent numbers are coprime.
 
-Let $P(n)$ be the number of coprime permutations of $\{2,3,\ldots,n\}$.
+Let $P(n)$ be the number of coprime permutations of $\2,3,\ldots,n\$.
 
 For example, $P(4)=2$ as there are two coprime permutations, $(2,3,4)$ and $(4,3,2)$. You are also given $P(10)=576$.
 
-Find $P(34)$ and give your answer modulo $83\,456\,729$.
+Find $P(34)$ and give your answer modulo $83\456\729$.
 
 # Problem 887
 
-Consider the problem of determining a secret number from a set $\{1, ..., N\}$ by repeatedly choosing a number $y$ and asking "Is the secret number greater than $y$?".
+Consider the problem of determining a secret number from a set $\1, ..., N\$ by repeatedly choosing a number $y$ and asking "Is the secret number greater than $y$?".
 
 If $N=1$ then no questions need to be asked. If $N=2$ then only one question needs to be asked. If $N=64$ then six questions need to be asked. However, in the latter case if the secret number is $1$ then six questions still need to be asked. We want to restrict the number of questions asked for small values.
 
-Let $Q(N, d)$ be the least number of questions needed for a strategy that can find any secret number from the set $\{1, ..., N\}$ where no more than $x + d$ questions are needed to find the secret value $x$.
+Let $Q(N, d)$ be the least number of questions needed for a strategy that can find any secret number from the set $\1, ..., N\$ where no more than $x + d$ questions are needed to find the secret value $x$.
 
 It can be proved that $Q(N, 0) = N - 1$. You are also given $Q(7, 1) = 3$ and $Q(777, 2) = 10$.
 
@@ -15202,9 +15005,9 @@ Find $S(12491249,1249)$. Give your answer modulo $912491249$.
 Recall the blancmange function from [Problem 226](problem=226): $T(x) = \sum\limits\_{n = 0}^\infty\dfrac{s(2^nx)}{2^n}$, where $s(x)$ is the distance from $x$ to the nearest integer.
 
 For positive integers $k, t, r$, we write $$F(k, t, r) = (2^{2k} - 1)T\left(\frac{(2^t + 1)^r}{2^k + 1}\right).$$ It can be shown that $F(k, t, r)$ is always an integer.  
-For example, $F(3, 1, 1) = 42$, $F(13, 3, 3) = 23093880$ and $F(103, 13, 6) \equiv 878922518\pmod {1\,000\,062\,031}$.
+For example, $F(3, 1, 1) = 42$, $F(13, 3, 3) = 23093880$ and $F(103, 13, 6) \equiv 878922518\pmod {1\000\062\031}$.
 
-Find $F(10^{18} + 31, 10^{14} + 31, 62)$. Give your answer modulo $1\,000\,062\,031$.
+Find $F(10^{18} + 31, 10^{14} + 31, 62)$. Give your answer modulo $1\000\062\031$.
 
 # Problem 890
 
@@ -15213,11 +15016,11 @@ Let $p(n)$ be the number of ways to write $n$ as the sum of powers of two, ignor
 For example, $p(7) = 6$, the partitions being
 $$
 \begin{align}
-7 &= 1+1+1+1+1+1+1 \\
-&=1+1+1+1+1+2 \\
-&=1+1+1+2+2 \\
-&=1+1+1+4 \\
-&=1+2+2+2 \\
+7 &= 1+1+1+1+1+1+1 \
+&=1+1+1+1+1+2 \
+&=1+1+1+2+2 \
+&=1+1+1+4 \
+&=1+2+2+2 \
 &=1+2+4
 \end{align}
 $$
@@ -15236,7 +15039,7 @@ Note that even if two hands perfectly coincide, we can still see them as two dis
 
 <div style="text-align:center;">
 
-![0891\_clock.png](resources/images/0891_clock.png?1714250610)
+![0891_clock.png](resources/images/0891_clock.png?1714250610)
 
 </div>
 
@@ -15255,7 +15058,7 @@ For example, there are five different cuttings with $n = 3$.
 
 <div style="text-align:center;">
 
-![0892\_Zebra.png](resources/images/0892_Zebra.png?1714876283)
+![0892_Zebra.png](resources/images/0892_Zebra.png?1714876283)
 
 </div>
 
@@ -15275,7 +15078,7 @@ The valid digits and symbols are shown below:
 
 <div style="text-align:center;">
 
-![0893\_DigitDiagram.jpg](resources/images/0893_DigitDiagram.jpg?1714876316)
+<img src="resources/images/0893_DigitDiagram.jpg?1714876316" width="668" height="433" alt="0893_DigitDiagram.jpg" />
 
 </div>
 
@@ -15287,13 +15090,13 @@ Find $T(10^6)$.
 
 # Problem 894
 
-Consider a **unit circle<span class="tooltiptext">circle with radius 1</span>** $C\_0$ on the plane that does not enclose the origin. For $k\ge 1$, a circle $C\_k$ is created by scaling and rotating $C\_{k - 1}$ **with respect to the origin**. That is, both the radius and the distance to the origin are scaled by the same factor, and the centre of rotation is the origin. The scaling factor is positive and strictly less than one. Both it and the rotation angle remain constant for each $k$.
+Consider a **unit circle<span class="tooltiptext">circle with radius 1</span>** $C_0$ on the plane that does not enclose the origin. For $k\ge 1$, a circle $C_k$ is created by scaling and rotating $C\_{k - 1}$ **with respect to the origin**. That is, both the radius and the distance to the origin are scaled by the same factor, and the centre of rotation is the origin. The scaling factor is positive and strictly less than one. Both it and the rotation angle remain constant for each $k$.
 
-It is given that $C\_0$ is externally tangent to $C\_1$, $C\_7$ and $C\_8$, as shown in the diagram below, and no two circles overlap.
+It is given that $C_0$ is externally tangent to $C_1$, $C_7$ and $C_8$, as shown in the diagram below, and no two circles overlap.
 
 <div style="text-align:center;">
 
-![0894\_circle\_spiral.jpg](resources/images/0894_circle_spiral.jpg?1714305246)
+![0894_circle_spiral.jpg](resources/images/0894_circle_spiral.jpg?1714305246)
 
 </div>
 
@@ -15312,7 +15115,7 @@ Define $G(m)$ to be the number of fair and balanced arrangements consisting of t
 
 <div style="text-align:center;">
 
-![0895\_G2.png](resources/images/0895_G2.png?1714251811)
+![0895_G2.png](resources/images/0895_G2.png?1714251811)
 
 </div>
 
@@ -15331,7 +15134,7 @@ Give as answer the smallest number in the range.
 
 # Problem 897
 
-Let $G(n)$ denote the largest possible area of an **$n$-gon<span class="tooltiptext">a polygon with $n$ sides</span>** contained in the region $\{(x, y) \in \Bbb R^2: x^4 \leq y \leq 1\}$.  
+Let $G(n)$ denote the largest possible area of an **$n$-gon<span class="tooltiptext">a polygon with $n$ sides</span>** contained in the region $\(x, y) \in \Bbb R^2: x^4 \leq y \leq 1\$.  
 For example, $G(3) = 1$ and $G(5)\approx 1.477309771$.  
 Find $G(101)$ rounded to nine digits after the decimal point.
 
@@ -15342,9 +15145,9 @@ A fair coin is tossed on the table. All the students can see the outcome of the 
 Each student then tells Claire whether the outcome is head or tail. The students may lie, but Claire knows the probability that each individual student lies. Moreover, the students lie independently.
 After that, Claire attempts to guess the outcome using an optimal strategy.
 
-For example, for a class of four students with lying probabilities $20\%,40\%,60\%,80\%$, Claire guesses correctly with probability 0.832.
+For example, for a class of four students with lying probabilities $20\,40\,60\,80\$, Claire guesses correctly with probability 0.832.
 
-Find the probability that Claire guesses correctly for a class of 51 students each lying with a probability of $25\%, 26\%, \dots, 75\%$
+Find the probability that Claire guesses correctly for a class of 51 students each lying with a probability of $25\, 26\, \dots, 75\$
 respectively.
 
 Give your answer rounded to 10 digits after the decimal point.
@@ -15396,34 +15199,953 @@ Assuming an optimal strategy, find the minimal expected drilling time in hours r
 
 # Problem 902
 
-A permutation $\pi$ of $\{1, \dots, n\}$ can be represented in **one-line notation** as $\pi(1),\ldots,\pi(n) $. If all $n!$ permutations are written in lexicographic order then $\textrm{rank}(\pi)$ is the position of $\pi$ in this 1-based list.
+A permutation $\pi$ of $\1, \dots, n\$ can be represented in **one-line notation** as $\pi(1),\ldots,\pi(n) $. If all $n!$ permutations are written in lexicographic order then $\textrm{rank}(\pi)$ is the position of $\pi$ in this 1-based list.
 
-For example, $\text{rank}(2,1,3) = 3$ because the six permutations of $\{1, 2, 3\}$ in lexicographic order are:
+For example, $\text{rank}(2,1,3) = 3$ because the six permutations of $\1, 2, 3\$ in lexicographic order are:
 $$1, 2, 3\quad 1, 3, 2 \quad 2, 1, 3 \quad 2, 3, 1 \quad 3, 1, 2 \quad 3, 2, 1$$
 
-For a positive integer $m$, we define the following permutation of $\{1, \dots, n\}$ with $n = \frac{m(m+1)}2$:
+For a positive integer $m$, we define the following permutation of $\1, \dots, n\$ with $n = \frac{m(m+1)}2$:
 $$
 \begin{align}
-\sigma(i) &= \begin{cases} \frac{k(k-1)}2 + 1 & \textrm{if } i = \frac{k(k + 1)}2\textrm{ for }k\in\{1, \dots, m\};\\i + 1 & \textrm{otherwise};\end{cases}\\
-\tau(i) &= ((10^9 + 7)i \bmod n) + 1\\
+\sigma(i) &= \begin{cases} \frac{k(k-1)}2 + 1 & \textrm{if } i = \frac{k(k + 1)}2\textrm{ for }k\in\1, \dots, m\;\i + 1 & \textrm{otherwise};\end{cases}\
+\tau(i) &= ((10^9 + 7)i \bmod n) + 1\
 \pi(i) &= \tau^{-1}(\sigma(\tau(i)))
 \end{align}
 $$
+where $\tau^{-1}$ is the inverse permutation of $\tau$.
 
-Define $\displaystyle P(m) = \sum\_{k=1}^{m!} \text{rank}(\pi^k)$.  
+Define $\displaystyle P(m) = \sum\_{k=1}^{m!} \text{rank}(\pi^k)$, where $\pi^k$ is the permutation arising from applying $\pi$ $k$ times.  
 For example, $P(2) = 4$, $P(3) = 780$ and $P(4) = 38810300$.
 
 Find $P(100)$. Give your answer modulo $(10^9 + 7)$.
 
 # Problem 903
 
-A permutation $\pi$ of $\{1, \dots, n\}$ can be represented in **one-line notation** as $\pi(1),\ldots,\pi(n) $. If all $n!$ permutations are written in lexicographic order then $\textrm{rank}(\pi)$ is the position of $\pi$ in this 1-based list.
+A permutation $\pi$ of $\1, \dots, n\$ can be represented in **one-line notation** as $\pi(1),\ldots,\pi(n) $. If all $n!$ permutations are written in lexicographic order then $\textrm{rank}(\pi)$ is the position of $\pi$ in this 1-based list.
 
-For example, $\text{rank}(2,1,3) = 3$ because the six permutations of $\{1, 2, 3\}$ in lexicographic order are:
+For example, $\text{rank}(2,1,3) = 3$ because the six permutations of $\1, 2, 3\$ in lexicographic order are:
 $$1, 2, 3\quad 1, 3, 2 \quad 2, 1, 3 \quad 2, 3, 1 \quad 3, 1, 2 \quad 3, 2, 1$$
 
-Let $Q(n)$ be the sum $\sum\_{\pi}\sum\_{i = 1}^{n!} \text{rank}(\pi^i)$, where $\pi$ ranges over all permutations of $\{1, \dots, n\}$.
+Let $Q(n)$ be the sum $\sum\_{\pi}\sum\_{i = 1}^{n!} \text{rank}(\pi^i)$, where $\pi$ ranges over all permutations of $\1, \dots, n\$, and $\pi^i$ is the permutation arising from applying $\pi$ $i$ times.
 
 For example, $Q(2) = 5$, $Q(3) = 88$, $Q(6) = 133103808$ and $Q(10) \equiv 468421536 \pmod {10^9 + 7}$.
 
 Find $Q(10^6)$. Give your answer modulo $(10^9 + 7)$.
+
+# Problem 904
+
+Given a right-angled triangle with integer sides, the smaller angle formed by the two medians drawn on the the two perpendicular sides is denoted by $\theta$.
+
+<div style="text-align:center;">
+
+![0904_Pythagorean_angle.jpg](resources/images/0904_pythagorean_angle.png?1723895050)
+
+</div>
+
+Let $f(\alpha, L)$ denote the sum of the sides of the right-angled triangle minimizing the absolute difference between $\theta$ and $\alpha$ among all right-angled triangles with integer sides and hypotenuse not exceeding $L$.  
+If more than one triangle attains the minimum value, the triangle with the maximum area is chosen. All angles in this problem are measured in degrees.
+
+For example, $f(30,10^2)=198$ and $f(10,10^6)= 1600158$.
+
+Define $F(N,L)=\sum\_{n=1}^{N}f\left(\sqrt\[3\]{n},L\right)$.  
+You are given $F(10,10^6)= 16684370$.
+
+Find $F(45000, 10^{10})$.
+
+# Problem 905
+
+Three epistemologists, known as A, B, and C, are in a room, each wearing a hat with a number on it. They have been informed beforehand that all three numbers are positive and that one of the numbers is the sum of the other two.
+
+Once in the room, they can see the numbers on each other's hats but not on their own. Starting with A and proceeding cyclically, each epistemologist must either honestly state "I don't know my number" or announce "Now I know my number!" which terminates the game.
+
+For instance, if their numbers are $A=2, B=1, C=1$ then A declares "Now I know" at the first turn. If their numbers are $A=2, B=7, C=5$ then "I don't know" is heard four times before B finally declares "Now I know" at the fifth turn.
+
+Let $F(A,B,C)$ be the number of turns it takes until an epistemologist declares "Now I know", including the turn this declaration is made. So $F(2,1,1)=1$ and $F(2,7,5)=5$.
+
+Find $\displaystyle \sum\_{a=1}^7 \sum\_{b=1}^{19} F(a^b, b^a, a^b + b^a)$.
+
+# Problem 906
+
+Three friends attempt to collectively choose one of $n$ options, labeled $1,\dots,n$, based upon their individual preferences. They choose option $i$ if for every alternative option $j$ at least two of the three friends prefer $i$ over $j$. If no such option $i$ exists they fail to reach an agreement.
+
+Define $P(n)$ to be the probability the three friends successfully reach an agreement and choose one option, where each of the friends' individual order of preference is given by a (possibly different) random permutation of $1,\dots,n$.
+
+You are given $P(3)=17/18$ and $P(10)\approx0.6760292265$.
+
+Find $P(20\000)$. Give your answer rounded to ten places after the decimal point.
+
+# Problem 907
+
+An infant's toy consists of $n$ cups, labelled $C_1,\dots,C_n$ in increasing order of size.
+
+<img src="resources/images/0907_four_cups.png?1723769212" height="162" alt="0907_four_cups.png" />
+
+The cups may be stacked in various combinations and orientations to form towers. The cups are shaped such that the following means of stacking are possible:
+
+- Nesting: $C_k$ may sit snugly inside $C\_{k+1}$.  
+  <img src="resources/images/0907_nesting.png?1723769266" height="150" alt="0907_nesting.png" />
+- Base-to-base: $C\_{k+2}$ or $C\_{k-2}$ may sit, right-way-up, on top of an up-side-down $C_k$, with their bottoms fitting together snugly.  
+  <img src="resources/images/0907_base_to_base.png?1723769276" height="198" alt="0907_base_to_base.png" />
+- Rim-to-rim: $C\_{k+2}$ or $C\_{k-2}$ may sit, up-side-down, on top of a right-way-up $C_k$, with their tops fitting together snugly.  
+  <img src="resources/images/0907_rim_to_rim.png?1723769283" height="198" alt="0907_rim_to_rim.png" />
+- For the purposes of this problem, it is **not** permitted to stack **both** $C\_{k+2}$ and $C\_{k-2}$ rim-to-rim on top of $C_k$, despite the schematic diagrams appearing to allow it:  
+  <img src="resources/images/0907_rim_to_rim_counter_example.png?1740699245" height="267" alt="0907_rim_to_rim_counter_example.png" />  
+
+Define $S(n)$ to be the number of ways to build a single tower using all $n$ cups according to the above rules.  
+You are given $S(4)=12$, $S(8)=58$, and $S(20)=5560$.
+
+Find $S(10^7)$, giving your answer modulo $1\000\000\007$.
+
+# Problem 908
+
+A <span class="dfn">clock sequence</span> is a periodic sequence of positive integers that can be broken into contiguous segments such that the sum of the $n$-th segment is equal to $n$.
+
+For example, the sequence $$1\ 2\ 3\ 4\ 3\ 2\ 1\ 2\ 3\ 4\ 3\ 2\ 1\ 2\ 3\ 4\ 3\ 2\ 1\ \cdots$$ is a clock sequence with period $6$, as it can be broken into $$1\Big \|2\Big \|3\Big \|4\Big \|3\ 2\Big \|1\ 2\ 3\Big \|4\ 3\Big \|2\ 1\ 2\ 3\Big \|4\ 3\ 2\Big \|1\ 2\ 3\ 4\Big \|3\ 2\ 1\ 2\ 3\Big \|\cdots$$
+Let $C(N)$ be the number of different clock sequences with period at most $N$.
+For example, $C(3) = 3$, $C(4) = 7$ and $C(10) = 561$.
+
+Find $C(10^4) \bmod 1111211113$.
+
+# Problem 909
+
+An <span class="dfn">L-expression</span> is defined as any one of the following:
+
+- a natural number;
+- the symbol $A$;
+- the symbol $Z$;
+- the symbol $S$;
+- a pair of L-expressions $u, v$, which is written as $u(v)$.
+
+An L-expression can be transformed according to the following rules:
+
+- $A(x) \to x + 1$ for any natural number $x$;
+- $Z(u)(v) \to v$ for any L-expressions $u, v$;
+- $S(u)(v)(w) \to v(u(v)(w))$ for any L-expressions $u, v, w$.
+
+For example, after applying all possible rules, the L-expression $S(Z)(A)(0)$ is transformed to the number $1$:
+$$S(Z)(A)(0) \to A(Z(A)(0)) \to A(0) \to 1.$$
+Similarly, the L-expression $S(S)(S(S))(S(Z))(A)(0)$ is transformed to the number $6$ after applying all possible rules.
+
+Find the result of the L-expression $S(S)(S(S))(S(S))(S(Z))(A)(0)$ after applying all possible rules. Give the last nine digits as your answer.
+
+**Note:** it can be proved that the L-expression in question can only be transformed a finite number of times, and the final result does not depend on the order of the transformations.
+
+# Problem 910
+
+An <span class="dfn">L-expression</span> is defined as any one of the following:
+
+- a natural number;
+- the symbol $A$;
+- the symbol $Z$;
+- the symbol $S$;
+- a pair of L-expressions $u, v$, which is written as $u(v)$.
+
+An L-expression can be transformed according to the following rules:
+
+- $A(x) \to x + 1$ for any natural number $x$;
+- $Z(u)(v) \to v$ for any L-expressions $u, v$;
+- $S(u)(v)(w) \to v(u(v)(w))$ for any L-expressions $u, v, w$.
+
+For example, after applying all possible rules, the L-expression $S(Z)(A)(0)$ is transformed to the number $1$:
+$$S(Z)(A)(0) \to A(Z(A)(0)) \to A(0) \to 1.$$
+Similarly, the L-expression $S(S)(S(S))(S(Z))(A)(0)$ is transformed to the number $6$ after applying all possible rules.
+
+Define the following L-expressions:
+
+- $C_0 = Z$;
+- $C_i = S(C\_{i - 1})$ for $i \ge 1$;
+- $D_i = C_i(S)(S)$.
+
+For natural numbers $a, b, c, d, e$, let $F(a, b, c, d, e)$ denote the result of the L-expression $D_a(D_b)(D_c)(C_d)(A)(e)$ after applying all possible rules.
+
+Find the last nine digits of $F(12, 345678, 9012345, 678, 90)$.
+
+**Note:** it can be proved that the L-expression in question can only be transformed a finite number of times, and the final result does not depend on the order of the transformations.
+
+# Problem 911
+
+An irrational number $x$ can be uniquely expressed as a **continued fraction** $\[a_0; a_1,a_2,a_3,\dots\]$:
+$$
+x=a\_{0}+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+{\_\ddots}}}}
+$$where $a_0$ is an integer and $a_1,a_2,a_3,\dots$ are positive integers.
+
+Define $k_j(x)$ to be the **geometric mean** of $a_1,a_2,\dots,a_j$.  
+That is, $k_j(x)=(a_1a_2 \cdots a_j)^{1/j}$.  
+Also define $k\_\infty(x)=\lim\_{j\to \infty} k_j(x)$.
+
+Khinchin proved that **almost all** irrational numbers $x$ have the same value of $k\_\infty(x)\approx2.685452\dots$ known as **Khinchin's constant**. However, there are some exceptions to this rule.
+
+For $n\geq 0$ define
+$$\rho_n = \sum\_{i=0}^{\infty} \frac{2^n}{2^{2^i}}
+$$For example $\rho_2$, with continued fraction beginning $\[3; 3, 1, 3, 4, 3, 1, 3,\dots\]$, has $k\_\infty(\rho_2)\approx2.059767$.
+
+Find the geometric mean of $k\_{\infty}(\rho_n)$ for $0\leq n\leq 50$, giving your answer rounded to six digits after the decimal point.
+
+# Problem 912
+
+Let $s_n$ be the $n$-th positive integer that does not contain three consecutive ones in its binary representation.  
+For example, $s_1 = 1$ and $s_7 = 8$.
+
+Define $F(N)$ to be the sum of $n^2$ for all $n\leq N$ where $s_n$ is odd. You are given $F(10)=199$.
+
+Find $F(10^{16})$ giving your answer modulo $10^9+7$.
+
+# Problem 913
+
+The numbers from $1$ to $12$ can be arranged into a $3 \times 4$ matrix in either **row-major** or **column-major** order:
+$$R=\begin{pmatrix}
+1 & 2 & 3 & 4\
+5 & 6 & 7 & 8\
+9 & 10 & 11 & 12\end{pmatrix}, C=\begin{pmatrix}
+1 & 4 & 7 & 10\
+2 & 5 & 8 & 11\
+3 & 6 & 9 & 12\end{pmatrix}$$
+By swapping two entries at a time, at least $8$ swaps are needed to transform $R$ to $C$.
+
+Let $S(n, m)$ be the minimal number of swaps needed to transform an $n\times m$ matrix of $1$ to $nm$ from row-major order to column-major order. Thus $S(3, 4) = 8$.
+
+You are given that the sum of $S(n, m)$ for $2 \leq n \leq m \leq 100$ is $12578833$.
+
+Find the sum of $S(n^4, m^4)$ for $2 \leq n \leq m \leq 100$.
+
+# Problem 914
+
+For a given integer $R$ consider all primitive Pythagorean triangles that can fit inside, without touching, a circle with radius $R$. Define $F(R)$ to be the largest inradius of those triangles. You are given $F(100) = 36$.
+
+Find $F(10^{18})$.
+
+# Problem 915
+
+The function $s(n)$ is defined recursively for positive integers by
+$s(1) = 1$ and $s(n+1) = \big(s(n) - 1\big)^3 +2$ for $n\geq 1$.  
+The sequence begins: $s(1) = 1, s(2) = 2, s(3) = 3, s(4) = 10, \ldots$.
+
+For positive integers $N$, define $$T(N) = \sum\_{a=1}^N \sum\_{b=1}^N \gcd\Big(s\big(s(a)\big), s\big(s(b)\big)\Big).$$ You are given $T(3) = 12$, $T(4) \equiv 24881925$ and $T(100)\equiv 14416749$ both modulo $123456789$.
+
+Find $T(10^8)$. Give your answer modulo $123456789$.
+
+# Problem 916
+
+Let $P(n)$ be the number of permutations of $\1,2,3,\ldots,2n\$ such that:  
+1. There is no ascending subsequence with more than $n+1$ elements, and  
+2. There is no descending subsequence with more than two elements.
+
+Note that subsequences need not be contiguous. For example, the permutation $(4,1,3,2)$ is not counted because it has a descending subsequence of three elements: $(4,3,2)$. You are given $P(2)=13$ and $P(10) \equiv 45265702 \pmod{10^9 + 7}$.
+
+Find $P(10^8)$ and give your answer modulo $10^9 + 7$.
+
+# Problem 917
+
+The sequence $s_n$ is defined by $s_1 = 102022661$ and $s_n = s\_{n-1}^2 \bmod {998388889}$ for $n \> 1$.
+
+Let $a_n = s\_{2n - 1}$ and $b_n = s\_{2n}$ for $n=1,2,...$
+
+Define an $N \times N$ matrix whose values are $M\_{i,j} = a_i + b_j$.
+
+Let $A(N)$ be the minimal path sum from $M\_{1,1}$ (top left) to $M\_{N,N}$ (bottom right), where each step is either right or down.
+
+You are given $A(1) = 966774091$, $A(2) = 2388327490$ and $A(10) = 13389278727$.
+
+Find $A(10^7)$.
+
+# Problem 918
+
+The sequence $a_n$ is defined by $a_1=1$, and then recursively for $n\geq1$:
+$$\begin{align\*}
+a\_{2n} &=2a_n\
+a\_{2n+1} &=a_n-3a\_{n+1}
+\end{align\*}$$
+The first ten terms are $1, 2, -5, 4, 17, -10, -17, 8, -47, 34$.  
+Define $\displaystyle S(N) = \sum\_{n=1}^N a_n$. You are given $S(10) = -13$.  
+Find $S(10^{12})$.
+
+# Problem 919
+
+We call a triangle *fortunate* if it has integral sides and at least one of its vertices has the property that the distance from it to the triangle's **orthocentre** is exactly half the distance from the same vertex to the triangle's **circumcentre**.
+
+<img src="resources/images/0919_remarkablediagram.jpg?1731700434" height="400" alt="0919_remarkablediagram.jpg" />
+
+Triangle $ABC$ above is an example of a fortunate triangle with sides $(6,7,8)$. The distance from the vertex $C$ to the circumcentre $O$ is $\approx 4.131182$, while the distance from $C$ to the orthocentre $H$ is half that, at $\approx 2.065591$.
+
+Define $S(P)$ to be the sum of $a+b+c$ over all fortunate triangles with sides $a\leq b\leq c$ and perimeter not exceeding $P$.
+
+For example $S(10)=24$, arising from three triangles with sides $(1,2,2)$, $(2,3,4)$, and $(2,4,4)$. You are also given $S(100)=3331$.
+
+Find $S(10^7)$.
+
+# Problem 920
+
+For a positive integer $n$ we define $\tau(n)$ to be the count of the divisors of $n$. For example, the divisors of $12$ are $\1,2,3,4,6,12\$ and so $\tau(12) = 6$.
+
+A positive integer $n$ is a **tau number** if it is divisible by $\tau(n)$. For example $\tau(12)=6$ and $6$ divides $12$ so $12$ is a tau number.
+
+Let $m(k)$ be the smallest tau number $x$ such that $\tau(x) = k$. For example, $m(8) = 24$, $m(12)=60$ and $m(16)=384$.
+
+Further define $M(n)$ to be the sum of all $m(k)$ whose values do not exceed $10^n$. You are given $M(3) = 3189$.
+
+Find $M(16)$.
+
+# Problem 921
+
+Consider the following recurrence relation:
+$$\begin{align}
+a_0 &= \frac{\sqrt 5 + 1}2\
+a\_{n+1} &= \dfrac{a_n(a_n^4 + 10a_n^2 + 5)}{5a_n^4 + 10a_n^2 + 1}
+\end{align}$$
+
+Note that $a_0$ is the **golden ratio**.
+
+$a_n$ can always be written in the form $\dfrac{p_n\sqrt{5}+1}{q_n}$, where $p_n$ and $q_n$ are positive integers.
+
+Let $s(n)=p_n^5+q_n^5$. So, $s(0)=1^5+2^5=33$.
+
+The **Fibonacci sequence** is defined as: $F_1=1$, $F_2=1$, $F_n=F\_{n-1}+F\_{n-2}$ for $n \> 2$.
+
+Define $\displaystyle S(m)=\sum\_{i=2}^{m}s(F_i)$.
+
+Find $S(1618034)$. Submit your answer modulo $398874989$.
+
+# Problem 922
+
+A **Young diagram** is a finite collection of (equally-sized) squares in a grid-like arrangement of rows and columns, such that
+
+- the left-most squares of all rows are aligned vertically;
+- the top squares of all columns are aligned horizontally;
+- the rows are non-increasing in size as we move top to bottom;
+- the columns are non-increasing in size as we move left to right.
+
+Two examples of Young diagrams are shown below.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_diagrams.png](resources/images/0922_youngs_game_diagrams.png?1731534949)
+
+</div>
+
+Two players Right and Down play a game on several Young diagrams, all disconnected from each other. Initially, a token is placed in the top-left square of each diagram. Then they take alternating turns, starting with Right. On Right's turn, Right selects a token on one diagram and moves it **any number of squares** to the right. On Down's turn, Down selects a token on one diagram and moves it **any number of squares** downwards. A player unable to make a legal move on their turn loses the game.
+
+For $a,b,k\geq 1$ we define an <span class="dfn">$(a,b,k)$-staircase</span> to be the Young diagram where the bottom-right frontier consists of $k$ <span class="dfn">steps</span> of vertical height $a$ and horizontal length $b$. Shown below are four examples of staircases with $(a,b,k)$ respectively $(1,1,4),$ $(5,1,1),$ $(3,3,2),$ $(2,4,3)$.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_staircases.png](resources/images/0922_youngs_game_staircases.png?1731535243)
+
+</div>
+
+Additionally, define the <span class="dfn">weight</span> of an $(a,b,k)$-staircase to be $a+b+k$.
+
+Let $R(m, w)$ be the number ways of choosing $m$ staircases, each having weight not exceeding $w$, upon which Right (moving first in the game) will win the game assuming optimal play. Different orderings of the same set of staircases are to be counted separately.
+
+For example, $R(2, 4)=7$ is illustrated below, with tokens as grey circles drawn in their initial positions.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_example.png](resources/images/0922_youngs_game_example.png?1731535375)
+
+</div>
+
+You are also given $R(3, 9)=314104$.
+
+Find $R(8, 64)$ giving your answer modulo $10^9+7$.
+
+# Problem 923
+
+A **Young diagram** is a finite collection of (equally-sized) squares in a grid-like arrangement of rows and columns, such that
+
+- the left-most squares of all rows are aligned vertically;
+- the top squares of all columns are aligned horizontally;
+- the rows are non-increasing in size as we move top to bottom;
+- the columns are non-increasing in size as we move left to right.
+
+Two examples of Young diagrams are shown below.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_diagrams.png](resources/images/0922_youngs_game_diagrams.png?1731534949)
+
+</div>
+
+Two players Right and Down play a game on several Young diagrams, all disconnected from each other. Initially, a token is placed in the top-left square of each diagram. Then they take alternating turns, starting with Right. On Right's turn, Right selects a token on one diagram and moves it **one square** to the right. On Down's turn, Down selects a token on one diagram and moves it **one square** downwards. A player unable to make a legal move on their turn loses the game.
+
+For $a,b,k\geq 1$ we define an <span class="dfn">$(a,b,k)$-staircase</span> to be the Young diagram where the bottom-right frontier consists of $k$ <span class="dfn">steps</span> of vertical height $a$ and horizontal length $b$. Shown below are four examples of staircases with $(a,b,k)$ respectively $(1,1,4),$ $(5,1,1),$ $(3,3,2),$ $(2,4,3)$.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_staircases.png](resources/images/0922_youngs_game_staircases.png?1731535243)
+
+</div>
+
+Additionally, define the <span class="dfn">weight</span> of an $(a,b,k)$-staircase to be $a+b+k$.
+
+Let $S(m, w)$ be the number ways of choosing $m$ staircases, each having weight not exceeding $w$, upon which Right (moving first in the game) will win the game assuming optimal play. Different orderings of the same set of staircases are to be counted separately.
+
+For example, $S(2, 4)=7$ is illustrated below, with tokens as grey circles drawn in their initial positions.
+
+<div style="text-align:center;">
+
+![0922_youngs_game_example.png](resources/images/0922_youngs_game_example.png?1731535375)
+
+</div>
+
+You are also given $S(3, 9)=315319$.
+
+Find $S(8, 64)$ giving your answer modulo $10^9+7$.
+
+# Problem 924
+
+Let $B(n)$ be the smallest number larger than $n$ that can be formed by rearranging digits of $n$, or $0$ if no such number exists. For example, $B(245) = 254$ and $B(542) = 0$.
+
+Define $a_0 = 0$ and $a_n = a\_{n - 1}^2 + 2$ for $n\>0$.
+Let $\displaystyle U(N) = \sum\_{n = 1}^N B(a_n)$. You are given $U(10) \equiv 543870437 \pmod{10^9+7}$.
+
+Find $U(10^{16})$. Give your answer modulo $10^9 + 7$.
+
+# Problem 925
+
+Let $B(n)$ be the smallest number larger than $n$ that can be formed by rearranging digits of $n$, or $0$ if no such number exists. For example, $B(245) = 254$ and $B(542) = 0$.
+
+Define $\displaystyle T(N) = \sum\_{n=1}^N B(n^2)$. You are given $T(10)=270$ and $T(100)=335316$.
+
+Find $T(10^{16})$. Give your answer modulo $10^9 + 7$.
+
+# Problem 926
+
+A **round number** is a number that ends with one or more zeros in a given base.
+
+Let us define the <span class="dfn">roundness</span> of a number $n$ in base $b$ as the number of zeros at the end of the base $b$ representation of $n$.  
+For example, $20$ has roundness $2$ in base $2$, because the base $2$ representation of $20$ is $10100$, which ends with $2$ zeros.
+
+Also define $R(n)$, the <span class="dfn">total roundness</span> of a number $n$, as the sum of the roundness of $n$ in base $b$ for all $b \> 1$.  
+For example, $20$ has roundness $2$ in base $2$ and roundness $1$ in base $4$, $5$, $10$, $20$, hence we get $R(20)=6$.  
+You are also given $R(10!) = 312$.
+
+Find $R(10\000\000!)$. Give your answer modulo $10^9 + 7$.
+
+# Problem 927
+
+A full $k$-ary tree is a tree with a single root node, such that every node is either a leaf or has exactly $k$ ordered children. The **height** of a $k$-ary tree is the number of edges in the longest path from the root to a leaf.
+
+For instance, there is one full 3-ary tree of height 0, one full 3-ary tree of height 1, and seven full 3-ary trees of height 2. These seven are shown below.
+
+![0927_PrimeTrees.jpg](resources/images/0927_PrimeTrees.jpg?1735590785)
+
+For integers $n$ and $k$ with $n\ge 0$ and $k \ge 2$, define $t_k(n)$ to be the number of full $k$-ary trees of height $n$ or less.  
+Thus, $t_3(0) = 1$, $t_3(1) = 2$, and $t_3(2) = 9$. Also, $t_2(0) = 1$, $t_2(1) = 2$, and $t_2(2) = 5$.
+
+Define $S_k$ to be the set of positive integers $m$ such that $m$ divides $t_k(n)$ for some integer $n\ge 0$. For instance, the above values show that 1, 2, and 5 are in $S_2$ and 1, 2, 3, and 9 are in $S_3$.
+
+Let $S = \bigcap_p S_p$ where the intersection is taken over all primes $p$. Finally, define $R(N)$ to be the sum of all elements of $S$ not exceeding $N$. You are given that $R(20) = 18$ and $R(1000) = 2089$.
+
+Find $R(10^7)$.
+
+# Problem 928
+
+This problem is based on (but not identical to) the scoring for the card game
+[Cribbage](https://en.wikipedia.org/wiki/Cribbage).
+
+Consider a normal pack of $52$ cards. A Hand is a selection of one or more of these cards.
+
+For each Hand the *Hand score* is the sum of the values of the cards in the Hand where the value of Aces is $1$ and the value of court cards (Jack, Queen, King) is $10$.
+
+The *Cribbage score* is obtained for a Hand by adding together the scores for:
+
+- Pairs. A pair is two cards of the same rank. Every pair is worth $2$ points.
+- Runs. A run is a set of at least $3$ cards whose ranks are consecutive, e.g. 9, 10, Jack. Note that Ace is never high, so Queen, King, Ace is **not** a valid run. The number of points for each run is the size of the run. All locally maximum runs are counted. For example, 2, 3, 4, 5, 7, 8, 9 the two runs of 2, 3, 4, 5 and 7, 8, 9 are counted but not 2, 3, 4 or 3, 4, 5.
+- Fifteens. A fifteen is a combination of cards that has value adding to $15$. Every fifteen is worth $2$ points. For this purpose the value of the cards is the same as in the Hand Score.
+
+For example, $(5 \spadesuit, 5 \clubsuit, 5 \diamondsuit, K \heartsuit)$ has a Cribbage score of $14$ as there are four ways that fifteen can be made and also three pairs can be made.
+
+The example $( A \diamondsuit, A \heartsuit, 2 \clubsuit, 3 \heartsuit, 4 \clubsuit, 5 \spadesuit)$ has a Cribbage score of $16$: two runs of five worth $10$ points, two ways of getting fifteen worth $4$ points and one pair worth $2$ points. In this example the Hand score is equal to the Cribbage score.
+
+Find the number of Hands in a normal pack of cards where the Hand score is equal to the Cribbage score.
+
+# Problem 929
+
+A **composition** of $n$ is a sequence of positive integers which sum to $n$. Such a sequence can be split into *runs*, where a run is a maximal contiguous subsequence of equal terms.
+
+For example, $2,2,1,1,1,3,2,2$ is a composition of $14$ consisting of four runs:
+
+$2, 2\quad 1, 1, 1\quad 3 \quad 2, 2$
+
+Let $F(n)$ be the number of compositions of $n$ where every run has odd length.
+
+For example, $F(5)=10$:
+
+$$\begin{align\*}
+& 5 &&4,1 && 3,2 &&2,3 &&2,1,2\
+&2,1,1,1 &&1,4 &&1,3,1 &&1,1,1,2 &&1,1,1,1,1
+\end{align\*}$$
+
+Find $F(10^5)$. Give your answer modulo $1111124111$.
+
+# Problem 930
+
+Given $n\ge 2$ bowls arranged in a circle, $m\ge 2$ balls are distributed amongst them.
+
+Initially the balls are distributed randomly: for each ball, a bowl is chosen equiprobably and independently of the other balls. After this is done, we start the following process:
+
+1.  Choose one of the $m$ balls equiprobably at random.
+2.  Choose a direction to move - either clockwise or anticlockwise - again equiprobably at random.
+3.  Move the chosen ball to the neighbouring bowl in the chosen direction.
+4.  Return to step 1.
+
+This process stops when all the $m$ balls are located in the same bowl. Note that this may be after zero steps, if the balls happen to have been initially distributed all in the same bowl.
+
+Let $F(n, m)$ be the expected number of times we move a ball before the process stops. For example, $F(2, 2) = \frac{1}{2}$, $F(3, 2) = \frac{4}{3}$, $F(2, 3) = \frac{9}{4}$, and $F(4, 5) = \frac{6875}{24}$.
+
+Let $G(N, M) = \sum\_{n=2}^N \sum\_{m=2}^M F(n, m)$. For example, $G(3, 3) = \frac{137}{12}$ and $G(4, 5) = \frac{6277}{12}$. You are also given that $G(6, 6) \approx 1.681521567954e4$ in scientific format with 12 significant digits after the decimal point.
+
+Find $G(12, 12)$. Give your answer in scientific format with 12 significant digits after the decimal point.
+
+# Problem 931
+
+For a positive integer $n$ construct a graph using all the divisors of $n$ as the vertices. An edge is drawn between $a$ and $b$ if $a$ is divisible by $b$ and $a/b$ is prime, and is given weight $\phi(a)-\phi(b)$, where $\phi$ is the Euler totient function.  
+Define $t(n)$ to be the total weight of this graph.  
+The example below shows that $t(45) = 52$
+
+![0931_totientgraph.png](resources/images/0931_totientgraph.png?1738586879)
+
+Let $T(N)=\displaystyle\sum\_{n=1}^{N} t(n)$. You are given $T(10)=26$ and $T(10^2)=5282$.
+
+Find $T(10^{12})$. Give your answer modulo $715827883$.
+
+# Problem 932
+
+For the year $2025$
+
+$$2025 = (20 + 25)^2$$
+
+Given positive integers $a$ and $b$, the concatenation $ab$ we call a $2025$-number if $ab = (a+b)^2$.  
+Other examples are $3025$ and $81$.  
+Note $9801$ is not a $2025$-number because the concatenation of $98$ and $1$ is $981$.
+
+Let $T(n)$ be the sum of all $2025$-numbers with $n$ digits or less. You are given $T(4) = 5131$.
+
+Find $T(16)$.
+
+# Problem 933
+
+Starting with one piece of integer-sized rectangle paper, two players make moves in turn.  
+A valid move consists of choosing one piece of paper and cutting it **both** horizontally and vertically, so that it becomes four pieces of smaller rectangle papers, all of which are integer-sized.  
+The player that does not have a valid move loses the game.
+
+Let $C(w, h)$ be the number of winning moves for the first player, when the original paper has size $w \times h$. For example, $C(5,3)=4$, with the four winning moves shown below.
+
+![0933_PaperCutting2.jpg](resources/images/0933_PaperCutting3.jpg?1738704656)
+
+Also write $\displaystyle D(W, H) = \sum\_{w = 2}^W\sum\_{h = 2}^H C(w, h)$. You are given that $D(12, 123) = 327398$.
+
+Find $D(123, 1234567)$.
+
+# Problem 934
+
+We define the *unlucky prime* of a number $n$, denoted $u(n)$, as the smallest prime number $p$ such that the remainder of $n$ divided by $p$ (i.e. $n \bmod p$) is not a multiple of seven.  
+For example, $u(14) = 3$, $u(147) = 2$ and $u(1470) = 13$.
+
+Let $U(N)$ be the sum $\sum\_{n = 1}^N u(n)$.  
+You are given $U(1470) = 4293$.
+
+Find $U(10^{17})$.
+
+# Problem 935
+
+A square of side length $b\<1$ is rolling around the inside of a larger square of side length $1$, always touching the larger square but without sliding.  
+Initially the two squares share a common corner. At each step, the small square rotates clockwise about a corner that touches the large square, until another of its corners touches the large square. Here is an illustration of the first three steps for $b = \frac5{13}$.
+
+![0935_rolling.png](resources/images/0935_rolling.png?1738619705)
+
+For some values of $b$, the small square may return to its initial position after several steps. For example, when $b = \frac12$, this happens in $4$ steps; and for $b = \frac5{13}$ it happens in $24$ steps.
+
+Let $F(N)$ be the number of different values of $b$ for which the small square first returns to its initial position within at most $N$ steps. For example, $F(6) = 4$, with the corresponding $b$ values:
+$$\frac12,\quad 2 - \sqrt 2,\quad 2 + \sqrt 2 - \sqrt{2 + 4\sqrt2},\quad 8 - 5\sqrt2 + 4\sqrt3 - 3\sqrt6,$$
+the first three in $4$ steps and the last one in $6$ steps. Note that it does not matter whether the small square returns to its original **orientation**.  
+Also $F(100) = 805$.
+
+Find $F(10^8)$.
+
+# Problem 936
+
+A *peerless tree* is a tree with no edge between two vertices of the same degree. Let $P(n)$ be the number of peerless trees on $n$ unlabelled vertices.
+
+There are six of these trees on seven unlabelled vertices, $P(7)=6$, shown below.
+
+![0936_diagram.jpg](resources/images/0936_diagram.jpg?1738919825)
+
+Define $\displaystyle S(N) = \sum\_{n=3}^N P(n)$. You are given $S(10) = 74$.
+
+Find $S(50)$.
+
+# Problem 937
+
+Let $\theta=\sqrt{-2}$.
+
+Define $T$ to be the set of numbers of the form $a+b\theta$, where $a$ and $b$ are integers and either $a\gt 0$, or $a=0$ and $b\gt 0$. For a set $S \subseteq T$ and element $z \in T$, define $p(S,z)$ to be the number of ways of choosing two distinct elements from $S$ with product either $z$ or $-z$.
+
+For example if $S=\1,2,4\$ and $z=4$, there is only one valid pair of elements with product $\pm4$, namely $1$ and $4$. Thus, in this case $p(S,z)=1$.
+
+For another example, if $S=\1,\theta,1+\theta,2-\theta\$ and $z=2-\theta$, we have $1\cdot(2-\theta)=z$ and $\theta\cdot(1+\theta)=-z$, giving $p(S,z)=2$.
+
+Let $A$ and $B$ be two sets satisfying the following conditions:
+
+- $1 \in A$
+- $A \cap B = \emptyset$
+- $A \cup B = T$
+- $p(A,z) = p(B,z)$ for all $z\in T$
+
+Remarkably, these four conditions uniquely determine the sets $A$ and $B$.
+
+Let $F_n$ be the set of the first $n$ factorials: $F_n=\1!,2!,\dots,n!\$, and define $G(n)$ to be the sum of all elements of $F_n\cap A$.
+
+You are given $G(4) = 25$, $G(7) = 745$, and $G(100) \equiv 709772949 \pmod{10^9+7}$.
+
+Find $G(10^8)$ and give your answer modulo $10^9+7$.
+
+# Problem 938
+
+A deck of cards contains $R$ red cards and $B$ black cards.  
+A card is chosen uniformly randomly from the deck and removed. A second card is then chosen uniformly randomly from the cards remaining and removed.
+
+- If both cards are red, they are discarded.
+- If both cards are black, they are both put back in the deck.
+- If they are different colours, the red card is put back in the deck and the black card is discarded.
+
+Play ends when all the remaining cards in the deck are the same colour and let $P(R,B)$ be the probability that this colour is black.
+
+You are given $P(2,2) = 0.4666666667$, $P(10,9) = 0.4118903397$ and $P(34,25) = 0.3665688069$.
+
+Find $P(24690,12345)$. Give your answer with 10 digits after the decimal point.
+
+# Problem 939
+
+Two players A and B are playing a variant of Nim.  
+At the beginning, there are several piles of stones. Each pile is either at the side of A or at the side of B. The piles are unordered.
+
+They make moves in turn. At a player's turn, the player can
+
+- either choose a pile on the opponent's side and remove one stone from that pile;
+- or choose a pile on their own side and remove the whole pile.
+
+The winner is the player who removes the last stone.
+
+Let $E(N)$ be the number of initial settings with at most $N$ stones such that, whoever plays first, A always has a winning strategy.
+
+For example $E(4) = 9$; the settings are:
+
+<div class="center">
+
+| Nr. | Piles at the side of A | Piles at the side of B |
+|-----|------------------------|------------------------|
+| 1   | $4$                  | none                   |
+| 2   | $1, 3$               | none                   |
+| 3   | $2, 2$               | none                   |
+| 4   | $1, 1, 2$            | none                   |
+| 5   | $3$                  | $1$                  |
+| 6   | $1, 2$               | $1$                  |
+| 7   | $2$                  | $1, 1$               |
+| 8   | $3$                  | none                   |
+| 9   | $2$                  | none                   |
+
+</div>
+
+Find $E(5000) \bmod 1234567891$.
+
+# Problem 940
+
+The **Fibonacci sequence** $(f_i)$ is the unique sequence such that
+
+- $f_0=0$
+- $f_1=1$
+- $f\_{i+1}=f_i+f\_{i-1}$
+
+Similarly, there is a unique function $A(m,n)$ such that
+
+- $A(0,0)=0$
+- $A(0,1)=1$
+- $A(m+1,n)=A(m,n+1)+A(m,n)$
+- $A(m+1,n+1)=2A(m+1,n)+A(m,n)$
+
+Define $S(k)=\displaystyle\sum\_{i=2}^k\sum\_{j=2}^k A(f_i,f_j)$. For example
+$$
+\begin{align}
+S(3)&=A(1,1)+A(1,2)+A(2,1)+A(2,2)\
+&=2+5+7+16\
+&=30
+\end{align}
+$$You are also given $S(5)=10396$.
+
+Find $S(50)$, giving your answer modulo $1123581313$.
+
+# Problem 941
+
+de Bruijn has a digital combination lock with $k$ buttons numbered $0$ to $k-1$ where $k \le 10$.  
+The lock opens when the last $n$ buttons pressed match the preset combination.
+
+Unfortunately he has forgotten the combination. He creates a sequence of these digits which contains every possible combination of length $n$. Then by pressing the buttons in this order he is sure to open the lock.
+
+Consider all sequences of shortest possible length that contains every possible combination of the digits.  
+Denote by $C(k, n)$ the lexicographically smallest of these.
+
+For example, $C(3, 2) = $ 0010211220.
+
+Define the sequence $a_n$ by $a_0=0$ and  
+$$a_n=(920461 a\_{n-1}+800217387569)\bmod 10^{12} \text{ for }\ n \> 0$$
+Interpret each $a_n$ as a $12$-digit combination, adding leading zeros for any $a_n$ with less than $12$ digits.
+
+Given a positive integer $N$, we are interested in the order the combinations $a_1,\dots,a_N$ appear in $C(10,12)$.  
+Denote by $p_n$ the *place*, numbered $1,\dots,N$, in which $a_n$ appears out of $a_1,\dots,a_N$. Define $\displaystyle F(N)=\sum\_{n=1}^Np_na_n$.
+
+For example, the combination $a_1=800217387569$ is entered before $a_2=696996536878$. Therefore:
+$$F(2)=1\cdot800217387569 + 2\cdot696996536878 = 2194210461325$$
+You are also given $F(10)=32698850376317$.
+
+Find $F(10^7)$. Give your answer modulo $1234567891$.
+
+# Problem 942
+
+Given a natural number $q$, let $p = 2^q - 1$ be the $q$-th **Mersenne number**.
+
+Let $R(q)$ be the minimal square root of $q$ modulo $p$, if one exists. In other words, $R(q)$ is the smallest positive integer $x$ such that $x^2 - q$ is divisible by $p$.
+
+For example, $R(5)=6$ and $R(17)=47569$.
+
+Find $R(74\207\281)$. Give your answer modulo $10^9 + 7$.
+
+Note: $2^{74207281}-1$ is prime.
+
+# Problem 943
+
+Given two unequal positive integers $a$ and $b$, we define a self-describing sequence consisting of alternating runs of $a$s and $b$s. The first element is $a$ and the sequence of run lengths is the original sequence.
+
+For $a=2, b=3$, the sequence is:
+$$2, 2, 3, 3, 2, 2, 2, 3, 3, 3, 2, 2, 3, 3, 2, 2, 3, 3, 3, 2, 2, 2, 3, 3, 3,...$$
+The sequence begins with **two** $2$s and **two** $3$s, then **three** $2$s and **three** $3$s, so the run lengths $2, 2, 3, 3, ...$ are given by the original sequence.
+
+Let $T(a, b, N)$ be the sum of the first $N$ elements of the sequence. You are given $T(2,3,10) = 25$, $T(4,2,10^4) = 30004$, $T(5,8,10^6) = 6499871$.
+
+Find $\sum T(a, b, 22332223332233)$ for $2 \le a \le 223$, $2 \le b \le 223$ and $a \neq b$. Give your answer modulo $2233222333$.
+
+# Problem 944
+
+Given a set $E$ of positive integers, an element $x$ of $E$ is called an <span class="dfn">element divisor (elevisor)</span> of $E$ if $x$ divides **another** element of $E$.
+
+The sum of all elevisors of $E$ is denoted $\operatorname{sev}(E)$.  
+For example, $\operatorname{sev}(\1, 2, 5, 6\) = 1 + 2 = 3$.
+
+Let $S(n)$ be the sum of $\operatorname{sev}(E)$ for all subsets $E$ of $\1, 2, \dots, n\$.  
+You are given $S(10) = 4927$.
+
+Find $S(10^{14}) \bmod 1234567891$.
+
+# Problem 945
+
+We use $x\oplus y$ for the bitwise XOR of $x$ and $y$.  
+Define the <span class="dfn">XOR-product</span> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.  
+For example, $7 \otimes 3 = 9$, or in base $2$, $111_2 \otimes 11_2 = 1001_2$:
+
+$$\begin{align\*}
+\phantom{\otimes 111} 111_2 \
+\otimes \phantom{1111} 11_2 \
+\hline
+\phantom{\otimes 111} 111_2 \
+\oplus \phantom{11} 111_2 \phantom{9} \
+\hline
+\phantom{\otimes 11} 1001_2 \
+\end{align\*}$$
+
+We consider the equation:
+
+$$\begin{align}
+(a \otimes a) \oplus (2 \otimes a \otimes b) \oplus (b \otimes b) = c \otimes c
+\end{align}$$
+
+For example, $(a, b, c) = (1, 2, 1)$ is a solution to this equation, and so is $(1, 8, 13)$.
+
+Let $F(N)$ be the number of solutions to this equation satisfying $0 \le a \le b \le N$. You are given $F(10)=21$.
+
+Find $F(10^7)$.
+
+# Problem 946
+
+Given the representation of a continued fraction
+$$ a_0+ \cfrac 1{a_1+ \cfrac 1{a_2+\cfrac 1{a_3+\ddots }}}= \[a_0;a_1,a_2,a_3,\ldots\] $$
+
+$\alpha$ is a real number with continued fraction representation:
+$\alpha = \[2;1,1,2,1,1,1,2,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,2,\ldots\]$  
+where the number of $1$'s between each of the $2$'s are consecutive prime numbers.
+
+$\beta$ is another real number defined as
+$$ \beta = \frac{2\alpha+3}{3\alpha+2} $$
+
+The first ten coefficients of the continued fraction of $\beta$ are $\[0;1,5,6,16,9,1,10,16,11\]$ with sum $75$.
+
+Find the sum of the first $10^8$ coefficients of the continued fraction of $\beta$.
+
+# Problem 947
+
+The $(a,b,m)$-sequence, where $0 \leq a,b \lt m$, is defined as
+
+<div style="text-align:center;">
+
+$\begin{align\*}
+g(0)&=a\
+g(1)&=b\
+g(n)&= \big(g(n-1) + g(n-2)\big) \bmod m
+\end{align\*}$
+
+</div>
+
+All $(a,b,m)$-sequences are periodic with period denoted by $p(a,b,m)$.  
+The first few terms of the $(0,1,8)$-sequence are $(0,1,1,2,3,5,0,5,5,2,7,1,0,1,1,2,\ldots )$ and so $p(0,1,8)=12$.
+
+Let $\displaystyle s(m)=\sum\_{a=0}^{m-1}\sum\_{b=0}^{m-1} p(a,b,m)^2$. For example, $s(3)=513$ and $s(10)=225820$.
+
+Define $\displaystyle S(M)=\sum\_{m=1}^{M}s(m)$. You are given, $S(3)=542$ and $S(10)=310897$.
+
+Find $S(10^6)$. Give your answer modulo $999\999\893$.
+
+# Problem 948
+
+Left and Right play a game with a word consisting of L's and R's, alternating turns. On Left's turn, Left can remove any positive number of letters, but not all the letters, from the left side of the word. Right does the same on Right's turn except that Right removes letters from the right side. The game continues until only one letter remains: if it is an 'L' then Left wins; if it is an 'R' then Right wins.
+
+Let $F(n)$ be the number of words of length $n$ where the player moving first, whether it's Left or Right, will win the game if both play optimally.
+
+You are given $F(3)=4$ and $F(8)=181$.
+
+Find $F(60)$.
+
+# Problem 949
+
+Left and Right play a game with a number of words, each consisting of L's and R's, alternating turns. On Left's turn, **for each word**, Left can remove any number of letters (possibly zero), but not all the letters, from the left side of the word. However, at least one letter must be removed from at least one word. Right does the same on Right's turn except that Right removes letters from the right side of each word. The game continues until each word is reduced to a single letter. If there are more L's than R's remaining then Left wins; otherwise if there are more R's than L's then Right wins. In this problem we only consider games with an odd number of words, thus making ties impossible.
+
+Let $G(n, k)$ be the number of ways of choosing $k$ words of length $n$, for which Right has a winning strategy when Left plays first. Different orderings of the same set of words are to be counted separately.
+
+It can be seen that $G(2, 3)=14$ due to the following solutions (and their reorderings):
+$$\begin{align}
+(\texttt{LL},\texttt{RR},\texttt{RR})&:3\text{ orderings}\
+(\texttt{LR},\texttt{LR},\texttt{LR})&:1\text{ ordering}\
+(\texttt{LR},\texttt{LR},\texttt{RR})&:3\text{ orderings}\
+(\texttt{LR},\texttt{RR},\texttt{RR})&:3\text{ orderings}\
+(\texttt{RL},\texttt{RR},\texttt{RR})&:3\text{ orderings}\
+(\texttt{RR},\texttt{RR},\texttt{RR})&:1\text{ ordering}
+\end{align}
+$$You are also given $G(4, 3)=496$ and $G(8, 5)=26359197010$.
+
+Find $G(20, 7)$ giving your answer modulo $1001001011$.
+
+# Problem 950
+
+A band of pirates has come into a hoard of treasure, and must decide how to distribute it amongst themselves. The treasure consists of identical, indivisible gold coins.
+
+According to pirate law, the distribution of treasure must proceed as follows:
+
+1.  The most senior pirate proposes a distribution of the coins.
+2.  All pirates, including the most senior, vote on whether to accept the distribution.
+3.  If at least half of the pirates vote to accept, the distribution stands.
+4.  Otherwise, the most senior pirate must walk the plank, and the process resumes from step 1 with the next most senior pirate proposing another distribution.
+
+The *happiness* of a pirate is equal to $-\infty$ if he doesn't survive; otherwise, it is equal to $c + p\cdot w$, where $c$ is the number of coins that pirate receives in the distribution, $w$ is the total number of pirates who were made to walk the plank, and $p$ is the *bloodthirstiness* of the pirate.
+
+The pirates have a number of characteristics:
+
+- Greed: to maximise their happiness.
+- Ruthlessness: incapable of cooperation, making promises or maintaining any kind of reputation.
+- Shrewdness: perfectly rational and logical.
+
+Consider the happiness $c(n,C,p) + p\cdot w(n,C,p)$ of the most senior surviving pirate in the situation where $n$ pirates, all with equal bloodthirstiness $p$, have found $C$ coins. For example, $c(5,5,\frac{1}{10}) = 3$ and $w(5,5,\frac{1}{10})=0$ because it can be shown that if the most senior pirate proposes a distribution of $3,0,1,0,1$ coins to the pirates (in decreasing order of seniority), the three pirates receiving coins will all vote to accept. On the other hand, $c(5,1,\frac{1}{10}) = 0$ and $w(5,1,\frac{1}{10}) = 1$: the most senior pirate cannot survive with any proposal, and then the second most senior pirate must give the only coin to another pirate in order to survive.
+
+Define $\displaystyle T(N,C,p) = \sum\_{n=1}^N \left ( c(n,C,p) + w(n,C,p) \right )$. You are given that $T(30,3,\frac{1}{\sqrt{3}}) = 190$, $T(50,3,\frac{1}{\sqrt{31}}) = 385$, and $T(10^3, 101, \frac{1}{\sqrt{101}}) = 142427$.
+
+Find $\displaystyle \sum\_{k=1}^6 T(10^{16},10^k+1,\tfrac{1}{\sqrt{10^k+1}})$. Give the last 9 digits as your answer.
+
+# Problem 951
+
+Two players play a game using a deck of $2n$ cards: $n$ red and $n$ black. Initially the deck is shuffled into one of the $\binom{2n}{n}$ possible starting configurations. Play then proceeds, alternating turns, where a player follows two steps on each turn:
+
+1.  Remove the top card from the deck, taking note of its colour.
+2.  If there is a next card and it is the same colour as the previous card they toss a fair coin. If the coin lands on heads they remove that card as well; otherwise leave it on top of the deck.
+
+The player who removes the final card from the deck wins the game.
+
+Some starting configurations give an advantage to one of the players; while some starting configurations are **fair**, in which both players have exactly $50\$ chance to win the game. For example, if $n=2$ there are four starting configurations which are fair: RRBB, BBRR, RBBR, BRRB. The remaining two, RBRB and BRBR, result in a guaranteed win for the second player.
+
+Define $F(n)$ to be the number of starting configurations which are fair. Therefore $F(2)=4$. You are also given $F(8)=11892$.
+
+Find $F(26)$.
+
+# Problem 952
+
+Given a prime $p$ and a positive integer $n \lt p$, let $R(p, n)$ be the **multiplicative order** of $p$ modulo $n!$.  
+In other words, $R(p, n)$ is the minimal positive integer $r$ such that
+
+$$p^r \equiv 1 \pmod{n!}$$
+
+For example, $R(7, 4) = 2$ and $R(10^9 + 7, 12) = 17280$.
+
+Find $R(10^9 + 7, 10^7)$. Give your answer modulo $10^9 + 7$.
+
+# Problem 953
+
+In the classical game of **Nim** two players take turns removing stones from piles. A player may remove any positive number of stones from a single pile. If there are no remaining stones, the next player to move loses.
+
+In Factorisation Nim the initial position of the game is chosen according to the prime factorisation of a given natural number $n$ by setting a pile for each prime factor, including multiplicity. For example, if $n=12=2 \times 2 \times 3$ the game starts with three piles: two piles with two stones and one pile with three stones.
+
+It can be verified that the first player to move loses for $n=1$ and for $n=70$, assuming both players play optimally.
+
+Let $S(N)$ be the sum of $n$ for $1 \le n \le N$ such that the first player to move loses, assuming both players play optimally. You are given $S(10) = 14$ and $S(100) = 455$.
+
+Find $S(10^{14})$. Give your answer modulo $10^9 + 7$.
+
+# Problem 954
+
+A positive integer is called *heptaphobic* if it is not divisible by seven and no number divisible by seven can be produced by swapping two of its digits. Note that leading zeros are not allowed before or after the swap.
+
+For example, $17$ and $1305$ are heptaphobic, but $14$ and $132$ are not because $14$ and $231$ are divisible by seven.
+
+Let $C(N)$ count heptaphobic numbers smaller than $N$. You are given $C(100) = 74$ and $C(10^4) = 3737$.
+
+Find $C(10^{13})$.
+
+# Problem 955
+
+A sequence $(a_n)\_{n \ge 0}$ starts with $a_0 = 3$ and for each $n \ge 0$,
+
+- if $a_n$ is a **triangle number<span class="tooltiptext">A triangle number is a number of the form $m(m + 1)/2$ for some integer $m$.</span>**, then $a\_{n + 1} = a_n + 1$;
+- otherwise, $a\_{n + 1} = 2a_n - a\_{n - 1} + 1$.
+
+The sequence begins:
+$${\color{red}3}, 4, {\color{red}6}, 7, 9, 12, 16, {\color{red}21}, 22, 24, 27, 31, {\color{red}36}, 37, 39, 42, \dots$$
+where triangle numbers are marked red.
+
+The $10$th triangle number in the sequence is $a\_{2964} = 1439056$.  
+Find the index $n$ such that $a_n$ is the $70$th triangle number in the sequence.
+
+# Problem 956
+
+The total number of prime factors of $n$, counted with multiplicity, is denoted $\Omega(n)$.  
+For example, $\Omega(12)=3$, counting the factor $2$ twice, and the factor $3$ once.
+
+Define $D(n, m)$ to be the sum of all divisors $d$ of $n$ where $\Omega(d)$ is divisible by $m$.  
+For example, $D(24, 3)=1+8+12=21$.
+
+The **superfactorial** of $n$, often written as $n\$, is defined as the product of the first $n$ factorials:
+$$n\=1!\times 2! \times\cdots\times n!$$
+The **superduperfactorial** of $n$, we write as $n\bigstar$, is defined as the product of the first $n$ superfactorials:
+$$n\bigstar=1\ \times 2\ \times\cdots\times n\ $$
+
+You are given $D(6\bigstar, 6)=6368195719791280$.
+
+Find $D(1\000\bigstar, 1\000)$.
+Give your answer modulo $999\999\001$.
+
+# Problem 957
+
+There is a plane on which all points are initially white, except three red points and two blue points.  
+On each day, every line passing through a red point and a blue point is constructed. Then every white point, where two different such lines meet, turns blue.
+
+Let $g(n)$ be the maximal possible number of blue points after $n$ days.
+
+For example, $g(1)=8$ and $g(2)=28$.
+
+Find $g(16)$.
+
+Due to the fact that this problem was spoiled no more answers are accepted for the fastest solvers table
