@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -f minimal.html
 
 # concat minimal HTML fragments
@@ -11,6 +12,6 @@ for i in $(seq "$1" "$2"); do
 done
 
 # convert HTML fragment to Markdown
-# replace pandoc's escaping of \ $ , ^ ! with non-escaped character
+# replace pandoc's escaping of $ _ with non-escaped character
 pandoc --to gfm --wrap preserve minimal.html | \
-sed -E 's,\\([\\\$,\^!]),\1,g' > minimal.md
+sed -E 's/\\([$_])/\1/g' > minimal.md
