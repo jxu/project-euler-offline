@@ -1,5 +1,6 @@
 #!/bin/bash
-# Usage: ./download.bash 1 903 (start and end numbers)
+# Usage: ./download.bash 1 1000 (start and end numbers)
+shopt -s nullglob
 
 # take html as stdin, filters by pup tags and file extension
 # then curl found files (print link for info)
@@ -12,46 +13,75 @@ pupcurl () {
         curl -sS -w "Downloading extra %{filename_effective}\n" -O
 }
 
-# loop through page numbers
-# could be done in parallel, but wouldn't be nice for their servers
-for i in $(seq -w "$1" "$2"); do
-    problem_url="https://projecteuler.net/problem=$i"
-    tmp_html=tmp.html
+# Minimal HTML page template
+cat > problems.html <<'EOF'
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<base href="https://projecteuler.net/">
+<title>Project Euler Problems</title>
+<style>
+  @page { margin: 16mm; }
+  body { font: 11pt/1.4 sans-serif; }
+  section + section { break-before: page; }
+  h1 { font-size: 12pt; margin: 0 0 1em; color: #666; }
+  h2 { font-size: 18pt; margin: 0 0 .25em; color: #6b4e3d; }
+  img { max-width: 100%; height: auto; }
+  .center { text-align: center; }
+  .monospace { font-family: monospace; }
+  .red { color: #c00; }
+  .green { color: #080; }
+  .tooltiptext { display: none; }
+</style>
+<script>
+window.MathJax = { tex: { inlineMath: [['$', '$']] } };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+</head>
+<body>
+EOF
 
-    # Remove MathJax extra SVG stroke hack (#5)
-    # Also fix logo appearing twice from CSS (#6)
-    curl -sS "$problem_url" |
-    sed 's%<head>%<head><base href="https://projecteuler.net/">\
-        <style>[data-c]{stroke-width:0!important}\
-        header{display:none!important}</style>%' > \
-    "$tmp_html"
+# Download each problem page once, extract its title and problem body for PDF
+for i in $(seq "$1" "$2"); do
+    echo "Downloading problem $i"
+    curl -fsS "https://projecteuler.net/problem=$i" > fragment.html
 
-    chromium --headless  \
-        --run-all-compositor-stages-before-draw \
-        --virtual-time-budget=10000 \
-        --no-pdf-header-footer \
-        --print-to-pdf="$i.pdf" "file://$PWD/$tmp_html"
+    {
+        printf '<section class="problem" id="problem-%s">\n' "$i"
+        pup 'h2' < fragment.html
+        printf '<h1>Problem %s</h1>\n' "$i"
+        pup '.problem_content' < fragment.html
+        printf '\n</section>\n'
+    } >> problems.html
 
-
-    # Distill PDFs to workaround Ghostscript skipped character problem 
-    # https://stackoverflow.com/questions/12806911
-    gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -o "${i}_gs.pdf" "$i.pdf"
-
-    # download html, download extra txt and gif files if available 
-    curl -sS "$problem_url" > "$tmp_html"
-    pupcurl 'a attr{href}' '\.txt' < "$tmp_html"
-    pupcurl 'img attr{src}' '\.gif' < "$tmp_html"
+    # Download extra files
+    pupcurl 'a attr{href}' '\.txt' < fragment.html
+    pupcurl 'img attr{src}' '\.gif' < fragment.html
 done
 
-# remove non-animated GIFs
-for i in *.gif; do 
-    [ "$(identify "$i" | wc -l)" -le 1 ] && rm -v "$i"
+printf '</body>\n</html>\n' >> problems.html
+
+chromium --headless \
+    --run-all-compositor-stages-before-draw \
+    --virtual-time-budget=60000 \
+    --no-pdf-header-footer \
+    --print-to-pdf="$PWD/problems-uncompressed.pdf" "file://$PWD/problems.html"
+
+# Compress Chromium's PDF output with Ghostscript
+gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
+    -dPDFSETTINGS=/printer \
+    -dDetectDuplicateImages=true \
+    -dCompressFonts=true \
+    -dSubsetFonts=true \
+    -sOutputFile=problems.pdf problems-uncompressed.pdf
+
+# Retain animated GIFs only
+for file in *.gif; do
+    if (( $(identify "$file" | wc -l) <= 1 )); then
+        rm -v -- "$file"
+    fi
 done
 
-# combine all PDFs using gs
-gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
-    -dPDFSETTINGS=/ebook \
-    -sOutputFile=problems.pdf ./*_gs.pdf
-# create final zip
+# Create final zip
 zip problems.zip problems.pdf ./*.txt ./*.gif
-
