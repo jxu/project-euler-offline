@@ -12,10 +12,10 @@ cat > problems.html <<'EOF'
 <title>Project Euler Problems</title>
 <style>
   @page { margin: 16mm; }
-  body { font: 11pt/1.4 sans-serif; }
+  body { font: 12pt/1.4 sans-serif; }
   section + section { break-before: page; }
-  h1 { font-size: 12pt; margin: 0 0 1em; color: #666; }
   h2 { font-size: 18pt; margin: 0 0 .25em; color: #6b4e3d; }
+  h3 { font-size: 12pt; margin: 0 0 1em; color: #666; }
   img { max-width: 100%; height: auto; }
   .center { text-align: center; }
   .monospace { font-family: monospace; }
@@ -39,7 +39,7 @@ for i in $(seq "$1" "$2"); do
     {
         printf '<section class="problem" id="problem-%s">\n' "$i"
         htmlq 'h2' < fragment.html
-        printf '<h1>Problem %s</h1>\n' "$i"
+        printf '<h3>Problem %s</h3>\n' "$i"
         htmlq '.problem_content' < fragment.html
         printf '\n</section>\n'
     } >> problems.html
