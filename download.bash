@@ -2,17 +2,6 @@
 # Usage: ./download.bash 1 1000 (start and end numbers)
 shopt -s nullglob
 
-# take html as stdin, filters by pup tags and file extension
-# then curl found files (print link for info)
-# refactor credit: tripleee on codereview
-pupcurl () {
-    pup "$1" | grep "$2" |
-    sed 's%^%https://projecteuler.net/%' |
-    sed 's/?.*//' |
-    xargs -r -n1 \
-        curl -sS -w "Downloading extra %{filename_effective}\n" -O
-}
-
 # Minimal HTML page template
 cat > problems.html <<'EOF'
 <!doctype html>
@@ -49,15 +38,20 @@ for i in $(seq "$1" "$2"); do
 
     {
         printf '<section class="problem" id="problem-%s">\n' "$i"
-        pup 'h2' < fragment.html
+        htmlq 'h2' < fragment.html
         printf '<h1>Problem %s</h1>\n' "$i"
-        pup '.problem_content' < fragment.html
+        htmlq '.problem_content' < fragment.html
         printf '\n</section>\n'
     } >> problems.html
 
     # Download extra files
-    pupcurl 'a attr{href}' '\.txt' < fragment.html
-    pupcurl 'img attr{src}' '\.gif' < fragment.html
+    {
+        htmlq --attribute href 'a[href*=".txt"]' < fragment.html
+        htmlq --attribute src 'img[src*=".gif"]' < fragment.html
+    } |
+        sed -E 's%^%https://projecteuler.net/%; s%\?.*%%' |
+        xargs -r -n1 \
+            curl -sS -w "Downloading extra %{filename_effective}\n" -O
 done
 
 printf '</body>\n</html>\n' >> problems.html

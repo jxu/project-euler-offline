@@ -11,10 +11,10 @@ Requirements
 ------------
 
 - Shell tools like curl, zip
-- chromium
-- [pup](https://github.com/ericchiang/pup)
-- ImageMagick
-- Ghostscript
+- chromium (chrome works as well)
+- [htmlq](https://github.com/mgdm/htmlq)
+- ImageMagick (`identify`)
+- Ghostscript (`gs`): optional to compress resulting PDF
 
 
 Example Usage
