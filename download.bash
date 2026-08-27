@@ -18,10 +18,12 @@ for i in $(seq -w "$1" "$2"); do
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
-    # Remove MathJax extra SVG stroke hack (issue #5)
+    # Remove MathJax extra SVG stroke hack (#5)
+    # Also fix logo appearing twice from CSS (#6)
     curl -sS "$problem_url" |
     sed 's%<head>%<head><base href="https://projecteuler.net/">\
-        <style>[data-c]{stroke-width:0!important}</style>%' > \
+        <style>[data-c]{stroke-width:0!important}\
+        header{display:none!important}</style>%' > \
     "$tmp_html"
 
     chromium --headless  \
