@@ -18,12 +18,17 @@ for i in $(seq -w "$1" "$2"); do
     problem_url="https://projecteuler.net/problem=$i"
     tmp_html=tmp.html
 
-    # chromium seems to have fixed randomly failing (issue #3)
+    # Remove MathJax extra SVG stroke hack (issue #5)
+    curl -sS "$problem_url" |
+    sed 's%<head>%<head><base href="https://projecteuler.net/">\
+        <style>[data-c]{stroke-width:0!important}</style>%' > \
+    "$tmp_html"
+
     chromium --headless  \
         --run-all-compositor-stages-before-draw \
         --virtual-time-budget=10000 \
         --no-pdf-header-footer \
-        --print-to-pdf="$i.pdf" "$problem_url"
+        --print-to-pdf="$i.pdf" "file://$PWD/$tmp_html"
 
 
     # Distill PDFs to workaround Ghostscript skipped character problem 
