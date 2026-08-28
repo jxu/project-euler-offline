@@ -18,7 +18,7 @@ cat > problems.html <<'EOF'
   h3 { font-size: 12pt; margin: 0 0 1em; color: #666; }
   img { max-width: 100%; height: auto; }
   .center { text-align: center; }
-  .monospace { font-family: monospace; }
+  .monospace { font-family: monospace; overflow-wrap: anywhere; }
   .red { color: #c00; }
   .green { color: #080; }
   .tooltiptext { display: none; }
