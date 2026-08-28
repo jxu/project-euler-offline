@@ -72,9 +72,7 @@ gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
 
 # Retain animated GIFs only
 for file in *.gif; do
-    if (( $(identify "$file" | wc -l) <= 1 )); then
-        rm -v -- "$file"
-    fi
+    (( $(identify -format '%n' "$file") == 1 )) && rm -v -- "$file"
 done
 
 # Create final zip
