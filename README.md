@@ -4,7 +4,7 @@ All Project Euler problems, with MathJax and images, as a single PDF. Additional
 
 Please report any inaccuracies or give feedback. Thanks.
 
-Inspired by [Kyle Keen's original Local Euler](http://kmkeen.com/local-euler/2008-07-16-07-33-00.html).
+Inspired by [Kyle Keen's original Local Euler](https://web.archive.org/web/20220120144108/http://kmkeen.com/local-euler/2008-07-16-07-33-00.html).
 
 
 Requirements
@@ -23,13 +23,7 @@ Example Usage
     mkdir render
     cd render
     ../download.bash 1 957
-    
 
-Known Bugs/Inconveniences
--------------------------
-
-- Very rarely, MathJax renders out-of-bounds even with enough JS time budget (ex. Problem 450)
-- Occasional trailing blank page on problems that fill up a page
 
 History
 -------
@@ -43,4 +37,7 @@ This simple download-and-combine script has been written several times as exerci
 3. In summer 2022, the convenient show all functionality disappeared, so I had to go back to downloading problems individually and combining them. This time I decided to forgo python and use only shell tools as an exercise (and to produce a smaller script). Chromium conveniently printed to PDF in headless mode, pup handled searching the HTML for extra files, Ghostscript combined the PDFs to a set print quality, and ImageMagick identified animated GIFs.
 
 4. In summer 2024, I noticed the site had a link to display a group of 50 archived problems on the same page, with published date, solved by, and difficulty rating info. I considered the idea of just distributing PDFs for each group of 50. Unfortunately, this page is only available to logged-in users, probably for bandwidth reasons as alluded to in the News update. I could print all of them manually from Firefox, but I didn't feel like doing that, so the problems PDF is the same.
-Also, for each page there was a new button for the minimal HTML, which gave me the silly idea to create a single giant raw HTML page. Then I could use Pandoc to turn this into more readable Markdown, for those who really insisted on a text file, like the original Local Euler. I don't think anyone will actually use this, but I also don't have any evidence people used the regular PDF either. Anyhow, it shows off how flexible Pandoc's conversion abilities are.
+
+   Also, for each page there was a new button for the minimal HTML, which gave me the silly idea to create a single giant raw HTML page. Then I could use Pandoc to turn this into more readable Markdown, for those who really insisted on a text file, like the original Local Euler. I don't think anyone will actually use this, but I also don't have any evidence people used the regular PDF either. Anyhow, it shows off how flexible Pandoc's conversion abilities are.
+
+5. In summer 2026, Project Euler changed their font and something with MathJax rendering again. I fixed some old and new rendering bugs, but the resulting PDF was 50+ MB, most of which was redundant embedded math fonts for each problem. So I went back to my minimal single HTML idea, but this time adding a little HTML to make it a proper HTML and rendering all the math in the PDF. Chromium is able to do it with about 5 GB of memory (I tried KaTeX to be more lightweight than MathJax, but a few formulas broke). The resulting PDF is under 10 MB, which is great as I've always felt the previous PDFs were always too large. The resulting render isn't identical to the original site, but pretty close. Since pup is unmaintained and harder to install, I replaced it with a similar tool, htmlq.
